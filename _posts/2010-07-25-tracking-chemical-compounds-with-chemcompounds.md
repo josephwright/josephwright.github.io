@@ -1,0 +1,46 @@
+---
+id: 775
+title: Tracking chemical compounds with chemcompounds
+date: 2010-07-25T08:58:06+00:00
+author: josephwright
+layout: post
+guid: http://www.texdev.net/?p=775
+permalink: /2010/07/25/tracking-chemical-compounds-with-chemcompounds/
+categories:
+  - General
+tags:
+  - chemcompounds
+  - chemistry
+---
+As a chemist, one of the things I want to do is track compound numbers (which are normally given as bold numbers, <strong>1</strong>, <strong>2</strong>, <em>etc</em>.). The traditional way to do that is by hand, which works but does require some concentration. Recent versions of <a title="CambridgeSoft" href="http://www.cambridgesoft.com/">ChemDraw</a> have included an add-in for Word to do things automatically, and of course there is LaTeX support for the same idea.
+
+In LaTeX there is a choice between two packages for tracking what is what. First, there is the <a href="http://tug.ctan.org/pkg/bpchem">bpchem</a> package. It provides for the idea of subdivisions, so you can have <strong>1a</strong>, <strong>1b</strong>, <strong>1c</strong> and so forth. However, I find the interface in bpchem is a bit awkward. The alternative is the <a href="http://tug.ctan.org/pkg/chemcompounds">chemcompounds</a> package. It has a very easy to use approach to tracking, but does not have built-in support for subdivisions. So I've been working on how to achieve this easily in some stuff I'm writing at the moment. It turns out to be quite easy when you think about it.
+
+The first stage is of course to load the package.
+<pre>\usepackage[noimplicit]{chemcompounds}</pre>
+I've decided to go with the option to turn off automatically creating new compound references, which means I have to declare each one separately. This requires a block of declarations in the preamble, but I actually find this easier than doing things <em>ad hoc</em>. The subdivisions I want are all about R groups (chemists will understand!). So I've started by setting up some simple R group letters (I have a family of compounds, and so it makes sense to use the same letter for the same R group in each case):
+<pre>\declarecompound[a]{Mes}
+\declarecompound[b]{iPr}</pre>
+Hopefully you can see how this works: the optional argument sets up the label that will print, and the mandatory one is the label I'll use to refer to the compound.
+Then I need to set up the general compounds (the ones that will be <strong>1</strong>, <strong>2</strong> and so on). I can let chemcompounds do the numbering, so this is easy:
+<pre>\declarecompound{imidazole}
+\declarecompound{pincer:salt}
+\declarecompound{pincer:carbene}</pre>
+The last stage in the preamble is to create the subdivided compounds. Rather than have to track the numbers and letter myself, I've found that I can simply refer back to the existing labels:
+<pre>\declarecompound[\compound{imidazole}\compound{Mes}]
+  {imidazole:Mes}
+\declarecompound[\compound{imidazole}\compound{iPr}]
+  {imidazole:iPr}
+\declarecompound[\compound{pincer:salt}\compound{Mes}]
+  {pincer:salt:Mes}
+\declarecompound[\compound{pincer:salt}\compound{iPr}]
+  {pincer:salt:iPr}
+\declarecompound[\compound{pincer:carbene}\compound{Mes}]
+  {pincer:carbene:Mes}
+\declarecompound[\compound{pincer:carbene}\compound{iPr}]
+  {pincer:carbene:iPr}</pre>
+In the document body, things are now very easy. I just use the <code>\compound</code> macro. So for the general case I'll have
+<pre>\compound{imidazole}</pre>
+(printing say <strong>4</strong>) whereas for a single case I might have
+<pre>\compound{imidazole:Mes}</pre>
+(printing say <strong>4a</strong>). This keeps my source easy to follow (I don't have to remember numbers and letters, only labels), and avoids mistakes on my part.

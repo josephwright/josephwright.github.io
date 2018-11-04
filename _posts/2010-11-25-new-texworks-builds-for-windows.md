@@ -1,0 +1,12 @@
+---
+id: 849
+title: New TeXworks builds for Windows
+date: 2010-11-25T20:10:34+00:00
+author: josephwright
+layout: post
+guid: http://www.texdev.net/?p=849
+permalink: /2010/11/25/new-texworks-builds-for-windows/
+categories:
+  - TeXworks
+---
+Progress toward the next stepping stone in the <a href="http://tug.org/texworks/">TeXworks</a> schedule, release 0.4, is ongoing. To help get the new code tested for this, an experimental build has been added to the <a href="http://code.google.com/p/texworks/downloads/list">download page</a> for users on Windows. For people on Linux, it's usually possible to build the program from the source without too much hassle, so they can hep to test out too.

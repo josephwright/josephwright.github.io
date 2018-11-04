@@ -1,0 +1,17 @@
+---
+id: 1400
+title: A first pass at a physics style for biblatex
+date: 2012-07-12T18:53:10+00:00
+author: josephwright
+layout: post
+guid: http://www.texdev.net/?p=1400
+permalink: /2012/07/12/a-first-pass-at-a-physics-style-for-biblatex/
+categories:
+  - biblatex
+  - Packages
+tags:
+  - bibliography styles
+  - physics
+  - REVTeX
+---
+I've just uploaded a first attempt at <a title="A biblatex implementation of the AIP and APS bibliography style" href="http://ctan.org/pkg/biblatex-phys">biblatex-phys</a> to <a title="The Comprehensive TeX Archive Network" href="http://ctan.org/">CTAN</a>: give it a day or so to be mirrored around the world or pick it up from the <a href="https://github.com/josephwright/biblatex-phys">BitBucket development site</a>. I've based the style on <a title="Styles for various Physics Journals" href="http://ctan.org/tex-archive/macros/latex/contrib/revtex">REVTeX</a>, which seems to show that the AIP and APS use more-or-less the same style with a few tiny variations. So I've provided one style and used some options to control the output. I'm sure there will be a few rough edges, so at the moment I've set the version as 0.9, meaning that there may well be adjustments before a truly usable release. However, I'd hope people pick this up and test it: that's the only way to improve it!

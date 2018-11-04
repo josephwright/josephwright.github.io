@@ -1,0 +1,13 @@
+---
+id: 752
+title: The trouble with getting things right
+date: 2010-06-25T08:33:36+00:00
+author: josephwright
+layout: post
+guid: http://www.texdev.net/?p=752
+permalink: /2010/06/25/the-trouble-with-getting-things-right/
+categories:
+  - Packages
+  - siunitx
+---
+I work hard on my LaTeX packages, and try to get things to work well for the user with clear interfaces. However, there is a down side to this: I get asked to do more things! For example, I've recently released version 2 of <a title="A comprehensive (SI) units package" href="http://tug.ctan.org/pkg/siunitx">siunitx</a>. This builds on the work from version 1, which itself was designed as an improvement to various earlier unit packages for LaTeX. I did remove a few features when I moved from version 1 to version 2, but in the main each new version of siunitx has added ‘more stuff’ to the package. However, I've also got organised with tracking bugs and feature requests using <a href="http://www.bitbucket.org/josephwright/">BitBucket</a>. The resulting <a href="http://www.bitbucket.org/josephwright/siunitx/issues?status=new&amp;status=open">list of open issues</a> is already quite frightening (at least for me). I've been keeping up with the bugs in the new release (I try to deal with them within a few days of being reported), so the list is all made up of feature requests, and almost all of those are new things. So the package being successful results in more work for me, not less. I'm not complaining: I want things to work. It's just worth bearing in mind!
