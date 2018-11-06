@@ -1,10 +1,6 @@
 ---
-id: 1086
 title: 'LaTeX training: in demand'
-date: 2011-08-31T20:26:25+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1086
 permalink: /2011/08/31/latex-training-in-demand/
 categories:
   - General

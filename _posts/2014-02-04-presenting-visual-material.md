@@ -1,10 +1,6 @@
 ---
-id: 1686
 title: Presenting visual material
-date: 2014-02-04T08:49:20+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1686
 permalink: /2014/02/04/presenting-visual-material/
 categories:
   - General

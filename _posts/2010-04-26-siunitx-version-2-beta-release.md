@@ -1,10 +1,6 @@
 ---
-id: 674
 title: 'siunitx version 2: beta release'
-date: 2010-04-26T08:31:09+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=674
 permalink: /2010/04/26/siunitx-version-2-beta-release/
 categories:
   - Packages

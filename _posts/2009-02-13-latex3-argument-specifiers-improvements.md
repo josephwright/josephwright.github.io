@@ -1,10 +1,6 @@
 ---
-id: 171
 title: LaTeX3 argument specifiers improvements
-date: 2009-02-13T08:28:35+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=171
 permalink: /2009/02/13/latex3-argument-specifiers-improvements/
 categories:
   - LaTeX3

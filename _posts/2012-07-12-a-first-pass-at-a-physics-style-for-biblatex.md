@@ -1,10 +1,6 @@
 ---
-id: 1400
 title: A first pass at a physics style for biblatex
-date: 2012-07-12T18:53:10+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1400
 permalink: /2012/07/12/a-first-pass-at-a-physics-style-for-biblatex/
 categories:
   - biblatex

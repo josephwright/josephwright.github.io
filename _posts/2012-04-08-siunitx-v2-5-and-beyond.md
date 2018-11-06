@@ -1,10 +1,6 @@
 ---
-id: 1317
 title: 'siunitx: v2.5 and beyond'
-date: 2012-04-08T18:15:36+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1317
 permalink: /2012/04/08/siunitx-v2-5-and-beyond/
 categories:
   - Packages

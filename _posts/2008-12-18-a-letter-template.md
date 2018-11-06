@@ -1,10 +1,6 @@
 ---
-id: 30
 title: A letter template
-date: 2008-12-18T19:38:28+00:00
-author: josephwright
 layout: post
-guid: http://texdev.wordpress.com/?p=30
 permalink: /2008/12/18/a-letter-template/
 categories:
   - General

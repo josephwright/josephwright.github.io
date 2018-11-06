@@ -1,10 +1,6 @@
 ---
-id: 1230
 title: 'Programming LaTeX3: Category codes, tokens and token lists'
-date: 2011-12-21T23:01:55+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1230
 permalink: /2011/12/21/programming-latex3-category-codes-tokens-and-token-lists/
 categories:
   - LaTeX3

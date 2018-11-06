@@ -1,10 +1,6 @@
 ---
-id: 1583
 title: Testers needed for babel
-date: 2013-01-30T20:23:17+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1583
 permalink: /2013/01/30/testers-needed-for-babel/
 categories:
   - General

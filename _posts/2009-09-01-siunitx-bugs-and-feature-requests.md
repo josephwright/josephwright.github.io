@@ -1,10 +1,6 @@
 ---
-id: 403
 title: siunitx bugs and feature requests
-date: 2009-09-01T21:37:39+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=403
 permalink: /2009/09/01/siunitx-bugs-and-feature-requests/
 categories:
   - Packages

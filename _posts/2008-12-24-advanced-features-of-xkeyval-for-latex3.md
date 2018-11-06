@@ -1,10 +1,6 @@
 ---
-id: 45
 title: Advanced features of xkeyval for LaTeX3
-date: 2008-12-24T18:13:39+00:00
-author: josephwright
 layout: post
-guid: http://texdev.wordpress.com/?p=45
 permalink: /2008/12/24/advanced-features-of-xkeyval-for-latex3/
 categories:
   - LaTeX3

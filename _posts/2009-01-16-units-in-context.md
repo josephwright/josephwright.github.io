@@ -1,10 +1,6 @@
 ---
-id: 105
 title: Units in ConTeXt
-date: 2009-01-16T17:22:05+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=105
 permalink: /2009/01/16/units-in-context/
 categories:
   - Packages

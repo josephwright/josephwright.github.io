@@ -1,10 +1,6 @@
 ---
-id: 391
 title: LaTeX and Dalton Transactions
-date: 2009-08-22T23:01:05+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=391
 permalink: /2009/08/22/latex-and-dalton-transactions/
 categories:
   - General

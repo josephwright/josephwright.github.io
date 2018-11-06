@@ -1,10 +1,6 @@
 ---
-id: 540
 title: Answering questions
-date: 2009-11-16T21:07:38+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=540
 permalink: /2009/11/16/answering-questions/
 categories:
   - General

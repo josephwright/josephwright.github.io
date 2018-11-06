@@ -1,10 +1,6 @@
 ---
-id: 769
 title: Finding inspiration
-date: 2010-07-19T19:55:53+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=769
 permalink: /2010/07/19/finding-inspiration/
 categories:
   - General

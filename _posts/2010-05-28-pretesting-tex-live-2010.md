@@ -1,10 +1,6 @@
 ---
-id: 739
 title: Pretesting TeX Live 2010
-date: 2010-05-28T23:00:58+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=739
 permalink: /2010/05/28/pretesting-tex-live-2010/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 94
 title: 'XeTeX and LuaTeX: Directions'
-date: 2009-01-11T11:45:18+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=94
 permalink: /2009/01/11/xetex-and-luatex-directions/
 categories:
   - General

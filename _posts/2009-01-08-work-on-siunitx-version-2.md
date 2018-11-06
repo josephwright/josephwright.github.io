@@ -1,10 +1,6 @@
 ---
-id: 89
 title: Work on siunitx version 2
-date: 2009-01-08T08:10:43+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=89
 permalink: /2009/01/08/work-on-siunitx-version-2/
 categories:
   - Packages

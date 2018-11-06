@@ -1,10 +1,6 @@
 ---
-id: 110
 title: Taking good practice from LaTeX3
-date: 2009-01-18T22:20:26+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=110
 permalink: /2009/01/18/taking-good-practice-from-latex3/
 categories:
   - LaTeX3

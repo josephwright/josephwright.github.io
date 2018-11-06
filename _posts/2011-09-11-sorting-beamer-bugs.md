@@ -1,10 +1,6 @@
 ---
-id: 1107
 title: Sorting beamer bugs
-date: 2011-09-11T11:31:17+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1107
 permalink: /2011/09/11/sorting-beamer-bugs/
 categories:
   - beamer

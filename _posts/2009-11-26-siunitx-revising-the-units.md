@@ -1,10 +1,6 @@
 ---
-id: 570
 title: 'siunitx: Revising the units'
-date: 2009-11-26T22:19:57+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=570
 permalink: /2009/11/26/siunitx-revising-the-units/
 categories:
   - Packages

@@ -1,10 +1,6 @@
 ---
-id: 2237
 title: LaTeX2e kernel development moves to GitHub
-date: 2017-12-16T14:45:46+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2237
 permalink: /2017/12/16/latex2e-kernel-development-moves-to-github/
 categories:
   - General

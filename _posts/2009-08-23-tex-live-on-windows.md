@@ -1,10 +1,6 @@
 ---
-id: 395
 title: TeX Live on Windows
-date: 2009-08-23T18:49:25+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=395
 permalink: /2009/08/23/tex-live-on-windows/
 categories:
   - General

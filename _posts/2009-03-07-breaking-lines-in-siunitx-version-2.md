@@ -1,10 +1,6 @@
 ---
-id: 219
 title: Breaking lines in siunitx version 2
-date: 2009-03-07T16:46:47+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=219
 permalink: /2009/03/07/breaking-lines-in-siunitx-version-2/
 categories:
   - Packages

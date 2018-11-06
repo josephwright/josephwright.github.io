@@ -1,10 +1,6 @@
 ---
-id: 423
 title: LaTeX2e updates
-date: 2009-09-25T22:34:27+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=423
 permalink: /2009/09/25/latex2e-updates/
 categories:
   - General

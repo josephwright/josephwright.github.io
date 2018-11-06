@@ -1,10 +1,6 @@
 ---
-id: 1668
 title: The beamer slide overlay concept
-date: 2014-01-17T20:06:14+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1668
 permalink: /2014/01/17/the-beamer-slide-overlay-concept/
 categories:
   - beamer

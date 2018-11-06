@@ -1,10 +1,6 @@
 ---
-id: 1035
 title: Expansion using \romannumeral
-date: 2011-07-05T06:43:39+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1035
 permalink: /2011/07/05/expansion-using-romannumeral/
 categories:
   - General

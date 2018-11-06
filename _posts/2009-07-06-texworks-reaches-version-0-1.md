@@ -1,10 +1,6 @@
 ---
-id: 342
 title: TeXworks reaches version 0.1
-date: 2009-07-06T19:19:39+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=342
 permalink: /2009/07/06/texworks-reaches-version-0-1/
 categories:
   - TeXworks

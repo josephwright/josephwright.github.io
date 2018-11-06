@@ -1,10 +1,6 @@
 ---
-id: 259
 title: TeXworks updated
-date: 2009-04-12T09:52:53+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=259
 permalink: /2009/04/12/texworks-updated/
 categories:
   - TeXworks

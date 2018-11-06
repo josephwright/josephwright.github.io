@@ -1,10 +1,6 @@
 ---
-id: 1899
 title: Beamer moves to GitHub
-date: 2016-11-27T10:14:13+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1898
 permalink: /2016/11/27/beamer-moves-to-github/
 categories:
   - beamer

@@ -1,10 +1,6 @@
 ---
-id: 2307
 title: texdoc.net
-date: 2018-05-20T06:22:39+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2307
 permalink: /2018/05/20/texdoc-net/
 categories:
   - General

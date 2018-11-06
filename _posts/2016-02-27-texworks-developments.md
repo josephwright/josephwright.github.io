@@ -1,10 +1,6 @@
 ---
-id: 1862
 title: TeXworks developments
-date: 2016-02-27T09:58:46+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1862
 permalink: /2016/02/27/texworks-developments/
 categories:
   - TeXworks

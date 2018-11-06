@@ -1,10 +1,6 @@
 ---
-id: 577
 title: 'siunitx version 2: snapshot four'
-date: 2009-12-11T07:03:28+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=577
 permalink: /2009/12/11/siunitx-version-2-snapshot-four/
 categories:
   - Packages

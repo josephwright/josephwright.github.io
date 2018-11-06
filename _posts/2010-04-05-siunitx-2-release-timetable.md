@@ -1,10 +1,6 @@
 ---
-id: 663
 title: 'siunitx 2: release timetable'
-date: 2010-04-05T13:42:10+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=663
 permalink: /2010/04/05/siunitx-2-release-timetable/
 categories:
   - Packages

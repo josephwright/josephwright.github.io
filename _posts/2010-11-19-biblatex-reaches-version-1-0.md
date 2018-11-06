@@ -1,10 +1,6 @@
 ---
-id: 846
 title: biblatex reaches version 1.0
-date: 2010-11-19T23:06:08+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=846
 permalink: /2010/11/19/biblatex-reaches-version-1-0/
 categories:
   - biblatex

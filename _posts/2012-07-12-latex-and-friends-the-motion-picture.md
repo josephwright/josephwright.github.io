@@ -1,10 +1,6 @@
 ---
-id: 1402
 title: 'LaTeX and Friends: The Motion Picture'
-date: 2012-07-12T19:29:15+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1402
 permalink: /2012/07/12/latex-and-friends-the-motion-picture/
 categories:
   - General

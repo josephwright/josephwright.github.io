@@ -1,10 +1,6 @@
 ---
-id: 526
 title: TUG Interview
-date: 2009-10-30T13:24:22+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=526
 permalink: /2009/10/30/tug-interview/
 categories:
   - General

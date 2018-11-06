@@ -1,10 +1,6 @@
 ---
-id: 501
 title: Automating releases to CTAN
-date: 2009-10-22T21:38:29+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=501
 permalink: /2009/10/22/automating-releases-to-ctan/
 categories:
   - General

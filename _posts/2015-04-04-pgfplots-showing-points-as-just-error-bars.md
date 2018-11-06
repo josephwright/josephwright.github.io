@@ -1,10 +1,6 @@
 ---
-id: 1809
 title: 'pgfplots: Showing points as just error bars'
-date: 2015-04-04T22:11:07+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1809
 permalink: /2015/04/04/pgfplots-showing-points-as-just-error-bars/
 categories:
   - General

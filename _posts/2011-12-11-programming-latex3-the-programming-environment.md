@@ -1,10 +1,6 @@
 ---
-id: 1206
 title: 'Programming LaTeX3: The programming environment'
-date: 2011-12-11T18:01:02+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1206
 permalink: /2011/12/11/programming-latex3-the-programming-environment/
 categories:
   - LaTeX3

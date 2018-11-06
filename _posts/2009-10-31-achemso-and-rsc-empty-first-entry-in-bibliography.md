@@ -1,10 +1,6 @@
 ---
-id: 528
 title: 'achemso and rsc: empty first entry in bibliography'
-date: 2009-10-31T09:07:18+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=528
 permalink: /2009/10/31/achemso-and-rsc-empty-first-entry-in-bibliography/
 categories:
   - achemso

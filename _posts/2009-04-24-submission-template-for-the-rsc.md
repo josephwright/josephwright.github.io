@@ -1,10 +1,6 @@
 ---
-id: 281
 title: Submission template for the RSC
-date: 2009-04-24T12:21:52+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=281
 permalink: /2009/04/24/submission-template-for-the-rsc/
 categories:
   - Packages

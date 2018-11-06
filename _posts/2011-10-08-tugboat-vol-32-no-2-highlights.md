@@ -1,10 +1,6 @@
 ---
-id: 1114
 title: 'TUGBoat  Vol 32, No. 2: Highlights'
-date: 2011-10-08T20:01:28+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1114
 permalink: /2011/10/08/tugboat-vol-32-no-2-highlights/
 categories:
   - General

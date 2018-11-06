@@ -1,10 +1,6 @@
 ---
-id: 1676
 title: The +-overlay syntax and \pause in beamer
-date: 2014-01-28T07:16:01+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1676
 permalink: /2014/01/28/the-overlay-syntax-and-pause-in-beamer/
 categories:
   - beamer

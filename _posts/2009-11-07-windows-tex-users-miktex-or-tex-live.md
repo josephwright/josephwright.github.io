@@ -1,10 +1,6 @@
 ---
-id: 533
 title: 'Windows TeX Users: MiKTeX or TeX Live'
-date: 2009-11-07T19:43:04+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=533
 permalink: /2009/11/07/windows-tex-users-miktex-or-tex-live/
 categories:
   - General

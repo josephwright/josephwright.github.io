@@ -1,10 +1,6 @@
 ---
-id: 1720
 title: 'LuaTeX: Manipulating UTF-8 text using Lua'
-date: 2014-07-08T13:01:54+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1720
 permalink: /2014/07/08/luatex-manipulating-utf-8-text-using-lua/
 categories:
   - General

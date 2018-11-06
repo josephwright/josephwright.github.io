@@ -1,10 +1,6 @@
 ---
-id: 1529
 title: 'Exploring ChemFig: Going further'
-date: 2012-08-26T09:07:01+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1529
 permalink: /2012/08/26/exploring-chemfig-going-further/
 categories:
   - General

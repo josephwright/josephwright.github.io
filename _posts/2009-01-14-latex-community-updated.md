@@ -1,10 +1,6 @@
 ---
-id: 100
 title: LaTeX Community updated
-date: 2009-01-14T08:11:35+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=100
 permalink: /2009/01/14/latex-community-updated/
 categories:
   - General

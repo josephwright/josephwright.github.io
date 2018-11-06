@@ -1,10 +1,6 @@
 ---
-id: 1753
 title: Reworking and exposing siunitx internals
-date: 2014-09-18T21:28:29+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1753
 permalink: /2014/09/18/reworking-and-exposing-siunitx-internals/
 categories:
   - LaTeX3

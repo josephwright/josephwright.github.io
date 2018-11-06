@@ -1,10 +1,6 @@
 ---
-id: 213
 title: 'LuaTeX: new primitives, new names'
-date: 2009-03-05T19:13:03+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=213
 permalink: /2009/03/05/luatex-new-primitives-new-names/
 categories:
   - General

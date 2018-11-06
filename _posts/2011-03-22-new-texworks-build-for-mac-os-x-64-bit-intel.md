@@ -1,10 +1,6 @@
 ---
-id: 985
 title: New TeXworks build for Mac OS X (64-bit Intel)
-date: 2011-03-22T20:03:37+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=985
 permalink: /2011/03/22/new-texworks-build-for-mac-os-x-64-bit-intel/
 categories:
   - TeXworks

@@ -1,10 +1,6 @@
 ---
-id: 826
 title: Testing versions of siunitx v2.1 on TLcontrib
-date: 2010-10-12T19:41:02+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=826
 permalink: /2010/10/12/testing-versions-of-siunitx-v2-1-on-tlcontrib/
 categories:
   - Packages

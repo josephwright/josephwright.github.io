@@ -1,10 +1,6 @@
 ---
-id: 1319
 title: Die TeXnische Komödie online
-date: 2012-04-20T12:25:45+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1319
 permalink: /2012/04/20/die-texnische-komodie-online/
 categories:
   - General

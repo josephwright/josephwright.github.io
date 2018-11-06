@@ -1,10 +1,6 @@
 ---
-id: 450
 title: A model dtx file
-date: 2009-10-06T16:52:07+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=450
 permalink: /2009/10/06/a-model-dtx-file/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 1890
 title: LaTeX2e and e-TeX
-date: 2016-10-31T15:38:28+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1890
 permalink: /2016/10/31/latex2e-and-e-tex/
 categories:
   - General

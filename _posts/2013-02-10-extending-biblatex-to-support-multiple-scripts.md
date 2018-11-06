@@ -1,10 +1,6 @@
 ---
-id: 1596
 title: Extending biblatex to support multiple scripts
-date: 2013-02-10T11:45:09+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1596
 permalink: /2013/02/10/extending-biblatex-to-support-multiple-scripts/
 categories:
   - biblatex

@@ -1,10 +1,6 @@
 ---
-id: 225
 title: keys3 updated
-date: 2009-03-13T08:20:31+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=225
 permalink: /2009/03/13/keys3-updated/
 categories:
   - LaTeX3

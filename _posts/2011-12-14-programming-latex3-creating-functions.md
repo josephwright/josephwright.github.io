@@ -1,10 +1,6 @@
 ---
-id: 1216
 title: 'Programming LaTeX3: Creating functions'
-date: 2011-12-14T21:38:15+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1216
 permalink: /2011/12/14/programming-latex3-creating-functions/
 categories:
   - LaTeX3

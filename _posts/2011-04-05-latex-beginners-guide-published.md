@@ -1,10 +1,6 @@
 ---
-id: 1001
 title: LaTeX Beginner’s Guide published
-date: 2011-04-05T18:01:43+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1001
 permalink: /2011/04/05/latex-beginners-guide-published/
 categories:
   - General

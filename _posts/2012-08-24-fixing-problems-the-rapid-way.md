@@ -1,10 +1,6 @@
 ---
-id: 1423
 title: Fixing problems the rapid way
-date: 2012-08-24T09:27:25+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1423
 permalink: /2012/08/24/fixing-problems-the-rapid-way/
 categories:
   - LaTeX3

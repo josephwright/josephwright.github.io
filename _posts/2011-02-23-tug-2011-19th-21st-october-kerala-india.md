@@ -1,10 +1,6 @@
 ---
-id: 951
 title: 'TUG 2011: 19th–21st October, Kerala, India'
-date: 2011-02-23T08:22:22+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=951
 permalink: /2011/02/23/tug-2011-19th-21st-october-kerala-india/
 categories:
   - Meetings

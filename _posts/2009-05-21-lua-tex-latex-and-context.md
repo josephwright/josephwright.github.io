@@ -1,10 +1,6 @@
 ---
-id: 298
 title: Lua, TeX, LaTeX and ConTeXt
-date: 2009-05-21T08:06:58+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=298
 permalink: /2009/05/21/lua-tex-latex-and-context/
 categories:
   - General

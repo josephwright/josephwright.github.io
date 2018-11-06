@@ -1,10 +1,6 @@
 ---
-id: 335
 title: Finding symbols
-date: 2009-06-29T14:56:02+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=335
 permalink: /2009/06/29/finding-symbols/
 categories:
   - General

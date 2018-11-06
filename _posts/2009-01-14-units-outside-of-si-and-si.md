@@ -1,10 +1,6 @@
 ---
-id: 102
 title: Units outside of \SI and \si
-date: 2009-01-14T20:12:08+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=102
 permalink: /2009/01/14/units-outside-of-si-and-si/
 categories:
   - Packages

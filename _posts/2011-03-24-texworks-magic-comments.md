@@ -1,10 +1,6 @@
 ---
-id: 995
 title: 'TeXworks &#8216;magic comments&#8217;'
-date: 2011-03-24T08:50:15+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=995
 permalink: /2011/03/24/texworks-magic-comments/
 categories:
   - TeXworks

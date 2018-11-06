@@ -1,10 +1,6 @@
 ---
-id: 1103
 title: ConTeXt in MacTeX 2011
-date: 2011-09-10T11:57:52+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1103
 permalink: /2011/09/10/context-in-mactex-2011/
 categories:
   - General

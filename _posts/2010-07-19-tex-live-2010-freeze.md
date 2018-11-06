@@ -1,10 +1,6 @@
 ---
-id: 766
 title: TeX Live 2010 freeze
-date: 2010-07-19T08:13:31+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=766
 permalink: /2010/07/19/tex-live-2010-freeze/
 categories:
   - General

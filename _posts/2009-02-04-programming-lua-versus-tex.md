@@ -1,10 +1,6 @@
 ---
-id: 153
 title: 'Programming: Lua versus TeX'
-date: 2009-02-04T08:19:16+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=153
 permalink: /2009/02/04/programming-lua-versus-tex/
 categories:
   - General

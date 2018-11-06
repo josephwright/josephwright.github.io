@@ -1,10 +1,6 @@
 ---
-id: 921
 title: 'QuickLaTeX: A LaTeX plugin for WordPress'
-date: 2011-02-10T08:47:19+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=921
 permalink: /2011/02/10/quicklatex-a-latex-plugin-for-wordpress/
 categories:
   - General

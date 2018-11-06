@@ -1,10 +1,6 @@
 ---
-id: 81
 title: The LaTeX3 “template” concept
-date: 2009-01-05T17:43:21+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=81
 permalink: /2009/01/05/the-latex3-template-concept/
 categories:
   - LaTeX3

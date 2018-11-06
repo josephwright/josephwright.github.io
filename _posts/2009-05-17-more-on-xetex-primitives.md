@@ -1,10 +1,6 @@
 ---
-id: 296
 title: More on XeTeX primitives
-date: 2009-05-17T14:40:07+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=296
 permalink: /2009/05/17/more-on-xetex-primitives/
 categories:
   - General

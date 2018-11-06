@@ -1,10 +1,6 @@
 ---
-id: 25
 title: Storing lists of tokens
-date: 2008-12-18T08:12:07+00:00
-author: josephwright
 layout: post
-guid: http://texdev.wordpress.com/?p=25
 permalink: /2008/12/18/storing-lists-of-tokens/
 categories:
   - LaTeX3

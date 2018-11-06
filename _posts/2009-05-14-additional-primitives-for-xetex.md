@@ -1,10 +1,6 @@
 ---
-id: 290
 title: Additional primitives for XeTeX
-date: 2009-05-14T19:34:04+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=290
 permalink: /2009/05/14/additional-primitives-for-xetex/
 categories:
   - General

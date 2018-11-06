@@ -1,10 +1,6 @@
 ---
-id: 1898
 title: Some TeX Developments
-date: 2008-12-17T13:25:59+00:00
-author: josephwright
 layout: post
-guid: http://texdev.wordpress.com/2008/12/17/some-tex-developments/
 permalink: /2008/12/17/some-tex-developments/
 categories:
   - texdev.net

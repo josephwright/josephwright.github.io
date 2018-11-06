@@ -1,10 +1,6 @@
 ---
-id: 155
 title: siunitx update
-date: 2009-02-04T15:51:23+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=155
 permalink: /2009/02/04/siunitx-update/
 categories:
   - Packages

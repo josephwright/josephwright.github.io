@@ -1,10 +1,6 @@
 ---
-id: 85
 title: Universal UTF-8
-date: 2009-01-06T13:13:45+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=85
 permalink: /2009/01/06/universal-utf-8/
 categories:
   - General

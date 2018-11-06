@@ -1,10 +1,6 @@
 ---
-id: 313
 title: 'LaTeX3: xparse'
-date: 2009-06-16T21:07:07+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=313
 permalink: /2009/06/16/latex3-xparse/
 categories:
   - LaTeX3

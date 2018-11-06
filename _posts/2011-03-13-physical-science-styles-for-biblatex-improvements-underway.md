@@ -1,10 +1,6 @@
 ---
-id: 958
 title: 'Physical science styles for biblatex: improvements underway'
-date: 2011-03-13T12:52:31+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=958
 permalink: /2011/03/13/physical-science-styles-for-biblatex-improvements-underway/
 categories:
   - biblatex

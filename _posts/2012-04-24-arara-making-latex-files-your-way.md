@@ -1,10 +1,6 @@
 ---
-id: 1333
 title: 'arara: Making LaTeX files your way'
-date: 2012-04-24T21:17:49+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1333
 permalink: /2012/04/24/arara-making-latex-files-your-way/
 categories:
   - General

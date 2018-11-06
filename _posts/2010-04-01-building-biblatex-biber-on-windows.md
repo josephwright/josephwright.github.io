@@ -1,10 +1,6 @@
 ---
-id: 659
 title: Building biblatex-biber on Windows
-date: 2010-04-01T12:14:00+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=659
 permalink: /2010/04/01/building-biblatex-biber-on-windows/
 categories:
   - biblatex

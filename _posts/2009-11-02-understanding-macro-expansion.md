@@ -1,10 +1,6 @@
 ---
-id: 530
 title: Understanding macro expansion
-date: 2009-11-02T20:38:57+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=530
 permalink: /2009/11/02/understanding-macro-expansion/
 categories:
   - General

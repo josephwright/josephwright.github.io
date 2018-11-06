@@ -1,10 +1,6 @@
 ---
-id: 743
 title: siunitx updates
-date: 2010-06-07T20:07:17+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=743
 permalink: /2010/06/07/siunitx-updates/
 categories:
   - Packages

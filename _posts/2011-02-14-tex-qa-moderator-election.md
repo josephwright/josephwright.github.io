@@ -1,10 +1,6 @@
 ---
-id: 944
 title: '{TeX} Q&#038;A Moderator election'
-date: 2011-02-14T20:27:36+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=944
 permalink: /2011/02/14/tex-qa-moderator-election/
 categories:
   - General

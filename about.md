@@ -1,10 +1,6 @@
 ---
-id: 5
 title: About
-date: 2008-12-17T13:18:42+00:00
-author: josephwright
 layout: page
-guid: http://www.texdev.net/?page_id=4
 ---
 ## Who writes this stuff?
 

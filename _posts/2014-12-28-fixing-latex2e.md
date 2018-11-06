@@ -1,10 +1,6 @@
 ---
-id: 1773
 title: Fixing LaTeX2e
-date: 2014-12-28T22:55:10+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1773
 permalink: /2014/12/28/fixing-latex2e/
 categories:
   - General

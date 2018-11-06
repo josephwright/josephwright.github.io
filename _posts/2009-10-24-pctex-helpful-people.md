@@ -1,10 +1,6 @@
 ---
-id: 520
 title: 'PCTeX: Helpful people'
-date: 2009-10-24T15:48:36+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=520
 permalink: /2009/10/24/pctex-helpful-people/
 categories:
   - Packages

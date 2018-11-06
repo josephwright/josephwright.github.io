@@ -1,10 +1,6 @@
 ---
-id: 32
 title: Guidelines to authors
-date: 2008-12-19T17:23:06+00:00
-author: josephwright
 layout: post
-guid: http://texdev.wordpress.com/?p=32
 permalink: /2008/12/19/guidelines-to-authors/
 categories:
   - General

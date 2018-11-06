@@ -1,10 +1,6 @@
 ---
-id: 421
 title: Troubles with propriety documents
-date: 2009-09-25T22:30:18+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=421
 permalink: /2009/09/25/troubles-with-propriety-documents/
 categories:
   - General

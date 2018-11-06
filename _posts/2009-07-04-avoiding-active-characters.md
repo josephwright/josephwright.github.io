@@ -1,10 +1,6 @@
 ---
-id: 340
 title: Avoiding active characters
-date: 2009-07-04T08:34:16+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=340
 permalink: /2009/07/04/avoiding-active-characters/
 categories:
   - Packages

@@ -1,10 +1,6 @@
 ---
-id: 1288
 title: A LaTeX format beyond LaTeX2e
-date: 2012-02-21T09:17:17+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1288
 permalink: /2012/02/21/a-latex-format-beyond-latex2e/
 categories:
   - LaTeX3

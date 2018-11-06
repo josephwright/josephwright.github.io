@@ -1,10 +1,6 @@
 ---
-id: 1767
 title: TUG Membership
-date: 2014-12-11T20:43:22+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1767
 permalink: /2014/12/11/tug-membership/
 categories:
   - General

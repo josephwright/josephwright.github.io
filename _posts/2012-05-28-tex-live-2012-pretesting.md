@@ -1,10 +1,6 @@
 ---
-id: 1381
 title: TeX Live 2012 pretesting
-date: 2012-05-28T07:08:59+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1381
 permalink: /2012/05/28/tex-live-2012-pretesting/
 categories:
   - General

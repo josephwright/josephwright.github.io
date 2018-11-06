@@ -1,10 +1,6 @@
 ---
-id: 1395
 title: A place for LaTeX templates
-date: 2012-06-29T13:58:17+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1395
 permalink: /2012/06/29/a-place-for-latex-templates/
 categories:
   - General

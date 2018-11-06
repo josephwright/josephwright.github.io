@@ -1,10 +1,6 @@
 ---
-id: 108
 title: Coding in public
-date: 2009-01-17T16:07:45+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=108
 permalink: /2009/01/17/coding-in-public/
 categories:
   - General

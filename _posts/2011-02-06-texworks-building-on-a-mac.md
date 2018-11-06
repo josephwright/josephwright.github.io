@@ -1,10 +1,6 @@
 ---
-id: 913
 title: 'TeXworks: building on a Mac'
-date: 2011-02-06T11:38:29+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=913
 permalink: /2011/02/06/texworks-building-on-a-mac/
 categories:
   - TeXworks

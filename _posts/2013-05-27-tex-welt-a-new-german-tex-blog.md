@@ -1,10 +1,6 @@
 ---
-id: 1626
 title: 'TeX Welt: A new (German) TeX blog'
-date: 2013-05-27T19:27:58+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1626
 permalink: /2013/05/27/tex-welt-a-new-german-tex-blog/
 categories:
   - General

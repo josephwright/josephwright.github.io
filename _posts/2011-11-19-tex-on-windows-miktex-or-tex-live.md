@@ -1,10 +1,6 @@
 ---
-id: 1179
 title: 'TeX on Windows: MiKTeX or TeX Live'
-date: 2011-11-19T23:11:17+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1179
 permalink: /2011/11/19/tex-on-windows-miktex-or-tex-live/
 categories:
   - General

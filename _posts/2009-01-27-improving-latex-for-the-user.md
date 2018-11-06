@@ -1,10 +1,6 @@
 ---
-id: 128
 title: Improving LaTeX for the user
-date: 2009-01-27T13:37:28+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=128
 permalink: /2009/01/27/improving-latex-for-the-user/
 categories:
   - LaTeX3

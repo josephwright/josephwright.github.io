@@ -1,10 +1,6 @@
 ---
-id: 584
 title: MathTime Lite fonts for free
-date: 2009-12-16T13:38:05+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=584
 permalink: /2009/12/16/mathtime-lite-fonts-for-free/
 categories:
   - General

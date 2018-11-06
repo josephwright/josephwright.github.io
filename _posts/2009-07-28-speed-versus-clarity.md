@@ -1,10 +1,6 @@
 ---
-id: 361
 title: Speed versus clarity
-date: 2009-07-28T19:41:52+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=361
 permalink: /2009/07/28/speed-versus-clarity/
 categories:
   - LaTeX3

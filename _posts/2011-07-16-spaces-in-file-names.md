@@ -1,10 +1,6 @@
 ---
-id: 1046
 title: Spaces in file names
-date: 2011-07-16T07:45:40+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1046
 permalink: /2011/07/16/spaces-in-file-names/
 categories:
   - General

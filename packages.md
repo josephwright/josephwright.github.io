@@ -1,10 +1,6 @@
 ---
-id: 35
 title: Packages
-date: 2008-12-20T20:18:10+00:00
-author: josephwright
 layout: page
-guid: http://texdev.wordpress.com/?page_id=35
 ---
 For the user I write quite a number of LaTeX packages, some focussed on chemistry, others more general. They are all available on [CTAN](https://www.ctan.org):
 

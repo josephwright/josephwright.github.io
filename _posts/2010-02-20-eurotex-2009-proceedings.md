@@ -1,10 +1,6 @@
 ---
-id: 637
 title: EuroTeX 2009 Proceedings
-date: 2010-02-20T17:14:33+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=637
 permalink: /2010/02/20/eurotex-2009-proceedings/
 categories:
   - Meetings

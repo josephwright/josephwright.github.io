@@ -1,10 +1,6 @@
 ---
-id: 51
 title: TeX Questions
-date: 2008-12-29T09:19:25+00:00
-author: josephwright
 layout: post
-guid: http://texdev.wordpress.com/?p=51
 permalink: /2008/12/29/tex-questions/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 485
 title: TeX Live freeze on Monday (12th)
-date: 2009-10-08T19:34:59+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=485
 permalink: /2009/10/08/tex-live-freeze-on-monday-12th/
 categories:
   - General

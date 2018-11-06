@@ -1,10 +1,6 @@
 ---
-id: 807
 title: TeX Live 2010 is released
-date: 2010-09-12T14:47:30+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=807
 permalink: /2010/09/12/tex-live-2010-is-released/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 188
 title: Low-level definition changes
-date: 2009-02-17T19:41:20+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=188
 permalink: /2009/02/17/low-level-definition-changes/
 categories:
   - LaTeX3

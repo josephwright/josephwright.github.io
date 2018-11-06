@@ -1,10 +1,6 @@
 ---
-id: 1781
 title: 'LaTeX2e and Unicode engines: the detail'
-date: 2015-01-17T23:36:37+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1781
 permalink: /2015/01/17/latex2e-and-unicode-engines-the-detail/
 categories:
   - General

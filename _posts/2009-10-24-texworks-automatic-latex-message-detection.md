@@ -1,10 +1,6 @@
 ---
-id: 510
 title: 'TeXworks: Automatic LaTeX message detection'
-date: 2009-10-24T15:42:09+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=510
 permalink: /2009/10/24/texworks-automatic-latex-message-detection/
 categories:
   - TeXworks

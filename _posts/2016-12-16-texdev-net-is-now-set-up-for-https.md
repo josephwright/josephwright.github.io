@@ -1,10 +1,6 @@
 ---
-id: 1906
 title: texdev.net is now set up for https
-date: 2016-12-16T17:56:13+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=1906
 permalink: /2016/12/16/texdev-net-is-now-set-up-for-https/
 categories:
   - texdev.net

@@ -1,10 +1,6 @@
 ---
-id: 1698
 title: A place for (PGF) plot examples
-date: 2014-03-29T21:37:15+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1698
 permalink: /2014/03/29/a-place-for-pgf-plot-examples/
 categories:
   - General

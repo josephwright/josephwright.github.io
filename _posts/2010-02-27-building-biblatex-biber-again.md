@@ -1,10 +1,6 @@
 ---
-id: 643
 title: Building biblatex-biber (again)
-date: 2010-02-27T07:55:12+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=643
 permalink: /2010/02/27/building-biblatex-biber-again/
 categories:
   - biblatex

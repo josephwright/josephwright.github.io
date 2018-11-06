@@ -1,10 +1,6 @@
 ---
-id: 499
 title: No restricted \write18 just yet!
-date: 2009-10-14T17:05:10+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=499
 permalink: /2009/10/14/no-restricted-write18-just-yet/
 categories:
   - General

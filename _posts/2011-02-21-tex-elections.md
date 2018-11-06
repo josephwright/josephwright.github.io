@@ -1,10 +1,6 @@
 ---
-id: 948
 title: '{TeX} elections'
-date: 2011-02-21T21:47:35+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=948
 permalink: /2011/02/21/tex-elections/
 categories:
   - General

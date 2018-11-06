@@ -1,10 +1,6 @@
 ---
-id: 1493
 title: 'Exploring ChemFig: Customising appearance'
-date: 2012-08-25T17:18:23+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1493
 permalink: /2012/08/25/exploring-chemfig-customising-appearance/
 categories:
   - General

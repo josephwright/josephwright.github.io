@@ -1,10 +1,6 @@
 ---
-id: 955
 title: Biber now in TeX Live 2010
-date: 2011-03-10T19:47:58+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=955
 permalink: /2011/03/10/biber-now-in-tex-live-2010/
 categories:
   - biblatex

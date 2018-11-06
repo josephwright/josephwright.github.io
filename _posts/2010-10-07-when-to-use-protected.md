@@ -1,10 +1,6 @@
 ---
-id: 819
 title: When to use \protected
-date: 2010-10-07T19:50:20+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=819
 permalink: /2010/10/07/when-to-use-protected/
 categories:
   - General

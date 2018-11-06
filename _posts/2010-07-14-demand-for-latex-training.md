@@ -1,10 +1,6 @@
 ---
-id: 763
 title: Demand for LaTeX training
-date: 2010-07-14T21:36:18+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=763
 permalink: /2010/07/14/demand-for-latex-training/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 608
 title: Asking for help
-date: 2010-01-21T20:28:46+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=608
 permalink: /2010/01/21/asking-for-help/
 categories:
   - General

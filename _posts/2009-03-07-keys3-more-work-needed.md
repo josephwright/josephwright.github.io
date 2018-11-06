@@ -1,10 +1,6 @@
 ---
-id: 217
 title: 'keys3: More work needed?'
-date: 2009-03-07T15:28:25+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=217
 permalink: /2009/03/07/keys3-more-work-needed/
 categories:
   - LaTeX3

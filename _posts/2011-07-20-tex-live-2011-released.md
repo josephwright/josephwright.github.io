@@ -1,10 +1,6 @@
 ---
-id: 1061
 title: TeX Live 2011 released
-date: 2011-07-20T09:47:19+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1061
 permalink: /2011/07/20/tex-live-2011-released/
 categories:
   - General

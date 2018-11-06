@@ -1,10 +1,6 @@
 ---
-id: 427
 title: EPS graphics with PDF(La)TeX
-date: 2009-09-28T16:29:13+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=427
 permalink: /2009/09/28/eps-graphics-with-pdflatex/
 categories:
   - LaTeX3

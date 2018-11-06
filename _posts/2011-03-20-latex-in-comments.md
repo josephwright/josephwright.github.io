@@ -1,10 +1,6 @@
 ---
-id: 968
 title: LaTeX in comments
-date: 2011-03-20T14:12:33+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=968
 permalink: /2011/03/20/latex-in-comments/
 categories:
   - General

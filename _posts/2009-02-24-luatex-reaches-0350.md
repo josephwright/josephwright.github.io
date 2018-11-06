@@ -1,10 +1,6 @@
 ---
-id: 205
 title: LuaTeX reaches 0.35.0
-date: 2009-02-24T20:36:51+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=205
 permalink: /2009/02/24/luatex-reaches-0350/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 1361
 title: 'The LPPL: &#8216;maintainer&#8217; or &#8216;author-maintained&#8217;'
-date: 2012-05-04T10:27:47+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1361
 permalink: /2012/05/04/the-lppl-maintainer-or-author-maintained/
 categories:
   - General

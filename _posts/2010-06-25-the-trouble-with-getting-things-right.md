@@ -1,10 +1,6 @@
 ---
-id: 752
 title: The trouble with getting things right
-date: 2010-06-25T08:33:36+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=752
 permalink: /2010/06/25/the-trouble-with-getting-things-right/
 categories:
   - Packages

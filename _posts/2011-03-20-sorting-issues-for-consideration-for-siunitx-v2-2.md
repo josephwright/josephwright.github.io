@@ -1,10 +1,6 @@
 ---
-id: 962
 title: Sorting issues for consideration for siunitx v2.2
-date: 2011-03-20T10:57:17+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=962
 permalink: /2011/03/20/sorting-issues-for-consideration-for-siunitx-v2-2/
 categories:
   - Packages

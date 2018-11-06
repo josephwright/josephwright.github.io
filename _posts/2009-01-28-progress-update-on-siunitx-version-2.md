@@ -1,10 +1,6 @@
 ---
-id: 131
 title: Progress update on siunitx version 2
-date: 2009-01-28T19:51:48+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=131
 permalink: /2009/01/28/progress-update-on-siunitx-version-2/
 categories:
   - Packages

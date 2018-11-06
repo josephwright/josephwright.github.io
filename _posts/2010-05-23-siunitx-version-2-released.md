@@ -1,10 +1,6 @@
 ---
-id: 732
 title: siunitx version 2 released
-date: 2010-05-23T18:57:01+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=732
 permalink: /2010/05/23/siunitx-version-2-released/
 categories:
   - LaTeX3

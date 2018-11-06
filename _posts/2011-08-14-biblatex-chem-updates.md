@@ -1,10 +1,6 @@
 ---
-id: 1079
 title: biblatex-chem updates
-date: 2011-08-14T09:59:34+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1079
 permalink: /2011/08/14/biblatex-chem-updates/
 categories:
   - biblatex

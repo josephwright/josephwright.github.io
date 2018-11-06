@@ -1,10 +1,6 @@
 ---
-id: 1082
 title: LuaTeX category code tables
-date: 2011-08-16T09:07:27+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1082
 permalink: /2011/08/16/luatex-category-code-tables/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 365
 title: Supporting ACS submissions
-date: 2009-07-29T22:29:25+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=365
 permalink: /2009/07/29/supporting-acs-submissions/
 categories:
   - achemso

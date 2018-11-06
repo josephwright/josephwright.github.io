@@ -1,10 +1,6 @@
 ---
-id: 1901
 title: Dependencies
-date: 2016-11-30T10:53:58+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1901
 permalink: /2016/11/30/dependencies/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 1109
 title: Herbert Voß translated
-date: 2011-09-27T19:57:48+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1109
 permalink: /2011/09/27/herbert-voss-translated/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 243
 title: 'siunitx version two: Snapshot 2 (SVN 62)'
-date: 2009-03-29T21:39:58+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=243
 permalink: /2009/03/29/siunitx-version-two-snapshot-2-svn-62/
 categories:
   - Packages

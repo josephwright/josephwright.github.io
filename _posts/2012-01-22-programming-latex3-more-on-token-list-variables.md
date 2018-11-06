@@ -1,10 +1,6 @@
 ---
-id: 1265
 title: 'Programming LaTeX3: More on token list variables'
-date: 2012-01-22T10:34:39+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1265
 permalink: /2012/01/22/programming-latex3-more-on-token-list-variables/
 categories:
   - LaTeX3

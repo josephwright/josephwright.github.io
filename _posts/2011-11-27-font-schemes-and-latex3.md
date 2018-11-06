@@ -1,10 +1,6 @@
 ---
-id: 1185
 title: Font schemes and LaTeX3
-date: 2011-11-27T11:48:43+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1185
 permalink: /2011/11/27/font-schemes-and-latex3/
 categories:
   - LaTeX3

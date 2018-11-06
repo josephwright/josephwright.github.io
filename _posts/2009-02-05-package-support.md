@@ -1,10 +1,6 @@
 ---
-id: 159
 title: Package support
-date: 2009-02-05T13:41:39+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=159
 permalink: /2009/02/05/package-support/
 categories:
   - General

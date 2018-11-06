@@ -1,10 +1,6 @@
 ---
-id: 937
 title: Detexify fundraising
-date: 2011-02-11T06:42:04+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=937
 permalink: /2011/02/11/detexify-fundraising/
 categories:
   - General

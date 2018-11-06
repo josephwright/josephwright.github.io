@@ -1,10 +1,6 @@
 ---
-id: 698
 title: Building biber on Ubuntu 10.04 (Lucid Lynx)
-date: 2010-05-06T19:53:28+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=698
 permalink: /2010/05/06/building-biber-on-ubuntu-10-04-lucid-lynx/
 categories:
   - biblatex

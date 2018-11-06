@@ -1,10 +1,6 @@
 ---
-id: 1307
 title: The TeX Live inclusion policy
-date: 2012-03-27T14:15:15+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1307
 permalink: /2012/03/27/the-tex-live-inclusion-policy/
 categories:
   - General

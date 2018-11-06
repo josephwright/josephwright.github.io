@@ -1,10 +1,6 @@
 ---
-id: 120
 title: siunitx version 1.2
-date: 2009-01-22T13:32:22+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=120
 permalink: /2009/01/22/siunitx-version-12/
 categories:
   - Packages

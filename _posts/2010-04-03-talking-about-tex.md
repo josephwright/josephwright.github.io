@@ -1,10 +1,6 @@
 ---
-id: 661
 title: Talking about TeX
-date: 2010-04-03T20:53:04+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=661
 permalink: /2010/04/03/talking-about-tex/
 categories:
   - General

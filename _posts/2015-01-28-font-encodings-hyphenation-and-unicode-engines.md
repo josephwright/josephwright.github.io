@@ -1,10 +1,6 @@
 ---
-id: 1785
 title: Font encodings, hyphenation and Unicode engines
-date: 2015-01-28T21:31:51+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1785
 permalink: /2015/01/28/font-encodings-hyphenation-and-unicode-engines/
 categories:
   - General

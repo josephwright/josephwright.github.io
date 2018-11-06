@@ -1,10 +1,6 @@
 ---
-id: 1561
 title: 'siunitx: Planning for v2.6'
-date: 2012-10-27T18:37:20+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1561
 permalink: /2012/10/27/siunitx-planning-for-v2-6/
 categories:
   - Packages

@@ -1,10 +1,6 @@
 ---
-id: 873
 title: File operation limitations
-date: 2010-12-31T10:08:17+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=873
 permalink: /2010/12/31/file-operation-limitations/
 categories:
   - General

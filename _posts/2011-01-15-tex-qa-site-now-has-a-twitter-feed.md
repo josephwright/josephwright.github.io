@@ -1,10 +1,6 @@
 ---
-id: 888
 title: '{TeX} Q&#038;A site now has a Twitter feed'
-date: 2011-01-15T07:00:50+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=888
 permalink: /2011/01/15/tex-qa-site-now-has-a-twitter-feed/
 categories:
   - General

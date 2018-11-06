@@ -1,10 +1,6 @@
 ---
-id: 494
 title: The TDS and TDS zip files
-date: 2009-10-12T22:06:22+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=494
 permalink: /2009/10/12/the-tds-and-tds-zip-files/
 categories:
   - General

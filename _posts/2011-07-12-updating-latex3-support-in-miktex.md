@@ -1,10 +1,6 @@
 ---
-id: 1042
 title: Updating LaTeX3 support in MiKTeX
-date: 2011-07-12T19:59:34+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1042
 permalink: /2011/07/12/updating-latex3-support-in-miktex/
 categories:
   - LaTeX3

@@ -1,10 +1,6 @@
 ---
-id: 287
 title: A XeTeX snag
-date: 2009-05-11T16:55:29+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=287
 permalink: /2009/05/11/a-xetex-snag/
 categories:
   - LaTeX3

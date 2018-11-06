@@ -1,10 +1,6 @@
 ---
-id: 273
 title: achemso updated to version 3.2
-date: 2009-04-21T07:39:25+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=273
 permalink: /2009/04/21/achemso-updated-to-version-32/
 categories:
   - achemso

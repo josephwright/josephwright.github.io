@@ -1,10 +1,6 @@
 ---
-id: 544
 title: TeX counts and LaTeX counters
-date: 2009-11-17T08:57:38+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=544
 permalink: /2009/11/17/tex-counts-and-latex-counters/
 categories:
   - General

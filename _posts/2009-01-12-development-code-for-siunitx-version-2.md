@@ -1,10 +1,6 @@
 ---
-id: 98
 title: Development code for siunitx version 2
-date: 2009-01-12T22:38:29+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=98
 permalink: /2009/01/12/development-code-for-siunitx-version-2/
 categories:
   - Packages

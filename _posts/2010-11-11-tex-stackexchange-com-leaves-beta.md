@@ -1,10 +1,6 @@
 ---
-id: 843
 title: tex.stackexchange.com leaves beta
-date: 2010-11-11T21:24:25+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=843
 permalink: /2010/11/11/tex-stackexchange-com-leaves-beta/
 categories:
   - General

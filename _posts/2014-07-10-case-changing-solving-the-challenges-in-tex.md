@@ -1,10 +1,6 @@
 ---
-id: 1726
 title: 'Case changing: solving the challenges in TeX'
-date: 2014-07-10T09:21:57+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1726
 permalink: /2014/07/10/case-changing-solving-the-challenges-in-tex/
 categories:
   - LaTeX3

@@ -1,10 +1,6 @@
 ---
-id: 1870
 title: Managing biblatex backends
-date: 2016-03-13T16:07:10+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1870
 permalink: /2016/03/13/managing-biblatex-backends/
 categories:
   - biblatex

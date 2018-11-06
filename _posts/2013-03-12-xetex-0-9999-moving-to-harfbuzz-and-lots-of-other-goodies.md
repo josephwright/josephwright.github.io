@@ -1,10 +1,6 @@
 ---
-id: 1609
 title: 'XeTeX 0.9999: Moving to HarfBuzz (and lots of other goodies)'
-date: 2013-03-12T09:01:20+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1609
 permalink: /2013/03/12/xetex-0-9999-moving-to-harfbuzz-and-lots-of-other-goodies/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 304
 title: XeTeX links
-date: 2009-05-30T16:34:53+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=304
 permalink: /2009/05/30/xetex-links/
 categories:
   - General

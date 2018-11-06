@@ -1,10 +1,6 @@
 ---
-id: 1174
 title: siunitx v2.4 beta
-date: 2011-11-09T18:49:10+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1174
 permalink: /2011/11/09/siunitx-v2-4-beta/
 categories:
   - Packages

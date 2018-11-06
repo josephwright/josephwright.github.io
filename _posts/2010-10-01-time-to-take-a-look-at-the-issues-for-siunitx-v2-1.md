@@ -1,10 +1,6 @@
 ---
-id: 815
 title: Time to take a look at the issues for siunitx v2.1
-date: 2010-10-01T21:30:28+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=815
 permalink: /2010/10/01/time-to-take-a-look-at-the-issues-for-siunitx-v2-1/
 categories:
   - Packages

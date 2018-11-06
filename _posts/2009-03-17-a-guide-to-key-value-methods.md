@@ -1,10 +1,6 @@
 ---
-id: 236
 title: A guide to key-value methods
-date: 2009-03-17T20:30:45+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=236
 permalink: /2009/03/17/a-guide-to-key-value-methods/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 775
 title: Tracking chemical compounds with chemcompounds
-date: 2010-07-25T08:58:06+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=775
 permalink: /2010/07/25/tracking-chemical-compounds-with-chemcompounds/
 categories:
   - General

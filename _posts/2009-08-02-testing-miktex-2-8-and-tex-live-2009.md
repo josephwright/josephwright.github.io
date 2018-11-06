@@ -1,10 +1,6 @@
 ---
-id: 371
 title: Testing MiKTeX 2.8 and TeX Live 2009
-date: 2009-08-02T11:52:05+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=371
 permalink: /2009/08/02/testing-miktex-2-8-and-tex-live-2009/
 categories:
   - TeXworks

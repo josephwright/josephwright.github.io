@@ -1,10 +1,6 @@
 ---
-id: 91
 title: 'siunitx 2: more numbers, more tables, SVN?'
-date: 2009-01-10T18:20:24+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=91
 permalink: /2009/01/10/siunitx-2-more-numbers-more-tables-svn/
 categories:
   - Packages

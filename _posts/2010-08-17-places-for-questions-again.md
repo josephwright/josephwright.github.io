@@ -1,10 +1,6 @@
 ---
-id: 796
 title: Places for questions (again)
-date: 2010-08-17T21:17:03+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=796
 permalink: /2010/08/17/places-for-questions-again/
 categories:
   - General

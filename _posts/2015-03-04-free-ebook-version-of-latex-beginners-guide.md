@@ -1,10 +1,6 @@
 ---
-id: 1797
 title: 'Free eBook version of  &#8216;LaTeX Beginner’s Guide&#8217;'
-date: 2015-03-04T11:30:30+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1797
 permalink: /2015/03/04/free-ebook-version-of-latex-beginners-guide/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 1006
 title: siunitx v2.2 released
-date: 2011-04-14T08:24:54+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1006
 permalink: /2011/04/14/siunitx-v2-2-released/
 categories:
   - Packages

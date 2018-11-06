@@ -1,10 +1,6 @@
 ---
-id: 883
 title: LaTeX3 and document environments
-date: 2011-01-09T11:17:28+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=883
 permalink: /2011/01/09/latex3-and-document-environments/
 categories:
   - LaTeX3

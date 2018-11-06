@@ -1,10 +1,6 @@
 ---
-id: 2274
 title: 'LaTeX2e: UTF-8 as standard'
-date: 2018-03-25T13:59:30+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2274
 permalink: /2018/03/25/latex2e-utf-8-as-standard/
 categories:
   - General

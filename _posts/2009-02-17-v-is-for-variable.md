@@ -1,10 +1,6 @@
 ---
-id: 184
 title: V is for variable
-date: 2009-02-17T08:22:46+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=184
 permalink: /2009/02/17/v-is-for-variable/
 categories:
   - LaTeX3

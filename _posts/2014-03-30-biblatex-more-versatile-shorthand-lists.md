@@ -1,10 +1,6 @@
 ---
-id: 1701
 title: 'Biblatex: more versatile shorthand lists'
-date: 2014-03-30T20:18:35+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1701
 permalink: /2014/03/30/biblatex-more-versatile-shorthand-lists/
 categories:
   - biblatex

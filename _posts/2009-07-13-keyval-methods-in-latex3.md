@@ -1,10 +1,6 @@
 ---
-id: 347
 title: Keyval methods in LaTeX3
-date: 2009-07-13T20:25:32+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=347
 permalink: /2009/07/13/keyval-methods-in-latex3/
 categories:
   - LaTeX3

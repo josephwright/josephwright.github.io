@@ -1,10 +1,6 @@
 ---
-id: 307
 title: Scripting in TeXworks
-date: 2009-06-09T10:08:03+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=307
 permalink: /2009/06/09/scripting-in-texworks/
 categories:
   - TeXworks

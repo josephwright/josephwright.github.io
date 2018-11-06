@@ -1,10 +1,6 @@
 ---
-id: 419
 title: TeX Live 2009 nearly ready
-date: 2009-09-23T08:04:27+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=419
 permalink: /2009/09/23/tex-live-2009-nearly-ready/
 categories:
   - General

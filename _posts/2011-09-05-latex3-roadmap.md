@@ -1,10 +1,6 @@
 ---
-id: 1094
 title: LaTeX3 Roadmap
-date: 2011-09-05T09:45:17+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1094
 permalink: /2011/09/05/latex3-roadmap/
 categories:
   - LaTeX3

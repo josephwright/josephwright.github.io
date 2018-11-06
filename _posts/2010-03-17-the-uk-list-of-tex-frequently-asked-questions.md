@@ -1,10 +1,6 @@
 ---
-id: 651
 title: The UK List of TeX Frequently Asked Questions
-date: 2010-03-17T19:24:03+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=651
 permalink: /2010/03/17/the-uk-list-of-tex-frequently-asked-questions/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 2083
 title: Standard font loading in LaTeX2e with XeTeX and LuaTeX
-date: 2016-12-20T20:49:58+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2083
 permalink: /2016/12/20/standard-font-loading-in-latex2e-with-xetex-and-luatex/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 382
 title: Cross-platform working
-date: 2009-08-18T20:49:12+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=382
 permalink: /2009/08/18/cross-platform-working/
 categories:
   - General

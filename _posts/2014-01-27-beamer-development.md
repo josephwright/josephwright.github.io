@@ -1,10 +1,6 @@
 ---
-id: 1673
 title: beamer development
-date: 2014-01-27T22:05:50+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1673
 permalink: /2014/01/27/beamer-development/
 categories:
   - beamer

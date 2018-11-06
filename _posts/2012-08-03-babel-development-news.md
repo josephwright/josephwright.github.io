@@ -1,10 +1,6 @@
 ---
-id: 1411
 title: Babel development news
-date: 2012-08-03T08:11:31+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1411
 permalink: /2012/08/03/babel-development-news/
 categories:
   - General

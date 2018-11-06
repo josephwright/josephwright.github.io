@@ -1,10 +1,6 @@
 ---
-id: 1023
 title: TeX Live 2011 pretest builds available
-date: 2011-05-30T18:20:16+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1023
 permalink: /2011/05/30/tex-live-2011-pretest-builds-available/
 categories:
   - General

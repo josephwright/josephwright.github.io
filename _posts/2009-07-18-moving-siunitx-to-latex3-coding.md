@@ -1,10 +1,6 @@
 ---
-id: 354
 title: Moving siunitx to LaTeX3 coding
-date: 2009-07-18T18:52:36+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=354
 permalink: /2009/07/18/moving-siunitx-to-latex3-coding/
 categories:
   - LaTeX3

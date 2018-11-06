@@ -1,10 +1,6 @@
 ---
-id: 278
 title: trivfloat reaches v1.4
-date: 2009-04-23T21:49:22+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=278
 permalink: /2009/04/23/trivfloat-reaches-v14/
 categories:
   - Packages

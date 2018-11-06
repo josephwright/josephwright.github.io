@@ -1,10 +1,6 @@
 ---
-id: 61
 title: TeX and namespaces
-date: 2009-01-02T13:24:37+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=61
 permalink: /2009/01/02/tex-and-namespaces/
 categories:
   - LaTeX3

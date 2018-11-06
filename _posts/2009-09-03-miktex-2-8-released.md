@@ -1,10 +1,6 @@
 ---
-id: 405
 title: MiKTeX 2.8 released
-date: 2009-09-03T20:40:33+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=405
 permalink: /2009/09/03/miktex-2-8-released/
 categories:
   - General

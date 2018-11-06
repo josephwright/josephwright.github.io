@@ -1,10 +1,6 @@
 ---
-id: 603
 title: PDF Version and file size
-date: 2010-01-11T19:28:24+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=603
 permalink: /2010/01/11/pdf-version-and-file-size/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 784
 title: An example student report
-date: 2010-07-26T21:27:01+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=784
 permalink: /2010/07/26/an-example-student-report/
 categories:
   - General

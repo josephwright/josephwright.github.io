@@ -1,10 +1,6 @@
 ---
-id: 434
 title: The dtx format
-date: 2009-10-05T22:11:50+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=434
 permalink: /2009/10/05/the-dtx-format/
 categories:
   - General

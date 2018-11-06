@@ -1,10 +1,6 @@
 ---
-id: 55
 title: Section numbers in achemso
-date: 2008-12-30T09:53:06+00:00
-author: josephwright
 layout: post
-guid: http://texdev.wordpress.com/?p=55
 permalink: /2008/12/30/section-numbers-in-achemso/
 categories:
   - achemso

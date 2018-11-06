@@ -1,10 +1,6 @@
 ---
-id: 2207
 title: l3build development picks up the pace
-date: 2017-07-01T15:09:27+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2207
 permalink: /2017/07/01/l3build-development-picks-up-the-pace/
 categories:
   - LaTeX3

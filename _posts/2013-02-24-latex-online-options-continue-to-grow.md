@@ -1,10 +1,6 @@
 ---
-id: 1601
 title: 'LaTeX Online: Options continue to grow'
-date: 2013-02-24T17:46:43+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1601
 permalink: /2013/02/24/latex-online-options-continue-to-grow/
 categories:
   - General

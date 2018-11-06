@@ -1,10 +1,6 @@
 ---
-id: 1090
 title: 'LaTeX3: More use, more work'
-date: 2011-09-01T20:47:34+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1090
 permalink: /2011/09/01/latex3-more-use-more-work/
 categories:
   - LaTeX3

@@ -1,10 +1,6 @@
 ---
-id: 1743
 title: River Valley videos on the move
-date: 2014-09-06T08:11:27+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1743
 permalink: /2014/09/06/river-valley-videos-on-the-move/
 categories:
   - General

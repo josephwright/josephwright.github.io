@@ -1,10 +1,6 @@
 ---
-id: 168
 title: 'Is creating a unit a &#8220;user&#8221; function?'
-date: 2009-02-08T19:29:22+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=168
 permalink: /2009/02/08/is-creating-a-unit-a-user-function/
 categories:
   - Packages

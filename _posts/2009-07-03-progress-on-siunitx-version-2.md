@@ -1,10 +1,6 @@
 ---
-id: 338
 title: Progress on siunitx version 2
-date: 2009-07-03T07:19:53+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=338
 permalink: /2009/07/03/progress-on-siunitx-version-2/
 categories:
   - LaTeX3

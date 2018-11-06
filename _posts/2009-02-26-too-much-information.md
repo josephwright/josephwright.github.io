@@ -1,10 +1,6 @@
 ---
-id: 209
 title: Too much information!
-date: 2009-02-26T19:36:12+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=209
 permalink: /2009/02/26/too-much-information/
 categories:
   - LaTeX3

@@ -1,10 +1,6 @@
 ---
-id: 849
 title: New TeXworks builds for Windows
-date: 2010-11-25T20:10:34+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=849
 permalink: /2010/11/25/new-texworks-builds-for-windows/
 categories:
   - TeXworks

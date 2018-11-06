@@ -1,10 +1,6 @@
 ---
-id: 759
 title: Typesetting for portable devices
-date: 2010-07-10T21:13:54+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=759
 permalink: /2010/07/10/typesetting-for-portable-devices/
 categories:
   - General

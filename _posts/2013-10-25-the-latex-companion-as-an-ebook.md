@@ -1,10 +1,6 @@
 ---
-id: 1655
 title: The LaTeX Companion as an eBook
-date: 2013-10-25T20:41:55+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1655
 permalink: /2013/10/25/the-latex-companion-as-an-ebook/
 categories:
   - General

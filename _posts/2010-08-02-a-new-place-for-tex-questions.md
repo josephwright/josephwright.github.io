@@ -1,10 +1,6 @@
 ---
-id: 789
 title: A new place for TeX questions
-date: 2010-08-02T20:00:44+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=789
 permalink: /2010/08/02/a-new-place-for-tex-questions/
 categories:
   - General

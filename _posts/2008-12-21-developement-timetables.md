@@ -1,10 +1,6 @@
 ---
-id: 40
 title: Developement Timetables
-date: 2008-12-21T16:38:38+00:00
-author: josephwright
 layout: post
-guid: http://texdev.wordpress.com/?p=40
 permalink: /2008/12/21/developement-timetables/
 categories:
   - LaTeX3

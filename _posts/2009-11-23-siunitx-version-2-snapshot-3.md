@@ -1,10 +1,6 @@
 ---
-id: 563
 title: 'siunitx version 2: snapshot 3'
-date: 2009-11-23T08:35:04+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=563
 permalink: /2009/11/23/siunitx-version-2-snapshot-3/
 categories:
   - Packages

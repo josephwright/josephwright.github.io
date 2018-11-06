@@ -1,10 +1,6 @@
 ---
-id: 198
 title: LaTeX3 as a low-level language
-date: 2009-02-22T16:40:28+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=198
 permalink: /2009/02/22/latex3-as-a-low-level-language/
 categories:
   - LaTeX3

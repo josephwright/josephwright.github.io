@@ -1,10 +1,6 @@
 ---
-id: 1159
 title: 'Date for the diary: TUG 2012'
-date: 2011-11-07T08:25:42+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1159
 permalink: /2011/11/07/date-for-the-diary-tug2012/
 categories:
   - General

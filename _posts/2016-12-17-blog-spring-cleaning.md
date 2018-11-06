@@ -1,10 +1,7 @@
 ---
-id: 2071
 title: Blog spring-cleaning
 date: 2016-12-17T06:50:35+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2071
 permalink: /2016/12/17/blog-spring-cleaning/
 categories:
   - texdev.net

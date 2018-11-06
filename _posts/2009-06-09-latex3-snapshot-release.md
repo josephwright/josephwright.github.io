@@ -1,10 +1,6 @@
 ---
-id: 309
 title: LaTeX3 snapshot release
-date: 2009-06-09T17:02:53+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=309
 permalink: /2009/06/09/latex3-snapshot-release/
 categories:
   - LaTeX3

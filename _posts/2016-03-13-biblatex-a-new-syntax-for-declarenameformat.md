@@ -1,10 +1,6 @@
 ---
-id: 1867
 title: 'biblatex: A new syntax for \DeclareNameFormat'
-date: 2016-03-13T13:20:59+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1867
 permalink: /2016/03/13/biblatex-a-new-syntax-for-declarenameformat/
 categories:
   - biblatex

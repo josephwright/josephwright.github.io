@@ -1,10 +1,6 @@
 ---
-id: 1123
 title: TeX Live in Linux distributions
-date: 2011-10-29T14:36:21+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1123
 permalink: /2011/10/29/tex-live-in-linux-distributions/
 categories:
   - General

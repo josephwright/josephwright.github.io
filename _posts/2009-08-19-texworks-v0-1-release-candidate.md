@@ -1,10 +1,6 @@
 ---
-id: 389
 title: TeXworks v0.1 release candidate
-date: 2009-08-19T08:07:56+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=389
 permalink: /2009/08/19/texworks-v0-1-release-candidate/
 categories:
   - TeXworks

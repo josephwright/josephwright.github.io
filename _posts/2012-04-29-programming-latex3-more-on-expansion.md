@@ -1,10 +1,6 @@
 ---
-id: 1341
 title: 'Programming LaTeX3: More on expansion'
-date: 2012-04-29T12:24:03+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1341
 permalink: /2012/04/29/programming-latex3-more-on-expansion/
 categories:
   - LaTeX3

@@ -1,10 +1,6 @@
 ---
-id: 489
 title: Working with dtx files
-date: 2009-10-11T22:16:19+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=489
 permalink: /2009/10/11/working-with-dtx-files/
 categories:
   - General

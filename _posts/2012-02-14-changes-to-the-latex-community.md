@@ -1,10 +1,6 @@
 ---
-id: 1286
 title: Changes to The LaTeX Community
-date: 2012-02-14T21:05:18+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1286
 permalink: /2012/02/14/changes-to-the-latex-community/
 categories:
   - General

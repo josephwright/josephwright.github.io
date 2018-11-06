@@ -1,10 +1,6 @@
 ---
-id: 1641
 title: Customising TeXworks auto-completion
-date: 2013-09-01T09:45:37+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1641
 permalink: /2013/09/01/customising-texworks-auto-completion/
 categories:
   - TeXworks

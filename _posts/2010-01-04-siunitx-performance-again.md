@@ -1,10 +1,6 @@
 ---
-id: 596
 title: siunitx performance (again)
-date: 2010-01-04T19:48:39+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=596
 permalink: /2010/01/04/siunitx-performance-again/
 categories:
   - Packages

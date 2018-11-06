@@ -1,10 +1,6 @@
 ---
-id: 21
 title: TeXworks for package authors
-date: 2008-12-17T20:27:12+00:00
-author: josephwright
 layout: post
-guid: http://texdev.wordpress.com/?p=21
 permalink: /2008/12/17/texworks-for-package-authors/
 categories:
   - TeXworks

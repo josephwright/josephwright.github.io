@@ -1,10 +1,6 @@
 ---
-id: 640
 title: Royal Society of Chemistry TeX Template
-date: 2010-02-24T17:15:10+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=640
 permalink: /2010/02/24/royal-society-of-chemistry-tex-template/
 categories:
   - Packages

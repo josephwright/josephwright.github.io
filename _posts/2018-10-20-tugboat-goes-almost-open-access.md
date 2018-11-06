@@ -1,10 +1,6 @@
 ---
-id: 2402
 title: TUGboat goes (almost) open access
-date: 2018-10-20T09:37:58+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2402
 permalink: /2018/10/20/tugboat-goes-almost-open-access/
 categories:
   - General

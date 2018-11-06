@@ -1,10 +1,6 @@
 ---
-id: 283
 title: TeXLive deadline approaching
-date: 2009-04-28T19:19:54+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=283
 permalink: /2009/04/28/texlive-deadline-approaching/
 categories:
   - General

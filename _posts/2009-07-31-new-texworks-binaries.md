@@ -1,10 +1,6 @@
 ---
-id: 367
 title: New TeXworks binaries
-date: 2009-07-31T08:15:41+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=367
 permalink: /2009/07/31/new-texworks-binaries/
 categories:
   - TeXworks

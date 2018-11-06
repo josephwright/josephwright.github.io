@@ -1,10 +1,6 @@
 ---
-id: 276
 title: LuaTeX reachs 0.40
-date: 2009-04-23T07:12:21+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=276
 permalink: /2009/04/23/luatex-reachs-040/
 categories:
   - General

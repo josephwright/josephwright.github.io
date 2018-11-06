@@ -1,10 +1,6 @@
 ---
-id: 906
 title: Useful LaTeX2e programming macros
-date: 2011-02-05T07:19:35+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=906
 permalink: /2011/02/05/useful-latex2e-programming-macros/
 categories:
   - General

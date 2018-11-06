@@ -1,10 +1,6 @@
 ---
-id: 1841
 title: Making custom loaders expl3-aware
-date: 2015-07-30T20:34:33+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1841
 permalink: /2015/07/30/making-custom-loaders-expl3-aware/
 categories:
   - LaTeX3

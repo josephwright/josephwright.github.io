@@ -1,10 +1,6 @@
 ---
-id: 134
 title: Babel woes
-date: 2009-02-01T10:42:30+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=134
 permalink: /2009/02/01/babel-woes/
 categories:
   - Packages

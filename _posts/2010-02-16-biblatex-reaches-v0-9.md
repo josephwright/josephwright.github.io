@@ -1,10 +1,6 @@
 ---
-id: 634
 title: biblatex reaches v0.9
-date: 2010-02-16T08:58:42+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=634
 permalink: /2010/02/16/biblatex-reaches-v0-9/
 categories:
   - biblatex

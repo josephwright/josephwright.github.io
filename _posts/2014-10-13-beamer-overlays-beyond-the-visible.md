@@ -1,10 +1,6 @@
 ---
-id: 1759
 title: Beamer overlays beyond the \visible
-date: 2014-10-13T20:00:31+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1759
 permalink: /2014/10/13/beamer-overlays-beyond-the-visible/
 categories:
   - beamer

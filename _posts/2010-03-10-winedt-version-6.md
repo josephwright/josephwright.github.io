@@ -1,10 +1,6 @@
 ---
-id: 649
 title: WinEdt version 6
-date: 2010-03-10T08:14:48+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=649
 permalink: /2010/03/10/winedt-version-6/
 categories:
   - General

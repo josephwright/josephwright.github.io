@@ -1,10 +1,6 @@
 ---
-id: 2088
 title: A beamer release
-date: 2017-01-01T17:52:47+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2088
 permalink: /2017/01/01/a-beamer-release/
 categories:
   - beamer

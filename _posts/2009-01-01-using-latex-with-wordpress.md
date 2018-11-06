@@ -1,10 +1,6 @@
 ---
-id: 58
 title: Using LaTeX with WordPress
-date: 2009-01-01T11:42:20+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=58
 permalink: /2009/01/01/using-latex-with-wordpress/
 categories:
   - General

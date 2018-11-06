@@ -1,10 +1,6 @@
 ---
-id: 877
 title: 'biblatex v1.1: dynamic reference sets'
-date: 2011-01-06T19:39:39+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=877
 permalink: /2011/01/06/biblatex-v1-1-dynamic-reference-sets/
 categories:
   - biblatex

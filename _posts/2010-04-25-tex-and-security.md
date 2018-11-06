@@ -1,10 +1,6 @@
 ---
-id: 669
 title: TeX and security
-date: 2010-04-25T13:35:01+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=669
 permalink: /2010/04/25/tex-and-security/
 categories:
   - General

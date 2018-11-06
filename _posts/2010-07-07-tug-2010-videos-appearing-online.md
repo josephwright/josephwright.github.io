@@ -1,10 +1,6 @@
 ---
-id: 757
 title: 'TUG 2010: Videos appearing online'
-date: 2010-07-07T20:26:52+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=757
 permalink: /2010/07/07/tug-2010-videos-appearing-online/
 categories:
   - General

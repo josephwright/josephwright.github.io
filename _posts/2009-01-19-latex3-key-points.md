@@ -1,10 +1,6 @@
 ---
-id: 112
 title: 'LaTeX3: Key points'
-date: 2009-01-19T08:25:25+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=112
 permalink: /2009/01/19/latex3-key-points/
 categories:
   - LaTeX3

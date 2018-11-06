@@ -1,10 +1,6 @@
 ---
-id: 909
 title: Using \let to remove a space
-date: 2011-02-05T07:39:27+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=909
 permalink: /2011/02/05/using-let-to-remove-a-space/
 categories:
   - General

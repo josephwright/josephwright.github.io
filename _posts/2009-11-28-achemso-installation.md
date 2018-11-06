@@ -1,10 +1,6 @@
 ---
-id: 572
 title: achemso installation
-date: 2009-11-28T18:53:01+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=572
 permalink: /2009/11/28/achemso-installation/
 categories:
   - achemso

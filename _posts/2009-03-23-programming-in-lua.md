@@ -1,10 +1,6 @@
 ---
-id: 240
 title: '&#8220;Programming in Lua&#8221;'
-date: 2009-03-23T16:30:16+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=240
 permalink: /2009/03/23/programming-in-lua/
 categories:
   - General

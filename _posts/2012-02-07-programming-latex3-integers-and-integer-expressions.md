@@ -1,10 +1,6 @@
 ---
-id: 1278
 title: 'Programming LaTeX3: Integers and integer expressions'
-date: 2012-02-07T20:07:04+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1278
 permalink: /2012/02/07/programming-latex3-integers-and-integer-expressions/
 categories:
   - LaTeX3

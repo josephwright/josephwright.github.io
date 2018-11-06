@@ -1,10 +1,6 @@
 ---
-id: 1407
 title: 'Arara: now even easier to use'
-date: 2012-07-21T21:24:15+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1407
 permalink: /2012/07/21/arara-now-even-easier-to-use/
 categories:
   - General

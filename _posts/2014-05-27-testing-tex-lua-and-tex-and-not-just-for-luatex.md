@@ -1,10 +1,6 @@
 ---
-id: 1711
 title: 'Testing TeX: Lua and TeX, and not just for LuaTeX'
-date: 2014-05-27T08:55:05+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1711
 permalink: /2014/05/27/testing-tex-lua-and-tex-and-not-just-for-luatex/
 categories:
   - LaTeX3

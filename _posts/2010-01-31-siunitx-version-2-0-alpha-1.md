@@ -1,10 +1,6 @@
 ---
-id: 626
 title: 'siunitx version 2.0: alpha 1'
-date: 2010-01-31T15:52:29+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=626
 permalink: /2010/01/31/siunitx-version-2-0-alpha-1/
 categories:
   - Packages

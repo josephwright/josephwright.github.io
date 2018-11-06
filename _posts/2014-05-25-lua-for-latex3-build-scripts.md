@@ -1,10 +1,6 @@
 ---
-id: 1708
 title: Lua for LaTeX3 build scripts
-date: 2014-05-25T18:27:04+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1708
 permalink: /2014/05/25/lua-for-latex3-build-scripts/
 categories:
   - LaTeX3

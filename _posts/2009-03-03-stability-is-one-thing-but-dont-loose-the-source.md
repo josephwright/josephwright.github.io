@@ -1,10 +1,6 @@
 ---
-id: 211
 title: 'Stability is one thing, but don&#8217;t loose the source!'
-date: 2009-03-03T19:18:36+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=211
 permalink: /2009/03/03/stability-is-one-thing-but-dont-loose-the-source/
 categories:
   - General

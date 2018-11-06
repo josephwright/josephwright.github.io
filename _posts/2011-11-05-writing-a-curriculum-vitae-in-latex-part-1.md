@@ -1,10 +1,6 @@
 ---
-id: 1131
 title: 'Writing a curriculum vitae in LaTeX: Part 1'
-date: 2011-11-05T22:40:53+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1131
 permalink: /2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 261
 title: TeXworks for developers
-date: 2009-04-12T10:20:15+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=261
 permalink: /2009/04/12/texworks-for-developers/
 categories:
   - TeXworks

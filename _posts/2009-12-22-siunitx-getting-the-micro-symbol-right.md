@@ -1,10 +1,6 @@
 ---
-id: 589
 title: 'siunitx: Getting the micro symbol right'
-date: 2009-12-22T21:12:47+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=589
 permalink: /2009/12/22/siunitx-getting-the-micro-symbol-right/
 categories:
   - Packages

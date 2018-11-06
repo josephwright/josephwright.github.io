@@ -1,10 +1,6 @@
 ---
-id: 1820
 title: Preparations for TUG2015
-date: 2015-07-14T08:59:29+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1820
 permalink: /2015/07/14/preparations-for-tug2015/
 categories:
   - Meetings

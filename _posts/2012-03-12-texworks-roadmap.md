@@ -1,10 +1,6 @@
 ---
-id: 1292
 title: TeXworks roadmap
-date: 2012-03-12T10:05:43+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1292
 permalink: /2012/03/12/texworks-roadmap/
 categories:
   - TeXworks

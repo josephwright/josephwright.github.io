@@ -1,10 +1,6 @@
 ---
-id: 1201
 title: 'Programming LaTeX3: Background'
-date: 2011-12-07T22:14:22+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1201
 permalink: /2011/12/07/programming-latex3-background/
 categories:
   - LaTeX3

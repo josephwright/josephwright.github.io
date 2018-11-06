@@ -1,10 +1,6 @@
 ---
-id: 223
 title: Google Summer of Code
-date: 2009-03-11T13:17:25+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=223
 permalink: /2009/03/11/google-summer-of-code/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 1630
 title: A talk in Paris
-date: 2013-06-02T17:04:15+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1630
 permalink: /2013/06/02/a-talk-in-paris/
 categories:
   - LaTeX3

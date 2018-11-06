@@ -1,10 +1,6 @@
 ---
-id: 706
 title: From \newcommand to \NewDocumentCommand
-date: 2010-05-23T09:54:09+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=706
 permalink: /2010/05/23/from-newcommand-to-newdocumentcommand/
 categories:
   - LaTeX3

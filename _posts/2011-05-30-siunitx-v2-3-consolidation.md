@@ -1,10 +1,6 @@
 ---
-id: 1025
 title: 'siunitx v2.3: consolidation'
-date: 2011-05-30T18:36:49+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1025
 permalink: /2011/05/30/siunitx-v2-3-consolidation/
 categories:
   - Packages

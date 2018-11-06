@@ -1,10 +1,6 @@
 ---
-id: 325
 title: Lowering the entry barrier
-date: 2009-06-23T18:16:06+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=325
 permalink: /2009/06/23/lowering-the-entry-barrier/
 categories:
   - TeXworks

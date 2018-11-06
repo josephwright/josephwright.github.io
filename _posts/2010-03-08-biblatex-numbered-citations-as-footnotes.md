@@ -1,10 +1,6 @@
 ---
-id: 646
 title: 'biblatex: numbered citations as footnotes'
-date: 2010-03-08T08:04:00+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=646
 permalink: /2010/03/08/biblatex-numbered-citations-as-footnotes/
 categories:
   - biblatex

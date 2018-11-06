@@ -1,10 +1,6 @@
 ---
-id: 1376
 title: Co-ordinating biblatex style development
-date: 2012-05-16T08:19:52+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1376
 permalink: /2012/05/16/co-ordinating-biblatex-style-development/
 categories:
   - biblatex

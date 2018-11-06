@@ -1,10 +1,6 @@
 ---
-id: 1617
 title: Moving from Mercurial to Git
-date: 2013-04-25T09:08:49+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1617
 permalink: /2013/04/25/moving-from-mercurial-to-git/
 categories:
   - General

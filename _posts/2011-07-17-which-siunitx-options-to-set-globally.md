@@ -1,10 +1,6 @@
 ---
-id: 1048
 title: Which siunitx options to set globally?
-date: 2011-07-17T16:08:14+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1048
 permalink: /2011/07/17/which-siunitx-options-to-set-globally/
 categories:
   - Packages

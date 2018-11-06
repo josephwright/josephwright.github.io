@@ -1,10 +1,6 @@
 ---
-id: 587
 title: TeXworks v0.3 snapshot
-date: 2009-12-20T15:21:00+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=587
 permalink: /2009/12/20/texworks-v0-3-snapshot/
 categories:
   - TeXworks

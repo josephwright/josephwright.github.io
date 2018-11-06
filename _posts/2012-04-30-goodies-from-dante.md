@@ -1,10 +1,6 @@
 ---
-id: 1353
 title: Goodies from DANTE
-date: 2012-04-30T20:13:54+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1353
 permalink: /2012/04/30/goodies-from-dante/
 categories:
   - General

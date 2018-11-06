@@ -1,10 +1,6 @@
 ---
-id: 1681
 title: 'Programming LaTeX3: A summary so far'
-date: 2014-02-02T10:48:47+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1681
 permalink: /2014/02/02/programming-latex3-a-summary-so-far/
 categories:
   - LaTeX3

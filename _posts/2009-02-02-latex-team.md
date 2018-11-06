@@ -1,10 +1,6 @@
 ---
-id: 148
 title: LaTeX Team
-date: 2009-02-02T13:06:52+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=148
 permalink: /2009/02/02/latex-team/
 categories:
   - LaTeX3

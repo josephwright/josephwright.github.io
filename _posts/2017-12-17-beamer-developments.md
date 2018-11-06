@@ -1,10 +1,6 @@
 ---
-id: 2255
 title: beamer developments
-date: 2017-12-17T14:19:57+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2255
 permalink: /2017/12/17/beamer-developments/
 categories:
   - beamer

@@ -1,10 +1,6 @@
 ---
-id: 1764
 title: A new list for TeX meetings
-date: 2014-11-21T08:42:34+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1764
 permalink: /2014/11/21/a-new-list-for-tex-meetings/
 categories:
   - Meetings

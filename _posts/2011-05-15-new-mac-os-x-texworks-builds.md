@@ -1,10 +1,6 @@
 ---
-id: 1011
 title: New Mac OS X TeXworks builds
-date: 2011-05-15T07:10:11+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1011
 permalink: /2011/05/15/new-mac-os-x-texworks-builds/
 categories:
   - TeXworks

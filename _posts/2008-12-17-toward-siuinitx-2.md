@@ -1,10 +1,6 @@
 ---
-id: 13
 title: Toward siunitx 2
-date: 2008-12-17T16:51:34+00:00
-author: josephwright
 layout: post
-guid: http://texdev.wordpress.com/?p=13
 permalink: /2008/12/17/toward-siuinitx-2/
 categories:
   - Packages

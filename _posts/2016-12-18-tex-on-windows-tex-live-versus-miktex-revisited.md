@@ -1,10 +1,6 @@
 ---
-id: 2074
 title: 'TeX on Windows: TeX Live versus MiKTeX revisited'
-date: 2016-12-18T11:02:58+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2074
 permalink: /2016/12/18/tex-on-windows-tex-live-versus-miktex-revisited/
 categories:
   - General

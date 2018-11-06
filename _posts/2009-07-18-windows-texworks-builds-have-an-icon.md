@@ -1,10 +1,6 @@
 ---
-id: 359
 title: Windows TeXworks builds have an icon!
-date: 2009-07-18T19:14:59+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=359
 permalink: /2009/07/18/windows-texworks-builds-have-an-icon/
 categories:
   - TeXworks

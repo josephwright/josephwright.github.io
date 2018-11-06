@@ -1,10 +1,6 @@
 ---
-id: 558
 title: 'siunitx: Default mode for printing'
-date: 2009-11-18T08:57:58+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=558
 permalink: /2009/11/18/siunitx-default-mode-for-printing/
 categories:
   - Packages

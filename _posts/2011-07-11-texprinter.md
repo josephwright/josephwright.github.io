@@ -1,10 +1,6 @@
 ---
-id: 1039
 title: TeXprinter
-date: 2011-07-11T20:14:29+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1039
 permalink: /2011/07/11/texprinter/
 categories:
   - General

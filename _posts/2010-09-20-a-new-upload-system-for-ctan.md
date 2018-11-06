@@ -1,10 +1,6 @@
 ---
-id: 810
 title: A new upload system for CTAN
-date: 2010-09-20T20:48:59+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=810
 permalink: /2010/09/20/a-new-upload-system-for-ctan/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 657
 title: XeTeX, chemstyle and chemscheme
-date: 2010-03-29T20:15:08+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=657
 permalink: /2010/03/29/xetex-chemstyle-and-chemscheme/
 categories:
   - Packages

@@ -1,10 +1,6 @@
 ---
-id: 1586
 title: Clipping support in XeTeX
-date: 2013-02-04T09:04:09+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1586
 permalink: /2013/02/04/clipping-support-in-xetex/
 categories:
   - General

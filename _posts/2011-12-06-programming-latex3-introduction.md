@@ -1,10 +1,6 @@
 ---
-id: 1196
 title: 'Programming LaTeX3: Introduction'
-date: 2011-12-06T22:00:28+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1196
 permalink: /2011/12/06/programming-latex3-introduction/
 categories:
   - LaTeX3

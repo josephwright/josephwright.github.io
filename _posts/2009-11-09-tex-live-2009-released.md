@@ -1,10 +1,6 @@
 ---
-id: 536
 title: TeX Live 2009 released
-date: 2009-11-09T07:08:12+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=536
 permalink: /2009/11/09/tex-live-2009-released/
 categories:
   - General

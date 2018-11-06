@@ -1,10 +1,6 @@
 ---
-id: 1838
 title: TUG2015 Beyond the formal
-date: 2015-07-24T22:11:12+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1838
 permalink: /2015/07/24/tug2015-beyond-the-formal/
 categories:
   - Meetings

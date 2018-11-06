@@ -1,10 +1,6 @@
 ---
-id: 748
 title: Fixed point calculations in TeX
-date: 2010-06-19T14:20:28+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=748
 permalink: /2010/06/19/fixed-point-calculations-in-tex/
 categories:
   - LaTeX3

@@ -1,10 +1,6 @@
 ---
-id: 1327
 title: 'biblatex: A team to continue the work'
-date: 2012-04-23T22:04:04+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1327
 permalink: /2012/04/23/biblatex-a-team-to-continue-the-work/
 categories:
   - biblatex

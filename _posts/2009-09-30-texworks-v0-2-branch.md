@@ -1,10 +1,6 @@
 ---
-id: 430
 title: TeXworks v0.2 branch
-date: 2009-09-30T07:03:45+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=430
 permalink: /2009/09/30/texworks-v0-2-branch/
 categories:
   - TeXworks

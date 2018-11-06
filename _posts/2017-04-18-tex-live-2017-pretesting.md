@@ -1,10 +1,6 @@
 ---
-id: 2201
 title: TeX Live 2017 Pretesting
-date: 2017-04-18T11:01:37+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2201
 permalink: /2017/04/18/tex-live-2017-pretesting/
 categories:
   - General

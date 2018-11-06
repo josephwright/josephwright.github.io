@@ -1,10 +1,6 @@
 ---
-id: 601
 title: 'Chemistry journals: publishers support of LaTeX'
-date: 2010-01-05T20:08:43+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=601
 permalink: /2010/01/05/chemistry-journals-publishers-support-of-latex/
 categories:
   - General

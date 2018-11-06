@@ -1,10 +1,6 @@
 ---
-id: 867
 title: Local register allocation
-date: 2010-12-30T18:40:26+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=867
 permalink: /2010/12/30/local-register-allocation/
 categories:
   - General

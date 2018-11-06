@@ -1,10 +1,6 @@
 ---
-id: 2095
 title: Hosting upgrade
-date: 2017-01-29T08:40:13+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2095
 permalink: /2017/01/29/hosting-upgrade/
 categories:
   - texdev.net

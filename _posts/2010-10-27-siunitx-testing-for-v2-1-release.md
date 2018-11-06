@@ -1,10 +1,6 @@
 ---
-id: 835
 title: 'siunitx: testing for v2.1 release'
-date: 2010-10-27T18:45:34+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=835
 permalink: /2010/10/27/siunitx-testing-for-v2-1-release/
 categories:
   - Packages

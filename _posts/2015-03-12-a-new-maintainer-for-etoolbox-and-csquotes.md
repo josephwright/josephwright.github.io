@@ -1,10 +1,6 @@
 ---
-id: 1800
 title: A new maintainer for etoolbox (and csquotes)
-date: 2015-03-12T22:01:10+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1800
 permalink: /2015/03/12/a-new-maintainer-for-etoolbox-and-csquotes/
 categories:
   - Packages

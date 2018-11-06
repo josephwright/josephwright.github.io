@@ -1,10 +1,6 @@
 ---
-id: 702
 title: Promoting xparse
-date: 2010-05-22T10:25:45+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=702
 permalink: /2010/05/22/promoting-xparse/
 categories:
   - LaTeX3

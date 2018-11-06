@@ -1,10 +1,6 @@
 ---
-id: 622
 title: Real life pgfplots examples
-date: 2010-01-30T16:45:54+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=622
 permalink: /2010/01/30/real-life-pgfplots-examples/
 categories:
   - General

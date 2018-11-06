@@ -1,10 +1,6 @@
 ---
-id: 1574
 title: The joys of multi-directional typesetting
-date: 2012-12-16T16:28:56+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1574
 permalink: /2012/12/16/the-joys-of-multi-directional-typesetting/
 categories:
   - General

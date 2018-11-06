@@ -1,10 +1,6 @@
 ---
-id: 476
 title: What does \write18 mean?
-date: 2009-10-06T21:50:18+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=476
 permalink: /2009/10/06/what-does-write18-mean/
 categories:
   - General

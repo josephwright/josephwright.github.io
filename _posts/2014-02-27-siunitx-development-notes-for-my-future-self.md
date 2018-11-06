@@ -1,10 +1,6 @@
 ---
-id: 1690
 title: 'siunitx development: Notes for my future self'
-date: 2014-02-27T21:57:12+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1690
 permalink: /2014/02/27/siunitx-development-notes-for-my-future-self/
 categories:
   - Packages

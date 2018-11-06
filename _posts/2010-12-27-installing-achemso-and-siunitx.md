@@ -1,10 +1,6 @@
 ---
-id: 856
 title: Installing achemso and siunitx
-date: 2010-12-27T21:36:16+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=856
 permalink: /2010/12/27/installing-achemso-and-siunitx/
 categories:
   - achemso

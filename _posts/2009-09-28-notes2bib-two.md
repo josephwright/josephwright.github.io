@@ -1,10 +1,6 @@
 ---
-id: 425
 title: notes2bib two
-date: 2009-09-28T13:29:18+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=425
 permalink: /2009/09/28/notes2bib-two/
 categories:
   - LaTeX3

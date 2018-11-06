@@ -1,10 +1,6 @@
 ---
-id: 2292
 title: 'xparse: optional arguments (at the end)'
-date: 2018-04-21T19:08:39+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2292
 permalink: /2018/04/21/xparse-optional-arguments-at-the-end/
 categories:
   - General

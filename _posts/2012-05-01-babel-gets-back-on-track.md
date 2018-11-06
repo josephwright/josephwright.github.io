@@ -1,10 +1,6 @@
 ---
-id: 1358
 title: babel gets back on track
-date: 2012-05-01T17:52:39+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1358
 permalink: /2012/05/01/babel-gets-back-on-track/
 categories:
   - General

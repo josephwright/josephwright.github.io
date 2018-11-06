@@ -1,10 +1,6 @@
 ---
-id: 1310
 title: biblatex status
-date: 2012-04-03T14:05:18+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1310
 permalink: /2012/04/03/biblatex-status/
 categories:
   - biblatex

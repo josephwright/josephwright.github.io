@@ -1,10 +1,6 @@
 ---
-id: 1188
 title: Popularity
-date: 2011-11-29T19:21:12+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1188
 permalink: /2011/11/29/popularity/
 categories:
   - General

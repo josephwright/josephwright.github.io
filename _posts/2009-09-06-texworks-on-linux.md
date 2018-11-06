@@ -1,10 +1,6 @@
 ---
-id: 407
 title: TeXworks on Linux
-date: 2009-09-06T22:06:26+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=407
 permalink: /2009/09/06/texworks-on-linux/
 categories:
   - TeXworks

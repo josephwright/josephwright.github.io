@@ -1,10 +1,6 @@
 ---
-id: 250
 title: 'Beyond BibTeX: the first biber beta release'
-date: 2009-04-01T19:21:07+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=250
 permalink: /2009/04/01/beyond-bibtex-the-first-biber-beta-release/
 categories:
   - biblatex

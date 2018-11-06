@@ -1,10 +1,6 @@
 ---
-id: 1580
 title: New CTAN, new toys
-date: 2013-01-19T09:30:00+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1580
 permalink: /2013/01/19/new-ctan-new-toys/
 categories:
   - General

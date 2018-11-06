@@ -1,10 +1,6 @@
 ---
-id: 1118
 title: Unicode math versus document styling
-date: 2011-10-12T21:33:21+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1118
 permalink: /2011/10/12/unicode-math-versus-document-styling/
 categories:
   - General

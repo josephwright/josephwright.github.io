@@ -1,10 +1,6 @@
 ---
-id: 414
 title: biblatex-chem again
-date: 2009-09-18T06:53:22+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=414
 permalink: /2009/09/18/biblatex-cheam-again/
 categories:
   - biblatex

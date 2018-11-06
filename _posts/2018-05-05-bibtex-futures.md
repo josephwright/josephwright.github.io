@@ -1,10 +1,6 @@
 ---
-id: 2299
 title: BibTeX futures
-date: 2018-05-05T09:44:45+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2299
 permalink: /2018/05/05/bibtex-futures/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 831
 title: 'The Art of Computer Programming: ever heard of it?'
-date: 2010-10-15T22:38:58+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=831
 permalink: /2010/10/15/the-art-of-computer-programming-ever-heard-of-it/
 categories:
   - General

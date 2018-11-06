@@ -1,10 +1,6 @@
 ---
-id: 1338
 title: Text blocks on both sides of the header
-date: 2012-04-26T08:37:29+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1338
 permalink: /2012/04/26/text-blocks-on-both-sides-of-the-header/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 1553
 title: LaTeX for Complete Novices
-date: 2012-10-08T09:16:34+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1553
 permalink: /2012/10/08/latex-for-complete-novices/
 categories:
   - General

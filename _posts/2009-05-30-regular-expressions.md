@@ -1,10 +1,6 @@
 ---
-id: 302
 title: Regular expressions
-date: 2009-05-30T16:27:38+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=302
 permalink: /2009/05/30/regular-expressions/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 1644
 title: Beamer and \subsubsection
-date: 2013-09-07T17:03:32+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1644
 permalink: /2013/09/07/beamer-and-subsubsection/
 categories:
   - beamer

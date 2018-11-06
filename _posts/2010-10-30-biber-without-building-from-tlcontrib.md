@@ -1,10 +1,6 @@
 ---
-id: 838
 title: biber without building from TLContrib
-date: 2010-10-30T07:40:27+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=838
 permalink: /2010/10/30/biber-without-building-from-tlcontrib/
 categories:
   - biblatex

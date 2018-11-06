@@ -1,10 +1,6 @@
 ---
-id: 1442
 title: 'Exploring ChemFig: Basics'
-date: 2012-08-25T16:08:21+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1442
 permalink: /2012/08/25/exploring-chemfig-basics/
 categories:
   - General

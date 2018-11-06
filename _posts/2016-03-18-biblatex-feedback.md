@@ -1,10 +1,6 @@
 ---
-id: 1872
 title: biblatex feedback
-date: 2016-03-18T11:28:45+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1872
 permalink: /2016/03/18/biblatex-feedback/
 categories:
   - biblatex

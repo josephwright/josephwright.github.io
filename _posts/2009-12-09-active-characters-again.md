@@ -1,10 +1,6 @@
 ---
-id: 575
 title: Active characters again
-date: 2009-12-09T19:19:08+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=575
 permalink: /2009/12/09/active-characters-again/
 categories:
   - General

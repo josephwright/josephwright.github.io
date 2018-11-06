@@ -1,10 +1,6 @@
 ---
-id: 487
 title: 'TeXworks bugfixes in v0.2 &#8220;stable&#8221; branch'
-date: 2009-10-08T20:36:25+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=487
 permalink: /2009/10/08/texworks-bugfixes-in-v0-2-stable-branch/
 categories:
   - TeXworks

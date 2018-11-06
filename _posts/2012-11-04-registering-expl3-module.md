@@ -1,10 +1,6 @@
 ---
-id: 1566
 title: Registering expl3 module
-date: 2012-11-04T18:32:57+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1566
 permalink: /2012/11/04/registering-expl3-module/
 categories:
   - LaTeX3

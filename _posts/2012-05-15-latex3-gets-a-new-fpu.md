@@ -1,10 +1,6 @@
 ---
-id: 1367
 title: LaTeX3 gets a new FPU
-date: 2012-05-15T15:58:38+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1367
 permalink: /2012/05/15/latex3-gets-a-new-fpu/
 categories:
   - LaTeX3

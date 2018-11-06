@@ -1,10 +1,6 @@
 ---
-id: 1693
 title: Work on siunitx v3
-date: 2014-03-13T21:21:45+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1693
 permalink: /2014/03/13/work-on-siunitx-v3/
 categories:
   - Packages

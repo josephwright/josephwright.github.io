@@ -1,10 +1,6 @@
 ---
-id: 741
 title: LaTeX Alive
-date: 2010-05-29T09:44:51+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=741
 permalink: /2010/05/29/latex-alive/
 categories:
   - General

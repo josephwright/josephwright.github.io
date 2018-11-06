@@ -1,10 +1,6 @@
 ---
-id: 1623
 title: Keeping track of changes
-date: 2013-05-25T22:27:14+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1623
 permalink: /2013/05/25/keeping-track-of-changes/
 categories:
   - General

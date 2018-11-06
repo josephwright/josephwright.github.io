@@ -1,10 +1,6 @@
 ---
-id: 231
 title: LaTeX3 overview updated
-date: 2009-03-15T12:09:52+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=231
 permalink: /2009/03/15/latex3-overview-updated/
 categories:
   - LaTeX3

@@ -1,10 +1,6 @@
 ---
-id: 606
 title: 'achemso: Cross-referencing to floats'
-date: 2010-01-16T09:55:49+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=606
 permalink: /2010/01/16/achemso-cross-referencing-to-floats/
 categories:
   - achemso

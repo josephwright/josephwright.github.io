@@ -1,10 +1,6 @@
 ---
-id: 285
 title: Supporting Windows users
-date: 2009-05-07T07:23:32+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=285
 permalink: /2009/05/07/supporting-windows-users/
 categories:
   - General

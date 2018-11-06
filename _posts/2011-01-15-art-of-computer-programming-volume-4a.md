@@ -1,10 +1,6 @@
 ---
-id: 891
 title: Art of Computer Programming, Volume 4A
-date: 2011-01-15T18:46:13+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=891
 permalink: /2011/01/15/art-of-computer-programming-volume-4a/
 categories:
   - General

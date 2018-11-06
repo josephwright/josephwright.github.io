@@ -1,10 +1,6 @@
 ---
-id: 1302
 title: 'Programming LaTeX3: Expandability'
-date: 2012-04-21T20:02:58+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1302
 permalink: /2012/04/21/programming-latex3-expandability/
 categories:
   - LaTeX3

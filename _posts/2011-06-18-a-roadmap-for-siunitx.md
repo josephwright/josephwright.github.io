@@ -1,10 +1,6 @@
 ---
-id: 1029
 title: A roadmap for siunitx
-date: 2011-06-18T09:12:07+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1029
 permalink: /2011/06/18/a-roadmap-for-siunitx/
 categories:
   - Packages

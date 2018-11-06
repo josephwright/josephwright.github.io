@@ -1,10 +1,6 @@
 ---
-id: 8
 title: Contact
-date: 2008-12-17T15:30:15+00:00
-author: josephwright
 layout: page
-guid: http://texdev.wordpress.com/?page_id=8
 ---
 I'm always happy to answer questions on my LaTeX packages or anything else! You can get hold of me by email at [joseph.wright@morningstar2.co.uk](mailto:joseph.wright@morningstar2.co.uk). I'm always up for a TeX challenge, particularly for chemistry support, so feel free to drop me a line. In your interested in UK-TUG matters, adding [UK-TUG] to the subject line will help me know what the message is about!
 

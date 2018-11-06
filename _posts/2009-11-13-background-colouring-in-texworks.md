@@ -1,10 +1,6 @@
 ---
-id: 538
 title: Background colouring in TeXworks
-date: 2009-11-13T08:34:58+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=538
 permalink: /2009/11/13/background-colouring-in-texworks/
 categories:
   - TeXworks

@@ -1,10 +1,6 @@
 ---
-id: 1881
 title: Biblatex back-end update
-date: 2016-05-20T19:47:29+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1881
 permalink: /2016/05/20/biblatex-back-end-update/
 categories:
   - biblatex

@@ -1,10 +1,6 @@
 ---
-id: 1570
 title: Keeping releases in sync
-date: 2012-11-25T10:15:07+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1570
 permalink: /2012/11/25/keeping-releases-in-sync/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 1128
 title: TeXprinter 2
-date: 2011-10-31T19:48:38+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1128
 permalink: /2011/10/31/texprinter-2/
 categories:
   - General

@@ -1,10 +1,6 @@
 ---
-id: 1647
 title: LaTeX Tutorial videos from ShareLaTeX
-date: 2013-09-15T10:53:11+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1647
 permalink: /2013/09/15/latex-tutorial-videos-from-sharelatex/
 categories:
   - General

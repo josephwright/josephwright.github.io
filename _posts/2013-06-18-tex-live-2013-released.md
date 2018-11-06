@@ -1,10 +1,6 @@
 ---
-id: 1633
 title: TeX Live 2013 released
-date: 2013-06-18T20:27:27+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1633
 permalink: /2013/06/18/tex-live-2013-released/
 categories:
   - General

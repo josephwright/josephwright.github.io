@@ -1,10 +1,6 @@
 ---
-id: 632
 title: TeXworks experimental build 567
-date: 2010-02-15T08:20:47+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=632
 permalink: /2010/02/15/texworks-experimental-build-567/
 categories:
   - TeXworks

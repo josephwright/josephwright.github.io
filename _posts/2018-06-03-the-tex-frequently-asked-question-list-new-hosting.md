@@ -1,10 +1,6 @@
 ---
-id: 2318
 title: 'The TeX Frequently Asked Question List: New hosting'
-date: 2018-06-03T08:08:39+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2318
 permalink: /2018/06/03/the-tex-frequently-asked-question-list-new-hosting/
 categories:
   - General

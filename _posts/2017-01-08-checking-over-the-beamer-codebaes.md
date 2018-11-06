@@ -1,10 +1,6 @@
 ---
-id: 2091
 title: Checking over the beamer codebase
-date: 2017-01-08T22:43:55+00:00
-author: josephwright
 layout: post
-guid: https://www.texdev.net/?p=2091
 permalink: /2017/01/08/checking-over-the-beamer-codebaes/
 categories:
   - beamer

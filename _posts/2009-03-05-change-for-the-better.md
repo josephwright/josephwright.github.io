@@ -1,10 +1,6 @@
 ---
-id: 215
 title: Change for the better
-date: 2009-03-05T19:50:43+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=215
 permalink: /2009/03/05/change-for-the-better/
 categories:
   - General

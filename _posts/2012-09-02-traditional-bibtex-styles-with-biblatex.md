@@ -1,10 +1,6 @@
 ---
-id: 1543
 title: Traditional BibTeX styles with biblatex
-date: 2012-09-02T14:53:39+00:00
-author: josephwright
 layout: post
-guid: http://www.texdev.net/?p=1543
 permalink: /2012/09/02/traditional-bibtex-styles-with-biblatex/
 categories:
   - biblatex
