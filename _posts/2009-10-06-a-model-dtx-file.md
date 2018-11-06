@@ -11,7 +11,7 @@ categories:
 tags:
   - DTX
 ---
-In my previous post, I've tried to give a very general overview of how the dtx file format comes about, from a combination of the syntax of DocStrip and ltxdoc. The problem with the bald details is that there are still lots of way to actually use the ideas to construct a dtx. So here I'm going to detail a model dtx, which is ready to be filled in with real code and documentation. The entire file is [available here as demopkg.dtx](http://www.texdev.net/wp-content/uploads/2009/10/demopkg.dtx): get it now if you are impatient!
+In my previous post, I've tried to give a very general overview of how the dtx file format comes about, from a combination of the syntax of DocStrip and ltxdoc. The problem with the bald details is that there are still lots of way to actually use the ideas to construct a dtx. So here I'm going to detail a model dtx, which is ready to be filled in with real code and documentation. The entire file is [available here as demopkg.dtx](/wp-content/uploads/2009/10/demopkg.dtx): get it now if you are impatient!
 
 The idea of constructing a dtx file in the way I'll describe is that it lets us achieve several things in one go:
 

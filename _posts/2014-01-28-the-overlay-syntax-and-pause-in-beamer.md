@@ -11,7 +11,7 @@ categories:
 tags:
   - overlays
 ---
-In a [recent post](http://www.texdev.net/2014/01/17/the-beamer-slide-overlay-concept/) I looked at how to use the `+` syntax to create flexible overlays in `beamer`. The key concept of that syntax is to allow dynamic slides to be created without having to hard-code slide numbers. The classic example is to reveal a list an item at a time:
+In a [recent post](/2014/01/17/the-beamer-slide-overlay-concept/) I looked at how to use the `+` syntax to create flexible overlays in `beamer`. The key concept of that syntax is to allow dynamic slides to be created without having to hard-code slide numbers. The classic example is to reveal a list an item at a time:
 
 ```latex
 \begin{frame}

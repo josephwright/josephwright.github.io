@@ -12,11 +12,11 @@ tags:
   - curriculum vitae
   - résumé
 ---
-I've looked over the last few days at some issues centring on writing a CV in LaTeX, first [looking at the wider picture](http://www.texdev.net/2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/), then at [creating a CV using custom macros](http://www.texdev.net/2011/11/06/writing-a-curriculum-vitae-in-latex-part-2/) and most recently at [including a list of publications](http://www.texdev.net/2011/11/07/writing-a-curriculum-vitae-in-latex-part-3/). To round things off, I'm going to create a [short example](http://www.texdev.net/wp-content/uploads/2011/11/cv.tex): the source of [my own CV](http://www.texdev.net/wp-content/uploads/2011/11/cv.pdf) cut down to a blog post. Before I do that, I'd point out that everyone's CV is different, and while my approach makes sense for me it should be seen very much as something to pick up ideas from more than any form of template.
+I've looked over the last few days at some issues centring on writing a CV in LaTeX, first [looking at the wider picture](/2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/), then at [creating a CV using custom macros](/2011/11/06/writing-a-curriculum-vitae-in-latex-part-2/) and most recently at [including a list of publications](/2011/11/07/writing-a-curriculum-vitae-in-latex-part-3/). To round things off, I'm going to create a [short example](/wp-content/uploads/2011/11/cv.tex): the source of [my own CV](/wp-content/uploads/2011/11/cv.pdf) cut down to a blog post. Before I do that, I'd point out that everyone's CV is different, and while my approach makes sense for me it should be seen very much as something to pick up ideas from more than any form of template.
 
 ## Package loading
 
-I'll start as before by loading the article class and setting up some fonts. To allow a bit of flexibility, here I've made LuaLaTeX optional, so that the file can be processed, for example, using [TeX4ht](http://www.tug.org/applications/tex4ht/mn.html). As far as possible, the look will be the same with pdfLaTeX or LuaLaTeX (as I [said earlier](http://www.texdev.net/2011/11/06/writing-a-curriculum-vitae-in-latex-part-2/), I use LuaLaTeX for my CV as it makes some aspects of the real thing easier).
+I'll start as before by loading the article class and setting up some fonts. To allow a bit of flexibility, here I've made LuaLaTeX optional, so that the file can be processed, for example, using [TeX4ht](http://www.tug.org/applications/tex4ht/mn.html). As far as possible, the look will be the same with pdfLaTeX or LuaLaTeX (as I [said earlier](/2011/11/06/writing-a-curriculum-vitae-in-latex-part-2/), I use LuaLaTeX for my CV as it makes some aspects of the real thing easier).
 
 ```latex
 \documentclass[11pt]{article}
@@ -56,7 +56,7 @@ Setting up hyperref is easy, so that is done next.
   }
 ```
 
-Now there is some adjustment of the appearance. The page size is adjusted, and as I described in [part 2](http://www.texdev.net/2011/11/06/writing-a-curriculum-vitae-in-latex-part-2/) I set up a custom appearance for sections and subsections. I also miss out page numbers (which should not really be needed in a two page CV), and alter spacing a little.
+Now there is some adjustment of the appearance. The page size is adjusted, and as I described in [part 2](/2011/11/06/writing-a-curriculum-vitae-in-latex-part-2/) I set up a custom appearance for sections and subsections. I also miss out page numbers (which should not really be needed in a two page CV), and alter spacing a little.
 
 <!-- {% raw %} -->
 ```latex
@@ -90,7 +90,7 @@ Now there is some adjustment of the appearance. The page size is adjusted, and a
 
 ## Specialist macros
 
-Now comes some custom code, first for publications as I described in [part 3](http://www.texdev.net/2011/11/07/writing-a-curriculum-vitae-in-latex-part-3/).
+Now comes some custom code, first for publications as I described in [part 3](/2011/11/07/writing-a-curriculum-vitae-in-latex-part-3/).
 
 <!-- {% raw %} -->
 ```latex
@@ -206,7 +206,7 @@ Several more sections would now follow, but I'll leave this to the imagination.
 \dots
 ```
 
-I find that it's best to start a publication list on a new page, as I have quite a lot. In the UK, this list does not count as part of the general CV, so is allowed to go beyond two pages. As I said in [part 3 of the series](http://www.texdev.net/2011/11/07/writing-a-curriculum-vitae-in-latex-part-3/), it's often useful to have this list as a separate file.
+I find that it's best to start a publication list on a new page, as I have quite a lot. In the UK, this list does not count as part of the general CV, so is allowed to go beyond two pages. As I said in [part 3 of the series](/2011/11/07/writing-a-curriculum-vitae-in-latex-part-3/), it's often useful to have this list as a separate file.
 
 ```latex
 \newpage

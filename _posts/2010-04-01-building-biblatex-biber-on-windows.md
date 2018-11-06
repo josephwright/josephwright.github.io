@@ -13,7 +13,7 @@ tags:
   - biber
   - Perl
 ---
-I've just reinstalled my [Strawberry Perl](http://strawberryperl.com/) system on Windows, and so had the opportunity to try a clean build of [biblatex-biber](http://biblatex-biber.sourceforge.net/). I've [posted before](http://www.texdev.net/2010/02/27/building-biblatex-biber-again/) about building this on various platforms, and it now is almost asstraight-forward on Windows as on Linux.
+I've just reinstalled my [Strawberry Perl](http://strawberryperl.com/) system on Windows, and so had the opportunity to try a clean build of [biblatex-biber](http://biblatex-biber.sourceforge.net/). I've [posted before](/2010/02/27/building-biblatex-biber-again/) about building this on various platforms, and it now is almost asstraight-forward on Windows as on Linux.
 
 As before, I'll assume you've grabbed the source code, unzipped it and have a Command Prompt running as the Administrator, in the directory where biblatex-biber is unzipped. First, you need to install one support Perl module using
 

@@ -13,9 +13,9 @@ tags:
 ---
 I've given a summary of the 'formal' business of each session at TUG2015 over the past few days:
 
-- [Day one](http://www.texdev.net/2015/07/20/tug2015-day-one/)
-- [Day two](http://www.texdev.net/2015/07/21/tug2015-day-two/)
-- [Day three](http://www.texdev.net/2015/07/22/tug2015-day-three/)
+- [Day one](/2015/07/20/tug2015-day-one/)
+- [Day two](/2015/07/21/tug2015-day-two/)
+- [Day three](/2015/07/22/tug2015-day-three/)
 
 Of course, there was a lot more to the meeting beyond the talk sessions. [Stefan Kottwitz](http://texblog.net/) covered some of them in a [TeX-sx blog post](http://tex.blogoverflow.com/2015/07/tex-user-group-meeting-2015/), including a picture of (most of) the [TeX-sx](http://tex.stackexchange.com) regulars in attendance.
 

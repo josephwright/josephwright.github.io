@@ -9,7 +9,7 @@ permalink: /2011/09/05/latex3-roadmap/
 categories:
   - LaTeX3
 ---
-One of the questions that [comes up from time to time](http://www.texdev.net/2011/09/01/latex3-more-use-more-work/) is what the ‘roadmap’ is for LaTeX3 development. While there is not an official plan, I certainly have some ideas on what I'd like to see addressed in a concrete way. This is all rather flexible, but I'll try to outline some areas for attention.
+One of the questions that [comes up from time to time](/2011/09/01/latex3-more-use-more-work/) is what the ‘roadmap’ is for LaTeX3 development. While there is not an official plan, I certainly have some ideas on what I'd like to see addressed in a concrete way. This is all rather flexible, but I'll try to outline some areas for attention.
 
 ## Short term
 

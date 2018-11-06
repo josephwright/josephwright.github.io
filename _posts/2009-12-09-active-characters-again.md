@@ -9,7 +9,7 @@ permalink: /2009/12/09/active-characters-again/
 categories:
   - General
 ---
-A while ago I wrote about [avoiding active characters](http://www.texdev.net/2009/07/04/avoiding-active-characters/). There was a question on the [LaTeX3 mailing list](http://listserv.uni-heidelberg.de/cgi-bin/wa?A0=latex-l) recently, where this came up again. So I thought I'd talk about it again here.
+A while ago I wrote about [avoiding active characters](/2009/07/04/avoiding-active-characters/). There was a question on the [LaTeX3 mailing list](http://listserv.uni-heidelberg.de/cgi-bin/wa?A0=latex-l) recently, where this came up again. So I thought I'd talk about it again here.
 
 ε-TeX provides the primitive `\scantokens`, which can be used to re-assign the category codes of (most) input. This can be used to make some tokens in the input active, and then swap them for something else. For example:
 

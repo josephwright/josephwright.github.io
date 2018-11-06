@@ -13,7 +13,7 @@ tags:
   - chemistry
   - tikz
 ---
-In my [previous post](https://www.texdev.net/2012/08/25/exploring-chemfig-basics/), I looked at the basics of using the [ChemFig](https://ctan.org/pkg/chemfig) package to create chemical structures. I finished that post with a structure that is complete but which I think does not look great compared with the reference version I created in [ChemDraw](http://www.cambridgesoft.com). (There's a MyChemistry entry that looks at similar customisation: worth a look!)
+In my [previous post](/2012/08/25/exploring-chemfig-basics/), I looked at the basics of using the [ChemFig](https://ctan.org/pkg/chemfig) package to create chemical structures. I finished that post with a structure that is complete but which I think does not look great compared with the reference version I created in [ChemDraw](http://www.cambridgesoft.com). (There's a MyChemistry entry that looks at similar customisation: worth a look!)
 
 ## Atom placement
 
@@ -29,7 +29,7 @@ The first issue to tackle is the placement of atom labels. ChemFig 'detects' ato
 
 which gives the output
 
-![](http://www.texdev.net/wp-content/uploads/2012/08/ChemFig6-300x171.png)
+![](/wp-content/uploads/2012/08/ChemFig6-300x171.png)
 
 To see the difference here, look at for example R<sup>2</sup> here compared to the version in the previous post: it's subtle, but it is there!
 
@@ -49,7 +49,7 @@ There are three key dimensions used by both ChemDraw and ChemFig to set how bond
 
 was the right set up. The comments are the ChemDraw names for settings, and I've set the line width as a command as it turns out I'll want it again for some more advanced things to be covered in the next post.
 
-![](http://www.texdev.net/wp-content/uploads/2012/08/ChemFig7-300x169.png)
+![](/wp-content/uploads/2012/08/ChemFig7-300x169.png)
 
 ## The central double bond
 
@@ -63,7 +63,7 @@ Changing the bond spacing shows up another issue: the central double bond is not
 }
 ```
 
-![](http://www.texdev.net/wp-content/uploads/2012/08/ChemFig8-300x169.png)
+![](/wp-content/uploads/2012/08/ChemFig8-300x169.png)
 
 ## Atom font
 
@@ -131,7 +131,7 @@ leads to the final input
 
 and output
 
-![](http://www.texdev.net/wp-content/uploads/2012/08/ChemFig9-300x173.png)
+![](/wp-content/uploads/2012/08/ChemFig9-300x173.png)
 
 I'd say that is pretty good: I'd be happy to use this in a publication (although drawing the kind of structures I do my research with would be a challenge!).
 

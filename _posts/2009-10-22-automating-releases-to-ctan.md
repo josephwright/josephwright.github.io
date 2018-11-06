@@ -19,7 +19,7 @@ The two files I'm going to provide both aim to give the same functionality: I wo
 
 ## Windows batch files
 
-A batch file on Windows (or indeed a shell script on Unix) is simply a list of commands you could type yourself at the command line, but with some flow control added.  Recent versions of Windows include a number of extensions beyond the old DOS capabilities: I'm going to use some of these, but that only rules out very old systems so it should be reasonably safe. If you want to grab the entire file in one go, it's [available here](http://www.texdev.net/wp-content/uploads/2009/10/make.bat).
+A batch file on Windows (or indeed a shell script on Unix) is simply a list of commands you could type yourself at the command line, but with some flow control added.  Recent versions of Windows include a number of extensions beyond the old DOS capabilities: I'm going to use some of these, but that only rules out very old systems so it should be reasonably safe. If you want to grab the entire file in one go, it's [available here](/wp-content/uploads/2009/10/make.bat).
 
 One problem is that there is no command line tool for creating zip files installed by default in Windows. I've tried a few out, and the best seems to be [Info-ZIP](http://www.info-zip.org/). It does a good job of marking up binary and text files, and also includes some abilities to sort out line endings. If it doesn't work for you, other tools such as the [Swiss File Knife](http://stahlforce.com/dev/index.php?tool=sfk) do the same thing on a file-by-file basis. Whatever you decide, it's best to put the support tools on the Windows path somewhere.
 
@@ -349,7 +349,7 @@ To use the file, just alter the settings at the beginning. The pattern should be
 
 ## Unix make files
 
-Unix make files work somewhat differently to shell scripts. Each entry is a ‘target’, which is a file to create. I'm not going to explain in detail how they work, but in essense there are a series of fake ‘files’ which are the names of the settings you send to make (for example, `make ctan` needs a target called `ctan`). As with the batch file, there are a series of blanks to fill in here to customise things. I'm also sticking with the idea that things are pretty basic: a dtx file, a sty file and some documentation, plus perhaps one or more example tex files. Hopefully the idea is pretty clear. By keeping as much as possible in variables, the idea is to avoid needing to change the bulk of the file to move from one package to another. As with the batch file, the entire thing is [available here](http://www.texdev.net/wp-content/uploads/2009/10/Makefile). to download.
+Unix make files work somewhat differently to shell scripts. Each entry is a ‘target’, which is a file to create. I'm not going to explain in detail how they work, but in essense there are a series of fake ‘files’ which are the names of the settings you send to make (for example, `make ctan` needs a target called `ctan`). As with the batch file, there are a series of blanks to fill in here to customise things. I'm also sticking with the idea that things are pretty basic: a dtx file, a sty file and some documentation, plus perhaps one or more example tex files. Hopefully the idea is pretty clear. By keeping as much as possible in variables, the idea is to avoid needing to change the bulk of the file to move from one package to another. As with the batch file, the entire thing is [available here](/wp-content/uploads/2009/10/Makefile). to download.
 
 ```make
 ################################################################

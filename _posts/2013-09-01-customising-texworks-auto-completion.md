@@ -71,7 +71,7 @@ pkg:=\pkg{#INS#}
 \pkg{#INS#}
 ```
 
-for package development work. I'm also not too keen on having too many of the 'shortcut' values, which don't start `\`, so I've removed most of them and have just a core set (things like `bf` and `em`). If you want to see my current full set, you can of course [download it](https://texdev.net/wp-content/uploads/2013/09/tw-completion.txt).
+for package development work. I'm also not too keen on having too many of the 'shortcut' values, which don't start `\`, so I've removed most of them and have just a core set (things like `bf` and `em`). If you want to see my current full set, you can of course [download it](/wp-content/uploads/2013/09/tw-completion.txt).
 
 So is there anything I'd like to see added to the way auto-complete works? I have a few ideas! From my questions on the TeXworks mailing list, I've picked up that TeXShop maintains indentation when doing auto-complete: TeXworks doesn't, and I think it would be a good addition. TeXShop also allows an extended syntax
 

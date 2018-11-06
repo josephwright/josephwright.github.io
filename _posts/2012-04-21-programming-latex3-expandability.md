@@ -11,7 +11,7 @@ categories:
 tags:
   - Programming LaTeX3
 ---
-In the [last part](http://www.texdev.net/2012/02/07/programming-latex3-integers-and-integer-expressions/), I looked at integer expressions, and how they can be used to calculate integer values. What I did not do was say exactly what can go inside an integer expression. That's because it links in to a wider concept, and one that is very familiar to TeX programmers: expandability.
+In the [last part](/2012/02/07/programming-latex3-integers-and-integer-expressions/), I looked at integer expressions, and how they can be used to calculate integer values. What I did not do was say exactly what can go inside an integer expression. That's because it links in to a wider concept, and one that is very familiar to TeX programmers: expandability.
 
 ## What is expandability?
 
@@ -33,7 +33,7 @@ That hopefully makes some sense: `\int_eval:n` is supposed to produce a number, 
 
 Integer expression functions make a good example for expandability, but if that was the only area that expansion applied it would not be that significant. However, there are lots of other places where we want to carry out expansion, and this takes us back to the idea of the argument specification for functions. There are three expansion related argument specifiers: `f`, `o` and `x`. Here, I'm going to deal just with `x`-type expansion, and will talk about `f`- and `o`-type expansion next time!
 
-So what is `x`-type expansion? It's exhaustive: expanding everything until only non-expandable content remains. We've [already seen](http://www.texdev.net/2012/01/22/programming-latex3-more-on-token-list-variables/) the idea that for example `\tl_put_right:NV` is related to `\tl_put_right:Nn`, so that we can access the value of a variable. So it should not be too much of a leap to see a relationship between `\tl_set:Nn` and `\tl_set:Nx`. So when we do
+So what is `x`-type expansion? It's exhaustive: expanding everything until only non-expandable content remains. We've [already seen](/2012/01/22/programming-latex3-more-on-token-list-variables/) the idea that for example `\tl_put_right:NV` is related to `\tl_put_right:Nn`, so that we can access the value of a variable. So it should not be too much of a leap to see a relationship between `\tl_set:Nn` and `\tl_set:Nx`. So when we do
 
 ```latex
 \tl_set:Nn \l_tmpa_tl { foo }

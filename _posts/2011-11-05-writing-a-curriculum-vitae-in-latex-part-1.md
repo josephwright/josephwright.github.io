@@ -30,6 +30,6 @@ There are advantages and disadvantages to using one of these classes. Most obvio
 
 ## Roll-your-own
 
-The alternative to using a pre-built class is to construct your CV yourself, setting up a structure that makes sense to you. Now, there is a bit of effort needed to do this, but it does allow you to decide on exactly how things will look. For my [own CV](http://www.texdev.net/wp-content/uploads/2011/11/cv.pdf), I used to use CurVe, but in the end decided this was actually making my life more, not less, complex. So the [current source](http://www.texdev.net/wp-content/uploads/2011/11/cv.tex) is based on the standard article, using some custom macros.
+The alternative to using a pre-built class is to construct your CV yourself, setting up a structure that makes sense to you. Now, there is a bit of effort needed to do this, but it does allow you to decide on exactly how things will look. For my [own CV](/wp-content/uploads/2011/11/cv.pdf), I used to use CurVe, but in the end decided this was actually making my life more, not less, complex. So the [current source](/wp-content/uploads/2011/11/cv.tex) is based on the standard article, using some custom macros.
 
 Most of what I've done in my CV is pretty simple, but it's always nice to have documented examples. That would probably make this post a little too long, so I'll return to look at the detail in my next post.

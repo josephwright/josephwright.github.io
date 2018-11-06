@@ -13,7 +13,7 @@ tags:
   - TeX Live
   - Windows
 ---
-Around two years ago, I wrote a [short post comparing MiKTeX and TeX Live for Windows-based TeX users](http://www.texdev.net/2009/11/07/windows-tex-users-miktex-or-tex-live/). Looking at my log files, this topic is perhaps the most common search term that brings people here. As such, I think it's time to revisit the question and bring what I said before up to date.
+Around two years ago, I wrote a [short post comparing MiKTeX and TeX Live for Windows-based TeX users](/2009/11/07/windows-tex-users-miktex-or-tex-live/). Looking at my log files, this topic is perhaps the most common search term that brings people here. As such, I think it's time to revisit the question and bring what I said before up to date.
 
 On Windows, there are two actively-developed TeX systems with similar coverage: [MiKTeX](http://www.miktex.org/) and [TeX Live](http://tug.org/texlive). Before I look at the comparison, a reminder that they are not the only choices. [W32TeX](http://w32tex.org/) is popular in the far east, and as well as being a TeX system in its own right is the source of the Windows binaries for TeX Live. There are also the commercial [BaKoMa](http://www.bakoma-tex.com/) and [VTeX](http://www.micropress-inc.com/) systems (although whether anyone can get hold of the supplier of the latter is another question). However, for most users it comes down to a choice between the ‘big two’.
 

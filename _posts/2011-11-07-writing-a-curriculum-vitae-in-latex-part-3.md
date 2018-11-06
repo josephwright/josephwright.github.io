@@ -12,7 +12,7 @@ tags:
   - curriculum vitae
   - résumé
 ---
-I work in a university, so an important part of my CV is a list of my publications. In [part 2](http://www.texdev.net/2011/11/06/writing-a-curriculum-vitae-in-latex-part-2/), I described how I put together the bulk of my CV using some custom macros: here, I'll focus on publications.
+I work in a university, so an important part of my CV is a list of my publications. In [part 2](/2011/11/06/writing-a-curriculum-vitae-in-latex-part-2/), I described how I put together the bulk of my CV using some custom macros: here, I'll focus on publications.
 
 ## BibTeX?
 

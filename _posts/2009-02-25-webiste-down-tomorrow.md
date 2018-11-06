@@ -4,7 +4,7 @@ title: Website down tomorrow
 date: 2009-02-25T06:56:49+00:00
 author: josephwright
 layout: post
-guid: http://www.texdev.net/2009/02/25/webiste-down-tomorrow/
+guid: /2009/02/25/webiste-down-tomorrow/
 permalink: /2009/02/25/webiste-down-tomorrow/
 categories:
   - texdev.net

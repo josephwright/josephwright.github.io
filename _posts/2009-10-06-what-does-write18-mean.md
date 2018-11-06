@@ -9,7 +9,7 @@ permalink: /2009/10/06/what-does-write18-mean/
 categories:
   - General
 ---
-I recently talked about [converting eps files to pdf format](http://www.texdev.net/2009/09/28/eps-graphics-with-pdflatex/), and mentioned that to do it from within TeX, you need `\write18` enabled. However, I failed to say what that means: probably not very helpful.
+I recently talked about [converting eps files to pdf format](/2009/09/28/eps-graphics-with-pdflatex/), and mentioned that to do it from within TeX, you need `\write18` enabled. However, I failed to say what that means: probably not very helpful.
 
 The TeX `\write` primitive instruction is used to write to different file ‘streams’; TeX refers to each open file by number, not by name (although most of the time we hide this). Stream 18 is special: it is not a file but means that TeX asking the operative system to do something. To run a command, we put it as the argument to `\write18`. So to run the epstopdf program on a file with name stored as `\epsfilename`, we'd do:
 

@@ -12,7 +12,7 @@ tags:
   - curriculum vitae
   - résumé
 ---
-In [part 1](http://www.texdev.net/2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/), I looked at some general ideas about writing CVs, and said that my approach is to ‘roll my own’ format based on the standard article class. Here, I want to look at the process in a bit more detail. Most of this is about using LaTeX, and so the ideas I use apply to many other cases.
+In [part 1](/2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/), I looked at some general ideas about writing CVs, and said that my approach is to ‘roll my own’ format based on the standard article class. Here, I want to look at the process in a bit more detail. Most of this is about using LaTeX, and so the ideas I use apply to many other cases.
 
 I make use of quite a few packages to get the appearance as I want. Rather than list all of them at once, I'll take about the effects I'm aiming for, and include the package names as I go.
 
@@ -29,7 +29,7 @@ Starting from the article class, the first thing to address is the overall appea
 \setsansfont[Ligatures = TeX]{TeX Gyre Adventor}
 \setmonofont[Ligatures = TeX]{Inconsolata}
 ```
-Here, as well as loading the fonts I like, I've set up to use lower case (old style) numbers as recommend by [Bringhurst](http://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063). I've also included a [‘magic’ comment](http://www.texdev.net/2011/03/24/texworks-magic-comments/) to let my [editor](http://www.texdev.net/?s=texworks) know to use LuaLaTeX. You might wonder about the `draft` option: I'll come back to that later.
+Here, as well as loading the fonts I like, I've set up to use lower case (old style) numbers as recommend by [Bringhurst](http://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063). I've also included a [‘magic’ comment](/2011/03/24/texworks-magic-comments/) to let my [editor](http://www.texdev.net/?s=texworks) know to use LuaLaTeX. You might wonder about the `draft` option: I'll come back to that later.
 
 As I say, I want microtypography set up, so do
 
@@ -219,7 +219,7 @@ making use of the [`pifont`](https://ctan.org/pkg/pifont) package to provide a n
 
 ## Other refinements
 
-As I mentioned in [part 1](http://www.texdev.net/2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/), one of the advantages of using LaTeX is that you can store information in your CV as comments. That might be as simple as commenting-out lines that you want to miss out for a particular job, but you might also want to deal with longer optional sections. The [`comment`](https://ctan.org/pkg/comment) package is ideal for this, as it lets you mark up sections for inclusion or exclusion in a pretty rapid way.
+As I mentioned in [part 1](/2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/), one of the advantages of using LaTeX is that you can store information in your CV as comments. That might be as simple as commenting-out lines that you want to miss out for a particular job, but you might also want to deal with longer optional sections. The [`comment`](https://ctan.org/pkg/comment) package is ideal for this, as it lets you mark up sections for inclusion or exclusion in a pretty rapid way.
 
 I mentioned earlier that I set the `draft` option for my CV, then override it on a package-by-package basis. The reason is that this will always include bars for overfull boxes: useful as you want to check for these.
 

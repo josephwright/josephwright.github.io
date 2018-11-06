@@ -12,7 +12,7 @@ tags:
   - Unicode
   - UTF-8
 ---
-I wrote recently about [handling UTF-8 input in Lua](http://www.texdev.net/2014/07/08/luatex-manipulating-utf-8-text-using-lua/), and in particular the fact that doing text manipulation needs a bit of care. One area that I've been looking at recently is doing case changing operations. We've been looking at this for `expl3`, so I thought it would be worth looking at this in a bit of detail. I'm going to mainly focus on the _results_ rather than _implementation_: the latter is important when it affects the output but not really otherwise (except for the team!).
+I wrote recently about [handling UTF-8 input in Lua](/2014/07/08/luatex-manipulating-utf-8-text-using-lua/), and in particular the fact that doing text manipulation needs a bit of care. One area that I've been looking at recently is doing case changing operations. We've been looking at this for `expl3`, so I thought it would be worth looking at this in a bit of detail. I'm going to mainly focus on the _results_ rather than _implementation_: the latter is important when it affects the output but not really otherwise (except for the team!).
 
 ## Background
 

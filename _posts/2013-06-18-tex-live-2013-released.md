@@ -13,7 +13,7 @@ tags:
 ---
 Browsing the [TeX Live](http://tug.org/texlive) site today, I see that TeX Live 2013 has been released. There are as usual a few [changes to note](http://tug.org/texlive/doc/texlive-en/texlive-en.html#news). My highlights:
 
-- XeTeX now uses the [HarfBuzz](http://harfbuzz.org) shaper rather than the older ICU engine (which is no longer being developed): see my [earlier post](http://www.texdev.net/2013/03/12/xetex-0-9999-moving-to-harfbuzz-and-lots-of-other-goodies/) about this change
+- XeTeX now uses the [HarfBuzz](http://harfbuzz.org) shaper rather than the older ICU engine (which is no longer being developed): see my [earlier post](/2013/03/12/xetex-0-9999-moving-to-harfbuzz-and-lots-of-other-goodies/) about this change
 - LuaTeX is updated to Lua 5.2 (the latest Lua release)
 - `Microtype` now supports protrusion in XeTeX and LuaTeX
 

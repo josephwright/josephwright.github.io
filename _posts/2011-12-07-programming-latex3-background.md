@@ -11,7 +11,7 @@ categories:
 tags:
   - Programming LaTeX3
 ---
-Before the [series on programming LaTeX3](http://www.texdev.net/2011/12/06/programming-latex3-introduction/) can really get started, it's going to be important to establish some background, basic concepts and indeed what the aims are. So in this post I'm going cover some of these issues: we won't be seeing any code just yet! The approach I'm aiming to take is to bring in concepts as they are needed: this may mean a few simplifications in the beginning to allow ideas to be developed.
+Before the [series on programming LaTeX3](/2011/12/06/programming-latex3-introduction/) can really get started, it's going to be important to establish some background, basic concepts and indeed what the aims are. So in this post I'm going cover some of these issues: we won't be seeing any code just yet! The approach I'm aiming to take is to bring in concepts as they are needed: this may mean a few simplifications in the beginning to allow ideas to be developed.
 
 ## LaTeX3: What is available now?
 

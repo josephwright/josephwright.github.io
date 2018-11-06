@@ -13,13 +13,13 @@ tags:
   - chemistry
   - tikz
 ---
-In the first two parts of this short series, I've looked at some [ChemFig basics](http://www.texdev.net/2012/08/25/exploring-chemfig-basics/) and [improving the settings used to get to publication-quality appearance](http://www.texdev.net/2012/08/25/exploring-chemfig-customising-appearance/). In this final part, I want to look as some more complex effects. I'm going to keep using the customisations I made in part two, so the demos here all use them in the preamble.
+In the first two parts of this short series, I've looked at some [ChemFig basics](/2012/08/25/exploring-chemfig-basics/) and [improving the settings used to get to publication-quality appearance](/2012/08/25/exploring-chemfig-customising-appearance/). In this final part, I want to look as some more complex effects. I'm going to keep using the customisations I made in part two, so the demos here all use them in the preamble.
 
 ## Decorating bonds
 
 Chemists don't only use simple line bonds: we use bold, dashed and wavy lines a lot. ChemDraw has all of these set up 'out of the box':
 
-![](http://www.texdev.net/wp-content/uploads/2012/08/ChemDraw2.png)
+![](/wp-content/uploads/2012/08/ChemDraw2.png)
 
 ChemFig does not have a simple input syntax for them, unlike `=` for a double bond or `~` for a triple bond. However, it does let us customise bond appearance: the basic syntax we need is to put `[,,,,&lt;settings&gt;]` after the bond to be customised (there are four commas here as ChemFig has other settings to alter bonding). The settings are Ti<i>k</i>Z commands, and it's possible to set up these customisations as styles, which is better than doing everything by hand.
 
@@ -80,7 +80,7 @@ Okay, so how does this all look? The document input is not so bad
 
 and gives result
 
-![](http://www.texdev.net/wp-content/uploads/2012/08/ChemFig10.png)
+![](/wp-content/uploads/2012/08/ChemFig10.png)
 
 If you look really carefully, you'll see that this highlights an issue. The bond junctions are just flat 'ends', which does not show very much for the single bonds but does where the bold bond meets the ring. If you compare with ChemDraw, you'll see that it does not make the same error: the bonds 'run in' to each other. I've not found a way to solve that, unfortunately.
 
@@ -88,7 +88,7 @@ If you look really carefully, you'll see that this highlights an issue. The bond
 
 Chemical structures exist in three dimensions, and it's very common to show this using wedged bonds, invented by Cram.
 
-![](http://www.texdev.net/wp-content/uploads/2012/08/ChemDraw3.png)
+![](/wp-content/uploads/2012/08/ChemDraw3.png)
 
 ChemFig let's us use `&lt;` in place of `-` for a filled wedged bond, with `&lt;|` for a hollow one and `&lt;:` for a dashed (backward) one. So the input we want here is
 
@@ -108,7 +108,7 @@ If you try that with no setting changes, the bonds are too wide at the ends. Tha
 
 and got
 
-![](http://www.texdev.net/wp-content/uploads/2012/08/ChemFig12.png)
+![](/wp-content/uploads/2012/08/ChemFig12.png)
 
 Here, it's clear that the issue with bond joins shows up a lot more than the earlier cases: it's still reasonably subtle, but definitely shows up more strongly.
 
@@ -126,6 +126,6 @@ in my preamble to have everything match.
 
 ## Conclusions
 
-With a bit of effort with the settings, ChemFig can produce quality output, and can get quite a bit 'right' (although there are a few gaps). However, as I said in the [first part](http://www.texdev.net/2012/08/25/exploring-chemfig-basics/), I won't be abandoning [ChemDraw](http://www.cambridgesoft.com/) any time soon. I deliberately picked something reasonably straight-forward for my tests, and the sort of thing I do in my research work would be a _lot_ harder to draw and maintain using ChemFig. In particular, I don't fancy trying to show up three-dimensional affects (for example a benzene ring going 'into' the page) using a text-based approach.
+With a bit of effort with the settings, ChemFig can produce quality output, and can get quite a bit 'right' (although there are a few gaps). However, as I said in the [first part](/2012/08/25/exploring-chemfig-basics/), I won't be abandoning [ChemDraw](http://www.cambridgesoft.com/) any time soon. I deliberately picked something reasonably straight-forward for my tests, and the sort of thing I do in my research work would be a _lot_ harder to draw and maintain using ChemFig. In particular, I don't fancy trying to show up three-dimensional affects (for example a benzene ring going 'into' the page) using a text-based approach.
 
 So what could I recommend ChemFig for? First, the most obvious case is for people who don't have a copy of ChemDraw. There are other graphical editors, but none of the free ones are as good as ChemDraw. So if you want high-quality output without paying, this looks the best approach I've seen. It also looks good for creating stand-alone documents (using ChemDraw means needing graphics files). That does look useful for me for teaching, where the structures will be in general not so complicated and where it will be perhaps better to have only a single `.tex` file. There's also the fact that drawing using Ti<i>k</i>Z means that the font match using ChemFig is exact: no need to try to measure up different fonts by eye. So there are uses for ChemFig, and it's certainly an interesting package. Now all we need is someone to write a ChemDraw to ChemFig converter!

@@ -9,7 +9,7 @@ permalink: /2011/03/24/texworks-magic-comments/
 categories:
   - TeXworks
 ---
-The [new TeXworks release](http://www.texdev.net/2011/03/21/texworks-v0-4-0/) adds a new ‘magic comment’ to the set that the program knows. So I thought it might be useful to have a list of those that currently work, and a typical setting for each one.
+The [new TeXworks release](/2011/03/21/texworks-v0-4-0/) adds a new ‘magic comment’ to the set that the program knows. So I thought it might be useful to have a list of those that currently work, and a typical setting for each one.
 
 ```latex
 % !TeX program = LuaLaTeX

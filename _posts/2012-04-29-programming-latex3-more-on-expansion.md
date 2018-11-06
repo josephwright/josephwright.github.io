@@ -11,7 +11,7 @@ categories:
 tags:
   - Programming LaTeX3
 ---
-In the [last post](http://www.texdev.net/2012/04/21/programming-latex3-expandability/), I looked at the idea of expandability, and how we can use `x`-type expansion to exhaustively expand an argument. I also said that there was more to this, and hinted at two other argument specifications, `f`- and `o`-type expansion. We need these because TeX is a macro-expansion language, and while LaTeX3 coding does hide some of this detail it certainly does not get rid of all of it. Both of these forms of expansion are somewhat specialised, but both are also necessary!
+In the [last post](/2012/04/21/programming-latex3-expandability/), I looked at the idea of expandability, and how we can use `x`-type expansion to exhaustively expand an argument. I also said that there was more to this, and hinted at two other argument specifications, `f`- and `o`-type expansion. We need these because TeX is a macro-expansion language, and while LaTeX3 coding does hide some of this detail it certainly does not get rid of all of it. Both of these forms of expansion are somewhat specialised, but both are also necessary!
 
 ## Full (or forced) expansion
 

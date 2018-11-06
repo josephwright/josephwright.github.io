@@ -12,9 +12,9 @@ categories:
 ---
 As promised a while ago, I've been working to get a snapshot of my work on [siunitx version 2](http://siunitx.berlios.de) ready. I've now got something that works “as far as it goes”, so I'm making a first snapshot available.  This is version control (SVN) repository revision 22, which you can see on [BerliOS](http://www.berlios.de). As this is a very earlier version of what I'm looking at, I'm just posting three files here:
 
-- [The source (.dtx)](http://www.texdev.net/wp-content/uploads/2009/02/siunitx.dtx)
-- [The user manual (.pdf)](http://www.texdev.net/wp-content/uploads/2009/02/siunitx.pdf)
-- [The style file (.sty)](http://www.texdev.net/wp-content/uploads/2009/02/siunitx.sty)
+- [The source (.dtx)](/wp-content/uploads/2009/02/siunitx.dtx)
+- [The user manual (.pdf)](/wp-content/uploads/2009/02/siunitx.pdf)
+- [The style file (.sty)](/wp-content/uploads/2009/02/siunitx.sty)
 
 Currently, only the `\num` macro works at all, and even then only for single numbers. However, there are several points to note for testers  and interested users:
 

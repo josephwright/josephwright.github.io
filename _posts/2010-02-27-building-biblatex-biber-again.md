@@ -10,7 +10,7 @@ categories:
   - biblatex
   - Packages
 ---
-I [recently posted](http://www.texdev.net/2010/01/23/building-biblatex-biber/) some information on building [biblatex-biber](http://biblatex-biber.sourceforge.net/). Since then, v0.5 of biblatex-biber has appeared and there are some positive changes. The code now creates its own file to grab the required Perl modules. So on Mac OS X (Snow Leopard) and Ubuntu (9.10) all I needed to do after downloading the source was
+I [recently posted](/2010/01/23/building-biblatex-biber/) some information on building [biblatex-biber](http://biblatex-biber.sourceforge.net/). Since then, v0.5 of biblatex-biber has appeared and there are some positive changes. The code now creates its own file to grab the required Perl modules. So on Mac OS X (Snow Leopard) and Ubuntu (9.10) all I needed to do after downloading the source was
 
 ```bash
 perl Build.PL

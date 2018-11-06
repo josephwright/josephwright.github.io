@@ -11,7 +11,7 @@ categories:
 tags:
   - Programming LaTeX3
 ---
-In the [last entry](http://www.texdev.net/2012/01/22/programming-latex3-more-on-token-list-variables/), I talked about token list variables. As we've seen, these can be used to hold basically anything, but at the cost that there is no internal structure. I've also hinted that LaTeX3 provides a number of richer data types. One that we will need sooner rather than later is the `int` type for storing integers. At the same time, we can look more widely at what are called _integer expression_: calculations which work with whole numbers.
+In the [last entry](/2012/01/22/programming-latex3-more-on-token-list-variables/), I talked about token list variables. As we've seen, these can be used to hold basically anything, but at the cost that there is no internal structure. I've also hinted that LaTeX3 provides a number of richer data types. One that we will need sooner rather than later is the `int` type for storing integers. At the same time, we can look more widely at what are called _integer expression_: calculations which work with whole numbers.
 
 ## Storing integers
 
@@ -39,7 +39,7 @@ We can't use any function here: there are some restrictions. Clearly we need to 
 
 ## Integer conditionals
 
-A key use of integers is in conditionals. [Earlier](http://www.texdev.net/2011/12/21/programming-latex3-category-codes-tokens-and-token-lists/), we saw that conditionals in LaTeX3 are defined so that we have distinct `true` and `false` branches to follow. That applies to integer conditionals in exactly the same way as anything else
+A key use of integers is in conditionals. [Earlier](/2011/12/21/programming-latex3-category-codes-tokens-and-token-lists/), we saw that conditionals in LaTeX3 are defined so that we have distinct `true` and `false` branches to follow. That applies to integer conditionals in exactly the same way as anything else
 
 ```latex
 \int_new:N \l_my_b_int
@@ -69,6 +69,6 @@ Hopefully most of this code is clear: we zero the counter, then loop until it re
 
 ## Integer expressions beyond `\int_` functions
 
-Integer expressions are not limited to `\int_` functions. Indeed, we've [already seen one](http://www.texdev.net/2011/12/14/programming-latex3-creating-functions/) in `\prg_replicate:nn`. This illustrates a general point: anywhere that LaTeX3 expects an integer, it's coded to accept integer expressions.
+Integer expressions are not limited to `\int_` functions. Indeed, we've [already seen one](/2011/12/14/programming-latex3-creating-functions/) in `\prg_replicate:nn`. This illustrates a general point: anywhere that LaTeX3 expects an integer, it's coded to accept integer expressions.
 
 One function that I can't miss out here is `\int_eval:n`, which just works out the value of the expression and leaves it in the input. It underlies a lot of the higher-level use of integer expressions, and we are certain to meet it later.

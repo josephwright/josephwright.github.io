@@ -13,7 +13,7 @@ tags:
   - TeX Live
   - Windows
 ---
-On Windows, users have two main choices of TeX system to install: [TeX Live](http://tug.org/texlive) or [MiKTeX](https://miktex.org). I've looked at this before a couple of times: first in [2009](https://www.texdev.net/2009/11/07/windows-tex-users-miktex-or-tex-live/) then again in [2011](https://www.texdev.net/2011/11/19/tex-on-windows-miktex-or-tex-live/). Over the past few years both systems have developed, so it seems like a good time to revisit this. (I know from my logs that this is one of the most popular topics I've covered!)
+On Windows, users have two main choices of TeX system to install: [TeX Live](http://tug.org/texlive) or [MiKTeX](https://miktex.org). I've looked at this before a couple of times: first in [2009](/2009/11/07/windows-tex-users-miktex-or-tex-live/) then again in [2011](/2011/11/19/tex-on-windows-miktex-or-tex-live/). Over the past few years both systems have developed, so it seems like a good time to revisit this. (I know from my logs that this is one of the most popular topics I've covered!)
 
 The first thing to say is that for almost all 'end users' (with a TeX system on their own PC just for them to use), both options are fine: they'll probably notice no difference between the two in use. It's also worth noting that there is a third option: [W32TeX](http://w32tex.org/). I've mentioned this before: it's popular in the far East and is where the Windows binaries for TeX Live come from. (There's a close relationship between W32TeX and TeX Live, with W32TeX more 'focussed' and expecting more user decisions in installing.)
 

@@ -17,9 +17,9 @@ I've been working on [`siunitx`](https://ctan.org/pkg/siunitx) version 2, gettin
 
 At this stage, there are likely to be some bugs and other annoyances in the code. However, I hope that enough works for people to risk taking the plunge and trying it out. For those willing to try out siunitx v2.0, you can get:
 
-- [The ready to install TDS-style zip file](http://www.texdev.net/wp-content/uploads/2010/01/siunitx.tds_1.zip)
-- [The package documentation](http://www.texdev.net/wp-content/uploads/2010/01/siunitx.pdf)
-- [The source file (dtx)](http://www.texdev.net/wp-content/uploads/2010/01/siunitx.dtx)
+- [The ready to install TDS-style zip file](/wp-content/uploads/2010/01/siunitx.tds_1.zip)
+- [The package documentation](/wp-content/uploads/2010/01/siunitx.pdf)
+- [The source file (dtx)](/wp-content/uploads/2010/01/siunitx.dtx)
 
 You'll need to have up to date installations of both [`expl3`](https://ctan.org/pkg/expl3) and the [`xpackages`](https://ctan.org/pkg/xpackages) to try out  the code, as internally the new code uses the [LaTeX3](http://www.latex-project.org/latex3.html) internal syntax. The biggest change that users should see from version 1 is that I've re-thought the option names. They are mainly longer, but more informative, in the new code. Improvements to the names I've picked are of course welcome.
 

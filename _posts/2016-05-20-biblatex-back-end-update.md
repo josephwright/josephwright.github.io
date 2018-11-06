@@ -10,7 +10,7 @@ categories:
   - biblatex
   - Packages
 ---
-I wrote recently abut the need to [manage `biblatex` back-ends](https://www.texdev.net/2016/03/13/managing-biblatex-backends/), and thoughts the maintenance team had on which way to proceed.
+I wrote recently abut the need to [manage `biblatex` back-ends](/2016/03/13/managing-biblatex-backends/), and thoughts the maintenance team had on which way to proceed.
 
 After a bit of thought, we've gone for a solution we hope works for users and for us. Reversing what seemed like a 'good idea at the time', we've re-integrated (almost) all of the TeX code into one pathway. This is focussed on Biber, but we have a small stub that converts the relevant parts to work with BibTeX. So users how don't need Biber or can't use it can still use BibTeX and get mainly the same results.
 

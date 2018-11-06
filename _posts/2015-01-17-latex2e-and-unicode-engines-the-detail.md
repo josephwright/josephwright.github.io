@@ -9,7 +9,7 @@ permalink: /2015/01/17/latex2e-and-unicode-engines-the-detail/
 categories:
   - General
 ---
-As I mentioned in my [last post](http://www.texdev.net/2014/12/28/fixing-latex2e/), the LaTeX team are working on various small but important improvements to the LaTeX2e kernel. One area we are looking at is adjusting how the 'vanilla' format works with Unicode engines. I've been asked for a bit more detail on this area, so I'll try to fill in what's going on with the 'newer' engines.
+As I mentioned in my [last post](/2014/12/28/fixing-latex2e/), the LaTeX team are working on various small but important improvements to the LaTeX2e kernel. One area we are looking at is adjusting how the 'vanilla' format works with Unicode engines. I've been asked for a bit more detail on this area, so I'll try to fill in what's going on with the 'newer' engines.
 
 To date, the 'vanilla' LaTeX format (`latex.ltx` and associated files) has been pretty much engine-neutral with no attempt to differentiate anything other than to deal with differences between TeX2 (7-bit, released 1982) and TeX3 (8-bit, released 1990). However, the LaTeX formats that almost all users actually load are not just made by running
 

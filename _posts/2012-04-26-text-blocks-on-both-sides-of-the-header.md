@@ -9,7 +9,7 @@ permalink: /2012/04/26/text-blocks-on-both-sides-of-the-header/
 categories:
   - General
 ---
-A while ago, I wrote a [short series on creating a CV in LaTeX](http://www.texdev.net/2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/). I've made a few adjustments recently, both to my CV and my letter of application, and one issue came up in both of them: putting text on both sides of the header.
+A while ago, I wrote a [short series on creating a CV in LaTeX](/2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/). I've made a few adjustments recently, both to my CV and my letter of application, and one issue came up in both of them: putting text on both sides of the header.
 
 For my CV, I wanted to split the address block I put at the top into two parts: address on one side, phone numbers on the other. The easiest way to do that turns out to be a tabular
 

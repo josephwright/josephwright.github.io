@@ -12,7 +12,7 @@ categories:
 tags:
   - xparse
 ---
-As regular readers will know, I've taken an interest in [`biblatex`](https://ctan.org/pkg/biblatex) since it was first developed. Since the [original author disappeared](http://www.texdev.net/2012/04/03/biblatex-status/), I've been at least formally [involved in maintain the code](http://www.texdev.net/2012/04/23/biblatex-a-team-to-continue-the-work/). So far, that's been limited to tackling a few tricky low-level TeX issues, but there are some bigger issues to think about.
+As regular readers will know, I've taken an interest in [`biblatex`](https://ctan.org/pkg/biblatex) since it was first developed. Since the [original author disappeared](/2012/04/03/biblatex-status/), I've been at least formally [involved in maintain the code](/2012/04/23/biblatex-a-team-to-continue-the-work/). So far, that's been limited to tackling a few tricky low-level TeX issues, but there are some bigger issues to think about.
 
 Philip Kime, lead Biber and `biblatex` developer, is keen to extend the LaTeX end to supporting multiple scripts. The Biber end is already done (in the 'burning edge' version), and writes to the `.bbl` file in the format:
 

@@ -49,5 +49,5 @@ Presenting experimental work in a clear form is an important skill. For plotting
 \end{document}
 ```
 
-![](http://www.texdev.net/wp-content/uploads/2015/04/test-300x248.png)
+![](/wp-content/uploads/2015/04/test-300x248.png)
 My demo only has a few data points, but this style really shows it's worth as the number of points rises.

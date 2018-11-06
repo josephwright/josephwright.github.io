@@ -12,7 +12,7 @@ tags:
   - DTX
   - TDS
 ---
-In my post about [working with dtx files](http://www.texdev.net/2009/10/11/working-with-dtx-files/), I made the somewhat throw-away statement
+In my post about [working with dtx files](/2009/10/11/working-with-dtx-files/), I made the somewhat throw-away statement
 
 > The idea of a TDS-ready zip is also popular …
 

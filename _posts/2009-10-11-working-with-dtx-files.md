@@ -11,7 +11,7 @@ categories:
 tags:
   - DTX
 ---
-I've talked a bit about the [dtx file format](http://www.texdev.net/2009/10/05/the-dtx-format/) and given [an example of a skeleton dtx file](http://www.texdev.net/2009/10/06/a-model-dtx-file/). I thought I'd talk next about working with sources, which will be a bit of a scattered post but will hopefully be interesting!
+I've talked a bit about the [dtx file format](/2009/10/05/the-dtx-format/) and given [an example of a skeleton dtx file](/2009/10/06/a-model-dtx-file/). I thought I'd talk next about working with sources, which will be a bit of a scattered post but will hopefully be interesting!
 
 # Editing dtx files
 
