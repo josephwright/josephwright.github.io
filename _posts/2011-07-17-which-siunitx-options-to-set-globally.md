@@ -10,7 +10,7 @@ categories:
   - Packages
   - siunitx
 ---
-On the [TeX.SX](http://tex.stackexchange.com/) site recently, there was some discussion about [locally over-riding the `round-mode = places` setting](http://tex.stackexchange.com/q/23193/73) in my [siunitx](https://ctan.org/pkg/siunitx) package. One thing this highlights for me is the need to think about which settings to apply globally.
+On the [TeX.SX](http://tex.stackexchange.com/) site recently, there was some discussion about [locally over-riding the `round-mode = places` setting](http://tex.stackexchange.com/q/23193/73) in my [`siunitx`](https://ctan.org/pkg/siunitx) package. One thing this highlights for me is the need to think about which settings to apply globally.
 
 Some siunitx settings are about consistency of appearance, and seem to apply naturally to entire documents. A classic example would be `output-decimal-marker`: if you are using `,` as a decimal marker, it should apply everywhere!
 

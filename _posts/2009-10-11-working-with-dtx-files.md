@@ -51,7 +51,7 @@ plus a few special auto-complete entries. Not quite up with the best just yet, b
 
 # What to document
 
-Getting documentation right is not easy. My general approach is to try to include lots of examples, so I always load the package being talked about for the documentation. That means I can use the package ‘in place’. Unfortunately, ltxdoc does not have a built-in example environment. I use the [listings](https://ctan.org/pkg/listings) package, and although it's a bit complex looking, the following code works well:
+Getting documentation right is not easy. My general approach is to try to include lots of examples, so I always load the package being talked about for the documentation. That means I can use the package ‘in place’. Unfortunately, ltxdoc does not have a built-in example environment. I use the [`listings`](https://ctan.org/pkg/listings) package, and although it's a bit complex looking, the following code works well:
 
 ```latex
 %\lst@RequireAspects{writefile}

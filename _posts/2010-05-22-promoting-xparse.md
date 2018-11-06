@@ -11,7 +11,7 @@ categories:
 tags:
   - xparse
 ---
-I've had a few chances in recent weeks to promote the [xparse](https://ctan.org/pkg/xparse) package.  Regular readers will know that xparse is part of the efforts of the [LaTeX3 Project](http://www.latex-project.org/latex3.html), and is meant to provide a replacement for `\newcommand`, _etc._, for creating document macros. The promotions have come up where there are things that are hard to do with `\newcommand` but easy with xparse. One example was creating an [optional argument for a macro but giving it in normal braces](http://www.latex-community.org/forum/viewtopic.php?f=46&amp;t=8881). With xparse, this is pretty straight forward
+I've had a few chances in recent weeks to promote the [`xparse`](https://ctan.org/pkg/xparse) package.  Regular readers will know that xparse is part of the efforts of the [LaTeX3 Project](http://www.latex-project.org/latex3.html), and is meant to provide a replacement for `\newcommand`, _etc._, for creating document macros. The promotions have come up where there are things that are hard to do with `\newcommand` but easy with xparse. One example was creating an [optional argument for a macro but giving it in normal braces](http://www.latex-community.org/forum/viewtopic.php?f=46&amp;t=8881). With xparse, this is pretty straight forward
 
 <!-- {% raw %} -->
 ```latex

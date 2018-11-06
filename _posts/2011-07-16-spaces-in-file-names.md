@@ -12,7 +12,7 @@ tags:
   - MiKTeX
   - TeX Live
 ---
-Spaces in file names are a constant issue for LaTeX users. As many people will know, TeX is not really very happy with spaces, as they are used to delimit the end of input in a lot of low-level macros. This shows up particularly in two areas: graphics and shell escape. For graphics, the excellent [grffile](https://ctan.org/pkg/grffle) package will deal with many of the issues. When using shell escape, the issue is usually that `\jobname` may be slightly odd. For TeX Live users, that is not so much of a problem as the name is automatically quoted to protect the space. However, MiKTeX does things a bit differently, and uses a star in place of a space. So you end up with
+Spaces in file names are a constant issue for LaTeX users. As many people will know, TeX is not really very happy with spaces, as they are used to delimit the end of input in a lot of low-level macros. This shows up particularly in two areas: graphics and shell escape. For graphics, the excellent [`grffile`](https://ctan.org/pkg/grffile) package will deal with many of the issues. When using shell escape, the issue is usually that `\jobname` may be slightly odd. For TeX Live users, that is not so much of a problem as the name is automatically quoted to protect the space. However, MiKTeX does things a bit differently, and uses a star in place of a space. So you end up with
 
 ```latex
 \edef\example{\jobname}

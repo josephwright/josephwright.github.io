@@ -18,7 +18,7 @@ I make use of quite a few packages to get the appearance as I want. Rather than 
 
 ## Setting up the appearance
 
-Starting from the article class, the first thing to address is the overall appearance of the CV. The standard Computers Modern font is well designed, but I guess says ‘LaTeX’ in a may that many people don't want for a CV. With the availability of [XeTeX](http://tug.org/xetex) and [LuaTeX](http://www.luatex.org/), using system fonts is easy (using [fontspec](https://ctan.org/pkg/fontspec), of course), and that's particularly useful if like me you have some non-Latin characters that you'd like to include in the CV but keep visually ‘matching’ everything else.  For me, LuaTeX turns out to be a better choice than XeTeX (I want fully-functional microtypography as it helps with typesetting chemical names), so my CV starts off with
+Starting from the article class, the first thing to address is the overall appearance of the CV. The standard Computers Modern font is well designed, but I guess says ‘LaTeX’ in a may that many people don't want for a CV. With the availability of [XeTeX](http://tug.org/xetex) and [LuaTeX](http://www.luatex.org/), using system fonts is easy (using [`fontspec`](https://ctan.org/pkg/fontspec), of course), and that's particularly useful if like me you have some non-Latin characters that you'd like to include in the CV but keep visually ‘matching’ everything else.  For me, LuaTeX turns out to be a better choice than XeTeX (I want fully-functional microtypography as it helps with typesetting chemical names), so my CV starts off with
 ```latex
 % !TeX program = LuaLaTeX
 \documentclass[11pt,draft]{article}
@@ -39,7 +39,7 @@ As I say, I want microtypography set up, so do
 
 (Using the `final` option here will override the `draft` one set for the document class.)
 
-That sets up the fonts, but what about page layout? Well, the standard here is to use the [geometry](https://ctan.org/pkg/geometry) package
+That sets up the fonts, but what about page layout? Well, the standard here is to use the [`geometry`](https://ctan.org/pkg/geometry) package
 
 ```latex
 \usepackage[a4paper,nohead,nofoot,hmargin=1.5cm,vmargin=2cm]{geometry}
@@ -61,7 +61,7 @@ Before looking at the content of the CV, I'll mention hyperlinks as these come u
     pdftitle = Curriculum Vitae
   }
 ```
-at the end of my package-loading section. The [hyperref](https://ctan.org/pkg/hyperref) package deals with the links, while the set up makes them blend in to the text and adds my name to the PDF information.
+at the end of my package-loading section. The [`hyperref`](https://ctan.org/pkg/hyperref) package deals with the links, while the set up makes them blend in to the text and adds my name to the PDF information.
 
 ## Lead-off: the address block
 
@@ -96,7 +96,7 @@ Also as part of the lead-off, it's normal to have your name (_never_ ‘Curricul
 
 ## Sections and subsections
 
-A CV needs several sections, for example ‘Employment history’, ‘Skills’ and so on. The standard LaTeX `\section` is the best choice of logical mark up for these, but the appearance is going to be wrong without adjustment. Taking some inspiration from the [CurVe](https://ctan.org/pkg/curve) class, and using the abilities of [titlesec](https://ctan.org/pkg/titlesec) and [xcolor](https://ctan.org/pkg/xcolor), the output can be customised to give something much more pleasing for a CV. I use
+A CV needs several sections, for example ‘Employment history’, ‘Skills’ and so on. The standard LaTeX `\section` is the best choice of logical mark up for these, but the appearance is going to be wrong without adjustment. Taking some inspiration from the [CurVe](https://ctan.org/pkg/curve) class, and using the abilities of [`titlesec`](https://ctan.org/pkg/titlesec) and [`xcolor`](https://ctan.org/pkg/xcolor), the output can be customised to give something much more pleasing for a CV. I use
 
 <!-- {% raw %} -->
 ```latex
@@ -156,7 +156,7 @@ I then need the tables themselves. As they are all the same, it makes sense to s
 ```
 <!-- {% endraw %} -->
 
-(this uses the [array](https://ctan.org/pkg/array) package). I also `\renewcommand*\arraystretch{1.4}`, as this spreads the tables out a bit and I think makes things look less crowded.
+(this uses the [`array`](https://ctan.org/pkg/array) package). I also `\renewcommand*\arraystretch{1.4}`, as this spreads the tables out a bit and I think makes things look less crowded.
 
 The new environment is then used for each (sub)section, and contains the body of the CV, for example
 
@@ -215,11 +215,11 @@ You'll notice the `\headline` macro here: it's another formatting shortcut. It's
 ```
 <!-- {% endraw %} -->
 
-making use of the [pifont](https://ctan.org/pkg/pifont) package to provide a nice-looking star for each entry. You'll see in the above example that I use it for things like marking up each job I've had in the table of employment history.
+making use of the [`pifont`](https://ctan.org/pkg/pifont) package to provide a nice-looking star for each entry. You'll see in the above example that I use it for things like marking up each job I've had in the table of employment history.
 
 ## Other refinements
 
-As I mentioned in [part 1](http://www.texdev.net/2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/), one of the advantages of using LaTeX is that you can store information in your CV as comments. That might be as simple as commenting-out lines that you want to miss out for a particular job, but you might also want to deal with longer optional sections. The [comment](https://ctan.org/pkg/comment) package is ideal for this, as it lets you mark up sections for inclusion or exclusion in a pretty rapid way.
+As I mentioned in [part 1](http://www.texdev.net/2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/), one of the advantages of using LaTeX is that you can store information in your CV as comments. That might be as simple as commenting-out lines that you want to miss out for a particular job, but you might also want to deal with longer optional sections. The [`comment`](https://ctan.org/pkg/comment) package is ideal for this, as it lets you mark up sections for inclusion or exclusion in a pretty rapid way.
 
 I mentioned earlier that I set the `draft` option for my CV, then override it on a package-by-package basis. The reason is that this will always include bars for overfull boxes: useful as you want to check for these.
 

@@ -15,7 +15,7 @@ In the [previous post](/2011/12/07/programming-latex3-background/), I mentioned 
 
 ## In the preamble of a document
 
-The LaTeX3 programming code usable with LaTeX2e is available as a package called expl3 (which for various reasons is distributed as part of [l3kernel](https://ctan.org/pkg/l3kernel)). This is loaded in the usual way
+The LaTeX3 programming code usable with LaTeX2e is available as a package called expl3 (which for various reasons is distributed as part of [`l3kernel`](https://ctan.org/pkg/l3kernel)). This is loaded in the usual way
 
 ```latex
 \documentclass{article}

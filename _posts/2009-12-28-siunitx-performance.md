@@ -12,7 +12,7 @@ categories:
 tags:
   - speed
 ---
-I had an e-mail today about using [siunitx](https://ctan.org/pkg/siunitx) when there are a lot of calls to the package. As you might expect, things can get a bit slow, and the person who contacted me felt that things get rather too slow. There are differences between the current release version of siunitx and the development code (version 2), and I've also added a few features to help speed things up where appropriate using version 2. So I thought I'd put a bit of information on the comparison in the public domain.
+I had an e-mail today about using [`siunitx`](https://ctan.org/pkg/siunitx) when there are a lot of calls to the package. As you might expect, things can get a bit slow, and the person who contacted me felt that things get rather too slow. There are differences between the current release version of siunitx and the development code (version 2), and I've also added a few features to help speed things up where appropriate using version 2. So I thought I'd put a bit of information on the comparison in the public domain.
 
 First, a baseline is not to use siunitx at all, and to simply test everything by hand. For that, I tried the simple test file:
 

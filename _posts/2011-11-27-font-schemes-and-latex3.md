@@ -37,7 +37,7 @@ The NFSS is not perfect, and so LaTeX3's FSS cannot be simply a clone of NFSS. P
 
 ## Font face loading
 
-The second area to think about is loading fonts in the first place. The traditional LaTeX2e approach to this to set up a small(ish) package to select a font family, for example [lmodern](http://ctan.org/tex-archive/fonts/lm) or [mathptmx](https://ctan.org/pkg/mathptmx), which will then use the NFSS to load the appropriate TeX font files. For users of XeTeX or LuaTeX, the standard method is to use the [fontspec](https://ctan.org/pkg/fontspec) package, which provides an interface between the extended `\font` primitives in these engines and the NFSS.
+The second area to think about is loading fonts in the first place. The traditional LaTeX2e approach to this to set up a small(ish) package to select a font family, for example [lmodern](http://ctan.org/tex-archive/fonts/lm) or [`mathptmx`](https://ctan.org/pkg/mathptmx), which will then use the NFSS to load the appropriate TeX font files. For users of XeTeX or LuaTeX, the standard method is to use the [`fontspec`](https://ctan.org/pkg/fontspec) package, which provides an interface between the extended `\font` primitives in these engines and the NFSS.
 
 There are a few things to think about here. First, while XeTeX and LuaTeX can load system fonts directly, pdfTeX cannot. Secondly, even if you are using XeTeX or LuaTeX access to traditional TeX fonts cannot be ignored. There is a lot of MetaFont material on CTAN which is not available in any other format, so simply dropping support for these is not an option.
 

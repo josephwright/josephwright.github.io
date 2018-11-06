@@ -13,7 +13,7 @@ tags:
   - biber
   - JabRef
 ---
-A notice in my inbox from François Charette alerted me yesterday to the first beta release of [biber](http://biblatex-biber.sourceforge.net/). This is a cross-platform (Perl) replacement for BibTeX for [biblatex](https://ctan.org/pkg/biblatex) users. By moving on from BibTeX, there are a number of advantages. First, the problems inherent in the BibTeX code (no Unicode support, memory limitations and so on) are removed. The need for something beyond BibTeX is a well-known problem.
+A notice in my inbox from François Charette alerted me yesterday to the first beta release of [biber](http://biblatex-biber.sourceforge.net/). This is a cross-platform (Perl) replacement for BibTeX for [`biblatex`](https://ctan.org/pkg/biblatex) users. By moving on from BibTeX, there are a number of advantages. First, the problems inherent in the BibTeX code (no Unicode support, memory limitations and so on) are removed. The need for something beyond BibTeX is a well-known problem.
 
 More importantly, biber comes with an experimental XML file format as a replacement for the .bib file type. The limitations of the .bib approach are more subtle than those of BibTeX itself. A lot of problems stem from the simplicity of the .bib format. This severely limits how much detail can be given for complex data types. For example, there is no good way to give multiple publishers and locations in the .bib format:
 

@@ -10,9 +10,9 @@ categories:
   - Packages
   - siunitx
 ---
-As I [detailed a little while ago](http://www.texdev.net/2011/03/20/sorting-issues-for-consideration-for-siunitx-v2-2/), I've been working on v2.2 of [siunitx](https://ctan.org/pkg/siunitx). I've now released the latest version, v2.2, to [CTAN](https://www.ctan.org). There are a number of small changes, introducing new features, but I thought I would highlight a few.
+As I [detailed a little while ago](http://www.texdev.net/2011/03/20/sorting-issues-for-consideration-for-siunitx-v2-2/), I've been working on v2.2 of [`siunitx`](https://ctan.org/pkg/siunitx). I've now released the latest version, v2.2, to [CTAN](https://www.ctan.org). There are a number of small changes, introducing new features, but I thought I would highlight a few.
 
-A long-standing feature request has been to be able to use the [cancel](https://ctan.org/pkg/cancel) package to show how units cancel out. This is useful for teaching, although it's not of course part of the usual typesetting of units for publication. It turns out not to be too hard to allow this, so that you can now use input such as
+A long-standing feature request has been to be able to use the [`cancel`](https://ctan.org/pkg/cancel) package to show how units cancel out. This is useful for teaching, although it's not of course part of the usual typesetting of units for publication. It turns out not to be too hard to allow this, so that you can now use input such as
 
 ```latex
 \si[per-mode = fraction]{\cancel\kg\m\per\s\cancel\kg}

@@ -21,7 +21,7 @@ The current floating point implementation in LaTeX3 is based on carrying out ass
 
 ### Extending key–value concepts
 
-The current [l3keys](https://github.com/latex3/svn-mirror/blob/master/l3kernel/l3keys.dtx) module is based loosely on [pgfkeys](https://ctan.org/pkg/pgf). One area that is not implemented is the idea of a ‘key path’. Using a path model for setting keys has some advantages, so I'd like to add something like the ability to do
+The current [l3keys](https://github.com/latex3/svn-mirror/blob/master/l3kernel/l3keys.dtx) module is based loosely on [`pgfkeys`](https://ctan.org/pkg/pgf). One area that is not implemented is the idea of a ‘key path’. Using a path model for setting keys has some advantages, so I'd like to add something like the ability to do
 
 ```latex
 \keys_set:n
@@ -58,7 +58,7 @@ and see that you get 12 pt of space! We've already got three galley implementati
 
 ### Font selection
 
-The ‘New Font Selection Scheme’ in LaTeX2e is a pretty good approach to selecting fonts. So the first task here is more-or-less to convert the code to LaTeX3 syntax. There are then a few items to address, such as how to deal with small caps. Loading fonts also needs to be fitted in here: some combination of [fontspec](https://ctan.org/pkg/fontspec) (for XeTeX and LuaTeX) with the existing pdfTeX mechanisms is going to be needed, and it's a question of how to do this.
+The ‘New Font Selection Scheme’ in LaTeX2e is a pretty good approach to selecting fonts. So the first task here is more-or-less to convert the code to LaTeX3 syntax. There are then a few items to address, such as how to deal with small caps. Loading fonts also needs to be fitted in here: some combination of [`fontspec`](https://ctan.org/pkg/fontspec) (for XeTeX and LuaTeX) with the existing pdfTeX mechanisms is going to be needed, and it's a question of how to do this.
 
 ## Long term
 

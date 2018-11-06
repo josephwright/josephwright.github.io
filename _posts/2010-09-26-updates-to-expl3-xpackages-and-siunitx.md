@@ -11,4 +11,4 @@ categories:
 tags:
   - expl3
 ---
-A quick note to say that I've just uploaded to CTAN updates for [expl3](https://ctan.org/pkg/expl3), [xpackages](https://ctan.org/pkg/l3packages) and [siunitx](https://ctan.org/pkg/siunitx). There are some low-level changes which mean that these have to be updated together. So if you grab one of them, grab them all!
+A quick note to say that I've just uploaded to CTAN updates for [`expl3`](https://ctan.org/pkg/expl3), [`xpackages`](https://ctan.org/pkg/l3packages) and [`siunitx`](https://ctan.org/pkg/siunitx). There are some low-level changes which mean that these have to be updated together. So if you grab one of them, grab them all!

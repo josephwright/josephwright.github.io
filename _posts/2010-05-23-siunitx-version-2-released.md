@@ -11,7 +11,7 @@ categories:
   - Packages
   - siunitx
 ---
-After many months of work, I'm pleased to announce that I've just sent version 2 of [siunitx](https://ctan.org/pkg/siunitx) to CTAN. Many readers will be familiar with the package and some of the development process. Here, I've put together a summary as ‘release notes’ for the new version.
+After many months of work, I'm pleased to announce that I've just sent version 2 of [`siunitx`](https://ctan.org/pkg/siunitx) to CTAN. Many readers will be familiar with the package and some of the development process. Here, I've put together a summary as ‘release notes’ for the new version.
 
 ## A comprehensive (SI) units package
 
@@ -23,7 +23,7 @@ units, and the ability to control tabular alignment of numbers.
 
 ## Version 2
 
-Over the past two years siunitx has developed to include many features not originally foreseen when development began. While it has been possible to add a range of new features, some of the underlying limitation of the version 1 code have made this difficult. At the same time, renewed effort by the LaTeX Team on the development of [LaTeX3](http://www.latex-project.org/latex3.html), and in particular the [expl3](https://ctan.org/pkg/l3kernel) programming system, has offered a more robust method to create the internal structure of siunitx. As a result, version 2 of siunitx has been almost completely re-written internally.
+Over the past two years siunitx has developed to include many features not originally foreseen when development began. While it has been possible to add a range of new features, some of the underlying limitation of the version 1 code have made this difficult. At the same time, renewed effort by the LaTeX Team on the development of [LaTeX3](http://www.latex-project.org/latex3.html), and in particular the [`expl3`](https://ctan.org/pkg/l3kernel) programming system, has offered a more robust method to create the internal structure of siunitx. As a result, version 2 of siunitx has been almost completely re-written internally.
 
 As well as fixing a number of bugs and limitations in the original release, version 2 is also much better written to work quickly. As a result, most users should see performance enhancements with this new release of siunitx.
 

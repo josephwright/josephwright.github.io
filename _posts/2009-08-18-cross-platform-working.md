@@ -37,7 +37,7 @@ set TXT=README
 set UNPACK=%PACKAGE%.dtx
 ```
 
-Anyone at all familiar with batch files will see that this is a block of environmental variables: in this case, these are the settings for my [achemso](https://ctan.org/pkg/achemso) package. Most are pretty obvious settings, but in case anyone wants to use the file for their own purposes:
+Anyone at all familiar with batch files will see that this is a block of environmental variables: in this case, these are the settings for my [`achemso`](https://ctan.org/pkg/achemso) package. Most are pretty obvious settings, but in case anyone wants to use the file for their own purposes:
 
 - `AUXFILES` File types to delete after every run: throw away files.
 - `CLEAN` File types deleted only if make clean is run: useful stuff.

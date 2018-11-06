@@ -11,7 +11,7 @@ categories:
   - Packages
   - siunitx
 ---
-The need to have public timetables for large projects is something I mention quite a bit on the [LaTeX-L list](https://listserv.uni-heidelberg.de/cgi-bin/wa?A0=LATEX-L). The [LaTeX3 ](http://www.latex-project.org/latex3.html)project has run for many years, and at the moment there is no public indication of when a “LaTeX3 kernel” might be available. As I've mentioned that I'm working on [siunitx](https://ctan.org/pkg/siunitx) v2, I guess I'd be hypocritical if I didn't have some kind of public statement about how things are going.
+The need to have public timetables for large projects is something I mention quite a bit on the [LaTeX-L list](https://listserv.uni-heidelberg.de/cgi-bin/wa?A0=LATEX-L). The [LaTeX3 ](http://www.latex-project.org/latex3.html)project has run for many years, and at the moment there is no public indication of when a “LaTeX3 kernel” might be available. As I've mentioned that I'm working on [`siunitx`](https://ctan.org/pkg/siunitx) v2, I guess I'd be hypocritical if I didn't have some kind of public statement about how things are going.
 
 The plan at the moment is something like:
 

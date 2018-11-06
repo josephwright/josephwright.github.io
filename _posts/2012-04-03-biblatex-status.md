@@ -10,7 +10,7 @@ categories:
   - biblatex
   - Packages
 ---
-Over the past few years, the [biblatex](https://ctan.org/pkg/biblatex) package has been developed by Philipp Lehman to be the leading method for creating bibliographies in LaTeX. The combination of biblatex with [Biber](http://biblatex-biber.sourceforge.net/) is even more powerful: arguably the most complete solution to database-driven bibliographies available.
+Over the past few years, the [`biblatex`](https://ctan.org/pkg/biblatex) package has been developed by Philipp Lehman to be the leading method for creating bibliographies in LaTeX. The combination of biblatex with [Biber](http://biblatex-biber.sourceforge.net/) is even more powerful: arguably the most complete solution to database-driven bibliographies available.
 
 Philipp Lehman has done a massive amount of work to get us to this position, and has until recently been very reactive to user feedback. However, over the past few months no-one has heard from him. Philip Kime has posted to ([de.](http://groups.google.com/group/de.comp.text.tex/browse_thread/thread/a37ba75cb90f3062#))[comp.text.tex](http://groups.google.com/group/comp.text.tex/browse_thread/thread/14d769edee6aae7a) about this: it seems that the TeX community as a whole know very little about Philipp Lehman beyond his e-mail address! (A number of avenues have regrettable given no more information.)  Any information, or indeed contact from Philipp, would be great.
 

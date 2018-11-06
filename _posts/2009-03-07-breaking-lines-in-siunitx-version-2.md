@@ -10,7 +10,7 @@ categories:
   - Packages
   - siunitx
 ---
-Line breaks between units and values are frowned upon by those “in the know”, as the unit–value combination is mathematically one entity. Despite that, in reality this is a feature I've been asked for in [siunitx](https://ctan.org/pkg/siunitx).The way I'm implementing things, this is not technically difficult to implement. With a suitable warning, I will include the ability to break between units and values in siunitx version 2.
+Line breaks between units and values are frowned upon by those “in the know”, as the unit–value combination is mathematically one entity. Despite that, in reality this is a feature I've been asked for in [`siunitx`](https://ctan.org/pkg/siunitx).The way I'm implementing things, this is not technically difficult to implement. With a suitable warning, I will include the ability to break between units and values in siunitx version 2.
 
 The other place you could place breaks is between different units (assuming a space is being used as the unit separator). This is much more problematic for a number of reasons. First, unlike between numbers and units, the inter-unit separator might be one of various things. The space between a value and a unit is always some kind of white space, and is always expected by the reader. So working out if a break is sensible would not be easy. Second, siunitx needs to handle two types of unit input, units as macros and literal input. I've steered away from processing literal units for various reasons, and reliably breaking both types of input looks difficult. Third, there is a technical problem. Simplifying how siunitx works, currently units are actually printed by some code that does:
 

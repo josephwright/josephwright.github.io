@@ -46,7 +46,7 @@ Okay, how does this relate to local variables? Well, this higher-level tracking 
 
 the register number for `\newcount` is not available at the end of the group. As there are only 256 registers of each type in Knuth's TeX, this could soon lead to a serious issue.
 
-The [etex](https://ctan.org/pkg/etex) package provides for both global and local allocation of registers. This means that you can do
+The [`etex`](https://ctan.org/pkg/etex) package provides for both global and local allocation of registers. This means that you can do
 
 ```latex
 \usepackage{etex}
