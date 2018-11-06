@@ -44,7 +44,7 @@ There is then a guard called ‘internal’: this is never extracted out, but le
 demopkg --- description text
 E-mail: you@your.domain
 Released under the LaTeX Project Public License v1.3c or later
-See http://www.latex-project.org/lppl.txt
+See https://www.latex-project.org/lppl.txt
 ----------------------------------------------------------------
 
 Some text about the package: probably the same as the abstract.
@@ -80,7 +80,7 @@ The next section, inside ‘install’ guards, is the instructions for extractin
 demopkg --- description text
 E-mail: you@your.domain
 Released under the LaTeX Project Public License v1.3c or later
-See http://www.latex-project.org/lppl.txt
+See https://www.latex-project.org/lppl.txt
 ----------------------------------------------------------------
 
 \endpreamble
@@ -93,7 +93,7 @@ conditions of the LaTeX Project Public License (LPPL), either
 version 1.3c of this license or (at your option) any later
 version.  The latest version of this license is in the file:
 
-http://www.latex-project.org/lppl.txt
+https://www.latex-project.org/lppl.txt
 
 This work is "maintained" (as per LPPL maintenance status) by
 You.

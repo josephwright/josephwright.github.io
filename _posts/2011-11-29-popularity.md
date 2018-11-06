@@ -17,6 +17,6 @@ In a typical day, ‘Some TeX Developments’ gets around 200 hits. That varies 
 
 The [TeXample.net](http://www.texample.net/) site features both the community aggregator and the very useful [set of TikZ examples](http://www.texample.net/tikz/). As you'd expect, this combination gains it a lot more hits than a blog: I believe about 2500 per day.
 
-Then there's [TeX.sx](http://tex.stackexchange.com/), which has grown rapidly in the last year to become a great place to find TeX answers. Hits-per-day have been rising steadily there, and are now well over 20,000 per day. There are usually at lest 40 new questions and 70 new answers driving this growth, which I think bodes well for TeX.
+Then there's [TeX.sx](https://tex.stackexchange.com/), which has grown rapidly in the last year to become a great place to find TeX answers. Hits-per-day have been rising steadily there, and are now well over 20,000 per day. There are usually at lest 40 new questions and 70 new answers driving this growth, which I think bodes well for TeX.
 
 So over all the picture is of a range of sites getting a good number of hits. I've no idea how that compares with other typesetting systems or programming languages, but I'd like to feel it is a good sign for the future.

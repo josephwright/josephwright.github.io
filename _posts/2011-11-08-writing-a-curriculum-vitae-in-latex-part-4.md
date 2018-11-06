@@ -16,7 +16,7 @@ I've looked over the last few days at some issues centring on writing a CV in La
 
 ## Package loading
 
-I'll start as before by loading the article class and setting up some fonts. To allow a bit of flexibility, here I've made LuaLaTeX optional, so that the file can be processed, for example, using [TeX4ht](http://www.tug.org/applications/tex4ht/mn.html). As far as possible, the look will be the same with pdfLaTeX or LuaLaTeX (as I [said earlier](/2011/11/06/writing-a-curriculum-vitae-in-latex-part-2/), I use LuaLaTeX for my CV as it makes some aspects of the real thing easier).
+I'll start as before by loading the article class and setting up some fonts. To allow a bit of flexibility, here I've made LuaLaTeX optional, so that the file can be processed, for example, using [TeX4ht](https://tug.org/applications/tex4ht/mn.html). As far as possible, the look will be the same with pdfLaTeX or LuaLaTeX (as I [said earlier](/2011/11/06/writing-a-curriculum-vitae-in-latex-part-2/), I use LuaLaTeX for my CV as it makes some aspects of the real thing easier).
 
 ```latex
 \documentclass[11pt]{article}

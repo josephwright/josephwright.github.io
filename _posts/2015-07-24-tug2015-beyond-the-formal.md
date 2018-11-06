@@ -17,7 +17,7 @@ I've given a summary of the 'formal' business of each session at TUG2015 over th
 - [Day two](/2015/07/21/tug2015-day-two/)
 - [Day three](/2015/07/22/tug2015-day-three/)
 
-Of course, there was a lot more to the meeting beyond the talk sessions. [Stefan Kottwitz](http://texblog.net/) covered some of them in a [TeX-sx blog post](http://tex.blogoverflow.com/2015/07/tex-user-group-meeting-2015/), including a picture of (most of) the [TeX-sx](http://tex.stackexchange.com) regulars in attendance.
+Of course, there was a lot more to the meeting beyond the talk sessions. [Stefan Kottwitz](http://texblog.net/) covered some of them in a [TeX-sx blog post](http://tex.blogoverflow.com/2015/07/tex-user-group-meeting-2015/), including a picture of (most of) the [TeX-sx](https://tex.stackexchange.com) regulars in attendance.
 
 It was great to meet people I've come across over the years but haven't met in person: I think the only delegate I'd met before was David Carlisle (who lives less than an hour's drive from home). So each coffee and lunch break was a (quick) chance to at least say hello to people.
 

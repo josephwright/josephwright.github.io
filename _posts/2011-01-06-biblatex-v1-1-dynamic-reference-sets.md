@@ -10,7 +10,7 @@ categories:
   - biblatex
   - Packages
 ---
-The latest version of [biblatex, v1.1,](https://ctan.org/pkg/biblatex) appeared on [CTAN](https://www.ctan.org) yesterday. This is a feature release, not just bug fixes, and so there are lots of new things there. At the same time, [Biber](http://biblatex-biber.sourceforge.net/) has been updated to v0.7. If you use [TeX Live 2010](http://www.tug.org/texlive), you'll be able to get the new biblatex using `tlmgr` in a day or so, and can get the Biber update _via_ [TLcontrib](http://tlcontrib.metatex.org/) already.
+The latest version of [biblatex, v1.1,](https://ctan.org/pkg/biblatex) appeared on [CTAN](https://www.ctan.org) yesterday. This is a feature release, not just bug fixes, and so there are lots of new things there. At the same time, [Biber](http://biblatex-biber.sourceforge.net/) has been updated to v0.7. If you use [TeX Live 2010](https://tug.org/texlive), you'll be able to get the new biblatex using `tlmgr` in a day or so, and can get the Biber update _via_ [TLcontrib](http://tlcontrib.metatex.org/) already.
 
 Many of the new features rely on Biber, and will not work with BibTeX. As Biber has lots of advantages anyway, including UTF-8 support and active development, this is no real hindrance.
 

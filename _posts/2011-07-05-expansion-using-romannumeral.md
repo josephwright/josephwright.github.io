@@ -9,7 +9,7 @@ permalink: /2011/07/05/expansion-using-romannumeral/
 categories:
   - General
 ---
-There was [recent question on TeX.SX about expansion](http://tex.stackexchange.com/q/22288/73), where I suggested using `\romannumeral` for full expansion. This idea comes up quite often, so I thought it would be useful to look at how it works.
+There was [recent question on TeX.SX about expansion](https://tex.stackexchange.com/q/22288/73), where I suggested using `\romannumeral` for full expansion. This idea comes up quite often, so I thought it would be useful to look at how it works.
 
 The `\romannumeral` primitive was intended to turn integers into roman numerals. As such, the input to `\romannumeral` should be an integer, in the same way that the input to `\number` is an integer. However, while `\number` produces output for both positive and negative integer input, `\romannumeral` produces no output at all for valid negative integer input. That is pretty clear with a simple case such as
 

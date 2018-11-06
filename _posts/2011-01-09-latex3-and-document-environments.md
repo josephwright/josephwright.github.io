@@ -12,7 +12,7 @@ tags:
   - environments
   - xparse
 ---
-There was a [question](http://tex.stackexchange.com/questions/8528/) on the [{TeX} Q&amp;A site](http://tex.stackexchange.com/) recently about compiling a document reading
+There was a [question](https://tex.stackexchange.com/questions/8528/) on the [{TeX} Q&amp;A site](https://tex.stackexchange.com/) recently about compiling a document reading
 
 ```latex
 \documentclass{minimal}
@@ -21,7 +21,7 @@ a
 \enddocument
 ```
 
-This doesn't work: I've explained why as my answer to the question. I also mentioned that in [LaTeX3](http://www.latex-project.org/latex3.html) I'd expect this won't work. Here, I want to look at that in a bit more detail.
+This doesn't work: I've explained why as my answer to the question. I also mentioned that in [LaTeX3](https://www.latex-project.org/latex3.html) I'd expect this won't work. Here, I want to look at that in a bit more detail.
 
 First, the background. When LaTeX2e creates an environment `foo`, what actually happens is two macros called `\foo` and `\endfoo` are defined (hence the original question). When you do
 

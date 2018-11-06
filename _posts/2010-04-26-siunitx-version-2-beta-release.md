@@ -18,7 +18,7 @@ Over the past few months I've been working a new version of [`siunitx`](https://
 
 ## Release notes
 
-The code used in siunitx relies on the [LaTeX3 Project](http://www.latex-project.org/) packages [`expl3`](https://ctan.org/pkg/expl3) and [`xpackages`](https://ctan.org/pkg/xpackages). You will need the latest versions of both of these to test siunitx 2: they can both be downloaded from [CTAN](https://www.ctan.org) or installed using the update facilities in [TeX Live](http://www.tug.org/texlive/) or [MiKTeX](http://www.miktex.org/).
+The code used in siunitx relies on the [LaTeX3 Project](https://www.latex-project.org/) packages [`expl3`](https://ctan.org/pkg/expl3) and [`xpackages`](https://ctan.org/pkg/xpackages). You will need the latest versions of both of these to test siunitx 2: they can both be downloaded from [CTAN](https://www.ctan.org) or installed using the update facilities in [TeX Live](https://tug.org/texlive/) or [MiKTeX](https://www.miktex.org/).
 
 Version 2 of siunitx renames most of the package options to make them more informative. The old names are available by using:
 

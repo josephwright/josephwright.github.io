@@ -11,9 +11,9 @@ categories:
 tags:
   - TeX Live
 ---
-[TeX Live](http://tug.org/texlive/) takes almost all of the material it includes from [CTAN](http://ctan.org/), but not everything that goes to CTAN gets into TeX Live. That's because CTAN will take anything TeX-related, but TeX Live is ‘free as in speech’ and that means that some things are not suitable for inclusion.
+[TeX Live](https://tug.org/texlive/) takes almost all of the material it includes from [CTAN](http://ctan.org/), but not everything that goes to CTAN gets into TeX Live. That's because CTAN will take anything TeX-related, but TeX Live is ‘free as in speech’ and that means that some things are not suitable for inclusion.
 
-Packages are removed from time to time license reasons: they are not actually free, so can't stay. However,  a few packages have been removed from TeX Live they did not fit in with the policy for inclusion in TeX Live for other reasons. That has caused a bit more surprise, and some [questions have come up about it](http://tex.stackexchange.com/questions/49479/package-flashmovie-removed-from-tex-live/49482#49482).So I thought it would be useful to summarise the TeX Live situation as I understand it.
+Packages are removed from time to time license reasons: they are not actually free, so can't stay. However,  a few packages have been removed from TeX Live they did not fit in with the policy for inclusion in TeX Live for other reasons. That has caused a bit more surprise, and some [questions have come up about it](https://tex.stackexchange.com/questions/49479/package-flashmovie-removed-from-tex-live/49482#49482).So I thought it would be useful to summarise the TeX Live situation as I understand it.
 
 The clearest case is material where the license is not ‘free’ (as defined by [Debian](http://www.debian.org/)): anything without a free license cannot go into TeX Live. Perhaps the next clearest case is support for commercial fonts. To use a font with pdfLaTeX, it's necessary to have the correct support files. Quite often, these are sent to CTAN with a free license, but don't go into TeX Live. Without the fonts themselves you can't use the support material, so it's only practically useful if you are happy to buy the non-free fonts.
 

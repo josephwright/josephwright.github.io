@@ -9,7 +9,7 @@ permalink: /2013/09/01/customising-texworks-auto-completion/
 categories:
   - TeXworks
 ---
-[TeXworks](http://tug.org/texworks) is a very flexible editor, and one of the things you can customise, if you want, is the set of auto-completion values it knows. For those of you who are not familiar with it, TeXworks uses a simple list of simple completion options, so when I type
+[TeXworks](https://tug.org/texworks) is a very flexible editor, and one of the things you can customise, if you want, is the set of auto-completion values it knows. For those of you who are not familiar with it, TeXworks uses a simple list of simple completion options, so when I type
 
 ```latex
 \doc

@@ -11,7 +11,7 @@ categories:
 tags:
   - TeX Live
 ---
-Karl Berry has posted to the [TeX Live](http://www.tug.org/texlive/) mailing list
+Karl Berry has posted to the [TeX Live](https://tug.org/texlive/) mailing list
 
 > I hope to take care of the endless last-minute updates over the next
 couple days, and then freeze everything, including package updates, as

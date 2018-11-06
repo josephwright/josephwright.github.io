@@ -11,7 +11,7 @@ categories:
 tags:
   - LuaTeX
 ---
-The question of why[ LaTeX3 development is not focussed on LuaTeX](http://tex.stackexchange.com/questions/45183/latex3-versus-pure-lua) came up yesterday on the [TeX-sx](http://tex.blogoverflow.com/) site. I've added an answer there covering some of the issues, but I thought that something a bit more open-ended might also be useful on the same topic.
+The question of why[ LaTeX3 development is not focussed on LuaTeX](https://tex.stackexchange.com/questions/45183/latex3-versus-pure-lua) came up yesterday on the [TeX-sx](http://tex.blogoverflow.com/) site. I've added an answer there covering some of the issues, but I thought that something a bit more open-ended might also be useful on the same topic.
 
 Before I look at the approaches that are available, it's worth asking why a format is needed beyond LaTeX2e. There are a few reasons I feel it's needed, but a few stand out.
 

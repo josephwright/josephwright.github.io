@@ -14,7 +14,7 @@ tags:
   - TeX Live
   - Unicode
 ---
-The first [testing builds](http://www.tug.org/texlive/pretest) of TeX Live 2010 are now available, which you can also read about in the [TeXblog entry](http://texblog.net/latex-archive/news/tex-live-2010-test/). I downloaded it a few days ago, currently just to my Mac (Windows testing on my system at work starts next week). There are a few changes, some of which were planned for TeX Live 2009 and did not make it. The highlights for me
+The first [testing builds](https://tug.org/texlive/pretest) of TeX Live 2010 are now available, which you can also read about in the [TeXblog entry](http://texblog.net/latex-archive/news/tex-live-2010-test/). I downloaded it a few days ago, currently just to my Mac (Windows testing on my system at work starts next week). There are a few changes, some of which were planned for TeX Live 2009 and did not make it. The highlights for me
 
 - Restricted `\write18` support is back. I've written about the [issues with this before](/2009/10/14/no-restricted-write18-just-yet/), but as I understand it these are now solved. The idea of this support is that EPS graphics can be turned into PDF graphics automatically, meaning that pdfLaTeX is much easier to use for end users with mainly EPS graphics available.
 - The default PDF output is level 1.5, which means that more compression of the output is available. The amount of compression depends on the type of output (files with lots of hyperlinks seem to show the most dramatic results). I've been using PDF 1.5 for a while with no issues, so I hope that this is applicable to most users.

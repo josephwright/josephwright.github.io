@@ -11,4 +11,4 @@ categories:
 tags:
   - TUGboat
 ---
-I've drafted a [TUGboa](http://www.tug.org/tugboat/)t article about [LaTeX3](http://www.latex-project.org/latex3.html), mainly focussed on the new internal programming syntax. The current draft is available as a PDF and as the LaTeX source.
+I've drafted a [TUGboa](https://tug.org/tugboat/)t article about [LaTeX3](https://www.latex-project.org/latex3.html), mainly focussed on the new internal programming syntax. The current draft is available as a PDF and as the LaTeX source.

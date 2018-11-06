@@ -11,13 +11,13 @@ categories:
 tags:
   - LPPL
 ---
-The [LaTeX Project Public License (LPPL)](http://www.latex-project.org/lppl/) was written to allow development of LaTeX code in a way that is free as in speech while also making sure that LaTeX users get what they expect when they
+The [LaTeX Project Public License (LPPL)](https://www.latex-project.org/lppl/) was written to allow development of LaTeX code in a way that is free as in speech while also making sure that LaTeX users get what they expect when they
 
 ```latex
 \usepackage{foo}
 ```
 
-Frank Mittelbach wrote an [excellent overview](https://www.tug.org/members/TUGboat/tb32-1/tb100mitt.pdf) of how the LPPL was developed for [_TUGBoat_](http://tug.org/tugboat/) last year, where he discussed the balance between the rights of the coder and the rights of the person using the code!
+Frank Mittelbach wrote an [excellent overview](https://www.tug.org/members/TUGboat/tb32-1/tb100mitt.pdf) of how the LPPL was developed for [_TUGBoat_](https://tug.org/tugboat/) last year, where he discussed the balance between the rights of the coder and the rights of the person using the code!
 
 The LPPL is designed to deal with packages which are both ‘maintained’ and ‘unmaintained’, and provides a way to allow new maintainers to take over unmaintained material. It also allows for packages to be ‘author-maintained’, which sounds similar to just ‘maintained’ but is significantly different.
 

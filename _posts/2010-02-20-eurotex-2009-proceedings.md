@@ -12,10 +12,10 @@ tags:
   - ConTeXt
   - EuroTeX
 ---
-In my post box a few days ago was the proceedings of the EuroTeX 2009 conference ([TUGBoat](http://www.tug.org/tugboat/) 30:3, which I get as a joint member of [TUG](http://www.tug.org/) and [UK-TUG](http://uk.tug.org/)). Quite a few of the articles are about [ConTeXt](http://wiki.contextgarden.net/), not surprising as the 3rd ConTeXt meeting took place in parallel to EuroTeX. The highlights will be different for everyone, of course. I'll pick out a few articles that caught my attention (and perhaps add a few more in a later post):
+In my post box a few days ago was the proceedings of the EuroTeX 2009 conference ([TUGBoat](https://tug.org/tugboat/) 30:3, which I get as a joint member of [TUG](https://tug.org/) and [UK-TUG](http://uk.tug.org/)). Quite a few of the articles are about [ConTeXt](http://wiki.contextgarden.net/), not surprising as the 3rd ConTeXt meeting took place in parallel to EuroTeX. The highlights will be different for everyone, of course. I'll pick out a few articles that caught my attention (and perhaps add a few more in a later post):
 
-- Siep Kroonenberg wrote about maintaining a (Windows) network installation of [TeX Live](http://www.tug.org/texlive/). While not a step by step guide, I found this a useful insight into getting started on providing multi-user access to TeX.
-- Péter Szabó looked at optimising PDF size, both using [pdfTeX](http://www.tug.org/applications/pdftex/) and with post-production tools. This has come up recently on the [TeX Live mailing list](http://tug.org/mailman/listinfo/tex-live), so it was interesting to see more detail about the concepts involved.
+- Siep Kroonenberg wrote about maintaining a (Windows) network installation of [TeX Live](https://tug.org/texlive/). While not a step by step guide, I found this a useful insight into getting started on providing multi-user access to TeX.
+- Péter Szabó looked at optimising PDF size, both using [pdfTeX](https://tug.org/applications/pdftex/) and with post-production tools. This has come up recently on the [TeX Live mailing list](https://tug.org/mailman/listinfo/tex-live), so it was interesting to see more detail about the concepts involved.
 - Taco Hoekwater explained how the development work on [LuaTeX](http://www.luatex.org/) has finally removed all of the Pascal code from the sources, and why this was a ‘Good Thing’. An interesting insight into work at the engine level.
 - In the ‘Abstracts Only’ section I was particularly interested in one about PPCHTeX by Hans Hagen. PPCHTeX is an approach to typesetting chemical structures in TeX, and is therefore of more than passing interest to me in my day job.
 

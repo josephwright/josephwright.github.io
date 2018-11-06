@@ -12,7 +12,7 @@ tags:
   - LuaTeX
   - microkernel
 ---
-There is quite a lot going on with the low level code for [LaTeX3](http://www.latex-project.org/latex3.html) at the moment. The number of commits to the code is ticking over nicely, as the code is revised and Will Robertson gets the test system written. Will has taken on a thankless task with this job, and I think is owed a debt of gratitude by everyone interested in LaTeX3.
+There is quite a lot going on with the low level code for [LaTeX3](https://www.latex-project.org/latex3.html) at the moment. The number of commits to the code is ticking over nicely, as the code is revised and Will Robertson gets the test system written. Will has taken on a thankless task with this job, and I think is owed a debt of gratitude by everyone interested in LaTeX3.
 
 One thing that is clear is that LaTeX3 (at the low level) is a programming language in itself, distinct from TeX. This is something of a risk, as it means that you cannot simply take what is done currently and convert it to the new system without thinking. On the other hand, the idea is to provide a system which makes programming easier and clearer, with some of the “features” of TeX hidden underneath a working LaTeX3 layer. The aim is that expansion and the somewhat odd methods for assignment to low-level TeX variables become something only the kernel team need to worry about.
 

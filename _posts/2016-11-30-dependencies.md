@@ -12,7 +12,7 @@ tags:
   - CTAN
   - packaging
 ---
-There's been some [recent discussion](http://tug.org/pipermail/tex-live/2016-November/039434.html) on the [TeX Live mailing list](http://tug.org/mailman/listinfo/tex-live) about recording dependencies for (La)TeX packages. This is a good idea but means that package authors need to think about their dependency situation. So I thought a few words on this would be helpful, at least from the point of view of the most common case: LaTeX packages.
+There's been some [recent discussion](https://tug.org/pipermail/tex-live/2016-November/039434.html) on the [TeX Live mailing list](https://tug.org/mailman/listinfo/tex-live) about recording dependencies for (La)TeX packages. This is a good idea but means that package authors need to think about their dependency situation. So I thought a few words on this would be helpful, at least from the point of view of the most common case: LaTeX packages.
 
 It's pretty easy to accumulate `\RequirePackage` lines in your source, but if you are serious about giving a useful set of dependencies you need to know what each one is for. In many ways the rule is easy: require each package you use. What makes that more complicated is that you might use features which are available when you load package X but are actually provided by package Y. For example, if you load my `siunitx` package, it loads `array` so means that you can do for example
 

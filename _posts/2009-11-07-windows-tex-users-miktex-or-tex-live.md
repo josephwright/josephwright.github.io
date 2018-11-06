@@ -12,7 +12,7 @@ tags:
   - MiKTeX
   - TeX Live
 ---
-I was talking to someone at work recently, and the topic of whether to choose [MiKTeX](http://www.miktex.org/) or [TeX Live](http://www.tug.org/texlive/) on Windows came up. With MiKTeX 2.8 released and TeX Live 2009 due out any day, I thought I'd make a few comments.
+I was talking to someone at work recently, and the topic of whether to choose [MiKTeX](https://www.miktex.org/) or [TeX Live](https://tug.org/texlive/) on Windows came up. With MiKTeX 2.8 released and TeX Live 2009 due out any day, I thought I'd make a few comments.
 
 First, both systems are very capable, so there is not really a “wrong” decision. However, when installing you do have to pick one. In the past, MiKTeX was the best choice for Windows by a distance, but recent work on TeX Live has altered this. So I'd say there are some factors to balance against each other.
 

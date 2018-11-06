@@ -13,7 +13,7 @@ tags:
   - NFSS
   - OpenType
 ---
-There was a [question recently](http://tex.stackexchange.com/q/36112/73) on the [TeX.sx](http://tex.stackexchange.com/) site about font selection and LaTeX3. At the moment, there is not a LaTeX3 font system set up, and there are issues outstanding, so this is not something with a single answer. What I can do, though, is look at what seems likely and what some of the areas to consider are.
+There was a [question recently](https://tex.stackexchange.com/q/36112/73) on the [TeX.sx](https://tex.stackexchange.com/) site about font selection and LaTeX3. At the moment, there is not a LaTeX3 font system set up, and there are issues outstanding, so this is not something with a single answer. What I can do, though, is look at what seems likely and what some of the areas to consider are.
 
 ## (New) Font Selection Scheme
 

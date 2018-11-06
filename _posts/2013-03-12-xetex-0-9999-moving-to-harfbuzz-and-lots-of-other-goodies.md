@@ -12,7 +12,7 @@ tags:
   - HarfBuzz
   - XeTeX
 ---
-Khaled Hosny has announced on the [XeTeX mailing list](http://tug.org/mailman/listinfo/xetex) that XeTeX 0.9999 has just been released. The list of changes is pretty long, as XeTeX has had quite a backlog of issues. Probably the biggest single change is
+Khaled Hosny has announced on the [XeTeX mailing list](https://tug.org/mailman/listinfo/xetex) that XeTeX 0.9999 has just been released. The list of changes is pretty long, as XeTeX has had quite a backlog of issues. Probably the biggest single change is
 
 >  Port OpenType layout from ICU LayoutEngine to HarfBuzz. HarfBuzz is actively maintained and generally have much wider support for
 > OpenType spec, the switch fixes a number of OpenType bugs:

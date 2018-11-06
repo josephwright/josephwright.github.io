@@ -22,7 +22,7 @@ Spaces in file names are a constant issue for LaTeX users. As many people will k
 l.2 \show\example
 ```
 
-which is not exactly helpful. However, it is possible to deal with this, as [recently mentioned on TeX.SX](http://tex.stackexchange.com/q/14949/73). As `*` cannot normally appear in file names, and `\jobname` makes all characters have category code 12, a simple approach is to do a quick replacement
+which is not exactly helpful. However, it is possible to deal with this, as [recently mentioned on TeX.SX](https://tex.stackexchange.com/q/14949/73). As `*` cannot normally appear in file names, and `\jobname` makes all characters have category code 12, a simple approach is to do a quick replacement
 
 ```latex
 \edef\Jobname{\jobname}

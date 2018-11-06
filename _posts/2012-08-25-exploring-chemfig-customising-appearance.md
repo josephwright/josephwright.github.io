@@ -13,7 +13,7 @@ tags:
   - chemistry
   - tikz
 ---
-In my [previous post](/2012/08/25/exploring-chemfig-basics/), I looked at the basics of using the [ChemFig](https://ctan.org/pkg/chemfig) package to create chemical structures. I finished that post with a structure that is complete but which I think does not look great compared with the reference version I created in [ChemDraw](http://www.cambridgesoft.com). (There's a MyChemistry entry that looks at similar customisation: worth a look!)
+In my [previous post](/2012/08/25/exploring-chemfig-basics/), I looked at the basics of using the [ChemFig](https://ctan.org/pkg/chemfig) package to create chemical structures. I finished that post with a structure that is complete but which I think does not look great compared with the reference version I created in [ChemDraw](https://www.cambridgesoft.com). (There's a MyChemistry entry that looks at similar customisation: worth a look!)
 
 ## Atom placement
 

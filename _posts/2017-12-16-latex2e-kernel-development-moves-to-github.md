@@ -20,7 +20,7 @@ Coupled to viewing the code for any project is tracking the issues. For LaTeX2e,
 
 We've now decided that the time is right to make a change. Eagle-eyed users will already have spotted the new [LaTeX2e GitHub page](https://github.com/latex3/latex2e), which is now _the_ master repo for the LaTeX kernel. We've not yet frozen the existing [GNATS database](https://www.latex-project.org/cgi-bin/ltxbugs2html?introduction=yes&amp;state=open), but new bugs should be reported [on GitHub](https://github.com/latex3/latex2e/issues). (For technical reasons, the existing GNATS bugs list is unlikely to be migrated to GitHub.)
 
-Frank Mittelbach (LaTeX team lead developer) has written a short article on the new approach, which will be appearing in [_TUGboat_](http://tug.org/tugboat) soon. As Frank says, we hope that most users don't run into bugs in the kernel (it is pretty stable and the code has been pushed pretty hard over the years), but this new approach will make reporting that bit easier and clearer.
+Frank Mittelbach (LaTeX team lead developer) has written a short article on the new approach, which will be appearing in [_TUGboat_](https://tug.org/tugboat) soon. As Frank says, we hope that most users don't run into bugs in the kernel (it is pretty stable and the code has been pushed pretty hard over the years), but this new approach will make reporting that bit easier and clearer.
 
 Accompanying the move of LaTeX2e to GitHub, the LaTeX3 Subversion repository has also been retired: the master location for this is also now [on GitHub](https://github.com/latex3/latex3). So everything is in a sense 'sorted': all in one place.
 

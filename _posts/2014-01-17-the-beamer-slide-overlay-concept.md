@@ -11,7 +11,7 @@ categories:
 tags:
   - overlays
 ---
-There was a [question recently](http://tex.stackexchange.com/questions/154521) on the [TeX StackExchange site](http://tex.stackexchange.com) about the details of how slide overlays work in the [`beamer`](https://ctan.org/pkg/beamer) class. The question itself was about a particular input syntax, but it prompted me to think that a slightly more complete look at overlays would be useful.
+There was a [question recently](https://tex.stackexchange.com/questions/154521) on the [TeX StackExchange site](https://tex.stackexchange.com) about the details of how slide overlays work in the [`beamer`](https://ctan.org/pkg/beamer) class. The question itself was about a particular input syntax, but it prompted me to think that a slightly more complete look at overlays would be useful.
 
 A word of warning before I start: don't overdo overlays! Having text or graphics appear or disappear on a slide can be useful but is easy to over-use. I'm going to focus on the mechanics here, but that doesn't mean that they should be used in every `beamer` frame you create.
 

@@ -23,4 +23,4 @@ For the user I write quite a number of LaTeX packages, some focussed on chemistr
 - [`siunitx`](https://ctan.org/pkg/siunitx): A comprehensive (SI) units package
 - [`trivfloat`](https://ctan.org/pkg/trivfloat): Quick floats in LaTeX
 
-The development work for all of these is done on [GitHub](http://github.com/josephwright): report any issues there! Keeping all of those up to date is sometimes a challenge, but I hope I do a reasonable job.
+The development work for all of these is done on [GitHub](https://github.com/josephwright): report any issues there! Keeping all of those up to date is sometimes a challenge, but I hope I do a reasonable job.

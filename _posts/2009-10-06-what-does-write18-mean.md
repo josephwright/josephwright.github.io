@@ -19,7 +19,7 @@ The TeX `\write` primitive instruction is used to write to different file ‘str
 
 When using something like the epstopdf LaTeX package, that is hidden away and you don't need to worry about the exact way it's done. I'm not going to worry about the detail of the `\write` instruction here!
 
-However, there is a security issue. If you download some TeX code from the Internet, can you be sure that there is not some command in it (perhaps in a hidden way) to do stuff that might be harmful to your PC (lets say delete everything on the hard disk!). So both [MiKTeX](http://www.miktex.org) and [TeX Live](http://www.tug.org/texlive/) have traditionally disabled `\write18` as standard. To turn it on, both support an additional argument when starting TeX:
+However, there is a security issue. If you download some TeX code from the Internet, can you be sure that there is not some command in it (perhaps in a hidden way) to do stuff that might be harmful to your PC (lets say delete everything on the hard disk!). So both [MiKTeX](https://www.miktex.org) and [TeX Live](https://tug.org/texlive/) have traditionally disabled `\write18` as standard. To turn it on, both support an additional argument when starting TeX:
 
 ```bash
 (pdf)(la)tex --shell-escape

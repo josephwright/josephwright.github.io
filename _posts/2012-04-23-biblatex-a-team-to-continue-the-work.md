@@ -14,8 +14,8 @@ I [posted a while ago](/2012/04/03/biblatex-status/) about [`biblatex`](https://
 
 Philipp Lehman had discussed a number of plans with the lead developer of [Biber](http://biblatex-biber.sourceforge.net/), Philip Kime. Unsurprisingly, Philip Kime has been keen to make sure that development of biblatex continues, but he wanted some help with the styles and any ‘hard-core’ TeX stuff. So a small team of ‘biblatex maintainers’ has been set up:
 
-- [Philip Kime](http://tex.stackexchange.com/users/1657/plk) (lead)
-- [Audrey Boruvka](http://tex.stackexchange.com/users/4483/audrey)
+- [Philip Kime](https://tex.stackexchange.com/users/1657/plk) (lead)
+- [Audrey Boruvka](https://tex.stackexchange.com/users/4483/audrey)
 - Me
 
 We've got two separate tasks. First, we want to deal with issues with the current release of biblatex (v1.7). These are [tracked on the SourceForge site](http://sourceforge.net/tracker/?group_id=244752&amp;atid=1126005), and there are a few outstanding which are being looked at. Second, we want to continue the work that Philipp Lehman had planned. That work is taking place on [GitHub](https://github.com/plk/biblatex/), and there are some big issues to tackle.

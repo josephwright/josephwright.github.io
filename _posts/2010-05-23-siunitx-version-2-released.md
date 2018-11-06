@@ -23,7 +23,7 @@ units, and the ability to control tabular alignment of numbers.
 
 ## Version 2
 
-Over the past two years siunitx has developed to include many features not originally foreseen when development began. While it has been possible to add a range of new features, some of the underlying limitation of the version 1 code have made this difficult. At the same time, renewed effort by the LaTeX Team on the development of [LaTeX3](http://www.latex-project.org/latex3.html), and in particular the [`expl3`](https://ctan.org/pkg/l3kernel) programming system, has offered a more robust method to create the internal structure of siunitx. As a result, version 2 of siunitx has been almost completely re-written internally.
+Over the past two years siunitx has developed to include many features not originally foreseen when development began. While it has been possible to add a range of new features, some of the underlying limitation of the version 1 code have made this difficult. At the same time, renewed effort by the LaTeX Team on the development of [LaTeX3](https://www.latex-project.org/latex3.html), and in particular the [`expl3`](https://ctan.org/pkg/l3kernel) programming system, has offered a more robust method to create the internal structure of siunitx. As a result, version 2 of siunitx has been almost completely re-written internally.
 
 As well as fixing a number of bugs and limitations in the original release, version 2 is also much better written to work quickly. As a result, most users should see performance enhancements with this new release of siunitx.
 
@@ -46,7 +46,7 @@ While there is a back-compatibility layer for users upgrading, it is strongly re
 
 ## Installation
 
-Most users will obtain siunitx as part of their TeX distribution. [MiKTeX 2.8](http://www.miktex.org/) should include siunitx version 2 after a short delay (a few days after CTAN upload). For [TeX Live](http://www.tug.org/texlive/) users, there will be a slight delay as the package will appear in updated form in TeX Live 2010 but not TeX Live 2009 (which is frozen).
+Most users will obtain siunitx as part of their TeX distribution. [MiKTeX 2.8](https://www.miktex.org/) should include siunitx version 2 after a short delay (a few days after CTAN upload). For [TeX Live](https://tug.org/texlive/) users, there will be a slight delay as the package will appear in updated form in TeX Live 2010 but not TeX Live 2009 (which is frozen).
 
 For users who wish to install siunitx themselves, the package is available as a pre-extracted zip file, [siunitx.tds.zip](http://mirror.ctan.org/install/macros/latex/contrib/siunitx.tds.zip). Simply unzip this in your local texmf directory and run ‘`texhash`’ to update the database of file locations. Version 2 of siunitx requires up to date versions of the LaTeX3 packages expl3 and xpackages. These are also available from [CTAN](https://www.ctan.org) in ready to install format (as [expl3.tds.zip](http://mirror.ctan.org/install/macros/latex/contrib/l3kernel.tds.zip) and [xpackages.tds.zip](http://mirror.ctan.org/install/macros/latex/contrib/l3packages.tds.zip)), and can be installed in the same way if necessary.
 
@@ -54,17 +54,17 @@ If you want to unpack the dtx yourself, running ‘`tex siunitx.dtx`’ will ext
 
 ## Development code and bug database
 
-In order to help users see what is happening, and also to allow me to work efficiently, the development code for siunitx is available on the code hosting site [BitBucket](http://github.com/josephwright/siunitx).
+In order to help users see what is happening, and also to allow me to work efficiently, the development code for siunitx is available on the code hosting site [BitBucket](https://github.com/josephwright/siunitx).
 
 You can download the very latest code from there: of course, this may or may not work properly depending on exactly what I have added to the code.
 
-The BitBucket site includes an [issue tracker](http://github.com/josephwright/siunitx/issues), where you can report bugs or make feature requests. I also add bugs to the database from e-mails I get from users. Filling in the bug database helps to make sure that I do not forget things, and also helps other users see what issues are known.
+The BitBucket site includes an [issue tracker](https://github.com/josephwright/siunitx/issues), where you can report bugs or make feature requests. I also add bugs to the database from e-mails I get from users. Filling in the bug database helps to make sure that I do not forget things, and also helps other users see what issues are known.
 
 If you want to contribute code to siunitx, you can of course send patches directly to me. Alternatively, the code is hosted using the revision control system Mercurial, which was chosen as it is decentralised and is easy to install on a range of operating systems (I use MacOS X, Windows XP, Windows 7 and Ubuntu!). I'm happy to explain to potential contributors how Mercurial works for developing siunitx.
 
 ## Roadmap for future releases
 
-The bug database already includes a number of feature requests which are [marked to be looked at for version 2.1](http://github.com/josephwright/siunitx/issues?milestone=v2.1). The current intention is that the next few months will be devoted to bug fixes in this release (v2.0), with moves to add features for v2.1 beginning in the late summer. I anticipate that v2.1 will be released toward the end of 2010.
+The bug database already includes a number of feature requests which are [marked to be looked at for version 2.1](https://github.com/josephwright/siunitx/issues?milestone=v2.1). The current intention is that the next few months will be devoted to bug fixes in this release (v2.0), with moves to add features for v2.1 beginning in the late summer. I anticipate that v2.1 will be released toward the end of 2010.
 
 It is likely that not all of the features currently marked as to be looked at for v2.1 will be fully working by the time it is released. At the same time, there are some longer term areas which may also need attention. Version 2.2 of siunitx is therefore planned, but with no current list of features marked for inclusion. This version is likely to appear in Spring 2011.
 

@@ -11,7 +11,7 @@ categories:
 tags:
   - argument specifiers
 ---
-One of the key ideas of [LaTeX3](http://www.latex-project.org/latex3.html) is argument specifiers. These are part of the name of a function which tell you both how many arguments it needs, and what happens to them. Each argument gets a single letter to describe how it is processed. One of the key things this does is make expansion much easier, as `\expandafter` runs can be avoided. It also makes it easier to have a family of similar functions which take subtly different arguments. So we might have `\foo:N`, which takes a macro name as an argument, and `\foo:c`, which creates a csname from its argument.
+One of the key ideas of [LaTeX3](https://www.latex-project.org/latex3.html) is argument specifiers. These are part of the name of a function which tell you both how many arguments it needs, and what happens to them. Each argument gets a single letter to describe how it is processed. One of the key things this does is make expansion much easier, as `\expandafter` runs can be avoided. It also makes it easier to have a family of similar functions which take subtly different arguments. So we might have `\foo:N`, which takes a macro name as an argument, and `\foo:c`, which creates a csname from its argument.
 
 There have been a lot of ideas about what argument specifiers to use. This has led to a rather extended set of letters in use at the moment. The team have been reviewing them, as there are clearly too many. It looks like most of the ideas are now sorted: my personal interpretation of the plan is laid out below. The letters are best thought of in a few different “classes”, and all stand for something in English.
 

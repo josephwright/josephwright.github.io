@@ -17,9 +17,9 @@ A question that comes up from time to time is how to install one or other of my 
 
 ## Installing as part of an up to date TeX system
 
-By far the easiest way to install my LaTeX packages is to get them as part an up to date TeX system. Both [MikTeX 2.9](http://www.miktex.org/) and [TeX Live 2010](http://www.tug.org/texlive) include all of my general packages. MiKTeX is of course Windows-only, but TeX Live can be installed on Windows, Mac OS X and Linux. After installation, doing an on-line update should grab all of the latest packages from [CTAN](https://www.ctan.org). Both MiKTeX and TeX Live include graphical update programs, so this is not such a difficult process nowadays.
+By far the easiest way to install my LaTeX packages is to get them as part an up to date TeX system. Both [MikTeX 2.9](https://www.miktex.org/) and [TeX Live 2010](https://tug.org/texlive) include all of my general packages. MiKTeX is of course Windows-only, but TeX Live can be installed on Windows, Mac OS X and Linux. After installation, doing an on-line update should grab all of the latest packages from [CTAN](https://www.ctan.org). Both MiKTeX and TeX Live include graphical update programs, so this is not such a difficult process nowadays.
 
-Mac users may well prefer [MacTeX](http://www.tug.org/mactex) over plain TeX Live, but MacTeX is built on top of TeX Live and so the same ideas apply. You can install either TeX Live or MacTeX and get the same basic functionality.
+Mac users may well prefer [MacTeX](https://tug.org/mactex) over plain TeX Live, but MacTeX is built on top of TeX Live and so the same ideas apply. You can install either TeX Live or MacTeX and get the same basic functionality.
 
 For Linux users, it's worth noting that popular Linux distributions tend to include old versions of TeX Live (or even teTeX), rather than TeX Live 2010. So if you want an up-to-date TeX system you'll be better off ignoring your Linux package manager and grabbing TeX Live directly.
 

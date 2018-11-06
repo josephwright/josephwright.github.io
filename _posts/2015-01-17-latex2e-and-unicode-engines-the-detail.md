@@ -17,7 +17,7 @@ To date, the 'vanilla' LaTeX format (`latex.ltx` and associated files) has been 
 &lt;engine&gt; -ini latex.ltx
 ```
 
-(or similar). The 'format builders' [principally the [TeX Live](http://tug.org/texlive) team and Christian Schenk ([MiKTeX](http://miktex.org)] use a series of `.ini` files for building formats. For example, `pdflatex.ini`currently says
+(or similar). The 'format builders' [principally the [TeX Live](https://tug.org/texlive) team and Christian Schenk ([MiKTeX](http://miktex.org)] use a series of `.ini` files for building formats. For example, `pdflatex.ini`currently says
 
 ```latex
 % Thomas Esser, 1998. public domain.

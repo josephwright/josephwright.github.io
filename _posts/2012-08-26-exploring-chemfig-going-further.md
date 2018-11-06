@@ -45,7 +45,7 @@ Bold, hashed and dashed bonds are then easy to set up
 }
 ```
 
-Wavy bonds are a bit more tricky. Ti<i>k</i>Z has a 'decorations' library including the idea of a 'snake' line, but this is not quite right. Instead, I'll use a 'real' sine wavy as [described on the TeX-sx site](http://tex.stackexchange.com/a/25689/73).
+Wavy bonds are a bit more tricky. Ti<i>k</i>Z has a 'decorations' library including the idea of a 'snake' line, but this is not quite right. Instead, I'll use a 'real' sine wavy as [described on the TeX-sx site](https://tex.stackexchange.com/a/25689/73).
 At the same time, I want to pick up something 'internal' from ChemFig: the inter-atom spacing, which we set using `\setatomsep`. That's stored in the macro `CF@atom@sep`, which I want as wavy bonds should have an integer number of repetitions along a standard-length bond:
 
 ```latex

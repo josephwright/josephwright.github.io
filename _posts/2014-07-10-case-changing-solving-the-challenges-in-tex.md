@@ -16,7 +16,7 @@ I wrote recently about [handling UTF-8 input in Lua](/2014/07/08/luatex-manipula
 
 ## Background
 
-The first thing to think about is what case changing is needed for. We'll see in a bit that TeX uses 'case changing' for something very different from what we might think of as changing case in 'text'. First, though, let's look at what those 'normal' requirements are. The [Unicode Consortium](http://www.unicode.org/) have looked in detail at this: take a look at [the standard](http://www.unicode.org/versions/Unicode6.2.0/ch03.pdf) for all of the detail. The common situations are:
+The first thing to think about is what case changing is needed for. We'll see in a bit that TeX uses 'case changing' for something very different from what we might think of as changing case in 'text'. First, though, let's look at what those 'normal' requirements are. The [Unicode Consortium](https://www.unicode.org/) have looked in detail at this: take a look at [the standard](https://www.unicode.org/versions/Unicode6.2.0/ch03.pdf) for all of the detail. The common situations are:
 
 - 'Removing' the case from text to allow 'caseless' comparisons ('case-folding'). This is primarily used 'internally' by code, and tends traditionally to be handled by simply lower casing everything before some comparison. The Unicode approach has some slight differences between case-folding and lower-casing, but it's relatively straight-forward.
 - Upper-casing 'text'. Here, all characters that have a case mapping are changed to the upper-case versions. That's a relatively simple concept, but there is a bit more to it (as we'll see).

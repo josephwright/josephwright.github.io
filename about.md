@@ -8,7 +8,7 @@ guid: http://www.texdev.net/?page_id=4
 ---
 ## Who writes this stuff?
 
-I'm Joseph Wright, a research chemist by trade (I'm a [university lecturer in 'Energy Materials'](https://www.uea.ac.uk/chemistry/people/profile/joseph-wright)). Using and programming TeX (and particularly LaTeX) is quite a serious hobby for me, and I take an interest in a number of different developing areas. I'm also a member of the [LaTeX Project](http://www.latex-project.org), with a particular interest in [LaTeX3](http://www.latex-project.org/latex3.html) development. If you  are chemistry-inclined my [ORCiD listing](http://orcid.org/0000-0001-9603-1001).
+I'm Joseph Wright, a research chemist by trade (I'm a [university lecturer in 'Energy Materials'](https://www.uea.ac.uk/chemistry/people/profile/joseph-wright)). Using and programming TeX (and particularly LaTeX) is quite a serious hobby for me, and I take an interest in a number of different developing areas. I'm also a member of the [LaTeX Project](https://www.latex-project.org), with a particular interest in [LaTeX3](https://www.latex-project.org/latex3.html) development. If you  are chemistry-inclined my [ORCiD listing](http://orcid.org/0000-0001-9603-1001).
 
 ## UK-TUG Committee
 

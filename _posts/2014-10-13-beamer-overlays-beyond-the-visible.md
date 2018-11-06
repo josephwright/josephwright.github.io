@@ -10,7 +10,7 @@ categories:
   - beamer
   - Packages
 ---
-I wrote earlier this year about [using the `beamer` overlay concept with relative slide specifications](/2014/01/28/the-overlay-syntax-and-pause-in-beamer/) to produce dynamic slide structures. Another [question about overlays](http://tex.stackexchange.com/questions/205625/) came up recently on TeX StackExhange, but this time wanting to do something a bit different.
+I wrote earlier this year about [using the `beamer` overlay concept with relative slide specifications](/2014/01/28/the-overlay-syntax-and-pause-in-beamer/) to produce dynamic slide structures. Another [question about overlays](https://tex.stackexchange.com/questions/205625/) came up recently on TeX StackExhange, but this time wanting to do something a bit different.
 
 The 'standard' `beamer` overlay system does the same as the `\visible` command: makes things appear and disappear, but always keeps space for them on the slide. However, `beamer` also provides `\only`, which completely omits items not visible on a slide. So the question was how to combine this idea with the general overlay concept.
 
