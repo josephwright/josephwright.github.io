@@ -48,10 +48,12 @@ As LaTeX is built on TeX, you might guess that LaTeX's counters are an interface
 <pre>\newcount\c@mycounter
 \newcounter{mycounter}</pre>
 LaTeX would issue an error message: the counter is already defined. The other LaTeX functions then build on this, so that they manipulate the internal counters. This is all done globally and with some error checking. For example, the definition of <code>\addtocounter</code> is
+<!-- {% raw %} -->
 <pre>\def\addtocounter#1#2{%
   \@ifundefined{c@#1}%
     {\@nocounterr{#1}}%
     {\global\advance\csname c@#1\endcsname #2\relax}}</pre>
+<!-- {% endraw %} -->
 This checks the counter exists, and if it does globally advances it.
 
 Why choice one or other method? Well, LaTeX does error checking and also adds some refinements (such as resetting one counter based on another). It also ensures you always include the appropriate <code>\relax</code> statements to avoid TeX picking up “extra” material for numbers. On the other hand, if you want to do local assignments then you have to use TeX's count registers: LaTeX always does global assignments.  I tend to find that for document-level things counters are best (anything I actually want to print), whereas count registers are more flexible for programming.

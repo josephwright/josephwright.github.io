@@ -29,6 +29,7 @@ Whether you use BibTeX or not, you'll need to do is set up a reverse-enumerated 
    ...
 \end{etaremune}</pre>
 It's then just a question of filling in the items. I use a couple of custom macros for this. First, to let me quickly wrap up each entire item in a hyperlink, I define
+<!-- {% raw %} -->
 <pre>\newcommand*{\paper}[2]{%
   % Standard style
   \item \href{http://dx.doi.org/#1}{\ignorespaces#2\unskip.}
@@ -36,15 +37,18 @@ It's then just a question of filling in the items. I use a couple of custom macr
   %\item \href{http://dx.doi.org/#1}
   %  {\ignorespaces#2\unskip.\\\textsc{doi}: \texttt{#1}}
 }</pre>
+<!-- {% endraw %} -->
 which takes the text as <code>#1</code> and the DOI as <code>#2</code>. As you can see from the comments, this lets me quickly decide whether I want to include the DOI in the printed output or to just use it to create a link.
 
 The second custom macro is one for the paper title
+<!-- {% raw %} -->
 <pre>\newcommand*{\papertitle}[1]{%
   \begingroup
     \addfontfeature{Numbers = Lining}%
     \emph{#1}%
   \endgroup
 }</pre>
+<!-- {% endraw %} -->
 There are a couple of reasons for having a macro here. The first is that lining numbers seem to work better in chemical formulae than lower case ones do: of course this is my opinion! The second reason is that it makes it easy to quickly omit the title entirely if I need a short version of the publication list.
 <h2>Putting it all together</h2>
 I've covered a few different ideas for creating a CV in LaTeX. Each one is I hope pretty simple, and as I've said most people want a CV that's in a style they have chosen. But it's always nice to have something complete to start from. So in the final part of this short series, I'll put the various ideas together into an example.

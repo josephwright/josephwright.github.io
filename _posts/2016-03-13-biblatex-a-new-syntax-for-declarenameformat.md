@@ -22,6 +22,7 @@ This works well for many western European names, but falls down for many cases.
 As part of Biber/<a href="http://ctan.org/plg/biblatex"><code>biblatex</code></a> developments, Philippe Kime has been working on moving beyond this rigid model for names to allow true flexibility. However, this comes with a caveat: a <a href="https://github.com/plk/biblatex/issues/372">breaking change to <code>\DeclareNameFormat</code> in <code>biblatex</code></a>. The older syntax takes hard-wired arguments for each name part, but that obviously can't be extended. The new format only deals with one argument (the name as a whole), but this requires changes to (non-standard) styles.
 
 At the moment, the change is <em>only true for Biber</em>, which means some conditional code is needed. The best way to do that is to test for the older (BibTeX) back-end. For example, in the latest release of <a href="http://ctan.org/pkg/biblatex-chem"><code>biblatex-chem</code></a> I have in <code>chem-acs.bbx</code>:
+<!-- {% raw %} -->
 <pre><code>% Modify the name format
 \@ifpackageloaded{biblatex_legacy}
   {
@@ -63,4 +64,5 @@ At the moment, the change is <em>only true for Biber</em>, which means some cond
     }
   }
 </code></pre>
+<!-- {% endraw %} -->
 I'll deal with the differences in back-ends in another post, but for the present this formulation will keep styles working for everyone.

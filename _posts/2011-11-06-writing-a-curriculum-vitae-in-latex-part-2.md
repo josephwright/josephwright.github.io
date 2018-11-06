@@ -69,6 +69,7 @@ Also as part of the lead-off, it's normal to have your name (<em>never</em> ‘C
 \end{center}</pre>
 <h2>Sections and subsections</h2>
 A CV needs several sections, for example ‘Employment history’, ‘Skills’ and so on. The standard LaTeX <code>\section</code> is the best choice of logical mark up for these, but the appearance is going to be wrong without adjustment. Taking some inspiration from the <a href="http://ctan.org/pkg/curve">CurVe</a> class, and using the abilities of <a href="http://ctan.org/pkg/titlesec">titlesec</a> and <a href="http://ctan.org/pkg/xcolor">xcolor</a>, the output can be customised to give something much more pleasing for a CV. I use
+<!-- {% raw %} -->
 <pre>% Create some nice looking section dividers without too much fuss
 \titleformat\section{\Large\bfseries\sffamily}{}{0 em}
   {%
@@ -81,6 +82,7 @@ A CV needs several sections, for example ‘Employment history’, ‘Skills’ 
     \vspace{-1.2 em}%
     \nobreak
   }</pre>
+<!-- {% endraw %} -->
 which inserts a grey bar across the page, and places the name of the section (with no number) partially overlapping the bar.
 
 For subsections, I go for a much lower visual impact
@@ -88,6 +90,7 @@ For subsections, I go for a much lower visual impact
 which is enough to make them stand out from the body text, but keeps things flowing.
 <h2>The main body: lots of tables</h2>
 The normal layout for the body of a CV is to use something based on a table, with ‘entries’ on the left and ‘information’ on the right. This can be done in lots of ways, but the approach I take is to set up a fixed column width in the preamble, then apply this to all of the CV. That requires a bit of set up
+<!-- {% raw %} -->
 <pre>% Semi-automatically set up the table width
 \newlength\sidewidth
 \newlength\mainwidth
@@ -95,15 +98,18 @@ The normal layout for the body of a CV is to use something based on a table, wit
   \settowidth\sidewidth{\textbf{Professional bodies}\hspace{0.75 em}}%
   \setlength\mainwidth{\dimexpr\linewidth - \sidewidth\relax}%
 }</pre>
+<!-- {% endraw %} -->
 Here, I'm setting two lengths to control the tables, with the only hard-coded part being the text I use to set the left-hand side width. I use the longest entry I'm going to use: in my case this is ‘Professional bodies’.
 
 I then need the tables themselves. As they are all the same, it makes sense to set them up as a new kind of environment
+<!-- {% raw %} -->
 <pre>\newenvironment{CVtable}
   {%
     \begin{tabular}
       {@{}&gt;{\bfseries}p{\sidewidth}@{}&gt;{\RaggedRight}p{\mainwidth}@{}}%
   }
   {\end{tabular}}</pre>
+<!-- {% endraw %} -->
 (this uses the <a href="http://ctan.org/pkg/array">array</a> package). I also <code>\renewcommand*\arraystretch{1.4}</code>, as this spreads the tables out a bit and I think makes things look less crowded.
 
 The new environment is then used for each (sub)section, and contains the body of the CV, for example
@@ -147,12 +153,14 @@ The new environment is then used for each (sub)section, and contains the body of
   \\
 \end{CVtable}</pre>
 You'll notice the <code>\headline</code> macro here: it's another formatting shortcut. It's for making effectively subsubsections within my CV table, and is defined as
+<!-- {% raw %} -->
 <pre>\newcommand*\headline[1]{%
   \hbox{%
     \llap{\ding{72}\hspace*{0.2 em}}%
     \textbf{#1}%
   }%
 }</pre>
+<!-- {% endraw %} -->
 making use of the <a href="http://ctan.org/pkg/pifont">pifont</a> package to provide a nice-looking star for each entry. You'll see in the above example that I use it for things like marking up each job I've had in the table of employment history.
 <h2>Other refinements</h2>
 As I mentioned in <a title="Writing a curriculum vitae in LaTeX: Part 1" href="http://www.texdev.net/2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/">part 1</a>, one of the advantages of using LaTeX is that you can store information in your CV as comments. That might be as simple as commenting-out lines that you want to miss out for a particular job, but you might also want to deal with longer optional sections. The <a href="http://ctan.org/pkg/comment">comment</a> package is ideal for this, as it lets you mark up sections for inclusion or exclusion in a pretty rapid way.

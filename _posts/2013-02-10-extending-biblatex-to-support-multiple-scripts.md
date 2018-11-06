@@ -15,6 +15,7 @@ tags:
 As regular readers will know, I've taken an interest in <a href="http://ctan.org/pkg/biblatex"><code>biblatex</code></a> since it was first developed. Since the <a href="http://www.texdev.net/2012/04/03/biblatex-status/">original author disappeared</a>, I've been at least formally <a href="http://www.texdev.net/2012/04/23/biblatex-a-team-to-continue-the-work/">involved in maintain the code</a>. So far, that's been limited to tackling a few tricky low-level TeX issues, but there are some bigger issues to think about.
 
 Philip Kime, lead Biber and <code>biblatex</code> developer, is keen to extend the LaTeX end to supporting multiple scripts. The Biber end is already done (in the 'burning edge' version), and writes to the <code>.bbl</code> file in the format:
+<!-- {% raw %} -->
 <pre><code> \field{form=original,lang=default}{labeltitle}{Title}
  \list{form=original,lang=default}{location}{1}{%
    {Москва}%
@@ -23,6 +24,7 @@ Philip Kime, lead Biber and <code>biblatex</code> developer, is keen to extend t
    {Moskva}%
  }
 </code></pre>
+<!-- {% endraw %} -->
 However, that presents a big issue: how to do that without breaking every existing style. Supporting scripts means we need an additional argument for a very large number of commands: some of them need to have <em>two</em> optional arguments, and some of them need to be expandable:
 <pre><code>\iffieldundef[form=original,lang=default]{....}
 </code></pre>

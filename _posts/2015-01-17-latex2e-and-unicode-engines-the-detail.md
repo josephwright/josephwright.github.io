@@ -65,8 +65,9 @@ There are some slight differences for <code>lualatex.ini</code>, but the general
 
 As well as this important area, there are some things that are 'tacked on' to the formats by the <code>.ini</code> files but which apply only to one of either XeTeX or LuaTeX. For XeTeX, there is a need to manage the <code>\XeTeXinterchartoks</code> system, for which <code>xelatex.ini</code> currently does
 
+<!-- {% raw %} -->
 <pre><code>%
-% Allocator for \XeTeXintercharclass values, from Enrico Gregorio 
+% Allocator for \XeTeXintercharclass values, from Enrico Gregorio
 %
 \catcode`\@=11
 \newcount\xe@alloc@intercharclass % allocates intercharclass
@@ -83,6 +84,7 @@ As well as this important area, there are some things that are 'tacked on' to th
 \def\newXeTeXintercharclass{%
  \xe@alloc@\xe@alloc@intercharclass\XeTeXintercharclass\chardef\@cclv} %at most 254
 </code></pre>
+<!-- {% endraw %} -->
 
 For LuaTeX, there are a couple of things in <code>lualatex.ini</code> that should be in the format. First, there is a difference in how this engine handles negative values of <code>\endlinechar</code> compared with other TeX engines. That requires a patch to LaTeX2e's <code>\@xtypein</code>. More importantly, LuaTeX only actives the extensions to TeX if some Lua code is used
 
@@ -92,10 +94,10 @@ For LuaTeX, there are a couple of things in <code>lualatex.ini</code> that shoul
 \directlua{
   % etex and pdftex primitives are enabled without prefixing
   % as well as extented Unicode math primitives (see below)
-  tex.enableprimitives('', 
+  tex.enableprimitives('',
     tex.extraprimitives('etex', 'pdftex', 'umath'))
   % other primitives are prefixed with luatex (see below)
-  tex.enableprimitives('luatex', 
+  tex.enableprimitives('luatex',
     tex.extraprimitives('core', 'omega', 'aleph', 'luatex'))
   }
 \endgroup

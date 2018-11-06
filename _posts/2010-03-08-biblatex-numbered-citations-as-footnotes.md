@@ -14,6 +14,7 @@ Most chemistry journals use numbered citation styles, with all of the references
 
 It turns out that biblatex has the very handy <code>\footfullcite</code> macro, which nearly does what is needed. This macro will print the reference as a footnote, but uses LaTeX's footnote numbering system to do this. The result is that repeating citations, compressing several citations into a range and so on is not so easy. In the end, I decided to drop Philipp Lehman (the author of biblatex) an e-mail for some guidance. He came back with two approaches, one for citations in the text and one for superscript citations:
 
+<!-- {% raw %} -->
 <pre>\documentclass{article}
 \usepackage[style=numeric-comp]{biblatex}
 \bibliography{biblatex-examples}
@@ -81,5 +82,6 @@ again.\superfullcite{augustine,companion,kastenholz}
 
 \end{document}
 </pre>
+<!-- {% endraw %} -->
 
 I might add this to my biblatex styles, but I'll wait to see if Philipp puts the code or some notes into the biblatex core before I do. I should also point out that if you want footnote citations and other footnotes then you'll need something like the <a href="http://ctan.org/pkg/bigfoot">bigfoot</a> package to do the job. But this is a pretty good place to start from.

@@ -18,9 +18,11 @@ but becomes more powerful when used along with the <code>`</code> syntax which T
 Here, the <code>`0</code> is converted into a integer which TeX treats as complete: <code>`0</code> is 48, but <code>`01</code> is the (terminated) integer 48 followed by a separate 1 and <em>not</em> the integer 481. The important thing for expansion, however, is that TeX always looks for an optional space to gobble after an integer, even in a case like <code>`0</code> where the integer is automatically terminated.
 
 How does this help with expansion? It's all to do with how TeX terminate numbers. If we have the demonstration macro
+<!-- {% raw %} -->
 <pre>\def\demo#1{%
   \detokenize\expandafter{\romannumeral-`0#1}%
 }</pre>
+<!-- {% endraw %} -->
 the <code>\romannumeral</code> will produce no output (as the number it finds is -48). However, it will expand <code>#1</code> until it finds an unexpandable token. That means that something like
 <pre>\def\testa{\testb}
 \def\testb{\testc}

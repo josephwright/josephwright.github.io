@@ -22,6 +22,7 @@ A good illustration of this is verbatim material. The way that something like La
 where both <code>\@makeother</code> and <code>\dospecials</code> are provided by the LaTeX kernel. That works because <code>\dospecials</code> is defined as
 <pre>\do \ \do \\\do \{\do \}\do \$\do \&amp;\do \#\do \^\do \_\do \%\do \~</pre>
 and so maps the function <code>\@makeother</code> to all of the ‘special’ characters. Using that, a (simplified) verbatim command looks like
+<!-- {% raw %} -->
 <pre>\makeatletter
 \newcommand*\stdverb{%
   \begingroup
@@ -36,13 +37,17 @@ and so maps the function <code>\@makeother</code> to all of the ‘special’ ch
   \ttfamily
 }
 \makeatother</pre>
+<!-- {% endraw %} -->
 In most cases, this works fine. However, if someone makes another character ‘special’ then things go wrong:
+<!-- {% raw %} -->
 <pre>\catcode`\+=\active
 \newcommand+{oops}
 \stdverb=#{+=</pre>
+<!-- {% endraw %} -->
 Of course, you could loop over <em>every</em> character, which would be slow for 8-bit input but with UTF-8 input that becomes impractical. Of course, you could add each active character to <code>\dospecials</code>, but this is dependent on everyone sticking to good practice.
 
 This is where category code table come in. These are pre-set lists of category codes, which can be applied in one go. Heiko Oberdiek's <a href="http://www.ctan.org/pkg/luatex-pkg" title="Basic definitions for LuaTeX"><code>luatex</code></a> package provides a LaTeX interface for these, meaning we can do:
+<!-- {% raw %} -->
 <pre>\usepackage{luatex}
 \makeatletter
 \newcommand*\luaverb{%
@@ -51,8 +56,11 @@ This is where category code table come in. These are pre-set lists of category c
     \@stdverb
 }
 \makeatother</pre>
+<!-- {% endraw %} -->
 (reusing the same internal macro as before). now trying
+<!-- {% raw %} -->
 <pre>\catcode`\+=\active
 \newcommand+{oops}
 \luaverb=#{+=</pre>
+<!-- {% endraw %} -->
 works as expected, as all of the category codes change in one go. Simple, clear and effective!

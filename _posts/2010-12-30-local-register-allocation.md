@@ -41,11 +41,14 @@ The <a href="http://ctan.org/pkg/etex">etex</a> package provides for both global
 and have the register free up as you would expect.
 <h2>What does local mean?</h2>
 So does that mean that local registers are a good idea? I'd say probably not, because of what is meant here by local. In most languages, a local variable is local to some function, and nested functions have there own independent local variables. In TeX, things are different, as it is a macro language and only grouping makes things local. So something like
+<!-- {% raw %} -->
 <pre>\def\BadIdea{%
   \loccount\mycount
   ...
 }</pre>
+<!-- {% endraw %} -->
 will not destroy <code>\mycount</code> at the end of the material inserted by <code>\BadIdea</code>. On the other hand, things will work within a group, so doing
+<!-- {% raw %} -->
 <pre>
 \def\BetterIdea{%
   \begingroup
@@ -54,9 +57,11 @@ will not destroy <code>\mycount</code> at the end of the material inserted by <c
   \endgroup
 }
 </pre>
+<!-- {% endraw %} -->
 will destroy <code>\mycount</code> as expected.
 
 For me, this is still not enough to mean that local allocation is a good way to work. There is always the need to track grouping, and there is not really a great gain over
+<!-- {% raw %} -->
 <pre>
 \newcount\mycount
 \def\BetterIdea{%
@@ -65,6 +70,7 @@ For me, this is still not enough to mean that local allocation is a good way to 
   \endgroup
 }
 </pre>
+<!-- {% endraw %} -->
 as the TeX group is still keeping the <em>allocation</em> of <code>\mycount</code> local.
 
 As I said at the start, we've examined this for LaTeX3, and decided that the danger of misleading people is too much to put up with, despite some gains in code clarity. So while it's an interesting area to look at, I think local allocation of registers does not really make TeX coding any easier.

@@ -17,6 +17,7 @@ In this case, TeX will skip spaces after <code>\let</code> and <code>\TokenA</co
 \@firstofone{\let\TokenA= }
 </pre>
 This will <code>\let</code> <code>\TokenA</code> to the next token in the input, even if it is a space. I've used this to remove the next token from some input in combination with <code>\afterassignment</code>:
+<!-- {% raw %} -->
 <pre>
 \long\def\firstofone#1{#1}
 \def\GobbleExactlyOne{%
@@ -24,4 +25,5 @@ This will <code>\let</code> <code>\TokenA</code> to the next token in the input,
   \firstofone{\let\TokenA= }%
 }
 </pre>
+<!-- {% endraw %} -->
 Not something you need every day, but worth knowing about I think.

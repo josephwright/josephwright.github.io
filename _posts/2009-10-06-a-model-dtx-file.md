@@ -168,6 +168,7 @@ missing the code out.
 %&lt;*package&gt;
 %    \end{macrocode}</pre>
 The lead off for the package code itself opens the guard for extracting the code. Normally, I like to have this on its own, to remind where what is going on.
+<!-- {% raw %} -->
 <pre>%
 %\begin{macro}{\examplemacro}
 %\changes{v1.0}{2009/10/06}{Some change from the previous version}
@@ -178,6 +179,7 @@ The lead off for the package code itself opens the guard for extracting the code
 %    \end{macrocode}
 %\end{macro}
 %</pre>
+<!-- {% endraw %} -->
 Here we have some code: separated out using the macrocode environment. As I described in the last post, the <code>\begin{macro}</code> … <code>\end{macro}</code> block indicates that this is where <code>\examplemacro</code> is defined: indexing needs to know this. The <code>\changes</code> given in the code block only get printed if the code is typeset. They are therefore best used for low-level information, rather than usage changes that users need to know about.
 <pre>%    \begin{macrocode}
 %&lt;/package&gt;

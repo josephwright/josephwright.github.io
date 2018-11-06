@@ -71,6 +71,7 @@ The final thing to adjust to get this example right is the font used for atom la
 
 Like many people, I use the excellent <a href="http://ctan.org/pkg/mhchem"><code>mhchem</code></a> to write in-line chemical equations, so I wanted to use the <code>\ce</code> (or faster <code>\cf</code>) command for printing atoms. My initial attempt failed, with an internal error. A quick e-mail to the ChemFig author led to a fix
 
+<!-- {% raw %} -->
 <pre><code>\makeatletter
 \def\CF@node@content{%
   \expandafter\expandafter\expandafter
@@ -80,6 +81,7 @@ Like many people, I use the excellent <a href="http://ctan.org/pkg/mhchem"><code
 }
 \makeatother
 </code></pre>
+<!-- {% endraw %} -->
 
 followed by
 
@@ -88,6 +90,7 @@ followed by
 
 leads to the final input
 
+<!-- {% raw %} -->
 <pre><code>\documentclass{article}
 \usepackage{chemfig}
 \usepackage[version=3]{mhchem}
@@ -113,6 +116,7 @@ leads to the final input
 }
 \end{document}
 </code></pre>
+<!-- {% endraw %} -->
 
 and output
 

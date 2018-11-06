@@ -42,6 +42,7 @@ Setting up hyperref is easy, so that is done next.
     pdftitle  = Curriculum Vitae
   }</pre>
 Now there is some adjustment of the appearance. The page size is adjusted, and as I described in <a title="Writing a curriculum vitae in LaTeX: Part 2" href="http://www.texdev.net/2011/11/06/writing-a-curriculum-vitae-in-latex-part-2/">part 2</a> I set up a custom appearance for sections and subsections. I also miss out page numbers (which should not really be needed in a two page CV), and alter spacing a little.
+<!-- {% raw %} -->
 <pre>\geometry
   {
     a4paper         ,
@@ -67,8 +68,10 @@ Now there is some adjustment of the appearance. The page size is adjusted, and a
 \renewcommand*\arraystretch{1.4}
 \pagestyle{empty}
 \frenchspacing</pre>
+<!-- {% endraw %} -->
 <h2>Specialist macros</h2>
 Now comes some custom code, first for publications as I described in <a title="Writing a curriculum vitae in LaTeX: Part 3" href="http://www.texdev.net/2011/11/07/writing-a-curriculum-vitae-in-latex-part-3/">part 3</a>.
+<!-- {% raw %} -->
 <pre>\newcommand*{\paper}[2]
   {\item \href{http://dx.doi.org/#1}{\ignorespaces#2\unskip.}}
 \newcommand*{\papertitle}[1]
@@ -80,7 +83,9 @@ Now comes some custom code, first for publications as I described in <a title="W
       \emph{#1}%
     \endgroup
   }</pre>
+<!-- {% endraw %} -->
 Next is the set up for the tabular nature of the CV. The text used here sets the width of the left-hand column, so may need to be adjusted to suite whatever is the widest thing you actually use!
+<!-- {% raw %} -->
 <pre>\newlength{\sidewidth}
 \newlength{\mainwidth}
 \AtBeginDocument
@@ -88,7 +93,9 @@ Next is the set up for the tabular nature of the CV. The text used here sets the
     \settowidth{\sidewidth}{\textbf{Professional bodies}\hspace{0.75 em}}%
     \setlength{\mainwidth}{\dimexpr\linewidth - \sidewidth\relax}%
   }</pre>
-Finally for the preamble, the macros which actually go into the body of the CV.
+<!-- {% endraw %} -->
+Finally for the preamble, the macros which actually go into the body of the CV
+<!-- {% raw %} -->.
 <pre>\newcommand*{\headline}[1]
   {%
     \hbox{%
@@ -102,6 +109,7 @@ Finally for the preamble, the macros which actually go into the body of the CV.
       {@{}&gt;{\bfseries}p{\sidewidth}@{}&gt;{\RaggedRight}p{\mainwidth}@{}}%
   }
   {\end{tabular}}</pre>
+<!-- {% endraw %} -->
 <h2>The document body</h2>
 There is not so much you can say about the body of the CV! As described before, I start of with some general contact details.
 <pre>\begin{document}

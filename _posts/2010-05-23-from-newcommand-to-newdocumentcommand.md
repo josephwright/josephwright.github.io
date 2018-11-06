@@ -88,12 +88,14 @@ The same idea applies to each optional argument: whatever is in the braces after
 
 You might be wondering why we need the ‘<code>{}</code>c after ‘<code>O</code>’ when there is no default value: why not just ‘<code>o</code>’? Well, there is ‘<code>o</code>’ as well. Unlike <code>\newcommand</code>, <code>\NewDocumentCommand</code> can tell the difference between an option argument that is not given and one that is empty. To do that, it provides a test to see if the argument is empty:
 
+<!-- {% raw %} -->
 <pre>\NewDocumentCommand\OneOptOfTwoWithTest{om}{%
   \IfNoValueTF{#1}
     {Do stuff with #2 only}
     {Do stuff with #1 and #2}%
 }
 </pre>
+<!-- {% endraw %} -->
 
 Don't worry if you forget to do the test: the special marker that is used here will simply print ‘-NoValue-’ as a reminder!
 
@@ -119,12 +121,14 @@ How did that work? The first two characters after the ‘<code>D</code>’ are u
 
 Another common idea in LaTeX is to use a star to indicate some special version of a macro. Creating those with <code>\newcommand</code> is difficult, but it is easy with <code>\NewDocumentCommand</code>
 
+<!-- {% raw %} -->
 <pre>\NewDocumentCommand\StarThenArg{sm}{%
   \IfBooleanTF#1
     {Use #2 with a star}
     {Use #2 without a star}%
 }
 </pre>
+<!-- {% endraw %} -->
 
 Here, ‘<code>s</code>’ represents a star argument. You'll see that it ends up as <code>#1</code>, while the mandatory argument is <code>#2</code>. You'll also see that there needs to be a test to see if there is a star (<code>\IfBooleanTF</code>). This doesn't mention stars as the test can be used for other things.
 
