@@ -16,7 +16,7 @@ Working on[ siunitx version 2](http://siunitx.berlios.de), I'm confronted with a
 - `\renewunit`
 - `\provideunit`
 
-which follows the LaTeX 2ε `\newcommand`, _etc._; the same is true for prefixes and so forth.  These names were probably not the best choice: for example, [biblatex](http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=biblatex) also has a `\newunit` macro (although there is not a clash, luckily).
+which follows the LaTeX 2ε `\newcommand`, _etc._; the same is true for prefixes and so forth.  These names were probably not the best choice: for example, [biblatex](https://ctan.org/pkg/biblatex) also has a `\newunit` macro (although there is not a clash, luckily).
 
 I've been thinking of better names, but I'm not sure whether these should be document level (all lower-case), or design level (mixed upper-case and lower-case). Some ideas:
 

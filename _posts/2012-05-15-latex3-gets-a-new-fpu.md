@@ -45,4 +45,4 @@ You might pick up from the above output that the new FPU works to a higher accur
 \fp_eval:n { round ( sin ( pi / 3 ) , 3 ) }
 ```
 
-At the moment you'll have to grab the latest [development code](https://github.com/latex3/svn-mirror) to get this new version as part of expl3, but it will be in the next [CTAN](http://www.ctan.org/) snapshot some time in June. You might also find that not every function you want implemented is available: for example, there are currently no inverse trigonometric functions. Those are all on the to do list, but there not needed for typesetting so may be a little while.
+At the moment you'll have to grab the latest [development code](https://github.com/latex3/svn-mirror) to get this new version as part of expl3, but it will be in the next [CTAN](https://www.ctan.org) snapshot some time in June. You might also find that not every function you want implemented is available: for example, there are currently no inverse trigonometric functions. Those are all on the to do list, but there not needed for typesetting so may be a little while.

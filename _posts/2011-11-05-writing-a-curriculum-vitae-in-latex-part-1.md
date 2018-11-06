@@ -24,7 +24,7 @@ Each job you apply for is different, and that means each CV you send of should b
 
 ## Classes
 
-As a CV is a specialist type of document, it's no surprise that [CTAN](http://www.ctan.org/) features a number of dedicated classes. I'm seen a few questions recently about [moderncv](http://ctan.org/pkg/moderncv), while in the past I used [CurVe](http://ctan.org/pkg/curve). In these and other cases, the idea is to use a mix of standard mark up and specialist macros to construct the output. In most cases, there is some form of tabular-like appearance generated along with the necessary headings and so on.
+As a CV is a specialist type of document, it's no surprise that [CTAN](https://www.ctan.org) features a number of dedicated classes. I'm seen a few questions recently about [moderncv](https://ctan.org/pkg/moderncv), while in the past I used [CurVe](https://ctan.org/pkg/curve). In these and other cases, the idea is to use a mix of standard mark up and specialist macros to construct the output. In most cases, there is some form of tabular-like appearance generated along with the necessary headings and so on.
 
 There are advantages and disadvantages to using one of these classes. Most obviously, someone else provides both the mechanisms you need and (hopefully) a good example to start from. The problem tends to be that altering the layout can be a bit awkward. As I said, while CV appearance may not actually be vital, most of us want to make our CV ‘personal’, which means altering the appearance.
 

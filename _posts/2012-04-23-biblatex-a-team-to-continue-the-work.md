@@ -10,7 +10,7 @@ categories:
   - biblatex
   - Packages
 ---
-I [posted a while ago](http://www.texdev.net/2012/04/03/biblatex-status/) about [biblatex](http://ctan.org/pkg/biblatex), looking for news of the author, Philipp Lehman. He'd been very active in replying to bug reports up to about 5 months ago, since when no-one has heard from him. As I said before, that's a big concern well beyond LaTeX work, but it's also left a question over continued development of biblatex.
+I [posted a while ago](http://www.texdev.net/2012/04/03/biblatex-status/) about [biblatex](https://ctan.org/pkg/biblatex), looking for news of the author, Philipp Lehman. He'd been very active in replying to bug reports up to about 5 months ago, since when no-one has heard from him. As I said before, that's a big concern well beyond LaTeX work, but it's also left a question over continued development of biblatex.
 
 Philipp Lehman had discussed a number of plans with the lead developer of [Biber](http://biblatex-biber.sourceforge.net/), Philip Kime. Unsurprisingly, Philip Kime has been keen to make sure that development of biblatex continues, but he wanted some help with the styles and any ‘hard-core’ TeX stuff. So a small team of ‘biblatex maintainers’ has been set up:
 

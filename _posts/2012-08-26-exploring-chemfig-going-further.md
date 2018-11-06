@@ -114,7 +114,7 @@ Here, it's clear that the issue with bond joins shows up a lot more than the ear
 
 ## Schemes and so on
 
-I'm focussing here on drawing individual structures, but should mention schemes and compound numbering. In the MyChemistry article I've already linked to, there is quite a bit about this, using a combination of ChemFig (for the schemes) and [`chemnum`](http://ctan.org/pkg/chemnum) for the numbering. What I will say is that it works well provided you don't have complex alignment needs: one of the tricky parts of creating a good-looking scheme is deciding exactly what to line up!
+I'm focussing here on drawing individual structures, but should mention schemes and compound numbering. In the MyChemistry article I've already linked to, there is quite a bit about this, using a combination of ChemFig (for the schemes) and [`chemnum`](https://ctan.org/pkg/chemnum) for the numbering. What I will say is that it works well provided you don't have complex alignment needs: one of the tricky parts of creating a good-looking scheme is deciding exactly what to line up!
 
 The other quick note I'd add on schemes is that the arrow width really should match that of bonds. So I'd use
 

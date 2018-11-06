@@ -20,7 +20,7 @@ The obvious approach to setting up a publication list is to use a BibTeX databas
 
 Usually, you give your publications in date order, newest first. That won't quite come out correctly if you simply order by year, so using BibTeX it's best to `\nocite` the keys in the order you want. No big deal, but it does mean you can't just dump them all in one go.
 
-There are a couple of style differences between what I want in my CV and what I'd usually use in a publication. We chemists don't normally include article titles in citations, but for a CV it makes sense to add these. At the same time, I like to add hyperlinks to my publications in my CV using the [DOI ](http://www.doi.org)system. These can both be added to a standard BibTeX style (indeed, my own [biblatex-chem](http://ctan.org/pkg/biblatex-chem) style already has a switch for titles), but of course it's another thing to sort out.
+There are a couple of style differences between what I want in my CV and what I'd usually use in a publication. We chemists don't normally include article titles in citations, but for a CV it makes sense to add these. At the same time, I like to add hyperlinks to my publications in my CV using the [DOI ](http://www.doi.org)system. These can both be added to a standard BibTeX style (indeed, my own [biblatex-chem](https://ctan.org/pkg/biblatex-chem) style already has a switch for titles), but of course it's another thing to sort out.
 
 The inclusion of article titles brings me to perhaps the biggest reason that I'm not using BibTeX for my CV. Chemistry titles tend to contain lots of awkward material, such as formulae, which are hard to line break well. So there is a bit of work to do by hand to get things looking right. If I only ever used the publication list in my CV, with one set of formatting rules, then that would be fine. However, I use it in a few ways, and so manually adjusting line breaks _via_ BibTeX is more awkward than simply including the text directly.
 
@@ -28,7 +28,7 @@ The inclusion of article titles brings me to perhaps the biggest reason that I'm
 
 While usually my publication list is part of my CV, I sometimes need it as a stand-alone document. So I have the list itself as a separate file, and `\input` it into the main CV source. So all I have to do for a stand-alone list of publications is write a short wrapper around the list (again as a separate file).
 
-Whether you use BibTeX or not, you'll need to do is set up a reverse-enumerated environment, so that the most recent publication has the highest number. I do that using the [etaremune](http://ctan.org/pkg/etaremune) package, which provides a suitable environment. The package needs to know how many items to enumerate, so either two LaTeX runs or a known starting value are needed. As I work by hand, I go with the latter approach
+Whether you use BibTeX or not, you'll need to do is set up a reverse-enumerated environment, so that the most recent publication has the highest number. I do that using the [etaremune](https://ctan.org/pkg/etaremune) package, which provides a suitable environment. The package needs to know how many items to enumerate, so either two LaTeX runs or a known starting value are needed. As I work by hand, I go with the latter approach
 
 ```latex
 \begin{etaremune}[start  = 45] % Update when you add a publication

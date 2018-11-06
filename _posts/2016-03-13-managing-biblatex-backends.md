@@ -10,7 +10,7 @@ categories:
   - biblatex
   - Packages
 ---
-For the past few years, [`biblatex`](http://ctan.org/pkg/biblatex) has been [looked after by a small team led by Philip Kime](http://www.texdev.net/2012/04/23/biblatex-a-team-to-continue-the-work/). When we first took this up we were mindful of the need to think carefully about back-ends: how reference data is extracted from a `.bib` file or similar sources.
+For the past few years, [`biblatex`](https://ctan.org/pkg/biblatex) has been [looked after by a small team led by Philip Kime](http://www.texdev.net/2012/04/23/biblatex-a-team-to-continue-the-work/). When we first took this up we were mindful of the need to think carefully about back-ends: how reference data is extracted from a `.bib` file or similar sources.
 
 There are currently two back-ends for `biblatex`: BibTeX and [Biber](http://biblatex-biber.sourceforge.net/). Biber is where the development is taking place and offers Unicode support, whilst BibTeX itself is frozen but also does a lot less 'stuff'. So there are several features in `biblatex` that are Biber-only. When the current team took over the maintained, there was consideration of dropping BibTeX entirely. Philip and I have discussed this quite a bit, as the original `biblatex` developer (Philippe Lehman) picked BibTeX as the original back-end from necessity. (Biber was developed after `biblatex`, and for extracting and sorting data there was only originally BibTeX.) We decided against it some time ago: what the BibTeX back-end offers is stability but also speed, precisely as it's more limited that Biber. At least for people like me, in the physical sciences and writing in western European scripts, the BibTeX back-end is perfectly usable.
 

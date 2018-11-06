@@ -10,7 +10,7 @@ categories:
   - Packages
   - siunitx
 ---
-Over the past few months I've been working a new version of [siunitx](http://tug.ctan.org/pkg/siunitx) with completely re-written internals. This is now at the point where I hope that it is usable for most people, but before replaced version 1 some testing is needed. This is what this beta (testing) release is for. There are some important notes for people testing, which I'll run through below. For the impatient, you can get:
+Over the past few months I've been working a new version of [siunitx](https://ctan.org/pkg/siunitx) with completely re-written internals. This is now at the point where I hope that it is usable for most people, but before replaced version 1 some testing is needed. This is what this beta (testing) release is for. There are some important notes for people testing, which I'll run through below. For the impatient, you can get:
 
 - [A ready to install .zip file](http://www.texdev.net/wp-content/uploads/2010/04/siunitx.tds.zip)
 - [The documentation](http://www.texdev.net/wp-content/uploads/2010/04/siunitx.pdf)
@@ -18,7 +18,7 @@ Over the past few months I've been working a new version of [siunitx](http://tug
 
 ## Release notes
 
-The code used in siunitx relies on the [LaTeX3 Project](http://www.latex-project.org/) packages [expl3](http://tug.ctan.org/pkg/expl3) and [xpackages](http://tug.ctan.org/pkg/xpackages). You will need the latest versions of both of these to test siunitx 2: they can both be downloaded from [CTAN](http://www.ctan.org/) or installed using the update facilities in [TeX Live](http://www.tug.org/texlive/) or [MiKTeX](http://www.miktex.org/).
+The code used in siunitx relies on the [LaTeX3 Project](http://www.latex-project.org/) packages [expl3](https://ctan.org/pkg/expl3) and [xpackages](https://ctan.org/pkg/xpackages). You will need the latest versions of both of these to test siunitx 2: they can both be downloaded from [CTAN](https://www.ctan.org) or installed using the update facilities in [TeX Live](http://www.tug.org/texlive/) or [MiKTeX](http://www.miktex.org/).
 
 Version 2 of siunitx renames most of the package options to make them more informative. The old names are available by using:
 

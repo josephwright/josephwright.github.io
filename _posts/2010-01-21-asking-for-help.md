@@ -39,6 +39,6 @@ For questions posted in public, it's always best to drop me a line so I spot it:
 
 will make sure that the issue gets me interest.
 
-On the other hand, questions direct to me obviously get straight to the point but miss out on the public record part of a posting to Usenet. The same issues do tend to pop up more than once! Sometimes there is good reason for avoiding public postings: I get questions including unpublished material about [achemso](http://tug.ctan.org/pkg/achemso), for example. So I'd encourage anyone with an issue they think is general (such as a bug in one of my releases) to post something in public if possible. I always try to follow up postings as well as e-mailing people directly as well.
+On the other hand, questions direct to me obviously get straight to the point but miss out on the public record part of a posting to Usenet. The same issues do tend to pop up more than once! Sometimes there is good reason for avoiding public postings: I get questions including unpublished material about [achemso](https://ctan.org/pkg/achemso), for example. So I'd encourage anyone with an issue they think is general (such as a bug in one of my releases) to post something in public if possible. I always try to follow up postings as well as e-mailing people directly as well.
 
 As I say, I'm always happy to try to help. I hope that most of the time I succeed.

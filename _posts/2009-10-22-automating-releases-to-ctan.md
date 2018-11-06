@@ -9,7 +9,7 @@ permalink: /2009/10/22/automating-releases-to-ctan/
 categories:
   - General
 ---
-I've talked in recent posts about various aspects of creating LaTeX packages, focussing on the dtx format. One thing I've been promising to cover is automating the release of material to [CTAN](http://www.ctan.org/). Even for a basic package, there are a few files to sort out (the source, a readme file, the documentation and an ins file). For the documentation, you need to typeset the correct version, include the changes and code index. So even in a simple case, a bit of help from the computer is a good thing: I manage to miss stuff quite happily even with some stuff set up.
+I've talked in recent posts about various aspects of creating LaTeX packages, focussing on the dtx format. One thing I've been promising to cover is automating the release of material to [CTAN](https://www.ctan.org). Even for a basic package, there are a few files to sort out (the source, a readme file, the documentation and an ins file). For the documentation, you need to typeset the correct version, include the changes and code index. So even in a simple case, a bit of help from the computer is a good thing: I manage to miss stuff quite happily even with some stuff set up.
 
 What do I mean by automation? Well, there is typesetting to do, files to copy and zip files to create. For Windows users, there are also line endings to worry about: CTAN prefer Unix ones for plain text files. All of that can be rolled up into some kind of script (a shell script on Unix or a batch file on Windows). Unix users also have easy access to the ‘make’ utility. The basic tasks are the same whatever method you go for, but I'm going to assume batch files for Windows and make files for Unix (including Mac OS X).
 

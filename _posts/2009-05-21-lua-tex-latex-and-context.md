@@ -27,7 +27,7 @@ LuaTeX is an “engine”, like [pdfTeX](http://www.pdftex.org) or [XeTeX](http:
 
 In the ConTeXt case, the entire format is being re-written as “Mark IV”, which will use a lot of Lua. This of course means things fundamentally change compared to early versions of ConTeXt, and ties it to a single engine.
 
-In the LaTeX case, the format is written to work on plain TeX, no extensions at all. That is not about to change: essentially, LaTeX2e will _never_ be “updated” in that sense. The current [LaTeX3](http://www.latex-project.org/latex3.html) plans don't envisage requiring LuaTeX, although I'd hope that some low-level support will be included if LaTeX3 ever becomes a reality. There will, though, be LaTeX packages that use Lua: I'm sure that at some point there will be a [fontspec](http://www.ctan.org/pkg/fontspec)-like package for LuaTeX, for example.
+In the LaTeX case, the format is written to work on plain TeX, no extensions at all. That is not about to change: essentially, LaTeX2e will _never_ be “updated” in that sense. The current [LaTeX3](http://www.latex-project.org/latex3.html) plans don't envisage requiring LuaTeX, although I'd hope that some low-level support will be included if LaTeX3 ever becomes a reality. There will, though, be LaTeX packages that use Lua: I'm sure that at some point there will be a [fontspec](https://ctan.org/pkg/fontspec)-like package for LuaTeX, for example.
 
 ## What is wrong with LaTeX2ε?
 

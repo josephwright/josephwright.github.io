@@ -21,7 +21,7 @@ Assuming you are going for one of the 'big two', what is there to think about? F
 
 - Both MiKTeX and TeX Live include a 'full' set of TeX-related binaries, including the engines pdfTeX, XeTeX, LuaTeX and support programs such as BibTeX, Biber, MakeIndex and Xindy.
 - The standard installer for MiKTeX installs 'just the basics' and uses on-the-fly installation for anything else you need; the standard install for TeX Live is 'everything' (about 4.5 Gb!). Which is right for you will depend on how much space you have: you can of course customise the installation of either system to include more or less of the 'complete' set up.
-- MiKTeX has a slightly more flexibly approach to licensing than TeX Live does: there are a small number of LaTeX packages that MiKTeX includes that TeX Live does not. (Probably the most obvious example is [`thesis`](http://ctan.org/pkg/thesis).)
+- MiKTeX has a slightly more flexibly approach to licensing than TeX Live does: there are a small number of LaTeX packages that MiKTeX includes that TeX Live does not. (Probably the most obvious example is [`thesis`](https://ctan.org/pkg/thesis).)
 - TeX Live has a Unix background so the management GUI looks slightly less 'standard' than the MiKTeX one.
 - TeX Live has a strict once-a-year freeze,which means that to update you have to do a fresh install once a year. On the other hand, MiKTeX versions change only when there is a significant change and otherwise 'roll onward'.
 

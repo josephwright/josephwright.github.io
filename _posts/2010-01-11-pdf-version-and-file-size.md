@@ -17,7 +17,7 @@ The PDF format has evolved over the years as [Adobe](http://www.adobe.com/) have
 
 This is relevant to TeX users as PDF tends to be the target format, either directly or via DVI files, for many users. Tools such as [pdfTeX](http://www.pdftex.org/) are not tied to one version of the PDF specification. For example, when creating a PDF directly with pdfTeX the `\pdfminorversion` primitive can be used to set the PDF version to 1.3, 1.4 or 1.5.
 
-Why would you want to do this? Well, obviously the newer versions bring new features. A particularly significant one is the compression of _non-stream objects_. The detail of these objects is not really important, but they relate to items such as links within documents. Version 1.5 of the PDF specification allows these to be compressed, which can make quite a difference to the resulting file size. For example, I did a trial run with the [siunitx](http://tug.ctan.org/pkg/siunitx) manual, and by adding the lines
+Why would you want to do this? Well, obviously the newer versions bring new features. A particularly significant one is the compression of _non-stream objects_. The detail of these objects is not really important, but they relate to items such as links within documents. Version 1.5 of the PDF specification allows these to be compressed, which can make quite a difference to the resulting file size. For example, I did a trial run with the [siunitx](https://ctan.org/pkg/siunitx) manual, and by adding the lines
 
 ```latex
 \pdfminorversion=5

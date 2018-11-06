@@ -65,7 +65,7 @@ In most cases, this works fine. However, if someone makes another character ‘s
 
 Of course, you could loop over _every_ character, which would be slow for 8-bit input but with UTF-8 input that becomes impractical. Of course, you could add each active character to `\dospecials`, but this is dependent on everyone sticking to good practice.
 
-This is where category code table come in. These are pre-set lists of category codes, which can be applied in one go. Heiko Oberdiek's [`luatex`](http://www.ctan.org/pkg/luatex-pkg) package provides a LaTeX interface for these, meaning we can do:
+This is where category code table come in. These are pre-set lists of category codes, which can be applied in one go. Heiko Oberdiek's [`luatex`](https://ctan.org/pkg/luatex-pkg) package provides a LaTeX interface for these, meaning we can do:
 
 <!-- {% raw %} -->
 ```latex

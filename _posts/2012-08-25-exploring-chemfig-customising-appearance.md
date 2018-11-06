@@ -13,7 +13,7 @@ tags:
   - chemistry
   - tikz
 ---
-In my [previous post](https://www.texdev.net/2012/08/25/exploring-chemfig-basics/), I looked at the basics of using the [ChemFig](http://ctan.org/pkg/chemfig) package to create chemical structures. I finished that post with a structure that is complete but which I think does not look great compared with the reference version I created in [ChemDraw](http://www.cambridgesoft.com). (There's a MyChemistry entry that looks at similar customisation: worth a look!)
+In my [previous post](https://www.texdev.net/2012/08/25/exploring-chemfig-basics/), I looked at the basics of using the [ChemFig](https://ctan.org/pkg/chemfig) package to create chemical structures. I finished that post with a structure that is complete but which I think does not look great compared with the reference version I created in [ChemDraw](http://www.cambridgesoft.com). (There's a MyChemistry entry that looks at similar customisation: worth a look!)
 
 ## Atom placement
 
@@ -73,7 +73,7 @@ The final thing to adjust to get this example right is the font used for atom la
 \renewcommand*{\printatom}[1]{\ensuremath{\mathsf{#1}}
 ```
 
-Like many people, I use the excellent [`mhchem`](http://ctan.org/pkg/mhchem) to write in-line chemical equations, so I wanted to use the `\ce` (or faster `\cf`) command for printing atoms. My initial attempt failed, with an internal error. A quick e-mail to the ChemFig author led to a fix
+Like many people, I use the excellent [`mhchem`](https://ctan.org/pkg/mhchem) to write in-line chemical equations, so I wanted to use the `\ce` (or faster `\cf`) command for printing atoms. My initial attempt failed, with an internal error. A quick e-mail to the ChemFig author led to a fix
 
 
 <!-- {% raw %} -->

@@ -11,7 +11,7 @@ categories:
 tags:
   - pgfplots
 ---
-Presenting experimental work in a clear form is an important skill. For plotting data, I like the excellent [`pgfplots`](http://ctan.org/pkg/pgfplots) package, which makes it easy to put together consistent presentations of complex data. At the moment, I'd doing some experiments where showing the error bars on the raw data is important, but at the same time to show fit lines clearly. The best style I've seen for this is one where the data are show as simple vertical bars which have length determined by the error bars for the measurements. The fit lines then stand out clearly without overcrowding the plot. That style isn't built in to `pgfplots` but it's easy to set up with a little work:
+Presenting experimental work in a clear form is an important skill. For plotting data, I like the excellent [`pgfplots`](https://ctan.org/pkg/pgfplots) package, which makes it easy to put together consistent presentations of complex data. At the moment, I'd doing some experiments where showing the error bars on the raw data is important, but at the same time to show fit lines clearly. The best style I've seen for this is one where the data are show as simple vertical bars which have length determined by the error bars for the measurements. The fit lines then stand out clearly without overcrowding the plot. That style isn't built in to `pgfplots` but it's easy to set up with a little work:
 
 ```latex
 \documentclass{standalone}

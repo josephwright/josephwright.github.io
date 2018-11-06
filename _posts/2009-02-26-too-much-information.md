@@ -11,7 +11,7 @@ categories:
 tags:
   - log messages
 ---
-A recent announcement on [comp.text.tex](http://groups.google.com/group/comp.text.tex/topics) for a new package, [silence](http://www.ctan.org/pkg/silence), coincides with some discussion in the [LaTeX3](http://www.latex-project.org/latex3.html) team about how to handle messages for the user. The LaTeX3 stuff is currently looking at the low-level side of the area, whereas silence is dealing with things for the user.
+A recent announcement on [comp.text.tex](http://groups.google.com/group/comp.text.tex/topics) for a new package, [silence](https://ctan.org/pkg/silence), coincides with some discussion in the [LaTeX3](http://www.latex-project.org/latex3.html) team about how to handle messages for the user. The LaTeX3 stuff is currently looking at the low-level side of the area, whereas silence is dealing with things for the user.
 
 The problem of “too much information” is clearly one that has attracted attention. An awful lot of what LaTeX prints is not interesting, most of the time. I'd say that a better model would be less, more targetted information as standard. A “developer” mode, printing more detail, is still needed but to be honest even then do many people care about some of the stuff that gets logged. Most of the time, I'd say no.
 

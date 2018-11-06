@@ -19,7 +19,7 @@ As promised a while ago, I've been working to get a snapshot of my work on [siun
 Currently, only the `\num` macro works at all, and even then only for single numbers. However, there are several points to note for testers  and interested users:
 
 1. The package understands complex numbers.
-2. The options use [pgfkeys](http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=pgf), although this may change.
+2. The options use [pgfkeys](https://ctan.org/pkg/pgf), although this may change.
 3. Input and output of numbers are much more clearly separated, which makes extension much easier.
 4. A number of subtle bugs in version one are fixed here. (No-one else seems to have noticed them, so for the moment I've not fixed them in the release version!)
 5. Currently, only the new options are implemented, although before release the full set of version one options will be implemented.

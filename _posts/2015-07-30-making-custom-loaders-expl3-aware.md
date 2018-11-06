@@ -23,7 +23,7 @@ The `expl3` syntax used by the developing programming layer for LaTeX3 is rather
 
 will switch off `expl3` syntax for the loading of `somepackage` and so will work whether this dependency uses `expl3` or not.
 
-This is achieved by using the LaTeX2e kernel mechanism `\@pushfilename`/`@popfilename`, which exists to deal with the status of `@` but which is extended by `expl3` to cover the new syntax too. However, this only applies as standard to code loaded using `\usepackage` (or the lower-level kernel command `\@onefilewithoptions`). Some bundles, most notable [Ti<em>k</em>Z](http://ctan.org/pkg/pgf), provide their own loader commands for specialised files. These can be made '`expl3`-aware' by including the necessary kernel commands
+This is achieved by using the LaTeX2e kernel mechanism `\@pushfilename`/`@popfilename`, which exists to deal with the status of `@` but which is extended by `expl3` to cover the new syntax too. However, this only applies as standard to code loaded using `\usepackage` (or the lower-level kernel command `\@onefilewithoptions`). Some bundles, most notable [Ti<em>k</em>Z](https://ctan.org/pkg/pgf), provide their own loader commands for specialised files. These can be made '`expl3`-aware' by including the necessary kernel commands
 
 
 <!-- {% raw %} -->

@@ -35,7 +35,7 @@ I'll start as before by loading the article class and setting up some fonts. To 
 \fi
 ```
 
-The next phase is to load the rest of the support needed, with [hyperref](http://ctan.org/pkg/hyperref) last as this is usually the best idea.
+The next phase is to load the rest of the support needed, with [hyperref](https://ctan.org/pkg/hyperref) last as this is usually the best idea.
 
 ```latex
 \usepackage{array,etaremune,geometry,fixltx2e,microtype,pifont}

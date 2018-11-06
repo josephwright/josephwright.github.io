@@ -11,7 +11,7 @@ categories:
   - Packages
   - siunitx
 ---
-After many months of work, I'm pleased to announce that I've just sent version 2 of [siunitx](http://ctan.org/pkg/siunitx) to CTAN. Many readers will be familiar with the package and some of the development process. Here, I've put together a summary as ‘release notes’ for the new version.
+After many months of work, I'm pleased to announce that I've just sent version 2 of [siunitx](https://ctan.org/pkg/siunitx) to CTAN. Many readers will be familiar with the package and some of the development process. Here, I've put together a summary as ‘release notes’ for the new version.
 
 ## A comprehensive (SI) units package
 
@@ -23,7 +23,7 @@ units, and the ability to control tabular alignment of numbers.
 
 ## Version 2
 
-Over the past two years siunitx has developed to include many features not originally foreseen when development began. While it has been possible to add a range of new features, some of the underlying limitation of the version 1 code have made this difficult. At the same time, renewed effort by the LaTeX Team on the development of [LaTeX3](http://www.latex-project.org/latex3.html), and in particular the [expl3](http://ctan.org/pkg/l3kernel) programming system, has offered a more robust method to create the internal structure of siunitx. As a result, version 2 of siunitx has been almost completely re-written internally.
+Over the past two years siunitx has developed to include many features not originally foreseen when development began. While it has been possible to add a range of new features, some of the underlying limitation of the version 1 code have made this difficult. At the same time, renewed effort by the LaTeX Team on the development of [LaTeX3](http://www.latex-project.org/latex3.html), and in particular the [expl3](https://ctan.org/pkg/l3kernel) programming system, has offered a more robust method to create the internal structure of siunitx. As a result, version 2 of siunitx has been almost completely re-written internally.
 
 As well as fixing a number of bugs and limitations in the original release, version 2 is also much better written to work quickly. As a result, most users should see performance enhancements with this new release of siunitx.
 
@@ -48,7 +48,7 @@ While there is a back-compatibility layer for users upgrading, it is strongly re
 
 Most users will obtain siunitx as part of their TeX distribution. [MiKTeX 2.8](http://www.miktex.org/) should include siunitx version 2 after a short delay (a few days after CTAN upload). For [TeX Live](http://www.tug.org/texlive/) users, there will be a slight delay as the package will appear in updated form in TeX Live 2010 but not TeX Live 2009 (which is frozen).
 
-For users who wish to install siunitx themselves, the package is available as a pre-extracted zip file, [siunitx.tds.zip](http://mirror.ctan.org/install/macros/latex/contrib/siunitx.tds.zip). Simply unzip this in your local texmf directory and run ‘`texhash`’ to update the database of file locations. Version 2 of siunitx requires up to date versions of the LaTeX3 packages expl3 and xpackages. These are also available from [CTAN](http://www.ctan.org/) in ready to install format (as [expl3.tds.zip](http://mirror.ctan.org/install/macros/latex/contrib/l3kernel.tds.zip) and [xpackages.tds.zip](http://mirror.ctan.org/install/macros/latex/contrib/l3packages.tds.zip)), and can be installed in the same way if necessary.
+For users who wish to install siunitx themselves, the package is available as a pre-extracted zip file, [siunitx.tds.zip](http://mirror.ctan.org/install/macros/latex/contrib/siunitx.tds.zip). Simply unzip this in your local texmf directory and run ‘`texhash`’ to update the database of file locations. Version 2 of siunitx requires up to date versions of the LaTeX3 packages expl3 and xpackages. These are also available from [CTAN](https://www.ctan.org) in ready to install format (as [expl3.tds.zip](http://mirror.ctan.org/install/macros/latex/contrib/l3kernel.tds.zip) and [xpackages.tds.zip](http://mirror.ctan.org/install/macros/latex/contrib/l3packages.tds.zip)), and can be installed in the same way if necessary.
 
 If you want to unpack the dtx yourself, running ‘`tex siunitx.dtx`’ will extract the package whereas ‘`latex siunitx.dtx`’ will extract it and also typeset the documentation. Typesetting the documentation requires a number of packages in addition to those needed to use siunitx. These should all be available in a complete TeX Live 2010 or MiKTeX 2.8 installation.
 

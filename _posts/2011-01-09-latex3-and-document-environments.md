@@ -43,7 +43,7 @@ There are some problems with this scheme. First, it's possible to abuse the syst
 
 will not raise an error even though `\emph` was never intended to be used as the start of an environment. (LaTeX2e does not require that `\endemph` exists here: it's only the start of an environment which must be defined.) Secondly, due to this mixing it's not possible to have a `foo` environment and independent `\foo` macro: the two are tied together. Finally, as `\endfoo` is ‘special’ `\newcommand` won't let you create macros which start `\end...`.
 
-For LaTeX3, we want the approach to be different. Document commands and document environments should be independent of one another, and so [xparse](http://ctan.org/pkg/xparse) defines a pair of special internal macros when you use
+For LaTeX3, we want the approach to be different. Document commands and document environments should be independent of one another, and so [xparse](https://ctan.org/pkg/xparse) defines a pair of special internal macros when you use
 
 ```latex
 \NewDocumentEnvironment{foo}...

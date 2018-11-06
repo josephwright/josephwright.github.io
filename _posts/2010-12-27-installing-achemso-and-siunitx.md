@@ -13,11 +13,11 @@ categories:
 tags:
   - installation
 ---
-A question that comes up from time to time is how to install one or other of my packages, usually either [achemso](http://ctan.org/pkg/achemso) or [siunitx](http://ctan.org/pkg/siunitx). While both are essentially standard LaTeX packages (no weird files or binaries needed), there are still soem stumbling blocks that cause issues. So I thought a few notes by be useful here.
+A question that comes up from time to time is how to install one or other of my packages, usually either [achemso](https://ctan.org/pkg/achemso) or [siunitx](https://ctan.org/pkg/siunitx). While both are essentially standard LaTeX packages (no weird files or binaries needed), there are still soem stumbling blocks that cause issues. So I thought a few notes by be useful here.
 
 ## Installing as part of an up to date TeX system
 
-By far the easiest way to install my LaTeX packages is to get them as part an up to date TeX system. Both [MikTeX 2.9](http://www.miktex.org/) and [TeX Live 2010](http://www.tug.org/texlive) include all of my general packages. MiKTeX is of course Windows-only, but TeX Live can be installed on Windows, Mac OS X and Linux. After installation, doing an on-line update should grab all of the latest packages from [CTAN](http://www.ctan.org/). Both MiKTeX and TeX Live include graphical update programs, so this is not such a difficult process nowadays.
+By far the easiest way to install my LaTeX packages is to get them as part an up to date TeX system. Both [MikTeX 2.9](http://www.miktex.org/) and [TeX Live 2010](http://www.tug.org/texlive) include all of my general packages. MiKTeX is of course Windows-only, but TeX Live can be installed on Windows, Mac OS X and Linux. After installation, doing an on-line update should grab all of the latest packages from [CTAN](https://www.ctan.org). Both MiKTeX and TeX Live include graphical update programs, so this is not such a difficult process nowadays.
 
 Mac users may well prefer [MacTeX](http://www.tug.org/mactex) over plain TeX Live, but MacTeX is built on top of TeX Live and so the same ideas apply. You can install either TeX Live or MacTeX and get the same basic functionality.
 
