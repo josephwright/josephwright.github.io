@@ -10,7 +10,7 @@ tags:
 ---
 ![TeXworks: Experimental LaTeX-errors interface](/wp-content/uploads/2009/10/LaTeX-errors-300x187.png)
 
-The [latest builds](http://code.google.com/p/texworks/downloads/list) of [TeXworks](http://www.texworks.org/) include support for scripting. There are not a lot of scripts just yet, but one that already looks good is LaTeX error message highlighting.
+The [latest builds](http://code.google.com/p/texworks/downloads/list) of [TeXworks](https://tug.org/texworks) include support for scripting. There are not a lot of scripts just yet, but one that already looks good is LaTeX error message highlighting.
 
 This already seems to work pretty well, and it's one of the few things I miss from my previous editor of choice ([WinEdt](http://www.winedt.com/)). It can already jump to the line in question, when you choose the appropriate line in the listing.
 

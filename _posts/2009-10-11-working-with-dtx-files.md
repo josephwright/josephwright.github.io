@@ -11,7 +11,7 @@ I've talked a bit about the [dtx file format](/2009/10/05/the-dtx-format/) and g
 
 # Editing dtx files
 
-As with any TeX source, you don't have to have a special editor to work with dtx files, but it can be helpful. Many people say that [Emacs](http://www.gnu.org/software/emacs/) (using [AUC-TeX](http://www.gnu.org/software/auctex/)) has the best dtx editing mode of all: I've only tried it briefly, but the AUC-TeX homepage has the details. On Windows, [WinEdt](http://www.winedt.com/) has a pretty strong [DTX Submode](http://www.winedt.org/Config/modes/DTX.php) which does similar things. As I mainly use [TeXworks](http://www.texworks.org), I've made a few modifications to get something similar to those two ‘leaders’: at the moment I use the following settings for syntax highlighting:
+As with any TeX source, you don't have to have a special editor to work with dtx files, but it can be helpful. Many people say that [Emacs](http://www.gnu.org/software/emacs/) (using [AUC-TeX](http://www.gnu.org/software/auctex/)) has the best dtx editing mode of all: I've only tried it briefly, but the AUC-TeX homepage has the details. On Windows, [WinEdt](http://www.winedt.com/) has a pretty strong [DTX Submode](http://www.winedt.org/Config/modes/DTX.php) which does similar things. As I mainly use [TeXworks](https://tug.org/texworks), I've made a few modifications to get something similar to those two ‘leaders’: at the moment I use the following settings for syntax highlighting:
 
 ```
 [LaTeX DTX]

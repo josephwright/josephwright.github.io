@@ -13,7 +13,7 @@ Both [MiKTeX](https://www.miktex.org/) and [TeX Live](https://tug.org/texlive/) 
 
 Looking through the feature lists, a lot of the new features are common to the two systems, for example:
 
-- [TeXworks](http://www./texworks.org) installed as a distribution-maintained editor.
+- [TeXworks](https://tug.org/texworks) installed as a distribution-maintained editor.
 - [XeTeX](https://www.tug.org/xetex/) version 0.9995 (which includes the new primitives that the [LaTeX3](https://www.latex-project.org/latex3.html) team asked for).
 - Some `\write18` functions enabled without turning on full `\write18` support: this is used to allow “safe” functions.
 

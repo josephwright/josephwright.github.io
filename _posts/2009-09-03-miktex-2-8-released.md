@@ -7,4 +7,4 @@ categories:
 tags:
   - MiKTeX
 ---
-A quick note to say that [MiKTeX 2.8](https://www.miktex.org/) was released on Tuesday. As I've already posted, the two points to note in the new version are the inclusion of [TeXworks](http://www.texworks.org) and better support for multi-user systems.  There seem to be one or two teething issues, but I'm sure they'll soon be solved.
+A quick note to say that [MiKTeX 2.8](https://www.miktex.org/) was released on Tuesday. As I've already posted, the two points to note in the new version are the inclusion of [TeXworks](https://tug.org/texworks) and better support for multi-user systems.  There seem to be one or two teething issues, but I'm sure they'll soon be solved.
