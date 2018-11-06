@@ -10,10 +10,12 @@ categories:
   - achemso
   - Packages
 ---
-When I wrote the <a title="The achemso bundle" href="http://ctan.org/pkg/achemso">achemso</a> class for submissions to <a title="The American Chemical Society" href="http://www.acs.org">American Chemical Society</a> journals, I did my best to get the style of each journal correct. Of course, this is not easy as there are a lot of journals and they are not necessarily consistent in applying the style rules! One issue that comes up a lot is section numbering. Most of the journals do not number sections, most of the time. However, sometimes authors want to include section numbers. I need to look at this again for version 3.2, but in version 3.1 you need to do:
+When I wrote the [achemso](http://ctan.org/pkg/achemso) class for submissions to [American Chemical Society](http://www.acs.org) journals, I did my best to get the style of each journal correct. Of course, this is not easy as there are a lot of journals and they are not necessarily consistent in applying the style rules! One issue that comes up a lot is section numbering. Most of the journals do not number sections, most of the time. However, sometimes authors want to include section numbers. I need to look at this again for version 3.2, but in version 3.1 you need to do:
 
-<pre>\makeatletter
+```latex
+\makeatletter
 \acs@restsecnums
-\makeatother</pre>
+\makeatother
+```
 
 somewhere in the preamble to restore numbering.

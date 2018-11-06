@@ -11,4 +11,4 @@ categories:
 tags:
   - Twitter
 ---
-Quite by accident I've discovered that the <a href="http://tex.stackexchange.com/">{TeX} Q&A site</a> has a <a href="http://twitter.com/StackTeX/">Twitter feed</a> of questions. I'm not a <a href="http://www.twitter.com/">Twitter</a> person myself, buy I guess a lot of people are. The feed seems to automatically notify you of new questions, so if Twitter is already part of your day-to-day set up then I guess this is one to follow.
+Quite by accident I've discovered that the [{TeX} Q&A site](http://tex.stackexchange.com/) has a [Twitter feed](http://twitter.com/StackTeX/) of questions. I'm not a [Twitter](http://www.twitter.com/) person myself, buy I guess a lot of people are. The feed seems to automatically notify you of new questions, so if Twitter is already part of your day-to-day set up then I guess this is one to follow.

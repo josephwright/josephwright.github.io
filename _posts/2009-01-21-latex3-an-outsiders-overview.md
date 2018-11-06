@@ -11,4 +11,4 @@ categories:
 tags:
   - TUGboat
 ---
-I've drafted a <a title="TUGboat" href="http://www.tug.org/tugboat/">TUGboa</a>t article about <a title="LaTeX3 Homepage" href="http://www.latex-project.org/latex3.html">LaTeX3</a>, mainly focussed on the new internal programming syntax. The current draft is available as a PDF and as the LaTeX source.
+I've drafted a [TUGboa](http://www.tug.org/tugboat/)t article about [LaTeX3](http://www.latex-project.org/latex3.html), mainly focussed on the new internal programming syntax. The current draft is available as a PDF and as the LaTeX source.

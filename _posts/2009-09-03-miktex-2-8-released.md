@@ -11,4 +11,4 @@ categories:
 tags:
   - MiKTeX
 ---
-A quick note to say that <a title="MiKTeX Project Page" href="http://www.miktex.org/">MiKTeX 2.8</a> was released on Tuesday. As I've already posted, the two points to note in the new version are the inclusion of <a title="TeXworks - lowering the entry barrier to the TeX world" href="http://www.texworks.org">TeXworks</a> and better support for multi-user systems.  There seem to be one or two teething issues, but I'm sure they'll soon be solved.
+A quick note to say that [MiKTeX 2.8](http://www.miktex.org/) was released on Tuesday. As I've already posted, the two points to note in the new version are the inclusion of [TeXworks](http://www.texworks.org) and better support for multi-user systems.  There seem to be one or two teething issues, but I'm sure they'll soon be solved.

@@ -11,4 +11,4 @@ categories:
 tags:
   - expl3
 ---
-A quick note to say that I've just uploaded to CTAN updates for <a href="http://ctan.org/pkg/expl3">expl3</a>, <a href="http://ctan.org/pkg/l3packages">xpackages</a> and <a title="A comprehensive (SI) units package" href="http://ctan.org/pkg/siunitx">siunitx</a>. There are some low-level changes which mean that these have to be updated together. So if you grab one of them, grab them all!
+A quick note to say that I've just uploaded to CTAN updates for [expl3](http://ctan.org/pkg/expl3), [xpackages](http://ctan.org/pkg/l3packages) and [siunitx](http://ctan.org/pkg/siunitx). There are some low-level changes which mean that these have to be updated together. So if you grab one of them, grab them all!

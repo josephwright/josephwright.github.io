@@ -10,4 +10,4 @@ categories:
   - Packages
   - siunitx
 ---
-I try to keep my <a href="http://ctan.org/pkg/siunitx"><code>siunitx</code></a> package ticking over, even though it's now pretty feature-rich. There are a <a href="https://bitbucket.org/josephwright/siunitx/issues?milestone=v2.6">couple of issues</a> currently on the list for v2.6, and I'm planning to tackle those over the Christmas holidays. So now is a good time to log any feature requests you have for <code>siunitx</code>.
+I try to keep my [`siunitx`](http://ctan.org/pkg/siunitx) package ticking over, even though it's now pretty feature-rich. There are a [couple of issues](https://bitbucket.org/josephwright/siunitx/issues?milestone=v2.6) currently on the list for v2.6, and I'm planning to tackle those over the Christmas holidays. So now is a good time to log any feature requests you have for `siunitx`.

@@ -10,4 +10,4 @@ categories:
   - achemso
   - Packages
 ---
-I've had a couple of minor bug reports about my <a title="achemso - Support for submission to American Chemical Society journals" href="http://ctan.org/pkg/achemso">achemso</a> package for submissions to the <a title="American Chemical Society publications" href="http://pubs.acs.org">ACS</a>. The latest version (v3.1a) is on its way to <a title="The Comprehensive TeX Archive Network" href="http://www.ctan.org">CTAN</a> and the ACS now.
+I've had a couple of minor bug reports about my [achemso](http://ctan.org/pkg/achemso) package for submissions to the [ACS](http://pubs.acs.org). The latest version (v3.1a) is on its way to [CTAN](http://www.ctan.org) and the ACS now.

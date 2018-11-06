@@ -11,4 +11,4 @@ categories:
 tags:
   - TeX Live
 ---
-Karl Berry has announced on the <a href="http://tug.org/mailman/listinfo/tex-live">TeX Live mailing list</a> that TeX Live 2010 is now frozen, to allow a move to release status. So what has made it into the development version to date will be more or less what gets released onto DVD. Once things are done for release then the package updates will resume, allowing on-line updating. The timetable seems to be that DVDs will appear in September, but of course this will depend on the people actually making them.
+Karl Berry has announced on the [TeX Live mailing list](http://tug.org/mailman/listinfo/tex-live) that TeX Live 2010 is now frozen, to allow a move to release status. So what has made it into the development version to date will be more or less what gets released onto DVD. Once things are done for release then the package updates will resume, allowing on-line updating. The timetable seems to be that DVDs will appear in September, but of course this will depend on the people actually making them.

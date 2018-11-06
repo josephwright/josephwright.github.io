@@ -9,4 +9,4 @@ permalink: /2015/03/04/free-ebook-version-of-latex-beginners-guide/
 categories:
   - General
 ---
-For today only you can get a free eBook copy of Stefan Kottwitz's <em>LaTeX Beginner's Guide</em> <a href="https://www.packtpub.com/packt/offers/free-learning">from the publisher</a>. I <a href="http://www.texdev.net/2011/04/05/latex-beginner%E2%80%99s-guide-published/">reviewed the book</a> when it first came out, and there is also more detail over at <a href="http://latex-community.org/">The LaTeX Community</a>.
+For today only you can get a free eBook copy of Stefan Kottwitz's _LaTeX Beginner's Guide_ [from the publisher](https://www.packtpub.com/packt/offers/free-learning). I [reviewed the book](http://www.texdev.net/2011/04/05/latex-beginner%E2%80%99s-guide-published/) when it first came out, and there is also more detail over at [The LaTeX Community](http://latex-community.org/).

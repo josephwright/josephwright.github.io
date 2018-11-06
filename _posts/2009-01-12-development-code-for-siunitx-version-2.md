@@ -14,4 +14,4 @@ tags:
   - KOMA-script
   - LPPL
 ---
-The good people at <a href="http://www.berlios.de">BerliOS</a> are now hosting the development code for siunitx version 2. The code is available by SVN using <a href="http://developer.berlios.de/svn/?group_id=10535">a web interface</a>, or of course a proper client. Why BerliOS for hosting? They seem pretty relaxed about the <a title="The LPPL" href="http://www.latex-project.org/lppl/">LPPL</a>: for example, the <a href="http://developer.berlios.de/projects/koma-script3/">KOMA-script</a> bundle is also hosted there.
+The good people at [BerliOS](http://www.berlios.de) are now hosting the development code for siunitx version 2. The code is available by SVN using [a web interface](http://developer.berlios.de/svn/?group_id=10535), or of course a proper client. Why BerliOS for hosting? They seem pretty relaxed about the [LPPL](http://www.latex-project.org/lppl/): for example, the [KOMA-script](http://developer.berlios.de/projects/koma-script3/) bundle is also hosted there.

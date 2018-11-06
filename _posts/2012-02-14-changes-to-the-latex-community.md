@@ -11,12 +11,12 @@ categories:
 tags:
   - LaTeX community
 ---
-Many readers will be familiar with <a href="http://www.latex-community.org/">The LaTeX Community</a>, an online forum for LaTeX advice that has been running now for a few years. The site was set up in 2007 by <a href="http://www.sven-wiegand.de/">Sven Weigand</a>, and has grown since then to over 56 000 posts.
+Many readers will be familiar with [The LaTeX Community](http://www.latex-community.org/), an online forum for LaTeX advice that has been running now for a few years. The site was set up in 2007 by [Sven Weigand](http://www.sven-wiegand.de/), and has grown since then to over 56 000 posts.
 
-Running such a big site is clearly not easy, and requires some expertise at the ‘back end’. Sven has recently handed over running the site to Stefan Kottwitz, a moderator on the forum since soon after it was started. Stefan has <a href="http://latex-community.org/index.php?option=com_content&amp;view=article&amp;id=418:latex-communityorg-moves-to-a-new-server&amp;catid=43:news-latex-community&amp;Itemid=111">moved the site itself to a new machine</a>, and is now <a href="http://latex-community.org/index.php?option=com_content&amp;view=article&amp;id=420:new-maintainer&amp;catid=43:news-latex-community&amp;Itemid=111">improving the features</a>. Highlights include
-<ul>
-	<li>Syntax highlighting for code blocks</li>
-	<li>The ability to mark up inline code</li>
-	<li>A quick method to link to package homepages on CTAN</li>
-</ul>
+Running such a big site is clearly not easy, and requires some expertise at the ‘back end’. Sven has recently handed over running the site to Stefan Kottwitz, a moderator on the forum since soon after it was started. Stefan has [moved the site itself to a new machine](http://latex-community.org/index.php?option=com_content&amp;view=article&amp;id=418:latex-communityorg-moves-to-a-new-server&amp;catid=43:news-latex-community&amp;Itemid=111), and is now [improving the features](http://latex-community.org/index.php?option=com_content&amp;view=article&amp;id=420:new-maintainer&amp;catid=43:news-latex-community&amp;Itemid=111). Highlights include
+
+- Syntax highlighting for code blocks
+- The ability to mark up inline code
+- A quick method to link to package homepages on CTAN
+
 Stefan's work rate in helping users is amazing, and I'm sure that he'll continue to add new ideas to The LaTeX Community!

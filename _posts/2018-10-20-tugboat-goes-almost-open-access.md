@@ -12,8 +12,8 @@ tags:
   - TUG
   - TUGboat
 ---
-Members of <a href="https://tug.org">TUG</a> might have seen a survey from the Board asking about the status of <a href="https://tug.org/tugboat"><em>TUGboat</em></a>. To date, the journal issues have been available online one year after publications. The Board were interested in how going open-access would affect the number of members.
+Members of [TUG](https://tug.org) might have seen a survey from the Board asking about the status of [_TUGboat_](https://tug.org/tugboat). To date, the journal issues have been available online one year after publications. The Board were interested in how going open-access would affect the number of members.
 
-The <a href="https://tug.org/TUGboat/survey.html?fbclid=IwAR3wRbeE5YYJI0ZVLXTN_BgqaV7L_B2r659l2y0VV1g1p-VXMuCEqNdluB8">analysis is now in</a>, and the result is clear: every issue <em>except the current one</em> is now publicly accessible. The reason is simple: most members will continue to join TUG even with direct access to <em>TUGboat</em> for free. Speaking personally, I like the print version, and I'm happy to pay for it. I'm also very mindful that we need TUG well beyond <em>TUGboat</em>, so I'm very happy with the decision.
+The [analysis is now in](https://tug.org/TUGboat/survey.html?fbclid=IwAR3wRbeE5YYJI0ZVLXTN_BgqaV7L_B2r659l2y0VV1g1p-VXMuCEqNdluB8), and the result is clear: every issue _except the current one_ is now publicly accessible. The reason is simple: most members will continue to join TUG even with direct access to _TUGboat_ for free. Speaking personally, I like the print version, and I'm happy to pay for it. I'm also very mindful that we need TUG well beyond _TUGboat_, so I'm very happy with the decision.
 
-Lets hope we see more people reading <em>TUGboat</em>, and joining TUG (and using TeX!) as a result.
+Lets hope we see more people reading _TUGboat_, and joining TUG (and using TeX!) as a result.

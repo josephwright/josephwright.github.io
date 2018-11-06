@@ -9,18 +9,22 @@ permalink: /2009/10/22/automating-releases-to-ctan/
 categories:
   - General
 ---
-I've talked in recent posts about various aspects of creating LaTeX packages, focussing on the dtx format. One thing I've been promising to cover is automating the release of material to <a title="The Comprehensive TeX Archive Network" href="http://www.ctan.org/">CTAN</a>. Even for a basic package, there are a few files to sort out (the source, a readme file, the documentation and an ins file). For the documentation, you need to typeset the correct version, include the changes and code index. So even in a simple case, a bit of help from the computer is a good thing: I manage to miss stuff quite happily even with some stuff set up.
+I've talked in recent posts about various aspects of creating LaTeX packages, focussing on the dtx format. One thing I've been promising to cover is automating the release of material to [CTAN](http://www.ctan.org/). Even for a basic package, there are a few files to sort out (the source, a readme file, the documentation and an ins file). For the documentation, you need to typeset the correct version, include the changes and code index. So even in a simple case, a bit of help from the computer is a good thing: I manage to miss stuff quite happily even with some stuff set up.
 
 What do I mean by automation? Well, there is typesetting to do, files to copy and zip files to create. For Windows users, there are also line endings to worry about: CTAN prefer Unix ones for plain text files. All of that can be rolled up into some kind of script (a shell script on Unix or a batch file on Windows). Unix users also have easy access to the ‘make’ utility. The basic tasks are the same whatever method you go for, but I'm going to assume batch files for Windows and make files for Unix (including Mac OS X).
 
 The aim here is not to have to most sophisticated system possible, but to make life easier. So I've not necessarily made every refinement I've thought of as some of them make what is going on much less clear. I'd also point out that a lot of the ideas here are ones I've adapted from elsewhere, or that have been suggested to me. Not much originality, but again that is not the main point. One thing to point out is that I've provided settings for copying dtx, ins, sty and pdf files. Other file types would need to be added, but hopefully there is enough here for the pattern to be clear without over-complicating things. You can always add things to a script so that the do nothing if they are not needed. So the same ideas can be used for packages with different requirements, with only a few basic settings to change.
 
 The two files I'm going to provide both aim to give the same functionality: I work with both Windows and Unix, so I need that. As well as being able to clean out the working directory and make documentation, there are also methods to make a CTAN archive and a TDS one (to send to users for direct installation). Finally, I've included a local installation option: useful if you don't update your TeX system regularly and need your own code to be up to date!
-<h2>Windows batch files</h2>
-A batch file on Windows (or indeed a shell script on Unix) is simply a list of commands you could type yourself at the command line, but with some flow control added.  Recent versions of Windows include a number of extensions beyond the old DOS capabilities: I'm going to use some of these, but that only rules out very old systems so it should be reasonably safe. If you want to grab the entire file in one go, it's <a href="http://www.texdev.net/wp-content/uploads/2009/10/make.bat">available here</a>.
 
-One problem is that there is no command line tool for creating zip files installed by default in Windows. I've tried a few out, and the best seems to be <a title="Info-ZIP Home Page" href="http://www.info-zip.org/">Info-ZIP</a>. It does a good job of marking up binary and text files, and also includes some abilities to sort out line endings. If it doesn't work for you, other tools such as the <a href="http://stahlforce.com/dev/index.php?tool=sfk">Swiss File Knife</a> do the same thing on a file-by-file basis. Whatever you decide, it's best to put the support tools on the Windows path somewhere.
-<pre>@echo off
+## Windows batch files
+
+A batch file on Windows (or indeed a shell script on Unix) is simply a list of commands you could type yourself at the command line, but with some flow control added.  Recent versions of Windows include a number of extensions beyond the old DOS capabilities: I'm going to use some of these, but that only rules out very old systems so it should be reasonably safe. If you want to grab the entire file in one go, it's [available here](http://www.texdev.net/wp-content/uploads/2009/10/make.bat).
+
+One problem is that there is no command line tool for creating zip files installed by default in Windows. I've tried a few out, and the best seems to be [Info-ZIP](http://www.info-zip.org/). It does a good job of marking up binary and text files, and also includes some abilities to sort out line endings. If it doesn't work for you, other tools such as the [Swiss File Knife](http://stahlforce.com/dev/index.php?tool=sfk) do the same thing on a file-by-file basis. Whatever you decide, it's best to put the support tools on the Windows path somewhere.
+
+```bat
+@echo off
 
   if not "%1" == "" goto :init
 
@@ -81,7 +85,7 @@ One problem is that there is no command line tool for creating zip files install
   rem sources are not inlcuded here: they are dealt with separately
 
   set CTANFILES=dtx ins pdf
-  set TDSFILES=%CTANFILES% sty 
+  set TDSFILES=%CTANFILES% sty
 
   rem Locations for building archives
 
@@ -155,7 +159,7 @@ One problem is that there is no command line tool for creating zip files install
 
   goto :end
 
-:doc 
+:doc
 
   call :unpack
 
@@ -306,7 +310,7 @@ One problem is that there is no command line tool for creating zip files install
 
   goto :end
 
-:zip 
+:zip
 
   if not defined ZIPFLAG set ZIPFLAG=-r -q -X -ll
 
@@ -336,13 +340,19 @@ One problem is that there is no command line tool for creating zip files install
 :end
 
   shift
-  if not "%1" == "" goto :main</pre>
-Most of the ideas here should be pretty straight-forward. The clever part is <code>:file2tdsdir</code>, which I have to say was not my idea at all! It allows the batch file to ‘know’ which type of files go where, so that you only need the information once for use in several places.
+  if not "%1" == "" goto :main
+```
 
-To use the file, just alter the settings at the beginning. The pattern should be pretty clear, and most of the rest of the code (for example, <code>:file2tdsdir</code> for correctly placing files) is also quite obvious.
-<h2>Unix make files</h2>
-Unix make files work somewhat differently to shell scripts. Each entry is a ‘target’, which is a file to create. I'm not going to explain in detail how they work, but in essense there are a series of fake ‘files’ which are the names of the settings you send to make (for example, <code>make ctan</code> needs a target called <code>ctan</code>). As with the batch file, there are a series of blanks to fill in here to customise things. I'm also sticking with the idea that things are pretty basic: a dtx file, a sty file and some documentation, plus perhaps one or more example tex files. Hopefully the idea is pretty clear. By keeping as much as possible in variables, the idea is to avoid needing to change the bulk of the file to move from one package to another. As with the batch file, the entire thing is <a href="http://www.texdev.net/wp-content/uploads/2009/10/Makefile">available here</a>. to download.
-<pre>################################################################
+Most of the ideas here should be pretty straight-forward. The clever part is `:file2tdsdir`, which I have to say was not my idea at all! It allows the batch file to ‘know’ which type of files go where, so that you only need the information once for use in several places.
+
+To use the file, just alter the settings at the beginning. The pattern should be pretty clear, and most of the rest of the code (for example, `:file2tdsdir` for correctly placing files) is also quite obvious.
+
+## Unix make files
+
+Unix make files work somewhat differently to shell scripts. Each entry is a ‘target’, which is a file to create. I'm not going to explain in detail how they work, but in essense there are a series of fake ‘files’ which are the names of the settings you send to make (for example, `make ctan` needs a target called `ctan`). As with the batch file, there are a series of blanks to fill in here to customise things. I'm also sticking with the idea that things are pretty basic: a dtx file, a sty file and some documentation, plus perhaps one or more example tex files. Hopefully the idea is pretty clear. By keeping as much as possible in variables, the idea is to avoid needing to change the bulk of the file to move from one package to another. As with the batch file, the entire thing is [available here](http://www.texdev.net/wp-content/uploads/2009/10/Makefile). to download.
+
+```make
+################################################################
 ################################################################
 # Makefile for demopkg                                         #
 ################################################################
@@ -417,7 +427,7 @@ CLEAN = \
 	sty \
 	tex \
 	txt \
-	zip 
+	zip
 
 ################################################################
 # File buiding: default actions                                #
@@ -518,5 +528,7 @@ unpack:
 	echo "Unpacking files"
 	for I in $(UNPACK) ; do \
 	  tex $$I &amp;&gt; /dev/null ; \
-	done</pre>
+	done
+```
+
 You'll see that on Unix (where we have more tools definitely available) some things are easier. That also applies to finding the local tex root: TeX Live will almost certainly be the TeX system installed, so its tools can be called on to collect the data needed. Both of the above should work with the demonstration package code I talked about last week.

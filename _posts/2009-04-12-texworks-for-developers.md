@@ -9,10 +9,12 @@ permalink: /2009/04/12/texworks-for-developers/
 categories:
   - TeXworks
 ---
-The <a title="TeXworks: lowering the entry barrier to the TeX world" href="http://www.texworks.org">TeXworks</a> program is aim at making using TeX easier for day-to-day TeX users. By stripping the interface down to a minimum, I feel it really succeeds. I'm sure that many experienced TeX developers prefer more “full featured” editors (such as <a title="WinEdt" href="http://www.winedt.com">WinEdt</a> on Windows or <a title="AUCTeX – Sophisticated document creation" href="http://www.gnu.org/software/auctex/">AUCTeX</a> on Linux). However, I find that I rarely use any of the more complex features of these richer editors, and so I'm using TeXworks for both day-to-day documents and writing LaTeX packages.
+The [TeXworks](http://www.texworks.org) program is aim at making using TeX easier for day-to-day TeX users. By stripping the interface down to a minimum, I feel it really succeeds. I'm sure that many experienced TeX developers prefer more “full featured” editors (such as [WinEdt](http://www.winedt.com) on Windows or [AUCTeX](http://www.gnu.org/software/auctex/) on Linux). However, I find that I rarely use any of the more complex features of these richer editors, and so I'm using TeXworks for both day-to-day documents and writing LaTeX packages.
 
-There are still a few things I'd like to have in TeXworks that are currently lacking, but I'm hoping that as the program develops it will be possible to do some user extension and add on what I'd like.  For example, I'd like to be able to use hard line wrapping (with a fixed number of characters in a line) and to delete lines of text rapidly (“killing” them). What I have been able to do so far is create some customised syntax highlighting and some completion code, similar to <a title="DTX submode" href="http://www.winedt.org/Config/modes/DTX.php">DTX submode</a> for WinEdt. At the moment, the syntax highlighting I've gone for looks like:
-<pre>[dtx patterns]
+There are still a few things I'd like to have in TeXworks that are currently lacking, but I'm hoping that as the program develops it will be possible to do some user extension and add on what I'd like.  For example, I'd like to be able to use hard line wrapping (with a fixed number of characters in a line) and to delete lines of text rapidly (“killing” them). What I have been able to do so far is create some customised syntax highlighting and some completion code, similar to [DTX submode](http://www.winedt.org/Config/modes/DTX.php) for WinEdt. At the moment, the syntax highlighting I've gone for looks like:
+
+```
+[dtx patterns]
 
 # comments
 red		Y	\^\^A.*
@@ -38,11 +40,15 @@ darkblue	N	\\usepackage\s*(?:\[[^]]*\]\s*)?\{[^}]*\}
 blue		N	\\(?:[A-Za-z@:_]+|.)
 
 # Non-code
-grey		Y	%.*</pre>
+grey		Y	%.*
+```
+
 which is certainly helping me to improve my understanding of regex writing! There are a few things I can't seem to get working quite as I'd ideally like, but for the moment I'm happy.
 
 For auto-completion, I've had to make some assumptions about the beginnings of lines, to get the % characters correct:
-<pre>%%!TEX encoding = UTF-8 Unicode
+
+```latex
+%%!TEX encoding = UTF-8 Unicode
 arg:=\Arg{#INS#}
 bcode:=    \begin{macrocode}#RET##INS##RET#%    \end{macrocode}#RET#•
 benv:=\begin{environment}{#INS#}#RET#%•#RET#%\end{environment}#RET#%•
@@ -64,5 +70,7 @@ pkg:=\pkg{#INS#}
 \cmd{#INS#}
 \cs{#INS#}
 \meta{#INS#}
-\pkg{#INS#}</pre>
+\pkg{#INS#}
+```
+
 I'd be interested to hear how other people find TeXworks for writing TeX code, and of course for any contributions to my configuration ideas.

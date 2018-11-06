@@ -11,4 +11,4 @@ categories:
 tags:
   - LuaTeX
 ---
-Progress on <a title="LuaTeX Homepage" href="http://www.luatex.org/">LuaTeX</a> continues at an impressive pace. On the <a title="LuaTeX Mailing List" href="http://tug.org/mailman/listinfo/luatex">mailing list</a> today I see that version 0.35.0 is available as a snapshot. The list of changes is, as you'd expect at this stage, quite technical and low level.  Things are cetainly looking interesting, though.
+Progress on [LuaTeX](http://www.luatex.org/) continues at an impressive pace. On the [mailing list](http://tug.org/mailman/listinfo/luatex) today I see that version 0.35.0 is available as a snapshot. The list of changes is, as you'd expect at this stage, quite technical and low level.  Things are cetainly looking interesting, though.

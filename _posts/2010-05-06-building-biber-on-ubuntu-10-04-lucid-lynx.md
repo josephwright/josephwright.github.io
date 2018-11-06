@@ -13,12 +13,15 @@ tags:
   - biber
   - Ubuntu
 ---
-As I've <a href="http://www.texdev.net/2010/05/06/tex-live-2009-on-ubuntu-10-04-lucid-lynx/">just installed</a> Ubuntu 10.04 (‘Lucid Lynx’) on my test system, I thought I should check that I can get <a title="bibter" href="http://biblatex-biber.sourceforge.net/">biber</a> working. As in my <a href="http://www.texdev.net/index.php?s=biber">earlier posts</a>, this is not too hard, but it's nice to have some instructions. As usual, first you need to download biber from the homepage and unpack the files. Using the Terminal, move the directory where the source is and do
-<pre>sudo cpan Config::AutoConf
+As I've [just installed](http://www.texdev.net/2010/05/06/tex-live-2009-on-ubuntu-10-04-lucid-lynx/) Ubuntu 10.04 (‘Lucid Lynx’) on my test system, I thought I should check that I can get [biber](http://biblatex-biber.sourceforge.net/) working. As in my [earlier posts](http://www.texdev.net/index.php?s=biber), this is not too hard, but it's nice to have some instructions. As usual, first you need to download biber from the homepage and unpack the files. Using the Terminal, move the directory where the source is and do
+
+```bash
+sudo cpan Config::AutoConf
 perl Build.PL
 sudo ./Build installdeps
 ./Build
 ./Build test
 sudo ./Build install
-</pre>
-The <code>cpan</code> line adds one module to Perl which for some reason biber's <code>installdeps</code> routine doesn't find automatically: if you miss this out then the build will fail. There are a lot of Perl questions while the additional modules are installed: I just say yes to all to them. The build itself is pretty quite, and it's almost at the point of being trivial (the above instructions now seem to work on all the platforms I use).
+```
+
+The `cpan` line adds one module to Perl which for some reason biber's `installdeps` routine doesn't find automatically: if you miss this out then the build will fail. There are a lot of Perl questions while the additional modules are installed: I just say yes to all to them. The build itself is pretty quite, and it's almost at the point of being trivial (the above instructions now seem to work on all the platforms I use).

@@ -10,8 +10,9 @@ categories:
   - General
 ---
 From a member of the LaTeX3 Project (who will remain anonymous!)
-<blockquote>I just came upon this offer:
 
-<a href="http://www.getdigital.de/products/Latex">http://www.getdigital.de/products/Latex</a>
-
-Now you know what to wear at the next conference!</blockquote>
+> I just came upon this offer:
+>
+> [http://www.getdigital.de/products/Latex](http://www.getdigital.de/products/Latex)
+>
+> Now you know what to wear at the next conference!

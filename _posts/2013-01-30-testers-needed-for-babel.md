@@ -11,4 +11,4 @@ categories:
 tags:
   - babel
 ---
-<p>Javier Bezos has <a href="http://www.tex-tipografia.com/babel_news.html">just announced</a> that he's looking for people to beta-test the next version of <code>babel</code>. Javier has been working hard on getting the <code>babel</code> code organised, and working out what problems need addressing, after quite a long 'drift' period. I hope lots of interested users pop up!</p>
+Javier Bezos has [just announced](http://www.tex-tipografia.com/babel_news.html) that he's looking for people to beta-test the next version of `babel`. Javier has been working hard on getting the `babel` code organised, and working out what problems need addressing, after quite a long 'drift' period. I hope lots of interested users pop up!

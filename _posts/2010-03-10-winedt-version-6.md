@@ -13,6 +13,8 @@ tags:
   - Windows
   - WinEdt
 ---
-<a title="WinEdt" href="http://www.winedt.com/">WinEdt </a>is a popular (La)TeX editor on Windows. A new major release, <a title="WinEdt 6" href="http://www.winedt.com/winedt.html">version 6</a>, has just appeared on the WinEdt homepage.  The interface has received a lot of attention, with new icons and menu arrangements. One thing that a lot of people have been hoping for is UTF-8 support, but the release notes say
-<blockquote>Avoid sending major feature requests: they will have to wait for  version 6.1 (unicode, folding and all)!</blockquote>
-So for the moment people who need UTF-8 will have to look elsewhere. Another point to note for users of version 5.5 is that this is <em>not</em> a free upgrade (WinEdt is shareware).
+[WinEdt ](http://www.winedt.com/)is a popular (La)TeX editor on Windows. A new major release, [version 6](http://www.winedt.com/winedt.html), has just appeared on the WinEdt homepage.  The interface has received a lot of attention, with new icons and menu arrangements. One thing that a lot of people have been hoping for is UTF-8 support, but the release notes say
+
+> Avoid sending major feature requests: they will have to wait for version 6.1 (unicode, folding and all)!
+
+So for the moment people who need UTF-8 will have to look elsewhere. Another point to note for users of version 5.5 is that this is _not_ a free upgrade (WinEdt is shareware).

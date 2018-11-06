@@ -10,22 +10,30 @@ categories:
   - beamer
   - Packages
 ---
-I wrote earlier this year about <a href="http://www.texdev.net/2014/01/28/the-overlay-syntax-and-pause-in-beamer/">using the <code>beamer</code> overlay concept with relative slide specifications</a> to produce dynamic slide structures. Another <a href="http://tex.stackexchange.com/questions/205625/">question about overlays</a> came up recently on TeX StackExhange, but this time wanting to do something a bit different.
+I wrote earlier this year about [using the `beamer` overlay concept with relative slide specifications](http://www.texdev.net/2014/01/28/the-overlay-syntax-and-pause-in-beamer/) to produce dynamic slide structures. Another [question about overlays](http://tex.stackexchange.com/questions/205625/) came up recently on TeX StackExhange, but this time wanting to do something a bit different.
 
-The 'standard' <code>beamer</code> overlay system does the same as the <code>\visible</code> command: makes things appear and disappear, but always keeps space for them on the slide. However, <code>beamer</code> also provides <code>\only</code>, which completely omits items not visible on a slide. So the question was how to combine this idea with the general overlay concept.
+The 'standard' `beamer` overlay system does the same as the `\visible` command: makes things appear and disappear, but always keeps space for them on the slide. However, `beamer` also provides `\only`, which completely omits items not visible on a slide. So the question was how to combine this idea with the general overlay concept.
 
-It turns out that this is all quite straight-forward if you know what to look for. The standard <code>beamer</code> overlay syntax, for example
-<pre><code>\item&lt;+-&gt;
-</code></pre>
-extends to include an action type to specify what the overlay should do. That is given as a keyword and an <code>@</code> before the overlay number(s). So for example
-<pre><code>\begin{itemize}
+It turns out that this is all quite straight-forward if you know what to look for. The standard `beamer` overlay syntax, for example
+
+```latex
+\item&lt;+-&gt;
+```
+
+extends to include an action type to specify what the overlay should do. That is given as a keyword and an `@` before the overlay number(s). So for example
+
+```latex
+\begin{itemize}
   \item First item
   \item&lt;only@1&gt; Second item
   \item&lt;only@2&gt; Replacement second item
 ...
-</code></pre>
-will show <code>Second item</code> on the first slide then replace it entirely with <code>Replacement second item</code> on the second slide. That approach can be combined with the idea of relative slide specs, as I talked about before, to give something like
-<pre><code>\documentclass{beamer}
+```
+
+will show `Second item` on the first slide then replace it entirely with `Replacement second item` on the second slide. That approach can be combined with the idea of relative slide specs, as I talked about before, to give something like
+
+```latex
+\documentclass{beamer}
 \begin{document}
    \begin{frame}
    \begin{itemize}[&lt;+-&gt;]
@@ -38,11 +46,14 @@ will show <code>Second item</code> on the first slide then replace it entirely w
 
    \end{frame}
 \end{document}
-</code></pre>
-to have the 'normal' items appear one at a time but with <code>item 3</code> only on slides 3 and 4.
+```
 
-This doesn't just apply to <code>only</code>: other keywords that work here include <code>visible</code> and <code>alert</code>. The latter tends to be seen with another syntax element: <code>|</code> to separate out appearance from a second action. A classic example of that is
-<pre><code>\documentclass{beamer}
+to have the 'normal' items appear one at a time but with `item 3` only on slides 3 and 4.
+
+This doesn't just apply to `only`: other keywords that work here include `visible` and `alert`. The latter tends to be seen with another syntax element: `|` to separate out appearance from a second action. A classic example of that is
+
+```latex
+\documentclass{beamer}
 
 \begin{document}
    \begin{frame}
@@ -56,9 +67,12 @@ This doesn't just apply to <code>only</code>: other keywords that work here incl
 
    \end{frame}
 \end{document}
-</code></pre>
-where <code>item 3</code> appears on the third slide and is highlighted on the fourth one. (Note that both <code>+</code> substitutions in this line use the <em>same</em> value for the pause counter, hence needing the <code>(1)</code> offset.) That's useful even without the 'one at a time' effect, with for example
-<pre><code>\documentclass{beamer}
+```
+
+where `item 3` appears on the third slide and is highlighted on the fourth one. (Note that both `+` substitutions in this line use the _same_ value for the pause counter, hence needing the `(1)` offset.) That's useful even without the 'one at a time' effect, with for example
+
+```latex
+\documentclass{beamer}
 
 \begin{document}
    \begin{frame}
@@ -72,7 +86,8 @@ where <code>item 3</code> appears on the third slide and is highlighted on the f
 
    \end{frame}
 \end{document}
-</code></pre>
+```
+
 highlighting the item on the second slide.
 
 A bit of imagination with this syntax can cover almost any appearance/disappearance/highlight requirement. As I said before: the key thing is not to overdo it!

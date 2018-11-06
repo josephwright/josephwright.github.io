@@ -11,9 +11,10 @@ categories:
 tags:
   - pgfplots
 ---
-Presenting experimental work in a clear form is an important skill. For plotting data, I like the excellent <a href="http://ctan.org/pkg/pgfplots"><code>pgfplots</code></a> package, which makes it easy to put together consistent presentations of complex data. At the moment, I'd doing some experiments where showing the error bars on the raw data is important, but at the same time to show fit lines clearly. The best style I've seen for this is one where the data are show as simple vertical bars which have length determined by the error bars for the measurements. The fit lines then stand out clearly without overcrowding the plot. That style isn't built in to <code>pgfplots</code> but it's easy to set up with a little work:
+Presenting experimental work in a clear form is an important skill. For plotting data, I like the excellent [`pgfplots`](http://ctan.org/pkg/pgfplots) package, which makes it easy to put together consistent presentations of complex data. At the moment, I'd doing some experiments where showing the error bars on the raw data is important, but at the same time to show fit lines clearly. The best style I've seen for this is one where the data are show as simple vertical bars which have length determined by the error bars for the measurements. The fit lines then stand out clearly without overcrowding the plot. That style isn't built in to `pgfplots` but it's easy to set up with a little work:
 
-<pre><code>\documentclass{standalone}
+```latex
+\documentclass{standalone}
 \usepackage{pgfplots}
 
 % Use features from current release
@@ -23,7 +24,7 @@ Presenting experimental work in a clear form is an important skill. For plotting
 \pgfplotsset{
   error bars/error mark options = {draw = none}
   % OR more low-level
-  % error bars/draw error bar/.code 2 args = {\draw #1 -- #2;} 
+  % error bars/draw error bar/.code 2 args = {\draw #1 -- #2;}
 }
 
 \begin{document}
@@ -46,7 +47,7 @@ Presenting experimental work in a clear form is an important skill. For plotting
   \end{axis}
 \end{tikzpicture}
 \end{document}
-</code></pre>
+```
 
-<a href="http://www.texdev.net/wp-content/uploads/2015/04/test.png"><img src="http://www.texdev.net/wp-content/uploads/2015/04/test-300x248.png" alt="Demo" width="300" height="248" class="alignnone size-medium wp-image-1810" /></a>
+![](http://www.texdev.net/wp-content/uploads/2015/04/test-300x248.png)
 My demo only has a few data points, but this style really shows it's worth as the number of points rises.

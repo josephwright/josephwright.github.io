@@ -15,7 +15,9 @@ tags:
 ---
 Stability is a key idea when making changes to the LaTeX2e kernel: users need to know that they'll always get the same output for the same (valid) input. At the same time, the world moves on and we need to respond to real-world use. To date, the LaTeX kernel has stuck to purely 'classical' 7-bit input support 'out of the box', meaning that with pdfTeX you need to load `inputenc` to properly use any extended characters. For English speakers that doesn't really show up, but almost everyone else needs
 
-    \usepackage[<encoding>]{inputenc}
+```latex
+\usepackage[<encoding>]{inputenc}
+```
 
 at least unless they are using XeTeX or LuaTeX. When there were many competing input encodings, having to load one specifically made more sense, but today UTF-8 is _the_ standard, and (almost) all new documents should be using it.
 

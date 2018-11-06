@@ -11,4 +11,4 @@ categories:
 tags:
   - River Valley
 ---
-Many readers will be familiar with <a href="http://rivervalleytechnologies.com/">River Valley</a>, a typesetting company with a long-standing interested in TeX and related technologies. One of the things they do is great work videoing meetings in the area of publishing, technology, XML and all kinds of related things. I had an e-mail a couple of days ago from Kaveh Bazargan, the head of River Valley, to let me know that videos are 'on the move' to a new site: http://river-valley.zeeba.tv/: I'll be altering my links in the blog.
+Many readers will be familiar with [River Valley](http://rivervalleytechnologies.com/), a typesetting company with a long-standing interested in TeX and related technologies. One of the things they do is great work videoing meetings in the area of publishing, technology, XML and all kinds of related things. I had an e-mail a couple of days ago from Kaveh Bazargan, the head of River Valley, to let me know that videos are 'on the move' to a new site: http://river-valley.zeeba.tv/: I'll be altering my links in the blog.

@@ -9,37 +9,41 @@ permalink: /2015/01/17/latex2e-and-unicode-engines-the-detail/
 categories:
   - General
 ---
-As I mentioned in my <a href="http://www.texdev.net/2014/12/28/fixing-latex2e/">last post</a>, the LaTeX team are working on various small but important improvements to the LaTeX2e kernel. One area we are looking at is adjusting how the 'vanilla' format works with Unicode engines. I've been asked for a bit more detail on this area, so I'll try to fill in what's going on with the 'newer' engines.
+As I mentioned in my [last post](http://www.texdev.net/2014/12/28/fixing-latex2e/), the LaTeX team are working on various small but important improvements to the LaTeX2e kernel. One area we are looking at is adjusting how the 'vanilla' format works with Unicode engines. I've been asked for a bit more detail on this area, so I'll try to fill in what's going on with the 'newer' engines.
 
-To date, the 'vanilla' LaTeX format (<code>latex.ltx</code> and associated files) has been pretty much engine-neutral with no attempt to differentiate anything other than to deal with differences between TeX2 (7-bit, released 1982) and TeX3 (8-bit, released 1990). However, the LaTeX formats that almost all users actually load are not just made by running
+To date, the 'vanilla' LaTeX format (`latex.ltx` and associated files) has been pretty much engine-neutral with no attempt to differentiate anything other than to deal with differences between TeX2 (7-bit, released 1982) and TeX3 (8-bit, released 1990). However, the LaTeX formats that almost all users actually load are not just made by running
 
-<pre><code>&lt;engine&gt; -ini latex.ltx
-</code></pre>
+```bash
+&lt;engine&gt; -ini latex.ltx
+```
 
-(or similar). The 'format builders' [principally the <a href="http://tug.org/texlive">TeX Live</a> team and Christian Schenk (<a href="http://miktex.org">MiKTeX</a>] use a series of <code>.ini</code> files for building formats. For example, <code>pdflatex.ini</code>currently says
+(or similar). The 'format builders' [principally the [TeX Live](http://tug.org/texlive) team and Christian Schenk ([MiKTeX](http://miktex.org)] use a series of `.ini` files for building formats. For example, `pdflatex.ini`currently says
 
-<pre><code>% Thomas Esser, 1998. public domain.
+```latex
+% Thomas Esser, 1998. public domain.
 \input pdftexconfig.tex
 \scrollmode
 \input latex.ltx
 \endinput
-</code></pre>
+```
 
-(The <code>.ini</code> files are in the main common to both TeX Live and MiKTeX. For building a pdfLaTeX that makes sense: <code>pdftexconfig.tex</code> just sets up related to direct PDF output as opposed to working in DVI mode. Things get more complicated, though, when we look at  the Unicode engines: some of the stuff is really 'general' and should be present in all LaTeX-based formats with these engines.
+(The `.ini` files are in the main common to both TeX Live and MiKTeX. For building a pdfLaTeX that makes sense: `pdftexconfig.tex` just sets up related to direct PDF output as opposed to working in DVI mode. Things get more complicated, though, when we look at  the Unicode engines: some of the stuff is really 'general' and should be present in all LaTeX-based formats with these engines.
 
-Both XeTeX and LuaTeX work with the entire Unicode range, so they need information on things like case mapping (<code>\lccode</code>/<code>\uccode</code>) and Unicode math handling (<code>\Umathcode</code>). The LaTeX format includes a <code>\dump</code> at the end, so without hacking about no code can be added <em>after</em> it's loaded. More importantly, as XeTeX builds hyphenation into the format in the same way as 'classical' TeX the <code>\lccode</code> data needs to be right before the format loads the patterns. However, that can't be done just by reading data before <code>latex.ltx</code>: it sets up the 8-bit range for the T1 encoding scheme. That's an issue nowadays as the hyphenation patterns are nowadays stored in Unicode form: the stuff that happens 'behind the scenes' therefore (quite reasonably) assume that the Unicode engines can read these files with no 'trickery'. To accommodate this, at the moment you'll find that <code>xelatex.ini</code> includes
+Both XeTeX and LuaTeX work with the entire Unicode range, so they need information on things like case mapping (`\lccode`/`\uccode`) and Unicode math handling (`\Umathcode`). The LaTeX format includes a `\dump` at the end, so without hacking about no code can be added _after_ it's loaded. More importantly, as XeTeX builds hyphenation into the format in the same way as 'classical' TeX the `\lccode` data needs to be right before the format loads the patterns. However, that can't be done just by reading data before `latex.ltx`: it sets up the 8-bit range for the T1 encoding scheme. That's an issue nowadays as the hyphenation patterns are nowadays stored in Unicode form: the stuff that happens 'behind the scenes' therefore (quite reasonably) assume that the Unicode engines can read these files with no 'trickery'. To accommodate this, at the moment you'll find that `xelatex.ini` includes
 
-<pre><code>\input unicode-letters
+```latex
+\input unicode-letters
 % disable the \dump in latex.ltx
 \expandafter\let\csname saved-dump-cs\endcsname\dump
 \let\dump=\relax
 \scrollmode
 \input latex.ltx
-</code></pre>
+```
 
 and later
 
-<pre><code>% Because latex.ltx sets up character code tables for T1 encoding by default,
+```latex
+% Because latex.ltx sets up character code tables for T1 encoding by default,
 % we need to reset values from unicode-letters that may have been overridden
 \begingroup
 \catcode`\@=11 \count@=128 % reset chars "80-"FF to category "other", no case mapp
@@ -59,14 +63,15 @@ ing
 \endgroup
 \expandafter\let\expandafter\dump\csname saved-dump-cs\endcsname
 \dump
-</code></pre>
+```
 
-There are some slight differences for <code>lualatex.ini</code>, but the general idea is the same. The need to 'hack around' the kernel is not great, and the team are much keener on the idea that it's a documented feature that the Unicode engines are set up for a Unicode encoding ('UC') rather than for T1. (I'll probably return to Unicode encodings in another context in a later post.)
+There are some slight differences for `lualatex.ini`, but the general idea is the same. The need to 'hack around' the kernel is not great, and the team are much keener on the idea that it's a documented feature that the Unicode engines are set up for a Unicode encoding ('UC') rather than for T1. (I'll probably return to Unicode encodings in another context in a later post.)
 
-As well as this important area, there are some things that are 'tacked on' to the formats by the <code>.ini</code> files but which apply only to one of either XeTeX or LuaTeX. For XeTeX, there is a need to manage the <code>\XeTeXinterchartoks</code> system, for which <code>xelatex.ini</code> currently does
+As well as this important area, there are some things that are 'tacked on' to the formats by the `.ini` files but which apply only to one of either XeTeX or LuaTeX. For XeTeX, there is a need to manage the `\XeTeXinterchartoks` system, for which `xelatex.ini` currently does
 
 <!-- {% raw %} -->
-<pre><code>%
+```latex
+%
 % Allocator for \XeTeXintercharclass values, from Enrico Gregorio
 %
 \catcode`\@=11
@@ -83,12 +88,13 @@ As well as this important area, there are some things that are 'tacked on' to th
  \fi}
 \def\newXeTeXintercharclass{%
  \xe@alloc@\xe@alloc@intercharclass\XeTeXintercharclass\chardef\@cclv} %at most 254
-</code></pre>
+```
 <!-- {% endraw %} -->
 
-For LuaTeX, there are a couple of things in <code>lualatex.ini</code> that should be in the format. First, there is a difference in how this engine handles negative values of <code>\endlinechar</code> compared with other TeX engines. That requires a patch to LaTeX2e's <code>\@xtypein</code>. More importantly, LuaTeX only actives the extensions to TeX if some Lua code is used
+For LuaTeX, there are a couple of things in `lualatex.ini` that should be in the format. First, there is a difference in how this engine handles negative values of `\endlinechar` compared with other TeX engines. That requires a patch to LaTeX2e's `\@xtypein`. More importantly, LuaTeX only actives the extensions to TeX if some Lua code is used
 
-<pre><code>\begingroup
+```latex
+\begingroup
 \catcode`\{=1
 \catcode`\}=2
 \directlua{
@@ -101,8 +107,8 @@ For LuaTeX, there are a couple of things in <code>lualatex.ini</code> that shoul
     tex.extraprimitives('core', 'omega', 'aleph', 'luatex'))
   }
 \endgroup
-</code></pre>
+```
 
-This has to come right at the start of the build process, but is another thing that can sensibly go into <code>latex.ltx</code>. The team also wonder if all of the primitives should have their 'natural' names without the <code>luatex</code> prefix.
+This has to come right at the start of the build process, but is another thing that can sensibly go into `latex.ltx`. The team also wonder if all of the primitives should have their 'natural' names without the `luatex` prefix.
 
-All of this can be added to <code>latex.ltx</code> without altering what users have available and without breaking LaTeX2e for pdfTeX users. The team have these changes made in the development version of the kernel. There are other things yet to be finalised, but it's highly likely the next release of the LaTeX2e kernel will (finally) recognise the Unicode engines and bring this stuff 'in house'.
+All of this can be added to `latex.ltx` without altering what users have available and without breaking LaTeX2e for pdfTeX users. The team have these changes made in the development version of the kernel. There are other things yet to be finalised, but it's highly likely the next release of the LaTeX2e kernel will (finally) recognise the Unicode engines and bring this stuff 'in house'.

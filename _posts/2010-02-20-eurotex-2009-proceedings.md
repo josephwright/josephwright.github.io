@@ -12,13 +12,11 @@ tags:
   - ConTeXt
   - EuroTeX
 ---
-In my post box a few days ago was the proceedings of the EuroTeX 2009 conference (<a title="The Communications of the TeX Users Group" href="http://www.tug.org/tugboat/">TUGBoat</a> 30:3, which I get as a joint member of <a title="The TeX Users Group" href="http://www.tug.org/">TUG</a> and <a title="The UK TeX User Group" href="http://uk.tug.org/">UK-TUG</a>). Quite a few of the articles are about <a title="ConTeXt Garden" href="http://wiki.contextgarden.net/">ConTeXt</a>, not surprising as the 3rd ConTeXt meeting took place in parallel to EuroTeX. The highlights will be different for everyone, of course. I'll pick out a few articles that caught my attention (and perhaps add a few more in a later post):
+In my post box a few days ago was the proceedings of the EuroTeX 2009 conference ([TUGBoat](http://www.tug.org/tugboat/) 30:3, which I get as a joint member of [TUG](http://www.tug.org/) and [UK-TUG](http://uk.tug.org/)). Quite a few of the articles are about [ConTeXt](http://wiki.contextgarden.net/), not surprising as the 3rd ConTeXt meeting took place in parallel to EuroTeX. The highlights will be different for everyone, of course. I'll pick out a few articles that caught my attention (and perhaps add a few more in a later post):
 
-<ul>
-    <li>Siep Kroonenberg wrote about maintaining a (Windows) network installation of <a title="TeX Live" href="http://www.tug.org/texlive/">TeX Live</a>. While not a step by step guide, I found this a useful insight into getting started on providing multi-user access to TeX.</li>
-    <li>Péter Szabó looked at optimising PDF size, both using <a title="pdfTeX" href="http://www.tug.org/applications/pdftex/">pdfTeX</a> and with post-production tools. This has come up recently on the <a href="http://tug.org/mailman/listinfo/tex-live">TeX Live mailing list</a>, so it was interesting to see more detail about the concepts involved.</li>
-    <li>Taco Hoekwater explained how the development work on <a title="LuaTeX" href="http://www.luatex.org/">LuaTeX</a> has finally removed all of the Pascal code from the sources, and why this was a ‘Good Thing’. An interesting insight into work at the engine level.</li>
-    <li>In the ‘Abstracts Only’ section I was particularly interested in one about PPCHTeX by Hans Hagen. PPCHTeX is an approach to typesetting chemical structures in TeX, and is therefore of more than passing interest to me in my day job.</li>
-</ul>
+- Siep Kroonenberg wrote about maintaining a (Windows) network installation of [TeX Live](http://www.tug.org/texlive/). While not a step by step guide, I found this a useful insight into getting started on providing multi-user access to TeX.
+- Péter Szabó looked at optimising PDF size, both using [pdfTeX](http://www.tug.org/applications/pdftex/) and with post-production tools. This has come up recently on the [TeX Live mailing list](http://tug.org/mailman/listinfo/tex-live), so it was interesting to see more detail about the concepts involved.
+- Taco Hoekwater explained how the development work on [LuaTeX](http://www.luatex.org/) has finally removed all of the Pascal code from the sources, and why this was a ‘Good Thing’. An interesting insight into work at the engine level.
+- In the ‘Abstracts Only’ section I was particularly interested in one about PPCHTeX by Hans Hagen. PPCHTeX is an approach to typesetting chemical structures in TeX, and is therefore of more than passing interest to me in my day job.
 
-I note for my diary that <a title="EuroTeX 2010" href="http://www.guit.sssup.it/eurotex2010/">EuroTeX 2010</a> is scheduled for the 25th to the 29th of August 2010 in Pisa. I'll see how my diary works out: perhaps I'll make this one!
+I note for my diary that [EuroTeX 2010](http://www.guit.sssup.it/eurotex2010/) is scheduled for the 25th to the 29th of August 2010 in Pisa. I'll see how my diary works out: perhaps I'll make this one!

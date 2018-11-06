@@ -9,4 +9,4 @@ permalink: /2009/07/18/windows-texworks-builds-have-an-icon/
 categories:
   - TeXworks
 ---
-A quick note to say that Alain Delmoitte has released a new <a title="TeXworks - lowering the entry barrier to the TeX world" href="http://www.texworks.org">TeXworks</a> <a href="http://www.leliseron.org/texworks">binary build for Windows</a>. This brings the binary up to date, and includes a “real” icon for the program (although this is going to change, I think).
+A quick note to say that Alain Delmoitte has released a new [TeXworks](http://www.texworks.org) [binary build for Windows](http://www.leliseron.org/texworks). This brings the binary up to date, and includes a “real” icon for the program (although this is going to change, I think).

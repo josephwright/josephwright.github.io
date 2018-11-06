@@ -9,10 +9,10 @@ permalink: /2009/01/02/tex-and-namespaces-continued/
 categories:
   - LaTeX3
 ---
-I've quickly put together a LaTeX3 module demonstrating how a clash-detection system might work. This is <em>very</em> experimental! Download:
+I've quickly put together a LaTeX3 module demonstrating how a clash-detection system might work. This is _very_ experimental! Download:
 
-<ul>
-    <li>The source (DTX)</li>
-    <li>The documentation (PDF)</li>
-    <li>The complete bundle, including a demo file (ZIP)</li>
-</ul>
+
+- The source (DTX)
+- The documentation (PDF)
+- The complete bundle, including a demo file (ZIP)
+

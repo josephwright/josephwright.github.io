@@ -10,4 +10,4 @@ categories:
   - beamer
   - Packages
 ---
-After a bit of a hiatus, I've got back into fixing the <a href="https://github.com/josephwright/beamer/issues">bugs in <code>beamer</code></a>, starting with some 'low hanging' ones and <a href="https://github.com/josephwright/beamer/milestones">scheduling a few more</a>. Hopefully there won't be too many new issues as a result, but if there are then <a href="https://github.com/josephwright/beamer/issues/new">please log them</a>!
+After a bit of a hiatus, I've got back into fixing the [bugs in `beamer`](https://github.com/josephwright/beamer/issues), starting with some 'low hanging' ones and [scheduling a few more](https://github.com/josephwright/beamer/milestones). Hopefully there won't be too many new issues as a result, but if there are then [please log them](https://github.com/josephwright/beamer/issues/new)!

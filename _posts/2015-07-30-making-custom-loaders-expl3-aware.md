@@ -11,39 +11,43 @@ categories:
 tags:
   - expl3
 ---
-The <code>expl3</code> syntax used by the developing programming layer for LaTeX3 is rather different from 'traditional' TeX syntax, and therefore needs to be turned on and off using the command pair <code>\ExplSyntaxOn</code>/<code>\ExplSyntaxOff</code>. In package code making use of <code>expl3</code>, the structure
+The `expl3` syntax used by the developing programming layer for LaTeX3 is rather different from 'traditional' TeX syntax, and therefore needs to be turned on and off using the command pair `\ExplSyntaxOn`/`\ExplSyntaxOff`. In package code making use of `expl3`, the structure
 
-<pre><code>\ExplSyntaxOn % Or implicit from \ProvidesExplPackage
+```latex
+\ExplSyntaxOn % Or implicit from \ProvidesExplPackage
 ....
 \usepackage{somepackage}
 ....
 \ExplSyntaxOff % Or the end of the package
-</code></pre>
+```
 
-will switch off <code>expl3</code> syntax for the loading of <code>somepackage</code> and so will work whether this dependency uses <code>expl3</code> or not.
+will switch off `expl3` syntax for the loading of `somepackage` and so will work whether this dependency uses `expl3` or not.
 
-This is achieved by using the LaTeX2e kernel mechanism <code>\@pushfilename</code>/<code>@popfilename</code>, which exists to deal with the status of <code>@</code> but which is extended by <code>expl3</code> to cover the new syntax too. However, this only applies as standard to code loaded using <code>\usepackage</code> (or the lower-level kernel command <code>\@onefilewithoptions</code>). Some bundles, most notable <a href="http://ctan.org/pkg/pgf">Ti<em>k</em>Z</a>, provide their own loader commands for specialised files. These can be made '<code>expl3</code>-aware' by including the necessary kernel commands
+This is achieved by using the LaTeX2e kernel mechanism `\@pushfilename`/`@popfilename`, which exists to deal with the status of `@` but which is extended by `expl3` to cover the new syntax too. However, this only applies as standard to code loaded using `\usepackage` (or the lower-level kernel command `\@onefilewithoptions`). Some bundles, most notable [Ti<em>k</em>Z](http://ctan.org/pkg/pgf), provide their own loader commands for specialised files. These can be made '`expl3`-aware' by including the necessary kernel commands
+
 
 <!-- {% raw %} -->
-<pre><code>\def\myloader#1{%
+```latex
+\def\myloader#1{%
   \@pushfilename
   \xdef\@currname{#1}%
   % Main loader, including \input or similar
   \@popfilename
 }
-</code></pre>
+```
 <!-- {% endraw %} -->
 
-For packages which also work with formats other than LaTeX, the push and pop steps can be set up using <code>\csname</code>
+For packages which also work with formats other than LaTeX, the push and pop steps can be set up using `\csname`
 
 <!-- {% raw %} -->
-<pre><code>\def\myloader#1{%
+```latex
+\def\myloader#1{%
   \csname @pushfilename\endcsname
   \expandafter\xdef\csname @currname\endcsname{#1}%
   % Main loader, including \input or similar
   \csname @popfilename\endcsname
 }
-</code></pre>
+```
 <!-- {% endraw %} -->
 
 Of course, that will only work with LaTeX (the stack is not present in plain TeX or ConTeXt), but as the entire package idea is essentially a LaTeX one that should be a small problem.

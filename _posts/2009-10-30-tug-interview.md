@@ -9,4 +9,4 @@ permalink: /2009/10/30/tug-interview/
 categories:
   - General
 ---
-The <a title="TeX Users Group (TUG)" href="http://www.tug.org/">TeX Users Group</a> have been running a <a title="Interview Corner" href="http://www.tug.org/interviews/">series of interviews</a> for some time, with questions to prominent people in the TeX world. I've obviously been doing something right, as I've just completed <a href="http://www.tug.org/interviews/wright.html">an interview for them</a>. I do hope it's enlightening.
+The [TeX Users Group](http://www.tug.org/) have been running a [series of interviews](http://www.tug.org/interviews/) for some time, with questions to prominent people in the TeX world. I've obviously been doing something right, as I've just completed [an interview for them](http://www.tug.org/interviews/wright.html). I do hope it's enlightening.
