@@ -15,6 +15,6 @@ The plan at the moment is something like:
 - January. Look at extending unit system to cope with more cases.
 - February. Additional items (such as awkward symbols). Write basic documentation for v2.
 - March. Public beta one for testing. Continue to write documentation
-- June. Depending on feedback and success, release siunitx v2.
+- June. Depending on feedback and success, release `siunitx` v2.
 
-As you can see, I'm hoping to get everyhting revised for [TeXLive](https://tug.org/texlive) 2009, having learnt from getting siunitx v1 out. Of course, this is subject to change (and other committments), but I think it's pretty achievable.
+As you can see, I'm hoping to get everyhting revised for [TeXLive](https://tug.org/texlive) 2009, having learnt from getting `siunitx` v1 out. Of course, this is subject to change (and other committments), but I think it's pretty achievable.

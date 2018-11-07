@@ -41,7 +41,7 @@ The next phase is to load the rest of the support needed, with [`hyperref`](http
 
 ## Appearance adjustments
 
-Setting up hyperref is easy, so that is done next.
+Setting up `hyperref` is easy, so that is done next.
 
 ```latex
 \hypersetup

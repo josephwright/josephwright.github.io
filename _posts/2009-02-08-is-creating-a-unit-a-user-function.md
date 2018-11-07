@@ -6,7 +6,7 @@ categories:
   - Packages
   - siunitx
 ---
-Working on[ siunitx version 2](http://siunitx.berlios.de), I'm confronted with a slight problem.  Currently, the macros used to manipulate units are called
+Working on[ `siunitx` version 2](http://siunitx.berlios.de), I'm confronted with a slight problem.  Currently, the macros used to manipulate units are called
 
 - `\newunit`
 - `\renewunit`
@@ -21,6 +21,6 @@ I've been thinking of better names, but I'm not sure whether these should be doc
 3. `\NewUnit` (as 2 but shorter)
 4. `\newphysicalunit` (as 2 but document level)
 5. `\createphysicalunit` (is 'create' better than 'new'?)
-6. `\createunit` (avoids the confusion with biblatex)
+6. `\createunit` (avoids the confusion with `biblatex`)
 
 You'll see that I've not included 'SI' in any of the above: it looks odd, and of course you can create non-SI units anyway.  How do other people see this?

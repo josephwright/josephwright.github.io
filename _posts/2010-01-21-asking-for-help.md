@@ -10,7 +10,7 @@ I get quite a few e-mails asking for help with my packages, and also  spot a few
 One of the things that get repeated by almost everyone trying to help  out users is the need for a [minimal example](http://www.tex.ac.uk/cgi-bin/texfaq2html?label=minxampl). For LaTeX, that typically  looks something like:
 
 ```latex
-\documentclass{article} % Or perhaps memoir, beamer, ...
+\documentclass{article} % Or perhaps memoir, `beamer`, ...
 \usepackage{...}
 \begin{document}
 Example here

@@ -7,7 +7,7 @@ categories:
 tags:
   - DTX
 ---
-In my previous post, I've tried to give a very general overview of how the dtx file format comes about, from a combination of the syntax of DocStrip and ltxdoc. The problem with the bald details is that there are still lots of way to actually use the ideas to construct a dtx. So here I'm going to detail a model dtx, which is ready to be filled in with real code and documentation. The entire file is [available here as demopkg.dtx](/wp-content/uploads/2009/10/demopkg.dtx): get it now if you are impatient!
+In my previous post, I've tried to give a very general overview of how the dtx file format comes about, from a combination of the syntax of DocStrip and `ltxdoc`. The problem with the bald details is that there are still lots of way to actually use the ideas to construct a dtx. So here I'm going to detail a model dtx, which is ready to be filled in with real code and documentation. The entire file is [available here as demopkg.dtx](/wp-content/uploads/2009/10/demopkg.dtx): get it now if you are impatient!
 
 The idea of constructing a dtx file in the way I'll describe is that it lets us achieve several things in one go:
 
@@ -166,7 +166,7 @@ Next, the fact that DocStrip can process blocks in different places can be used 
 %&lt;/driver&gt;
 ```
 
-The next block is the driver: this is the information used to typeset the code and documentation. I normally load the package I'm talking about so that I can use it in the documentation, and load a few refinements (modern fonts, hyperdoc to get hyperlinks, and so on). There are a few ltxdoc-specific instructions here: they mean that we get a proper index and information linking macro use information to the code.
+The next block is the driver: this is the information used to typeset the code and documentation. I normally load the package I'm talking about so that I can use it in the documentation, and load a few refinements (modern fonts, `hyperdoc` to get hyperlinks, and so on). There are a few `ltxdoc`-specific instructions here: they mean that we get a proper index and information linking macro use information to the code.
 
 ```latex
 % \fi
@@ -192,7 +192,7 @@ This matches the `\iffalse` in the very first line of the file: it marks the beg
 %
 ```
 
-Here, the title is set up and printed. A few things to notice here. By using `\GetFileInfo`, the version and date information are picked up from the package itself: no repetition of the information is needed in the dtx. Also, we can't use `%` as a comment character, and so ltxdoc sets up `^^A` to do the job instead.
+Here, the title is set up and printed. A few things to notice here. By using `\GetFileInfo`, the version and date information are picked up from the package itself: no repetition of the information is needed in the dtx. Also, we can't use `%` as a comment character, and so `ltxdoc` sets up `^^A` to do the job instead.
 
 ```latex
 %\changes{v1.0}{2009/10/06}{First public release}

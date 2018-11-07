@@ -1,5 +1,5 @@
 ---
-title: Installing achemso and siunitx
+title: Installing `achemso` and `siunitx`
 layout: post
 permalink: /2010/12/27/installing-achemso-and-siunitx/
 categories:
@@ -19,15 +19,15 @@ Mac users may well prefer [MacTeX](https://tug.org/mactex) over plain TeX Live, 
 
 For Linux users, it's worth noting that popular Linux distributions tend to include old versions of TeX Live (or even teTeX), rather than TeX Live 2010. So if you want an up-to-date TeX system you'll be better off ignoring your Linux package manager and grabbing TeX Live directly.
 
-One thing to do if you update your TeX system is to check any locally-installed files you might have (see the next section for more about local installation). These will be in `~/texmf` on Linux, `~/Library/texmf` on a Mac and (probably) `%USERPROFILE%\texmf` on Windows. One problem I see from time to time is that users of achemso have installed some of the BibTeX styles locally, then update the main package and all sorts of things go wrong. So do check carefully on any local files: they might be outdated by a new TeX system.
+One thing to do if you update your TeX system is to check any locally-installed files you might have (see the next section for more about local installation). These will be in `~/texmf` on Linux, `~/Library/texmf` on a Mac and (probably) `%USERPROFILE%\texmf` on Windows. One problem I see from time to time is that users of `achemso` have installed some of the BibTeX styles locally, then update the main package and all sorts of things go wrong. So do check carefully on any local files: they might be outdated by a new TeX system.
 
 ## Installing using the TDS zip files
 
-The method above is fine if you are happy installing an entirely new TeX system, but if all you need is access to one of my packages then it is probably over-kill. For these users, I provide ready-to-install zip files on CTAN. For achemso, you need [achemso.tds.zip](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=achemso.tds.zip&amp;Search=Search), while for siunitx users you probably need
+The method above is fine if you are happy installing an entirely new TeX system, but if all you need is access to one of my packages then it is probably over-kill. For these users, I provide ready-to-install zip files on CTAN. For `achemso`, you need [`achemso.tds.zip`](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=`achemso`.tds.zip&amp;Search=Search), while for `siunitx` users you probably need
 
-- [siunitx.tds.zip](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=siunitx.tds.zip&amp;Search=Search)
-- [expl3.tds.zip](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=expl3.tds.zip&amp;Search=Search)
-- [xpackages.tds.zip](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=xpackages.tds.zip&amp;Search=Search)
+- [`siunitx.tds.zip`](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=`siunitx`.tds.zip&amp;Search=Search)
+- [`expl3.tds.zip`](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=expl3.tds.zip&amp;Search=Search)
+- [`xpackages.tds.zip`](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=xpackages.tds.zip&amp;Search=Search)
 
 The idea with these files is that I have set them up with documentation, ready to use LaTeX styles and all of the support files. All that needs to happen with them is to unzip them inside your local TeX directory and tell TeX about them.
 
@@ -63,4 +63,4 @@ texhash
 
 ## Installing from the dtx file
 
-The traditional method to install a package is to unpack it from the dtx source. I've got to say that I only recommend this for experienced LaTeX users. While both achemso and siunitx are designed to be easy to unpack, life is more complex for expl3 and xpackages. So I'd strongly recommed using the TDS zip files unless you know a bit more about LaTeX!
+The traditional method to install a package is to unpack it from the dtx source. I've got to say that I only recommend this for experienced LaTeX users. While both `achemso` and `siunitx` are designed to be easy to unpack, life is more complex for `expl3` and `xpackages`. So I'd strongly recommed using the TDS zip files unless you know a bit more about LaTeX!

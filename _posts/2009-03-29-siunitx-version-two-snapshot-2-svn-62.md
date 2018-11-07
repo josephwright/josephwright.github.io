@@ -6,7 +6,7 @@ categories:
   - Packages
   - siunitx
 ---
-As promised, a second snapshot of siunitx version 2 is now available:
+As promised, a second snapshot of `siunitx` version 2 is now available:
 
 - [The source  (.dtx)](/wp-content/uploads/2009/03/siunitx.dtx)
 - [The user manual (.pdf)](/wp-content/uploads/2009/03/siunitx.pdf)

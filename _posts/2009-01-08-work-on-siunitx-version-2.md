@@ -6,7 +6,7 @@ categories:
   - Packages
   - siunitx
 ---
-Progress on siunitx 2 was slower over Christmas than I'd hoped.  However, I should still manage a first snap-shot of what I'm doing some time this month.
+Progress on `siunitx` 2 was slower over Christmas than I'd hoped.  However, I should still manage a first snap-shot of what I'm doing some time this month.
 
 I'm working on three different targets at once:
 

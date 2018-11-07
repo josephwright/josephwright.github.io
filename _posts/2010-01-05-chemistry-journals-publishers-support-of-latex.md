@@ -11,7 +11,7 @@ As the author of the [`achemso`](https://ctan.org/pkg/achemso) bundle (for suppo
 
 ## American Chemical Society (ACS)
 
-As I said above, I've written the [`achemso`](https://ctan.org/pkg/achemso) bundle specifically for submissions to the ACS. However, while the central office are happy to host a copy on their website and so on, the ACS don't officially support the bundle. That means, in practice, that some journals are happier with LaTeX submissions than others. Each journal has its own office, and so I hear different things from people submitting to different journals. It also means that I have to pick up the requirements of each office based on feedback _via_ authors, rather than getting any formalised instructions. There are mistakes in the achemso bundle, and there are also requirements that I don't know about. So feedback is always useful (good or bad).
+As I said above, I've written the [`achemso`](https://ctan.org/pkg/achemso) bundle specifically for submissions to the ACS. However, while the central office are happy to host a copy on their website and so on, the ACS don't officially support the bundle. That means, in practice, that some journals are happier with LaTeX submissions than others. Each journal has its own office, and so I hear different things from people submitting to different journals. It also means that I have to pick up the requirements of each office based on feedback _via_ authors, rather than getting any formalised instructions. There are mistakes in the `achemso` bundle, and there are also requirements that I don't know about. So feedback is always useful (good or bad).
 
 ## Royal Society of Chemistry (RSC)
 

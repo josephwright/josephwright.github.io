@@ -9,7 +9,7 @@ tags:
   - biber
   - Perl
 ---
-The [biblatex-biber](http://biblatex-biber.sourceforge.net/) project provides probably the best way for [`biblatex`](https://ctan.org/pkg/biblatex) users to switch to pure UTF-8 bibliography information. However, getting it to build can cause problems: biblatex-biber is a [Perl](http://www.perl.org/) programme, and needs various downloads from [CPAN](http://www.cpan.org/). I thought it would therefore be useful to put some simple recipes here, explaining what I've done to get a working biblatex-biber on Windows, Ubuntu and Mac OS X. I'm assuming that the latest biblatex-biber release has been downloaded and unzipped somewhere, and that the Command Prompt/Terminal/Shell is open in that directory (folder).
+The [`biblatex-biber`](http://biblatex-biber.sourceforge.net/) project provides probably the best way for [`biblatex`](https://ctan.org/pkg/biblatex) users to switch to pure UTF-8 bibliography information. However, getting it to build can cause problems: `biblatex-biber` is a [Perl](http://www.perl.org/) programme, and needs various downloads from [CPAN](http://www.cpan.org/). I thought it would therefore be useful to put some simple recipes here, explaining what I've done to get a working `biblatex-biber` on Windows, Ubuntu and Mac OS X. I'm assuming that the latest `biblatex-biber` release has been downloaded and unzipped somewhere, and that the Command Prompt/Terminal/Shell is open in that directory (folder).
 
 ## Mac OS X 10.6 (Snow Leopard)
 
@@ -19,7 +19,7 @@ Mac OS X comes with Perl installed, so life is relatively easy. At the Terminal,
 sudo cpan
 ```
 
-The cpan script has its own prompt, but this is very similar to the Terminal one. First, I updated `cpan` itself and installed a helper module with
+The `cpan` script has its own prompt, but this is very similar to the Terminal one. First, I updated `cpan` itself and installed a helper module with
 
 ```bash
 install CPAN
@@ -27,7 +27,7 @@ reload cpan
 install YAML
 ```
 
-That done, the various requirements for biblatex-biber can be installed, using the single call
+That done, the various requirements for` biblatex-biber` can be installed, using the single call
 
 ```bash
 install Data::Dump List::AllUtils Readonly Text::BibTeX Readonly::XS
@@ -49,7 +49,7 @@ perl Build.PL
 sudo ./Build install
 ```
 
-That put biblatex-biber onto the path for all users: everything then worked correctly.
+That put `biblatex-biber` onto the path for all users: everything then worked correctly.
 
 ## Ubuntu 9.10
 
@@ -77,4 +77,4 @@ sudo ./Build install
 
 ## Windows (XP, Vista and 7)
 
-To date, my attempts to build biblatex-biber on Windows (using [Strawberry Perl](http://strawberryperl.com/)) have failed as I can't get the Perl module `Text::BibTeX` to install. This is supposed to be optional, but without it biblatex-biber does not seem to work, although I do get it to build. Luckily, there is a self-contained binary for Windows available from the project site. This includes its own Perl system, so there is no need to get Perl set up before trying it. Everything seems to work for me with this version. Any ideas on what is necessary would be helpful!
+To date, my attempts to build `biblatex-biber` on Windows (using [Strawberry Perl](http://strawberryperl.com/)) have failed as I can't get the Perl module `Text::BibTeX` to install. This is supposed to be optional, but without it `biblatex-biber` does not seem to work, although I do get it to build. Luckily, there is a self-contained binary for Windows available from the project site. This includes its own Perl system, so there is no need to get Perl set up before trying it. Everything seems to work for me with this version. Any ideas on what is necessary would be helpful!

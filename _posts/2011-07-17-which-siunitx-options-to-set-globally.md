@@ -8,7 +8,7 @@ categories:
 ---
 On the [TeX.SX](https://tex.stackexchange.com/) site recently, there was some discussion about [locally over-riding the `round-mode = places` setting](https://tex.stackexchange.com/q/23193/73) in my [`siunitx`](https://ctan.org/pkg/siunitx) package. One thing this highlights for me is the need to think about which settings to apply globally.
 
-Some siunitx settings are about consistency of appearance, and seem to apply naturally to entire documents. A classic example would be `output-decimal-marker`: if you are using `,` as a decimal marker, it should apply everywhere!
+Some `siunitx` settings are about consistency of appearance, and seem to apply naturally to entire documents. A classic example would be `output-decimal-marker`: if you are using `,` as a decimal marker, it should apply everywhere!
 
 However, this is not so clear-cut for many of the options related to number-manipulation. The rounding options in particular are really intended for the case where you have some auto-generated data (say a long list from an instrument), and the real accuracy is not as great as the apparent precision. Instruments are great at providing lots of numbers, but it takes a bit of human thought to decide how many of these are really relevant. So for these cases, setting an appropriate rounding scheme is perfectly sensible.
 

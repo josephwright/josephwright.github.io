@@ -6,7 +6,7 @@ categories:
   - Packages
   - siunitx
 ---
-As promised a while ago, I've been working to get a snapshot of my work on [siunitx version 2](http://siunitx.berlios.de) ready. I've now got something that works 'as far as it goes', so I'm making a first snapshot available.  This is version control (SVN) repository revision 22, which you can see on [BerliOS](http://www.berlios.de). As this is a very earlier version of what I'm looking at, I'm just posting three files here:
+As promised a while ago, I've been working to get a snapshot of my work on [`siunitx` version 2](http://siunitx.berlios.de) ready. I've now got something that works 'as far as it goes', so I'm making a first snapshot available.  This is version control (SVN) repository revision 22, which you can see on [BerliOS](http://www.berlios.de). As this is a very earlier version of what I'm looking at, I'm just posting three files here:
 
 - [The source (.dtx)](/wp-content/uploads/2009/02/siunitx.dtx)
 - [The user manual (.pdf)](/wp-content/uploads/2009/02/siunitx.pdf)

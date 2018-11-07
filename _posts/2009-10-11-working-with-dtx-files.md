@@ -47,7 +47,7 @@ plus a few special auto-complete entries. Not quite up with the best just yet, b
 
 # What to document
 
-Getting documentation right is not easy. My general approach is to try to include lots of examples, so I always load the package being talked about for the documentation. That means I can use the package ‘in place’. Unfortunately, ltxdoc does not have a built-in example environment. I use the [`listings`](https://ctan.org/pkg/listings) package, and although it's a bit complex looking, the following code works well:
+Getting documentation right is not easy. My general approach is to try to include lots of examples, so I always load the package being talked about for the documentation. That means I can use the package ‘in place’. Unfortunately, `ltxdoc` does not have a built-in example environment. I use the [`listings`](https://ctan.org/pkg/listings) package, and although it's a bit complex looking, the following code works well:
 
 ```latex
 %\lst@RequireAspects{writefile}
@@ -131,7 +131,7 @@ This gets pasted in at the start of the document (after the driver): not great c
 ```
 
 and the demonstration will be both typeset as code and actually used. So the user can see the input and the result of whatever I've designed.
-Of course, if you are writing LaTeX classes or the like, then this won't work. For my [achemso ](https://ctan.org/pkg/achemso)class, I include a demo document in the dtx. This then gets extracted as a separate file (`achemso-demo.tex`), which includes lots of hints in the text and demonstrates as much as possible about the class. Again, the idea is to show how things are done by example: much better than trying to explain in the abstract.
+Of course, if you are writing LaTeX classes or the like, then this won't work. For my [`achemso` ](https://ctan.org/pkg/achemso)class, I include a demo document in the dtx. This then gets extracted as a separate file (`achemso-demo.tex`), which includes lots of hints in the text and demonstrates as much as possible about the class. Again, the idea is to show how things are done by example: much better than trying to explain in the abstract.
 
 # Releasing stuff to CTAN
 

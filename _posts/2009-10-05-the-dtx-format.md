@@ -17,7 +17,7 @@ The dtx format is favoured by the LaTeX team, and so is something of a standard 
 
 # How the format comes about
 
-The dtx format is really defined by two mechanisms, provided by two separate (La)TeX packages. The ability to take one source file and generate several production files, with the comments removed, is provided by the DocStrip package (which is written in plain TeX). Documenting the code, and providing user details, is supported by a dedicated LaTeX class: ltxdoc. (This is itself based on the doc class, but I'm going to focus on ltxdoc.) The combination of the syntax for the two parts of the mechanism leads to the dtx file format.
+The dtx format is really defined by two mechanisms, provided by two separate (La)TeX packages. The ability to take one source file and generate several production files, with the comments removed, is provided by the DocStrip package (which is written in plain TeX). Documenting the code, and providing user details, is supported by a dedicated LaTeX class: `ltxdoc`. (This is itself based on the doc class, but I'm going to focus on `ltxdoc`.) The combination of the syntax for the two parts of the mechanism leads to the dtx file format.
 
 It is quite possible to use dtx files as the source for things other than (La)TeX files. Indeed, in my second post I'm going to use the dtx format to also include a plain text file in the source. However, I'm not going to talk about making changes to include other types of code: this is doable, but a bit advanced to go into here!
 
@@ -77,9 +77,9 @@ and so on.
 
 So DocStrip lets us extract code out, have common sections, remove comments and so on. However, it doesn't help with the documentation side at all: that is all just comments to DocStrip.
 
-## ltxdoc: documenting the source
+## `ltxdoc`: documenting the source
 
-The ltxdoc class is the typesetting part of the dtx format. The idea is that the dtx is read in by a driver file, which actually does the typesetting. When the dtx is read in this way, the comment characters are ignored, meaning that what DocStrip sees as comments are the source for typesetting the dtx. In practice, most dtx files are written so that the driver is part of the dtx itself. The driver part of a dtx is normally very simple
+The `ltxdoc` class is the typesetting part of the dtx format. The idea is that the dtx is read in by a driver file, which actually does the typesetting. When the dtx is read in this way, the comment characters are ignored, meaning that what DocStrip sees as comments are the source for typesetting the dtx. In practice, most dtx files are written so that the driver is part of the dtx itself. The driver part of a dtx is normally very simple
 
 ```latex
 \documentclass{ltxdoc}
@@ -98,7 +98,7 @@ In the documentation part, the usual LaTeX mark-up can be used, with a few addit
 - \marg{_&lt;argument&gt;_} and `\oarg{_&lt;argument&gt;_}` print mandatory and optional arguments as ‘{_&lt;argument&gt;_}’ and ‘[_&lt;argument&gt;_]’, respectively.
 - `\DescribeMacro _&lt;csname&gt;_` prints the argument name as a marginal note, and includes it for indexing and cross-referencing.
 
-In the code section, the code itself is marked off from the documentation both by comment characters (for DocStrip), and some macros for ltxdoc:
+In the code section, the code itself is marked off from the documentation both by comment characters (for DocStrip), and some macros for `ltxdoc`:
 
 ```latex
 %\begin{macro}{\MyMacro}
@@ -109,9 +109,9 @@ In the code section, the code itself is marked off from the documentation both b
 %\end{macro}
 ```
 
-The `\begin{macro}` …`\end{macro}` block is used so that cross-references between the code and index work correctly. They are used to show that this block defines `\MyMacro` (rather than just using it). On the other hand, `\begin{macrocode}` … `\end{macrocode}` tells ltxdoc where the code is, so that it prints correctly. For mainly historical reasons, there have to be exactly four spaces in `%    \end{macrocode}`!
+The `\begin{macro}` …`\end{macro}` block is used so that cross-references between the code and index work correctly. They are used to show that this block defines `\MyMacro` (rather than just using it). On the other hand, `\begin{macrocode}` … `\end{macrocode}` tells `ltxdoc` where the code is, so that it prints correctly. For mainly historical reasons, there have to be exactly four spaces in `%    \end{macrocode}`!
 
-There are, again, several extra ideas that can be used in the code parts of ltxdoc. However, to try to explain all of them would be to make this post completely impossible to read!
+There are, again, several extra ideas that can be used in the code parts of `ltxdoc`. However, to try to explain all of them would be to make this post completely impossible to read!
 
 # Putting everything together
 

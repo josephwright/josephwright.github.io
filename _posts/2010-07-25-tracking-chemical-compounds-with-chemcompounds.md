@@ -10,7 +10,7 @@ tags:
 ---
 As a chemist, one of the things I want to do is track compound numbers (which are normally given as bold numbers, **1**, **2**, _etc_.). The traditional way to do that is by hand, which works but does require some concentration. Recent versions of [ChemDraw](http://www.cambridgesoft.com/) have included an add-in for Word to do things automatically, and of course there is LaTeX support for the same idea.
 
-In LaTeX there is a choice between two packages for tracking what is what. First, there is the [`bpchem`](https://ctan.org/pkg/bpchem) package. It provides for the idea of subdivisions, so you can have **1a**, **1b**, **1c** and so forth. However, I find the interface in bpchem is a bit awkward. The alternative is the [`chemcompounds`](https://ctan.org/pkg/chemcompounds) package. It has a very easy to use approach to tracking, but does not have built-in support for subdivisions. So I've been working on how to achieve this easily in some stuff I'm writing at the moment. It turns out to be quite easy when you think about it.
+In LaTeX there is a choice between two packages for tracking what is what. First, there is the [`bpchem`](https://ctan.org/pkg/bpchem) package. It provides for the idea of subdivisions, so you can have **1a**, **1b**, **1c** and so forth. However, I find the interface in `bpchem` is a bit awkward. The alternative is the [`chemcompounds`](https://ctan.org/pkg/chemcompounds) package. It has a very easy to use approach to tracking, but does not have built-in support for subdivisions. So I've been working on how to achieve this easily in some stuff I'm writing at the moment. It turns out to be quite easy when you think about it.
 
 The first stage is of course to load the package.
 
@@ -26,7 +26,7 @@ I've decided to go with the option to turn off automatically creating new compou
 ```
 
 Hopefully you can see how this works: the optional argument sets up the label that will print, and the mandatory one is the label I'll use to refer to the compound.
-Then I need to set up the general compounds (the ones that will be **1**, **2** and so on). I can let chemcompounds do the numbering, so this is easy:
+Then I need to set up the general compounds (the ones that will be **1**, **2** and so on). I can let `chemcompounds` do the numbering, so this is easy:
 
 ```latex
 \declarecompound{imidazole}

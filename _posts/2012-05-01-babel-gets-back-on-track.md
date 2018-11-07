@@ -11,7 +11,7 @@ Posted today to the [LaTeX-L](http://news.gmane.org/group/gmane.comp.tex.latex.l
 
 > Babel gets back on track and it is again actively maintained. The goals are mainly to fix bugs, to make it compatible with XeTeX and LuaTeX (as far as possible), and perhaps to add some minor new features (provided they are backward compatible).
 >
-> No attempt will be done to take full advantage of the features provided by XeTeX and LuaTeX, which would require a > completely new core (as for example polyglossia or as part of LaTeX3).
+> No attempt will be done to take full advantage of the features provided by XeTeX and LuaTeX, which would require a completely new core (as for example `polyglossia` or as part of LaTeX3).
 >
 > Your comments or suggestions (or questions!) are welcomed.
 

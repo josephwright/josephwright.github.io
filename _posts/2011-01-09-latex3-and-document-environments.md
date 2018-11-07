@@ -47,4 +47,4 @@ For LaTeX3, we want the approach to be different. Document commands and document
 
 This is totally independent of a macro called `\foo`, so the plan is that you'll be able to have an environment called `foo` and a separate `\foo` command, or indeed one called `\endfoo`.
 
-At present, most people will be using xparse with LaTeX2e. That means we still need to follow what LaTeX2e does. So at the moment you're not going to see the change: messing with the LaTeX2e mechanism looks like a very bad idea. However, for a native LaTeX3 format the clash will disappear.
+At present, most people will be using `xparse` with LaTeX2e. That means we still need to follow what LaTeX2e does. So at the moment you're not going to see the change: messing with the LaTeX2e mechanism looks like a very bad idea. However, for a native LaTeX3 format the clash will disappear.

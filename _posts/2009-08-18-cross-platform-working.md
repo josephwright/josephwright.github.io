@@ -12,7 +12,7 @@ tags:
   - Unix
   - Windows
 ---
-As many people will know, the [CTAN](https://www.ctan.org) team have come up with the idea of having TDS-ready zip files for packages. The idea is that you can just download the zip into your local TeX directory, unzip it and run texhash, with no TeX-based unpacking or document compilation.
+As many people will know, the [CTAN](https://www.ctan.org) team have come up with the idea of having TDS-ready zip files for packages. The idea is that you can just download the zip into your local TeX directory, unzip it and run `texhash`, with no TeX-based unpacking or document compilation.
 
 That's all fine when it works, but I've recently had a bit of trouble making zips at my end. My favoured tool for doing that has tended to be [7-Zip](http://www.7-zip.org). However, it was pointed out to me last week that the resulting zip files are not quite right. On Unix systems, the command `unzip -xa` will convert line endings to the system convention (LF only), even if they come from Windows (LF-CR endings). However, this requires that the zip identifies text files, and 7-Zip marks everything as binary!
 

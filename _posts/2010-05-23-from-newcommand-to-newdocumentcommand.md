@@ -11,7 +11,7 @@ Following on from my [last post](/2010/05/22/promoting-xparse/), I thought it mi
 
 First, why would you want to use xparse's `\NewDocumentCommand` in place of `\newcommand`? First, `\NewDocumentCommand` can make macros that take a mixture of arguments that `\newcommand` cannot. With `\newcommand`, you can make a macro that takes a number of mandatory arguments, or ones where the first argument is option and in square brackets, but that is it. Anything else then needs the use of TeX programming or internal LaTeX macros: not really helpful for end users. The second thing is that `\newcommand` macros are not ‘robust’. This shows up where you need to `\protect` things, which can be very confusing. Macros created with `\NewDocumentCommand` are robust, and this means that they work more reliably.
 
-I'm going to illustrate moving from `\newcommand` to `\NewDocumentCommand` with a series of simple examples. For all of them, you need to load the xparse package:
+I'm going to illustrate moving from `\newcommand` to `\NewDocumentCommand` with a series of simple examples. For all of them, you need to load the `xparse` package:
 
 ```latex
 \usepackage{xparse}
@@ -19,7 +19,7 @@ I'm going to illustrate moving from `\newcommand` to `\NewDocumentCommand` with 
 
 ## Macros with no arguments
 
-The simplest type of macro is one with no arguments at all. This isn't going to show off xparse very much but is is a starting point. The traditional method to do this is
+The simplest type of macro is one with no arguments at all. This isn't going to show off `xparse` very much but is is a starting point. The traditional method to do this is
 
 ```latex
 \newcommand\NoArgs{Text to insert}
@@ -31,7 +31,7 @@ which becomes
 \NewDocumentCommand\NoArgs{}{Text to insert}
 ```
 
-That does not look too bad, I hope. Notice that I've got an empty argument in the xparse case: this is where the arguments are listed, and with `\NewDocumentCommand` there always has to be a list of arguments, even if it is empty. That's a contrast with the `\newcommand` approach, where we only need to mention arguments when there are any.
+That does not look too bad, I hope. Notice that I've got an empty argument in the `xparse` case: this is where the arguments are listed, and with `\NewDocumentCommand` there always has to be a list of arguments, even if it is empty. That's a contrast with the `\newcommand` approach, where we only need to mention arguments when there are any.
 
 ## One or more mandatory arguments
 
@@ -53,14 +53,14 @@ This is still pretty similar to `\newcommand`: the useful stuff starts when life
 
 ## One of more optional (square brackets) arguments
 
-To really get something clever out of xparse, the arguments need to be a little more varied than I've show so far. Let's look at optional arguments, which LaTeX puts in square brackets. If I want the first argument to be optional, then LaTeX can help me
+To really get something clever out of `xparse`, the arguments need to be a little more varied than I've show so far. Let's look at optional arguments, which LaTeX puts in square brackets. If I want the first argument to be optional, then LaTeX can help me
 
 ```latex
 \newcomand\OneOptOfTwo[2][]{Text with #2 and perhaps #1}
 \newcomand\OneOptOfThree[3][]{Text with #2, #3 and perhaps #1}
 ```
 
-If I want anything else, I'm on my own (so no more `\newcommand` examples!). First, let's do the two example using xparse. An optional argument in square brackets, which works like a `\newcommand` one, is ‘`O`’ followed by `{}`:
+If I want anything else, I'm on my own (so no more `\newcommand` examples!). First, let's do the two example using `xparse`. An optional argument in square brackets, which works like a `\newcommand` one, is ‘`O`’ followed by `{}`:
 
 ```latex
 \NewDocumentCommand\OneOptOfTwo{O{}m}%
@@ -149,4 +149,4 @@ Here, ‘`s`’ represents a star argument. You'll see that it ends up as `#1`, 
 
 ## Summing up
 
-There is more to xparse than I've mentioned here, but I hope that this is a useful flavour of what it can be used for. To get more flexibility there is a bit more to think about compared to `\newcommand`, but the overall consistency is hopefully worth it.
+There is more to `xparse` than I've mentioned here, but I hope that this is a useful flavour of what it can be used for. To get more flexibility there is a bit more to think about compared to `\newcommand`, but the overall consistency is hopefully worth it.
