@@ -19,7 +19,7 @@ Having only 16 file streams available is clearly a bit limiting, particularly be
 No room for a new \write
 ```
 
-(The limitation on reading files does not show up so often in real cases, but is is also there.)
+(The limitation on reading files does not show up so often in real cases, but is also there.)
 
 I've had a couple or requests recently asking what can be done about this. First, a bit more background. When TeX opens a file for writing, it wipes out any previous content. So you cannot keep opening and closing a file you need to add to: once it's open, you don't want to close it until you are done. This sounds awkward, but there are alternative approaches.
 

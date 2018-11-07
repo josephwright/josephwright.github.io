@@ -11,5 +11,5 @@ I'll probably upload the package to [CTAN](https://www.ctan.org) over the weeken
 
 - The documentation (.pdf)
 - The source file (.dtx)
-- Docstrip extration file (.ins)
+- DocStrip extraction file (.ins)
 - Demonstration/test file (.tex)

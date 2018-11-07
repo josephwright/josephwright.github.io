@@ -20,7 +20,7 @@ The LaTeX3 'module' concept helps to some extent. This formalises what many pack
 1. How are module names managed?
 2. What about user macros?
 
-It we imagine that LaTeX3 will eventually have a large community of developers, in the same way as LaTeX2e does, then this needs to be addressed. The ConTeXt approach of of small, focussed team doesn't really apply in the LaTeX world.
+It we imagine that LaTeX3 will eventually have a large community of developers, in the same way as LaTeX2e does, then this needs to be addressed. The ConTeXt approach of small, focussed team doesn't really apply in the LaTeX world.
 
 ## Ideas
 

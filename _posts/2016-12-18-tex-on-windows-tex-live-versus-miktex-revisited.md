@@ -19,7 +19,7 @@ Assuming you are going for one of the 'big two', what is there to think about? F
 - The standard installer for MiKTeX installs 'just the basics' and uses on-the-fly installation for anything else you need; the standard install for TeX Live is 'everything' (about 4.5 Gb!). Which is right for you will depend on how much space you have: you can of course customise the installation of either system to include more or less of the 'complete' set up.
 - MiKTeX has a slightly more flexibly approach to licensing than TeX Live does: there are a small number of LaTeX packages that MiKTeX includes that TeX Live does not. (Probably the most obvious example is [`thesis`](https://ctan.org/pkg/thesis).)
 - TeX Live has a Unix background so the management GUI looks slightly less 'standard' than the MiKTeX one.
-- TeX Live has a strict once-a-year freeze,which means that to update you have to do a fresh install once a year. On the other hand, MiKTeX versions change only when there is a significant change and otherwise 'roll onward'.
+- TeX Live has a strict once-a-year freeze, which means that to update you have to do a fresh install once a year. On the other hand, MiKTeX versions change only when there is a significant change and otherwise 'roll onward'.
 
 So the decision is likely to come down to whether you want auto-installation of packages. (If you do go for MiKTeX on a one-user PC, choose the 'Just for me' installation option: it makes life a lot simpler!)
 
@@ -32,4 +32,3 @@ For more advanced users there are a few more factors you probably want to consid
 - TeX Live has a team doing the work; MiKTeX is a one-man project. This cuts both ways: you know exactly who is doing everything in MiKTeX (Christian Schenk), and he's very fast, but there is more 'spread' in TeX Live for the work.
 - For people wanting to step quickly between different versions of TeX system, the fact that TeX Live freezes once a year makes life convenient (I have TeX Live 2009,2010, 2011, 2012, 2013, 2014, 2015 and 2016 installed at present, plus MiKTeX 2.9 of course!) You can switch installations by adjusting the `PATH` or by choosing the appropriate version from your editor, so have a 'fall back' if there is an issue when you update.
 - TeX Live has build-in package backup during maintenance updates.
-

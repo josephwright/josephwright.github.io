@@ -9,7 +9,7 @@ categories:
 tags:
   - installation
 ---
-A question that comes up from time to time is how to install one or other of my packages, usually either [`achemso`](https://ctan.org/pkg/achemso) or [`siunitx`](https://ctan.org/pkg/siunitx). While both are essentially standard LaTeX packages (no weird files or binaries needed), there are still soem stumbling blocks that cause issues. So I thought a few notes by be useful here.
+A question that comes up from time to time is how to install one or other of my packages, usually either [`achemso`](https://ctan.org/pkg/achemso) or [`siunitx`](https://ctan.org/pkg/siunitx). While both are essentially standard LaTeX packages (no weird files or binaries needed), there are still some stumbling blocks that cause issues. So I thought a few notes by be useful here.
 
 ## Installing as part of an up to date TeX system
 

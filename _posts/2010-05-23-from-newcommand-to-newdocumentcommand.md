@@ -19,7 +19,7 @@ I'm going to illustrate moving from `\newcommand` to `\NewDocumentCommand` with 
 
 ## Macros with no arguments
 
-The simplest type of macro is one with no arguments at all. This isn't going to show off `xparse` very much but is is a starting point. The traditional method to do this is
+The simplest type of macro is one with no arguments at all. This isn't going to show off `xparse` very much but is a starting point. The traditional method to do this is
 
 ```latex
 \newcommand\NoArgs{Text to insert}
