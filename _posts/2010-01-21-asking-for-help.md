@@ -17,11 +17,11 @@ Example here
 \end{document}
 ```
 
-ConTeXt examples are not dissimilar, while plain TeX ones need very  little at all (but I get very few of these). It's much faster to supply  everything to start with than to send a snippet with key details left out. It's surprising how many things people simply assume are obvious, when they are not (“Surely everyone uses package wibble”).
+ConTeXt examples are not dissimilar, while plain TeX ones need very  little at all (but I get very few of these). It's much faster to supply  everything to start with than to send a snippet with key details left out. It's surprising how many things people simply assume are obvious, when they are not ('Surely everyone uses package wibble').
 
 Another useful thing to do in advance of sending a query is to send a log file. Again, LaTeX users are normally best advised to include `\listfiles` in their input, so the kernel makes a neat listing of everything in use (hopefully including the versions).
 
-Often, I get description of either how things should look or why they are wrong, rather than an actual example. If at all possible, a “reference rendering” is much easier to follow. That can be something done in a drawing programme, using some alternative (but awkward) TeX code, or a screenshot of something.  Describing things in words (especially if the questioner is not a native English speaker) can be a recipe for a long and painful process.
+Often, I get description of either how things should look or why they are wrong, rather than an actual example. If at all possible, a 'reference rendering' is much easier to follow. That can be something done in a drawing programme, using some alternative (but awkward) TeX code, or a screenshot of something.  Describing things in words (especially if the questioner is not a native English speaker) can be a recipe for a long and painful process.
 
 For questions posted in public, it's always best to drop me a line so I spot it: I do my best but sometimes I miss things. For places such as comp.text.tex, that can simply be a CC on the posting, or for forums a quick note that says
 

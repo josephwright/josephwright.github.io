@@ -15,7 +15,7 @@ or words to that effect.
 
 ## LaTeX3 approaches
 
-The LaTeX3 “module” concept helps to some extent. This formalises what many package authors do in LaTeX2e, so that _all_ internal macros for a module (a package for LaTeX3) start with `\module` (or some fixed abbreviation for the module name). However, this leaves two issues:
+The LaTeX3 'module' concept helps to some extent. This formalises what many package authors do in LaTeX2e, so that _all_ internal macros for a module (a package for LaTeX3) start with `\module` (or some fixed abbreviation for the module name). However, this leaves two issues:
 
 1. How are module names managed?
 2. What about user macros?

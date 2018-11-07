@@ -20,7 +20,7 @@ I've been thinking of better names, but I'm not sure whether these should be doc
 2. `\NewPhysicalUnit` (create with checks: would require `\RenewPhysicalUnit`, _etc._)
 3. `\NewUnit` (as 2 but shorter)
 4. `\newphysicalunit` (as 2 but document level)
-5. `\createphysicalunit` (is “create” better than “new”?)
+5. `\createphysicalunit` (is 'create' better than 'new'?)
 6. `\createunit` (avoids the confusion with biblatex)
 
-You'll see that I've not included “SI” in any of the above: it looks odd, and of course you can create non-SI units anyway.  How do other people see this?
+You'll see that I've not included 'SI' in any of the above: it looks odd, and of course you can create non-SI units anyway.  How do other people see this?

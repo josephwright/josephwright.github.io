@@ -7,7 +7,7 @@ categories:
 tags:
   - xparse
 ---
-The next step for [LaTeX3](https://www.latex-project.org/latex3.html) development is to revise the two existing “xpackages” which are available to make a link between the code level and the user: xparse and template. Of the two, the xparse package is by far the easier to understand.
+The next step for [LaTeX3](https://www.latex-project.org/latex3.html) development is to revise the two existing 'xpackages' which are available to make a link between the code level and the user: xparse and template. Of the two, the xparse package is by far the easier to understand.
 
 In LaTeX2e, you can either use the LaTeX method to create new commands:
 

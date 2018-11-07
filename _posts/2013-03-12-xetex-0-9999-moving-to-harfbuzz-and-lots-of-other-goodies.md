@@ -16,7 +16,7 @@ Khaled Hosny has announced on the [XeTeX mailing list](https://tug.org/mailman/l
 > - Support version 2 OpenType Indic specs.
 > - Many other Indic OpenType bugs, and support for the latest additions to OpenType spec.
 > - Incorrect application of contextual features.
-> - Incorrect kerning in fonts that has both old “kern” table and new GPOS “kern” feature.
+> - Incorrect kerning in fonts that has both old 'kern' table and new GPOS 'kern' feature.
 > - Allow suppressing Latin ligatures with ZWNJ.
 > - Support for variation selectors.
 > - Support for user-specified features with complex scripts.

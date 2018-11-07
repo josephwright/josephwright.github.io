@@ -9,7 +9,7 @@ tags:
   - alpha
   - snapshot
 ---
-I've been working on [`siunitx`](https://ctan.org/pkg/siunitx) version 2, getting the code to the point where I'd hope it works for most things that the current release does. Over the last couple of weeks I hope I've sorted out the table issues which tend to be a problem in version 1, plus “mopped up” a few outstanding odds and ends. So it feels like an appropriate point for a public snap shot of the code. As progress has been good, I'm calling this one alpha 1.
+I've been working on [`siunitx`](https://ctan.org/pkg/siunitx) version 2, getting the code to the point where I'd hope it works for most things that the current release does. Over the last couple of weeks I hope I've sorted out the table issues which tend to be a problem in version 1, plus 'mopped up' a few outstanding odds and ends. So it feels like an appropriate point for a public snap shot of the code. As progress has been good, I'm calling this one alpha 1.
 
 At this stage, there are likely to be some bugs and other annoyances in the code. However, I hope that enough works for people to risk taking the plunge and trying it out. For those willing to try out siunitx v2.0, you can get:
 

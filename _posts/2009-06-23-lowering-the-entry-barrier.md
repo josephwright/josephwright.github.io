@@ -5,7 +5,7 @@ permalink: /2009/06/23/lowering-the-entry-barrier/
 categories:
   - TeXworks
 ---
-There has been a very active thread recently on the [TeXworks mailing list](https://tug.org/pipermail/texworks/) concerning how the aim of “lowering the entry barrier to the TeX world” goes beyond the basics of the [TeXworks](https://tug.org/texworks) interface. There are, as always, lots of ideas, with several very important points raised.
+There has been a very active thread recently on the [TeXworks mailing list](https://tug.org/pipermail/texworks/) concerning how the aim of 'lowering the entry barrier to the TeX world' goes beyond the basics of the [TeXworks](https://tug.org/texworks) interface. There are, as always, lots of ideas, with several very important points raised.
 
 One big issue is the separation of TeX distributions, TeX engines and TeX editors. How do you explain to a new user that their editor is not their TeX system, and that their TeX system is independent of the engine they are using. This is all complicated, and it is not easy to put it into two or three sentences! All-in-one installers help to some extent, but that can lead to confusion later.
 

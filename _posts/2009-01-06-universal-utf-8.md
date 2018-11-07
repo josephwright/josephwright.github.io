@@ -7,7 +7,7 @@ categories:
 ---
 The existence of editors such as [TeXworks](https://tug.org/texworks) make it very easy to work with UTF-8 source documents.  However, there are still a number of issues to thing about before deciding to use UTF-8 for all of your work.
 
-First, there is the issue of other users.  If you are writing things that will not need to be edited by others, then the choice is down to you.  The moment you have collaborators, you need to ensure that they are also okay with UTF-8. They might be using an editor where this is not going to work ([WinEdt](http://www.winedt.com), for example). If you are preparing stuff for a publisher, you have to be even more careful, as they may have quite a “traditional” TeX system. I know that the [American Chemical Society](https://pubs.acs.org) don't even have the e-TeX extensions, for example.
+First, there is the issue of other users.  If you are writing things that will not need to be edited by others, then the choice is down to you.  The moment you have collaborators, you need to ensure that they are also okay with UTF-8. They might be using an editor where this is not going to work ([WinEdt](http://www.winedt.com), for example). If you are preparing stuff for a publisher, you have to be even more careful, as they may have quite a 'traditional' TeX system. I know that the [American Chemical Society](https://pubs.acs.org) don't even have the e-TeX extensions, for example.
 
 Then there are more technical issues.  If you are a LaTeX user, you might well also use BibTeX.  BibTeX is old, and as yet there is no real UTF-8 aware replacement.  So at least in a database of references you may have to stick with escape sequences or some other encoding.
 

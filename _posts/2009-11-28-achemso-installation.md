@@ -6,7 +6,7 @@ categories:
   - achemso
   - Packages
 ---
-One question that crops up from time to time is “How do I install [`achemso`](https://ctan.org/pkg/achemso)?” For most people, I tend to point out that the latest [MiKTeX](https://www.miktex.org/) and [TeX Live](https://tug.org/texlive/) distributions include both achemso and everything it needs to work. So on a stand-alone system, installing an up-to-date distribution is the easiest way.
+One question that crops up from time to time is 'How do I install [`achemso`](https://ctan.org/pkg/achemso)?' For most people, I tend to point out that the latest [MiKTeX](https://www.miktex.org/) and [TeX Live](https://tug.org/texlive/) distributions include both achemso and everything it needs to work. So on a stand-alone system, installing an up-to-date distribution is the easiest way.
 
 Manually installing achemso itself is not too hard, the main problem being that people miss out the BibTeX files (achemso.bst and biochem.bst), then get odd effects with bibliographies. On [CTAN](https://www.ctan.org), the file [achemso.tds.zip](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=achemso.tds.zip&amp;Search=Search) contains everything laid out ready for installation, and that includes the BibTeX files. So my advice for those who can't or don't want to do a full update is to use the TDS zip. For those who want to extract from the source and do everything themselves, as I say the main thing is not to forget the BibTeX styles.
 
