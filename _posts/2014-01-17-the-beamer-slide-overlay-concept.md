@@ -29,9 +29,9 @@ The most basic way to create overlays is to explicitly set up individual items t
 ```latex
 \begin{frame}
   \begin{itemize}
-    \item&lt;1-&gt; This is on the first and all following slides
-    \item&lt;2-&gt; This is on the second and all following slides
-    \item&lt;3-&gt; This is on the third and all following slides
+    \item<1-> This is on the first and all following slides
+    \item<2-> This is on the second and all following slides
+    \item<3-> This is on the third and all following slides
     ...
   \end{itemize}
 \end{frame}
@@ -42,9 +42,9 @@ As you can see, the overlay specification here is simply the first slide number 
 ```latex
 \begin{frame}
   \begin{itemize}
-    \item&lt;1&gt; This is on the first only
-    \item&lt;-3&gt; This is on the first three slides
-    \item&lt;2-4,6&gt; This is on the second to fourth slides and the sixth slide
+    \item<1> This is on the first only
+    \item<-3> This is on the first three slides
+    \item<2-4,6> This is on the second to fourth slides and the sixth slide
   \end{itemize}
 \end{frame}
 ```
@@ -58,9 +58,9 @@ The first tool `beamer` offers is the the special symbol `+` in overlay specific
 ```latex
 \begin{frame}
   \begin{itemize}
-    \item&lt;+-&gt; This is on the first and all following slides
-    \item&lt;+-&gt; This is on the second and all following slides
-    \item&lt;+-&gt; This is on the third and all following slides
+    \item<+-> This is on the first and all following slides
+    \item<+-> This is on the second and all following slides
+    \item<+-> This is on the third and all following slides
     ...
   \end{itemize}
 \end{frame}
@@ -76,7 +76,7 @@ Using the `+` approach has made our overlays flexible, but I've still have to be
 
 ```latex
 \begin{frame}
-  \begin{itemize}[&lt;+-&gt;]
+  \begin{itemize}[<+->]
     \item This is on the first and all following slides
     \item This is on the second and all following slides
     \item This is on the third and all following slides
@@ -89,11 +89,11 @@ Notice that this is needs to be inside the 'normal' `[ ... ]` set up for an opti
 
 ```latex
 \begin{frame}
-  \begin{itemize}[&lt;+-&gt;]
+  \begin{itemize}[<+->]
     \item This is on the first and all following slides
     \item This is on the second and all following slides
     \item This is on the third and all following slides
-    \item&lt;1-&gt; This is on the first and all following slides
+    \item<1-> This is on the first and all following slides
     ...
   \end{itemize}
 \end{frame}
@@ -108,10 +108,10 @@ The `+` syntax is powerful, but as it always increments the overlay number it do
 ```latex
 \begin{frame}
   \begin{itemize}
-    \item&lt;1-&gt; This is on the first and all following slides
-    \item&lt;1-&gt; This is also on the first and all following slides
-    \item&lt;2-&gt; This is on the second and all following slides
-    \item&lt;2-&gt; This is also on the second and all following slides
+    \item<1-> This is on the first and all following slides
+    \item<1-> This is also on the first and all following slides
+    \item<2-> This is on the second and all following slides
+    \item<2-> This is also on the second and all following slides
     ...
   \end{itemize}
 \end{frame}
@@ -122,10 +122,10 @@ For this case, `beamer` offers another special symbol: `.`.
 ```latex
 \begin{frame}
   \begin{itemize}
-    \item&lt;+-&gt; This is on the first and all following slides
-    \item&lt;.-&gt; This is also on the first and all following slides
-    \item&lt;+-&gt; This is on the second and all following slides
-    \item&lt;.-&gt; This is also on the second and all following slides
+    \item<+-> This is on the first and all following slides
+    \item<.-> This is also on the first and all following slides
+    \item<+-> This is on the second and all following slides
+    \item<.-> This is also on the second and all following slides
     ...
   \end{itemize}
 \end{frame}
@@ -137,11 +137,11 @@ Depending on the exact use case, you might want to combine this with the 'reduci
 
 ```latex
 \begin{frame}
-  \begin{itemize}[&lt;+-&gt;]
+  \begin{itemize}[<+->]
     \item This is on the first and all following slides
-    \item&lt;.-&gt; This is also on the first and all following slides
+    \item<.-> This is also on the first and all following slides
     \item This is on the second and all following slides
-    \item&lt;.-&gt; This is also on the second and all following slides
+    \item<.-> This is also on the second and all following slides
     ...
   \end{itemize}
 \end{frame}
@@ -154,9 +154,9 @@ A combination of `+` and `.` use can be used to convert many 'hard-coded' overla
 ```latex
 \begin{frame}
   \begin{itemize}
-    \item&lt;+(1)-&gt; This is on the second and all following slides
-    \item&lt;+(1)-&gt; This is on the third and all following slides
-    \item&lt;+-&gt; This is also on the third and all following slides
+    \item<+(1)-> This is on the second and all following slides
+    \item<+(1)-> This is on the third and all following slides
+    \item<+-> This is also on the third and all following slides
   \end{itemize}
 \end{frame}
 ```
@@ -168,10 +168,10 @@ Perhaps a more realistic example for where an offset is useful is the case of re
 ```latex
 \begin{frame}
   \begin{itemize}
-    \item&lt;1-&gt; This is on the first and all following slides
-    \item&lt;2-&gt; This is on the second and all following slides
-    \item&lt;1-&gt; This is on the first and all following slides
-    \item&lt;2-&gt; This is on the second and all following slides
+    \item<1-> This is on the first and all following slides
+    \item<2-> This is on the second and all following slides
+    \item<1-> This is on the first and all following slides
+    \item<2-> This is on the second and all following slides
     ...
   \end{itemize}
 \end{frame}
@@ -182,10 +182,10 @@ which can be made 'flexible' with a set up such as
 ```latex
 \begin{frame}
   \begin{itemize}
-    \item&lt;+-&gt; This is on the first and all following slides
-    \item&lt;+-&gt; This is on the second and all following slides
-    \item&lt;.(-1)-&gt; This is on the first and all following slides
-    \item&lt;.-&gt; This is on the second and all following slides
+    \item<+-> This is on the first and all following slides
+    \item<+-> This is on the second and all following slides
+    \item<.(-1)-> This is on the first and all following slides
+    \item<.-> This is on the second and all following slides
     ...
   \end{itemize}
 \end{frame}
@@ -196,10 +196,10 @@ or the equivalent
 ```latex
 \begin{frame}
   \begin{itemize}
-    \item&lt;+-&gt; This is on the first and all following slides
-    \item&lt;.(1)-&gt; This is on the second and all following slides
-    \item&lt;.-&gt; This is on the first and all following slides
-    \item&lt;+-&gt; This is on the second and all following slides
+    \item<+-> This is on the first and all following slides
+    \item<.(1)-> This is on the second and all following slides
+    \item<.-> This is on the first and all following slides
+    \item<+-> This is on the second and all following slides
     ...
   \end{itemize}
 \end{frame}

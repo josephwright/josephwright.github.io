@@ -12,9 +12,9 @@ In a [recent post](/2014/01/17/the-beamer-slide-overlay-concept/) I looked at ho
 ```latex
 \begin{frame}
   \begin{itemize}
-    \item&lt;+-&gt; This is on the first and all following slides
-    \item&lt;+-&gt; This is on the second and all following slides
-    \item&lt;+-&gt; This is on the third and all following slides
+    \item<+-> This is on the first and all following slides
+    \item<+-> This is on the second and all following slides
+    \item<+-> This is on the third and all following slides
     ...
   \end{itemize}
 \end{frame}
@@ -25,9 +25,9 @@ As I discussed in the earlier post, this is a very powerful way to create overla
 ```latex
 \begin{frame}
   \begin{itemize}
-    \item&lt;+-&gt; This is on the first and all following slides
-    \item&lt;+-&gt; This is on the second and all following slides
-    \item&lt;+-&gt; This is on the third and all following slides
+    \item<+-> This is on the first and all following slides
+    \item<+-> This is on the second and all following slides
+    \item<+-> This is on the third and all following slides
     ...
   \end{itemize}
   \pause
@@ -56,12 +56,12 @@ Unlike `\pause`, which only knows some basic stuff about slide numbers, `\onslid
 ```latex
 \begin{frame}
   \begin{itemize}
-    \item&lt;+-&gt; This is on the first and all following slides
-    \item&lt;+-&gt; This is on the second and all following slides
-    \item&lt;+-&gt; This is on the third and all following slides
+    \item<+-> This is on the first and all following slides
+    \item<+-> This is on the second and all following slides
+    \item<+-> This is on the third and all following slides
     ...
   \end{itemize}
-  \onslide&lt;+-&gt;
+  \onslide<+->
   Text after the list
 \end{frame}
 ```

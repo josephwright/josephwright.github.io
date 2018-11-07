@@ -13,7 +13,7 @@ There's been some [recent discussion](https://tug.org/pipermail/tex-live/2016-No
 It's pretty easy to accumulate `\RequirePackage` lines in your source, but if you are serious about giving a useful set of dependencies you need to know what each one is for. In many ways the rule is easy: require each package you use. What makes that more complicated is that you might use features which are available when you load package X but are actually provided by package Y. For example, if you load my `siunitx` package, it loads `array` so means that you can do for example
 
 ```latex
-\begin{tabular}{&gt;{$}l&lt;{$}}
+\begin{tabular}{>{$}l<{$}}
 ```
 
 So how do you tell what your 'real' dependencies are? The usual rule is that you check the documentation: does it say that package X itself provides the features you use? In the case above, `siunitx` doesn't document that syntax extension for `tabular`: it's documented by `array`. So if you wrote a package that uses `siunitx` but also needs to use features from `array` you should

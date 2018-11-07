@@ -27,8 +27,8 @@ TeX provides two primitives for changing case, `\lowercase` and `\uppercase`. Th
 Sticking with changing case of 'text', `\uppercase` and `\lowercase` rely on the fact that each character has a one-to-one mapping for upper- and lower-casing (defined by `\uccode` and `\lccode`). Assuming these are not 'do nothing' mappings, they allow a simple replacement of characters
 
 ```latex
-\uppercase{hello} =&gt; HELLO
-\lowercase{WORLD} =&gt; world
+\uppercase{hello} => HELLO
+\lowercase{WORLD} => world
 ```
 
 With XeTeX and LuaTeX, these mappings are set up for all sensible UTF-8 codepoints ('characters'). However, the are one-to-one mapping with no context-awareness: that makes it impossible to cover some parts of the Unicode definitions I've mentioned (at least using the primitives directly). They also change everything in the input, which makes handling things like
@@ -70,7 +70,7 @@ With a list of over 1000 possible characters to case-fold, comparing each and ev
 Putting everything together lead to the documented interface
 
 ```latex
-\str_fold_case:n { &lt;input&gt; }
+\str_fold_case:n { <input> }
 ```
 
 which does exactly what it says: folds the case of the input, which is treated as a string. The only real point to note here is that with pdfTeX it doesn't make sense to talk about UTF-8 as the engine doesn't support it. Thus the changes here are restricted to ASCII (A-Z): for a string that's clear, but life is a bit more murky for 'text' input. I'll come back to that below.
@@ -92,8 +92,8 @@ Another question is what category codes should apply in the _output_. For the fo
 Answering these questions, or at least taking a documented position on them, it's possible to define functions such as
 
 ```latex
-\tl_lower_case:n { &lt;text&gt; }
-\tl_upper_case:nn { &lt;language&gt; } { &lt;text&gt; }
+\tl_lower_case:n { <text> }
+\tl_upper_case:nn { <language> } { <text> }
 ```
 
 that implement the case changing I've outlines. As this is very much a 'work in progress' those names are not fixed: there's a feeling that perhaps `\text_...` might be more 'sensible' (the input should be 'well-behaved'). What's needed is some testing: we thing the idea is a good one, but at the moment it's not clear we've got all of the ideas right!

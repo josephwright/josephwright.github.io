@@ -13,7 +13,7 @@ The 'standard' `beamer` overlay system does the same as the `\visible` command: 
 It turns out that this is all quite straight-forward if you know what to look for. The standard `beamer` overlay syntax, for example
 
 ```latex
-\item&lt;+-&gt;
+\item<+->
 ```
 
 extends to include an action type to specify what the overlay should do. That is given as a keyword and an `@` before the overlay number(s). So for example
@@ -21,8 +21,8 @@ extends to include an action type to specify what the overlay should do. That is
 ```latex
 \begin{itemize}
   \item First item
-  \item&lt;only@1&gt; Second item
-  \item&lt;only@2&gt; Replacement second item
+  \item<only@1> Second item
+  \item<only@2> Replacement second item
 ...
 ```
 
@@ -32,10 +32,10 @@ will show `Second item` on the first slide then replace it entirely with `Replac
 \documentclass{beamer}
 \begin{document}
    \begin{frame}
-   \begin{itemize}[&lt;+-&gt;]
+   \begin{itemize}[<+->]
       \item item 1
       \item item 2
-      \item&lt;only@+-.(2)&gt; item 3
+      \item<only@+-.(2)> item 3
       \item item 4
       \item item 5
    \end{itemize}
@@ -53,10 +53,10 @@ This doesn't just apply to `only`: other keywords that work here include `visibl
 
 \begin{document}
    \begin{frame}
-   \begin{itemize}[&lt;+-&gt;]
+   \begin{itemize}[<+->]
       \item item 1
       \item item 2
-      \item&lt;+-|alert@+(1)&gt; item 3
+      \item<+-|alert@+(1)> item 3
       \item item 4
       \item item 5
    \end{itemize}
@@ -75,7 +75,7 @@ where `item 3` appears on the third slide and is highlighted on the fourth one. 
    \begin{itemize}
       \item item 1
       \item item 2
-      \item&lt;alert@+(1)&gt; item 3
+      \item<alert@+(1)> item 3
       \item item 4
       \item item 5
    \end{itemize}
