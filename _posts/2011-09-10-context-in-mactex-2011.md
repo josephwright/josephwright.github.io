@@ -8,7 +8,7 @@ tags:
   - ConTeXt
   - MacTeX
 ---
-I recently stumbled across an issue with my [ConTeXt](http://wiki.contextgarden.net) set up, while looking at a [question about Tikz and ConTeXt](https://tex.stackexchange.com/q/27952/73). While ConTeXt Mark II was fine, I got the rather cryptic error:
+I recently stumbled across an issue with my [ConTeXt](http://wiki.contextgarden.net) set up, while looking at a [question about Ti<i>k</i>Z and ConTeXt](https://tex.stackexchange.com/q/27952/73). While ConTeXt Mark II was fine, I got the rather cryptic error:
 
 ```
 mtxrun          | forcing cache reload

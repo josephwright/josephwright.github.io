@@ -58,7 +58,7 @@ So what have I done to customise the files? TeXworks comes with four auto-comple
 {tikzpicture}[#INS#]#RET#•#RET#\end{tikzpicture}•
 ```
 
-for TikZ pictures and
+for Ti<i>k</i>Z pictures and
 
 ```latex
 cs:=\cs{#INS#}

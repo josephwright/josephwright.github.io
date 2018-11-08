@@ -18,7 +18,7 @@ I'm not sure I'd want to make my own slides from scratch every time I make a pre
 
 ## Posters
 
-The message in the [article on posters](https://tug.org/pracjourn/2010-2/rogerio.html) is in some ways the same as the presentation one: the standard designs don't work that well. Academic posters tend to be very text-heavy, and a multi-column design with a few small graphics is one you see repeated a lot. The article suggests a radically-different approach: essentially no words and just graphical elements. That's not necessarily LaTeX's strength, but the authors do a goo d job using TikZ to showcase their argument.
+The message in the [article on posters](https://tug.org/pracjourn/2010-2/rogerio.html) is in some ways the same as the presentation one: the standard designs don't work that well. Academic posters tend to be very text-heavy, and a multi-column design with a few small graphics is one you see repeated a lot. The article suggests a radically-different approach: essentially no words and just graphical elements. That's not necessarily LaTeX's strength, but the authors do a goo d job using Ti<i>k</i>Z to showcase their argument.
 
 I've never quite had the nerve to make a poster with essentially no text.  However, I do see the point that mainly graphical posters in many ways work better than putting your entire paper on the wall. There's always that worry that once a poster goes up, you can't be sure you'll be there to talk to anyone interested and so a few words are in some ways a 'safety net'.
 
