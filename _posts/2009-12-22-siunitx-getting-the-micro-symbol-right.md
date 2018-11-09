@@ -20,7 +20,7 @@ XeTeX users are likely to load system fonts, and I'd hope be using UTF-8 input. 
 }
 ```
 
-or for people testing [version 2 of `siunitx`](http://developer.berlios.de/projects/siunitx/):
+or for people testing version 2 of `siunitx`:
 
 ```latex
 \sisetup{

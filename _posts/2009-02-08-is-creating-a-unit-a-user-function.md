@@ -6,7 +6,7 @@ categories:
   - Packages
   - siunitx
 ---
-Working on[ `siunitx` version 2](http://siunitx.berlios.de), I'm confronted with a slight problem.  Currently, the macros used to manipulate units are called
+Working on `siunitx` version 2, I'm confronted with a slight problem.  Currently, the macros used to manipulate units are called
 
 - `\newunit`
 - `\renewunit`
