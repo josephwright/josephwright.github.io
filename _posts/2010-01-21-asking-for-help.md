@@ -7,7 +7,7 @@ categories:
 ---
 I get quite a few e-mails asking for help with my packages, and also  spot a few questions in various public places ([comp.text.tex](http://groups.google.com/group/comp.text.tex/topics) and [The LaTeX Community](http://www.latex-community.org/forum/),  mainly). I'm always happy to help where I can, and it always makes my  life a bit easier if the question arrives with all the information to  start with.
 
-One of the things that get repeated by almost everyone trying to help  out users is the need for a [minimal example](http://www.tex.ac.uk/cgi-bin/texfaq2html?label=minxampl). For LaTeX, that typically  looks something like:
+One of the things that get repeated by almost everyone trying to help  out users is the need for a [minimal example](https://texfaq.org/FAQ-minxampl). For LaTeX, that typically  looks something like:
 
 ```latex
 \documentclass{article} % Or perhaps memoir, `beamer`, ...
