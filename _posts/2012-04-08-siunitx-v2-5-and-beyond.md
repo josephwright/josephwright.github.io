@@ -6,7 +6,7 @@ categories:
   - Packages
   - siunitx
 ---
-Anyone who watches the [BitBucket site](https://bitbucket.org/josephwright/siunitx) for [`siunitx`](https://ctan.org/pkg/siunitx) development will have noticed that I've been adding a few new features. As I've done for every release in the 2.x series, new options means a new minor revision, and so these will all be in v2.5. I've also revised some of the behaviour concerning math mode, so there are now very few options which automatically assume math mode.
+Anyone who watches the [BitBucket site](https://github.com/josephwright/siunitx) for [`siunitx`](https://ctan.org/pkg/siunitx) development will have noticed that I've been adding a few new features. As I've done for every release in the 2.x series, new options means a new minor revision, and so these will all be in v2.5. I've also revised some of the behaviour concerning math mode, so there are now very few options which automatically assume math mode.
 
 Looking beyond v2.5, I have some bigger changes I'd like to make to `siunitx`. When I initially developed the package, it was very much a mixture of things that seemed like a good idea. The work for version 2 meant a lot of changes, and a lot more order. However, I've learnt more about units, LaTeX and programming since then, and that means that there are more changes to think about.
 
