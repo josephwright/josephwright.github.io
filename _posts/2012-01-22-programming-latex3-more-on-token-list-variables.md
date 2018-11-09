@@ -7,7 +7,7 @@ categories:
 tags:
   - Programming LaTeX3
 ---
-In my [previous post](/2011/12/26/programming-latex3-token-list-variables/), I introduced the idea of a _token list variable_, the LaTeX3 term for a macro used to store 'stuff'. Token list variables (tl vars) are the basis of many of the higher level data types in LaTeX3, and they also have arbitrary contents. As a result, there are a lot of generic functions to do things with tl vars.
+In my [previous post](/2011/12/26/programming-latex3-token-list-variables/), I introduced the idea of a _token list variable_, the LaTeX3 term for a macro used to store 'stuff'. Token list variables (tl vars) are the basis of many of the higher level data types in LaTeX3, and they also have arbitrary contents. As a result, there are a lot of generic functions to do things with `tl`vars.
 
 ## Adding content, changing content
 
@@ -33,9 +33,9 @@ will print 'My stuff here'. That's easy enough to do without LaTeX3 coding, but 
 \tl_use:N \l_my_a_tl % 'squff qo alqer'
 ```
 
-## Adding one tl var to another
+## Adding one`tl`var to another
 
-So far, I've added literal input to tl vars. That's useful, but a very common task to to combine two or more variables together. To do that, we need a way to access the _content_ of a variable. First, what doesn't work is doing
+So far, I've added literal input to`tl`vars. That's useful, but a very common task to to combine two or more variables together. To do that, we need a way to access the _content_ of a variable. First, what doesn't work is doing
 
 ```latex
 \tl_new:N \l_my_b_tl
@@ -64,18 +64,18 @@ This is a 'soft' process: if the variant requested already exists, nothing happe
 
 ## Mappings
 
-Another key idea when working with tl vars is the ability to map to each token they contain. For that, there are again a couple of useful functions, `\tl_map_function:NN` and `\tl_map_inline:Nn`. The two differ mainly in _expandability_, a concept we've not covered just yet! I'll be coming back to that in a later post, so for the moment I'll just use `\tl_map_inline:Nn`. What does a mapping do? Try
+Another key idea when working with `tl`vars is the ability to map to each token they contain. For that, there are again a couple of useful functions, `\tl_map_function:NN` and `\tl_map_inline:Nn`. The two differ mainly in _expandability_, a concept we've not covered just yet! I'll be coming back to that in a later post, so for the moment I'll just use `\tl_map_inline:Nn`. What does a mapping do? Try
 
 ```latex
 \tl_set:Nn \l_my_a_tl { stuff }
 \tl_map_inline:Nn \l_my_a_tl { I~saw~'#1'. \\ }
 ```
 
-and you should get a listing of each separate token in the tl var:
+and you should get a listing of each separate token in the`tl`var:
 
 > I saw 's'. I saw 't'. I saw 'u’. I saw 'f'. I saw 'f'.
 
-As you can hopefully see, within the second argument of `\tl_map_inline:Nn` the place holder `#1` is used to insert a single token from the tl var. For a more complicated tl var
+As you can hopefully see, within the second argument of `\tl_map_inline:Nn` the place holder `#1` is used to insert a single token from the`tl`var. For a more complicated`tl`var
 
 ```latex
 \tl_set:Nn \l_my_a_tl { { stuff } ~ { which } ~ is ~ { complicated } }
