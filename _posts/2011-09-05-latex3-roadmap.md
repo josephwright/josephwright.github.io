@@ -5,11 +5,11 @@ permalink: /2011/09/05/latex3-roadmap/
 categories:
   - LaTeX3
 ---
-One of the questions that [comes up from time to time](/2011/09/01/latex3-more-use-more-work/) is what the ‘roadmap’ is for LaTeX3 development. While there is not an official plan, I certainly have some ideas on what I'd like to see addressed in a concrete way. This is all rather flexible, but I'll try to outline some areas for attention.
+One of the questions that [comes up from time to time](/2011/09/01/latex3-more-use-more-work/) is what the 'roadmap' is for LaTeX3 development. While there is not an official plan, I certainly have some ideas on what I'd like to see addressed in a concrete way. This is all rather flexible, but I'll try to outline some areas for attention.
 
 ## Short term
 
-The short term is about things which LaTeX3 does not critically depend on, and for which a lot of work is already done. This is very much an ongoing area:  small improvements spread across a range of topics. These items all fit into the concept of ‘LaTeX3 in LaTeX2e’, where this material can be loaded without affecting existing documents.
+The short term is about things which LaTeX3 does not critically depend on, and for which a lot of work is already done. This is very much an ongoing area:  small improvements spread across a range of topics. These items all fit into the concept of 'LaTeX3 in LaTeX2e', where this material can be loaded without affecting existing documents.
 
 ### Floating point expressions
 
@@ -17,7 +17,7 @@ The current floating point implementation in LaTeX3 is based on carrying out ass
 
 ### Extending key–value concepts
 
-The current [l3keys](https://github.com/latex3/svn-mirror/blob/master/l3kernel/l3keys.dtx) module is based loosely on [`pgfkeys`](https://ctan.org/pkg/pgf). One area that is not implemented is the idea of a ‘key path’. Using a path model for setting keys has some advantages, so I'd like to add something like the ability to do
+The current [l3keys](https://github.com/latex3/svn-mirror/blob/master/l3kernel/l3keys.dtx) module is based loosely on [`pgfkeys`](https://ctan.org/pkg/pgf). One area that is not implemented is the idea of a 'key path'. Using a path model for setting keys has some advantages, so I'd like to add something like the ability to do
 
 ```latex
 \keys_set:n
@@ -38,7 +38,7 @@ A key aim for LaTeX3 is to document all of the material which is intended for ot
 
 ## Medium term
 
-The medium term is about bigger ideas, but ones where there is some code written and we can see that results will appear within the next few months. These areas need discussion as much as writing code. Here, we move away from ‘LaTeX3 in LaTeX2e’ to code which will break existing documents unless they are adapted.
+The medium term is about bigger ideas, but ones where there is some code written and we can see that results will appear within the next few months. These areas need discussion as much as writing code. Here, we move away from 'LaTeX3 in LaTeX2e' to code which will break existing documents unless they are adapted.
 
 ### The galley
 
@@ -54,7 +54,7 @@ and see that you get 12 pt of space! We've already got three galley implementati
 
 ### Font selection
 
-The ‘New Font Selection Scheme’ in LaTeX2e is a pretty good approach to selecting fonts. So the first task here is more-or-less to convert the code to LaTeX3 syntax. There are then a few items to address, such as how to deal with small caps. Loading fonts also needs to be fitted in here: some combination of [`fontspec`](https://ctan.org/pkg/fontspec) (for XeTeX and LuaTeX) with the existing pdfTeX mechanisms is going to be needed, and it's a question of how to do this.
+The 'New Font Selection Scheme' in LaTeX2e is a pretty good approach to selecting fonts. So the first task here is more-or-less to convert the code to LaTeX3 syntax. There are then a few items to address, such as how to deal with small caps. Loading fonts also needs to be fitted in here: some combination of [`fontspec`](https://ctan.org/pkg/fontspec) (for XeTeX and LuaTeX) with the existing pdfTeX mechanisms is going to be needed, and it's a question of how to do this.
 
 ## Long term
 

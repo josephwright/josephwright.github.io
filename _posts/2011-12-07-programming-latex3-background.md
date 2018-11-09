@@ -15,7 +15,7 @@ The very first thing to cover is what the current status of LaTeX3 is, and what 
 
 ## The target audience
 
-I have two distinct audiences in mind in writing this series. The first is experienced (La)TeX programmers who want to see what ideas LaTeX3 introduces. These people will be familiar with many basic TeX concepts, and will want to see the relationship between what they are used to and the ‘LaTeX3 way’. The second group is experience LaTeX2e users who want to learn to program LaTeX, and have decided to miss out learning to program TeX first. It's important that the latter group are included: another key aim for LaTeX3 is to provide a complete set of documentation and support without having to say ‘read _The TeXbook_’ as a requirement to make progress.
+I have two distinct audiences in mind in writing this series. The first is experienced (La)TeX programmers who want to see what ideas LaTeX3 introduces. These people will be familiar with many basic TeX concepts, and will want to see the relationship between what they are used to and the 'LaTeX3 way'. The second group is experience LaTeX2e users who want to learn to program LaTeX, and have decided to miss out learning to program TeX first. It's important that the latter group are included: another key aim for LaTeX3 is to provide a complete set of documentation and support without having to say 'read _The TeXbook_' as a requirement to make progress.
 
 What both of these groups have in common is lots of experience with LaTeX2e. So I'm going to expect familiarity with LaTeX2e's user syntax, concepts and so on. So that will very much be the baseline: I do hope that the more experienced LaTeX programmers will bear with me.
 

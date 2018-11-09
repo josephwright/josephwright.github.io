@@ -20,4 +20,4 @@ tlmgr --repository http://tlcontrib.metatex.org/2010 install biber
 
 The system will then get on with installing biber, which you can then use as a replacement for BibTeX. I'd then add biber to my graphical editor's list of programs to make it easy to use: the detail of course depends on which editor you use.
 
-What is particularly interesting here is that it has been possible to build a stand-alone biber. This should mean that at some stage both TeX Live and [MiKTeX](https://www.miktex.org/) can integer ate it directly. This will really make biber a viable choice for most people using `biblatex`: building from the source is not most people's idea of ‘easy to use’!
+What is particularly interesting here is that it has been possible to build a stand-alone biber. This should mean that at some stage both TeX Live and [MiKTeX](https://www.miktex.org/) can integer ate it directly. This will really make biber a viable choice for most people using `biblatex`: building from the source is not most people's idea of 'easy to use'!

@@ -8,13 +8,13 @@ tags:
   - curriculum vitae
   - résumé
 ---
-In [part 1](/2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/), I looked at some general ideas about writing CVs, and said that my approach is to ‘roll my own’ format based on the standard article class. Here, I want to look at the process in a bit more detail. Most of this is about using LaTeX, and so the ideas I use apply to many other cases.
+In [part 1](/2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/), I looked at some general ideas about writing CVs, and said that my approach is to 'roll my own' format based on the standard article class. Here, I want to look at the process in a bit more detail. Most of this is about using LaTeX, and so the ideas I use apply to many other cases.
 
 I make use of quite a few packages to get the appearance as I want. Rather than list all of them at once, I'll take about the effects I'm aiming for, and include the package names as I go.
 
 ## Setting up the appearance
 
-Starting from the article class, the first thing to address is the overall appearance of the CV. The standard Computers Modern font is well designed, but I guess says ‘LaTeX’ in a may that many people don't want for a CV. With the availability of [XeTeX](https://tug.org/xetex) and [LuaTeX](http://www.luatex.org/), using system fonts is easy (using [`fontspec`](https://ctan.org/pkg/fontspec), of course), and that's particularly useful if like me you have some non-Latin characters that you'd like to include in the CV but keep visually ‘matching’ everything else.  For me, LuaTeX turns out to be a better choice than XeTeX (I want fully-functional microtypography as it helps with typesetting chemical names), so my CV starts off with
+Starting from the article class, the first thing to address is the overall appearance of the CV. The standard Computers Modern font is well designed, but I guess says 'LaTeX' in a may that many people don't want for a CV. With the availability of [XeTeX](https://tug.org/xetex) and [LuaTeX](http://www.luatex.org/), using system fonts is easy (using [`fontspec`](https://ctan.org/pkg/fontspec), of course), and that's particularly useful if like me you have some non-Latin characters that you'd like to include in the CV but keep visually 'matching' everything else.  For me, LuaTeX turns out to be a better choice than XeTeX (I want fully-functional microtypography as it helps with typesetting chemical names), so my CV starts off with
 ```latex
 % !TeX program = LuaLaTeX
 \documentclass[11pt,draft]{article}
@@ -25,7 +25,7 @@ Starting from the article class, the first thing to address is the overall appea
 \setsansfont[Ligatures = TeX]{TeX Gyre Adventor}
 \setmonofont[Ligatures = TeX]{Inconsolata}
 ```
-Here, as well as loading the fonts I like, I've set up to use lower case (old style) numbers as recommend by [Bringhurst](http://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063). I've also included a [‘magic’ comment](/2011/03/24/texworks-magic-comments/) to let my [editor](http://www.texdev.net/?s=texworks) know to use LuaLaTeX. You might wonder about the `draft` option: I'll come back to that later.
+Here, as well as loading the fonts I like, I've set up to use lower case (old style) numbers as recommend by [Bringhurst](http://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063). I've also included a ['magic' comment](/2011/03/24/texworks-magic-comments/) to let my [editor](http://www.texdev.net/?s=texworks) know to use LuaLaTeX. You might wonder about the `draft` option: I'll come back to that later.
 
 As I say, I want microtypography set up, so do
 
@@ -61,7 +61,7 @@ at the end of my package-loading section. The [`hyperref`](https://ctan.org/pkg/
 
 ## Lead-off: the address block
 
-A very common way to start a CV is with basic contact details: what I'm going to call an ‘address block’. I do this very simply
+A very common way to start a CV is with basic contact details: what I'm going to call an 'address block'. I do this very simply
 
 ```latex
 \begin{document}
@@ -81,7 +81,7 @@ A very common way to start a CV is with basic contact details: what I'm going to
 
 This therefore sits at the top of the first page, and comes out (to my mind) in a very pleasing style.
 
-Also as part of the lead-off, it's normal to have your name (_never_ ‘Curriculum Vitae’), which again I do in a very straightforward way
+Also as part of the lead-off, it's normal to have your name (_never_ 'Curriculum Vitae'), which again I do in a very straightforward way
 
 ```latex
 \begin{center}
@@ -92,7 +92,7 @@ Also as part of the lead-off, it's normal to have your name (_never_ ‘Curricul
 
 ## Sections and subsections
 
-A CV needs several sections, for example ‘Employment history’, ‘Skills’ and so on. The standard LaTeX `\section` is the best choice of logical mark up for these, but the appearance is going to be wrong without adjustment. Taking some inspiration from the [CurVe](https://ctan.org/pkg/curve) class, and using the abilities of [`titlesec`](https://ctan.org/pkg/titlesec) and [`xcolor`](https://ctan.org/pkg/xcolor), the output can be customised to give something much more pleasing for a CV. I use
+A CV needs several sections, for example 'Employment history', 'Skills' and so on. The standard LaTeX `\section` is the best choice of logical mark up for these, but the appearance is going to be wrong without adjustment. Taking some inspiration from the [CurVe](https://ctan.org/pkg/curve) class, and using the abilities of [`titlesec`](https://ctan.org/pkg/titlesec) and [`xcolor`](https://ctan.org/pkg/xcolor), the output can be customised to give something much more pleasing for a CV. I use
 
 <!-- {% raw %} -->
 ```latex
@@ -123,7 +123,7 @@ which is enough to make them stand out from the body text, but keeps things flow
 
 ## The main body: lots of tables
 
-The normal layout for the body of a CV is to use something based on a table, with ‘entries’ on the left and ‘information’ on the right. This can be done in lots of ways, but the approach I take is to set up a fixed column width in the preamble, then apply this to all of the CV. That requires a bit of set up
+The normal layout for the body of a CV is to use something based on a table, with 'entries' on the left and 'information' on the right. This can be done in lots of ways, but the approach I take is to set up a fixed column width in the preamble, then apply this to all of the CV. That requires a bit of set up
 
 <!-- {% raw %} -->
 ```latex
@@ -137,7 +137,7 @@ The normal layout for the body of a CV is to use something based on a table, wit
 ```
 <!-- {% endraw %} -->
 
-Here, I'm setting two lengths to control the tables, with the only hard-coded part being the text I use to set the left-hand side width. I use the longest entry I'm going to use: in my case this is ‘Professional bodies’.
+Here, I'm setting two lengths to control the tables, with the only hard-coded part being the text I use to set the left-hand side width. I use the longest entry I'm going to use: in my case this is 'Professional bodies'.
 
 I then need the tables themselves. As they are all the same, it makes sense to set them up as a new kind of environment
 

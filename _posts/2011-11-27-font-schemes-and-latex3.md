@@ -19,7 +19,7 @@ TeX's font mechanism is pretty basic. There is no relationship between one text 
 {\bf Some {\it text}}
 ```
 
-will have ‘Some’ in bold, but ‘text’ in mid-weight italics. LaTeX2e introduced the ‘New Font Selection Scheme’ (NFSS), which provides a method for managing fonts in a way that is likely to be more logical for the user. Thus
+will have 'Some' in bold, but 'text' in mid-weight italics. LaTeX2e introduced the 'New Font Selection Scheme' (NFSS), which provides a method for managing fonts in a way that is likely to be more logical for the user. Thus
 
 ```latex
 {\bfseries Some {\itshape text}}
@@ -27,7 +27,7 @@ will have ‘Some’ in bold, but ‘text’ in mid-weight italics. LaTeX2e intr
 
 will have the inner text both bold and italic. At the same time, the NFSS provides a system for loading font files in an organised way and substituting fonts when a particular shape combination is unavailable.
 
-Over all, the NFSS is one the key successes of LaTeX2e compared with LaTeX2.09. There are also a lot of existing `.fd` files about for using fonts with LaTeX2e, and supporting those is important. So something like the NFSS is definitely needed: the ‘New’ is rather anachronistic nowadays, so the working title is just FSS.
+Over all, the NFSS is one the key successes of LaTeX2e compared with LaTeX2.09. There are also a lot of existing `.fd` files about for using fonts with LaTeX2e, and supporting those is important. So something like the NFSS is definitely needed: the 'New' is rather anachronistic nowadays, so the working title is just FSS.
 
 The NFSS is not perfect, and so LaTeX3's FSS cannot be simply a clone of NFSS. Perhaps the most common complaint about the NFSS is that `\textsc` is treated as a shape, which makes it impossible to combine it with `\itshape` to have italic small caps. Other areas which need addressing are for example flexible sizing and proportional/fixed width numbers for tables. This is all evolutionary, and so the plan is to port the existing NFSS first, tidy it up to fit better with LaTeX3 coding approaches, then add new abilities.
 

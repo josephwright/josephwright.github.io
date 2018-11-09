@@ -11,7 +11,7 @@ I've talked a bit about the [dtx file format](/2009/10/05/the-dtx-format/) and g
 
 # Editing dtx files
 
-As with any TeX source, you don't have to have a special editor to work with dtx files, but it can be helpful. Many people say that [Emacs](http://www.gnu.org/software/emacs/) (using [AUC-TeX](http://www.gnu.org/software/auctex/)) has the best dtx editing mode of all: I've only tried it briefly, but the AUC-TeX homepage has the details. On Windows, [WinEdt](http://www.winedt.com/) has a pretty strong [DTX Submode](http://www.winedt.org/Config/modes/DTX.php) which does similar things. As I mainly use [TeXworks](https://tug.org/texworks), I've made a few modifications to get something similar to those two ‘leaders’: at the moment I use the following settings for syntax highlighting:
+As with any TeX source, you don't have to have a special editor to work with dtx files, but it can be helpful. Many people say that [Emacs](http://www.gnu.org/software/emacs/) (using [AUC-TeX](http://www.gnu.org/software/auctex/)) has the best dtx editing mode of all: I've only tried it briefly, but the AUC-TeX homepage has the details. On Windows, [WinEdt](http://www.winedt.com/) has a pretty strong [DTX Submode](http://www.winedt.org/Config/modes/DTX.php) which does similar things. As I mainly use [TeXworks](https://tug.org/texworks), I've made a few modifications to get something similar to those two 'leaders': at the moment I use the following settings for syntax highlighting:
 
 ```
 [LaTeX DTX]
@@ -47,7 +47,7 @@ plus a few special auto-complete entries. Not quite up with the best just yet, b
 
 # What to document
 
-Getting documentation right is not easy. My general approach is to try to include lots of examples, so I always load the package being talked about for the documentation. That means I can use the package ‘in place’. Unfortunately, `ltxdoc` does not have a built-in example environment. I use the [`listings`](https://ctan.org/pkg/listings) package, and although it's a bit complex looking, the following code works well:
+Getting documentation right is not easy. My general approach is to try to include lots of examples, so I always load the package being talked about for the documentation. That means I can use the package 'in place'. Unfortunately, `ltxdoc` does not have a built-in example environment. I use the [`listings`](https://ctan.org/pkg/listings) package, and although it's a bit complex looking, the following code works well:
 
 ```latex
 %\lst@RequireAspects{writefile}
@@ -135,7 +135,7 @@ Of course, if you are writing LaTeX classes or the like, then this won't work. F
 
 # Releasing stuff to CTAN
 
-In my next post, I'm hoping to talk about automating the process of getting stuff ready for [CTAN](https://www.ctan.org). So here I'll just mention a few general ideas. One is that users shouldn't need to read the code to use a LaTeX package (unless of course you are aiming at supporting other package authors). So I tend to typeset only the user part of the documentation. Normally, it's a good idea to also include an index and list of changes in the pdf documentation, so a typical ‘recipe’ would be
+In my next post, I'm hoping to talk about automating the process of getting stuff ready for [CTAN](https://www.ctan.org). So here I'll just mention a few general ideas. One is that users shouldn't need to read the code to use a LaTeX package (unless of course you are aiming at supporting other package authors). So I tend to typeset only the user part of the documentation. Normally, it's a good idea to also include an index and list of changes in the pdf documentation, so a typical 'recipe' would be
 
 ```bash
 pdflatex -draftmode "\AtBeginDocument{\OnlyDescription} \input demopkg.dtx"

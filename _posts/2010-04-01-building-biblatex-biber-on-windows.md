@@ -27,4 +27,4 @@ build test
 build install
 ```
 
-That's it! I'm not quite sure why you have to install `Config::AutoConf` ‘by hand’, but if you don't then `Text::BibTeX` still fails to work. However, that is almost as easy as on Linux or MacOS 10.6, so everyone should be able to use `biblatex-biber` now.
+That's it! I'm not quite sure why you have to install `Config::AutoConf` 'by hand', but if you don't then `Text::BibTeX` still fails to work. However, that is almost as easy as on Linux or MacOS 10.6, so everyone should be able to use `biblatex-biber` now.

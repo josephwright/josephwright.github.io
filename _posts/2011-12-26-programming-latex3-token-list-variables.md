@@ -7,11 +7,11 @@ categories:
 tags:
   - Programming LaTeX3
 ---
-In the [last post](/2011/12/21/programming-latex3-category-codes-tokens-and-token-lists/), I talked about the concept of a token list and some general functions which act on token lists. That's fine if you just want to take some input and ‘do stuff’, but a very common requirement when programming is storing input, and for that we need variables. LaTeX3 provides a number of different types of variable: we'll start with perhaps the most general of all, the _token list variable_.
+In the [last post](/2011/12/21/programming-latex3-category-codes-tokens-and-token-lists/), I talked about the concept of a token list and some general functions which act on token lists. That's fine if you just want to take some input and 'do stuff', but a very common requirement when programming is storing input, and for that we need variables. LaTeX3 provides a number of different types of variable: we'll start with perhaps the most general of all, the _token list variable_.
 
 ## Token list variables
 
-So what is a token list variable (‘`tl`’)? You might well guess from the name that its a way of storing a token list! As such, a `tl` can be used to hold just about anything, and indeed this means that several of the other variable types we'll meet later are `tl`s with a special internal structure.
+So what is a token list variable ('`tl`')? You might well guess from the name that its a way of storing a token list! As such, a `tl` can be used to hold just about anything, and indeed this means that several of the other variable types we'll meet later are `tl`s with a special internal structure.
 
 Before we can save anything in a `tl`, we need to create the variable: this is a general principle of programming LaTeX3. We can then store something inside the variable by setting it:
 

@@ -1,5 +1,5 @@
 ---
-title: LaTeX Beginner’s Guide published
+title: LaTeX Beginner's Guide published
 layout: post
 permalink: /2011/04/05/latex-beginners-guide-published/
 categories:
@@ -11,4 +11,4 @@ I saw the book before publication, so had an opportunity to make some suggestion
 
 However, there is a problem. The examples of LaTeX output in the book are poor: they've come out as low-resolution JPEGs. This really detracts from the a key point of using LaTeX in the first place: good-looking output. That's a shame, as if you picked up the book not knowing much about LaTeX you'd take one look at the output and think it was awful.
 
-Overall, I can recommend the _content_ book for helping new users, but with the warning ‘the real output from LaTeX looks much better than in the book’. So one to use as a complement to other texts, rather than alone.
+Overall, I can recommend the _content_ book for helping new users, but with the warning 'the real output from LaTeX looks much better than in the book'. So one to use as a complement to other texts, rather than alone.

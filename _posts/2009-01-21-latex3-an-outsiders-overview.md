@@ -1,5 +1,5 @@
 ---
-title: 'LaTeX3: An outsider’s overview'
+title: 'LaTeX3: An outsider's overview'
 layout: post
 permalink: /2009/01/21/latex3-an-outsiders-overview/
 categories:

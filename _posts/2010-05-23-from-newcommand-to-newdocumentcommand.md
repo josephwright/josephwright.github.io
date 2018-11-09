@@ -9,7 +9,7 @@ tags:
 ---
 Following on from my [last post](/2010/05/22/promoting-xparse/), I thought it might be useful to give some simple example of how the [`xparse`](https://ctan.org/pkg/xparse) package works and why it's useful. I want to do this to show end users of LaTeX how it can replace `\newcommand`, so the example will not involve anything too complex, code-wise.
 
-First, why would you want to use xparse's `\NewDocumentCommand` in place of `\newcommand`? First, `\NewDocumentCommand` can make macros that take a mixture of arguments that `\newcommand` cannot. With `\newcommand`, you can make a macro that takes a number of mandatory arguments, or ones where the first argument is option and in square brackets, but that is it. Anything else then needs the use of TeX programming or internal LaTeX macros: not really helpful for end users. The second thing is that `\newcommand` macros are not ‘robust’. This shows up where you need to `\protect` things, which can be very confusing. Macros created with `\NewDocumentCommand` are robust, and this means that they work more reliably.
+First, why would you want to use xparse's `\NewDocumentCommand` in place of `\newcommand`? First, `\NewDocumentCommand` can make macros that take a mixture of arguments that `\newcommand` cannot. With `\newcommand`, you can make a macro that takes a number of mandatory arguments, or ones where the first argument is option and in square brackets, but that is it. Anything else then needs the use of TeX programming or internal LaTeX macros: not really helpful for end users. The second thing is that `\newcommand` macros are not 'robust'. This shows up where you need to `\protect` things, which can be very confusing. Macros created with `\NewDocumentCommand` are robust, and this means that they work more reliably.
 
 I'm going to illustrate moving from `\newcommand` to `\NewDocumentCommand` with a series of simple examples. For all of them, you need to load the `xparse` package:
 
@@ -42,7 +42,7 @@ The most common type of argument for a macro is a mandatory one. With `\newcomma
 \newcommand\TwoArgs[2]{Text using #1 and #2}
 ```
 
-\NewDocumentCommand is a bit different. Since it can work with different types of argument, each one is give separately as a letter. A mandatory argument is ‘`m`’, so we'd need
+\NewDocumentCommand is a bit different. Since it can work with different types of argument, each one is give separately as a letter. A mandatory argument is '`m`', so we'd need
 
 ```latex
 \NewDocumentCommand\OneArg{m}{Text using #1}
@@ -60,7 +60,7 @@ To really get something clever out of `xparse`, the arguments need to be a littl
 \newcomand\OneOptOfThree[3][]{Text with #2, #3 and perhaps #1}
 ```
 
-If I want anything else, I'm on my own (so no more `\newcommand` examples!). First, let's do the two example using `xparse`. An optional argument in square brackets, which works like a `\newcommand` one, is ‘`O`’ followed by `{}`:
+If I want anything else, I'm on my own (so no more `\newcommand` examples!). First, let's do the two example using `xparse`. An optional argument in square brackets, which works like a `\newcommand` one, is '`O`' followed by `{}`:
 
 ```latex
 \NewDocumentCommand\OneOptOfTwo{O{}m}%
@@ -94,7 +94,7 @@ The same idea applies to each optional argument: whatever is in the braces after
 
 ## More complex optional arguments
 
-You might be wondering why we need the ‘`{}`c after ‘`O`’ when there is no default value: why not just ‘`o`’? Well, there is ‘`o`’ as well. Unlike `\newcommand`, `\NewDocumentCommand` can tell the difference between an option argument that is not given and one that is empty. To do that, it provides a test to see if the argument is empty:
+You might be wondering why we need the '`{}`c after '`O`' when there is no default value: why not just '`o`'? Well, there is '`o`' as well. Unlike `\newcommand`, `\NewDocumentCommand` can tell the difference between an option argument that is not given and one that is empty. To do that, it provides a test to see if the argument is empty:
 
 
 <!-- {% raw %} -->
@@ -107,11 +107,11 @@ You might be wondering why we need the ‘`{}`c after ‘`O`’ when there is no
 ```
 <!-- {% endraw %} -->
 
-Don't worry if you forget to do the test: the special marker that is used here will simply print ‘-NoValue-’ as a reminder!
+Don't worry if you forget to do the test: the special marker that is used here will simply print '-NoValue-' as a reminder!
 
 ## Two types of optional argument
 
-Sometimes you might want two different optional arguments, and be able to tell which is which. This can be done by using something other than square brackets, often using angle brackets (‘&lt;’ and ‘&gt;’). We can do that using the letter ‘`d`’ (or ‘`D`’ if we give a default).
+Sometimes you might want two different optional arguments, and be able to tell which is which. This can be done by using something other than square brackets, often using angle brackets ('&lt;' and '&gt;'). We can do that using the letter '`d`' (or '`D`' if we give a default).
 
 ```latex
 \NewDocumentCommand\TwoTypesOfOpt{D&lt;&gt;{}O{}m}%
@@ -127,7 +127,7 @@ What input syntax does this make? Let's look at some examples
 \TwoTypesOfOpt&lt;text&gt;[text]{text} % Both optionals
 ```
 
-How did that work? The first two characters after the ‘`D`’ are used to find the optional argument, so in this case ‘`&lt;`’ and ‘`&gt;`’.
+How did that work? The first two characters after the '`D`' are used to find the optional argument, so in this case '`&lt;`' and '`&gt;`'.
 
 ## Finding stars or other special markers
 
@@ -145,7 +145,7 @@ Another common idea in LaTeX is to use a star to indicate some special version o
 <!-- {% endraw %} -->
 
 
-Here, ‘`s`’ represents a star argument. You'll see that it ends up as `#1`, while the mandatory argument is `#2`. You'll also see that there needs to be a test to see if there is a star (`\IfBooleanTF`). This doesn't mention stars as the test can be used for other things.
+Here, '`s`' represents a star argument. You'll see that it ends up as `#1`, while the mandatory argument is `#2`. You'll also see that there needs to be a test to see if there is a star (`\IfBooleanTF`). This doesn't mention stars as the test can be used for other things.
 
 ## Summing up
 

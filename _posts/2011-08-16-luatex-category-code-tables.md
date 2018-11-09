@@ -15,7 +15,7 @@ There are lots of very clever ideas in [LuaTeX](http://www.luatex.org/), and it'
 ```
 is one you soon get used to. The problem comes when several people start altering the codes: there is no easy way to get back to a known position.
 
-A good illustration of this is verbatim material. The way that something like LaTeX's \verb macro works is by setting the category code for all of the ‘special’ characters to ‘other’:
+A good illustration of this is verbatim material. The way that something like LaTeX's \verb macro works is by setting the category code for all of the 'special' characters to 'other':
 
 ```latex
 \let\do\@makeother
@@ -28,7 +28,7 @@ where both `\@makeother` and `\dospecials` are provided by the LaTeX kernel. Tha
 \do \ \do \\\do \{\do \}\do \$\do \&amp;\do \#\do \^\do \_\do \%\do \~
 ```
 
-and so maps the function `\@makeother` to all of the ‘special’ characters. Using that, a (simplified) verbatim command looks like
+and so maps the function `\@makeother` to all of the 'special' characters. Using that, a (simplified) verbatim command looks like
 
 <!-- {% raw %} -->
 ```latex
@@ -49,7 +49,7 @@ and so maps the function `\@makeother` to all of the ‘special’ characters. U
 ```
 <!-- {% endraw %} -->
 
-In most cases, this works fine. However, if someone makes another character ‘special’ then things go wrong:
+In most cases, this works fine. However, if someone makes another character 'special' then things go wrong:
 
 <!-- {% raw %} -->
 ```latex

@@ -10,7 +10,7 @@ tags:
 ---
 TeX users on Linux tend to use the packaged TeX installation provided by there distro, rather than using the standard [TeX Live](https://tug.org/texlive/) installer and managing things themselves. [Ubuntu](http://www.ubuntu.com/) is one of the more popular Linux distros, and there has been an issue for a while that they had stuck with TeX Live 2007, despite TeX Live 2008 and then TeX Live 2009 being released.
 
-The latest Ubuntu release, 10.04 ‘Lucid Lynx’, finally moves to TeX Live 2009. This finally makes it easy to get TeX Live in a reasonable up to date version:
+The latest Ubuntu release, 10.04 'Lucid Lynx', finally moves to TeX Live 2009. This finally makes it easy to get TeX Live in a reasonable up to date version:
 
 ```bash
 sudo apt-get install texlive

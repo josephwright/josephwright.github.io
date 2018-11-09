@@ -10,7 +10,7 @@ The latest version of [`biblatex`, v1.1,](https://ctan.org/pkg/biblatex) appeare
 
 Many of the new features rely on Biber, and will not work with BibTeX. As Biber has lots of advantages anyway, including UTF-8 support and active development, this is no real hindrance.
 
-I want to focus here on one new feature, as it's one I requested. In chemistry and physics we tend numerical reference styles and to have lots of references. Often, several of these will be related, and so can be ‘compacted’ into a single number. With traditional BibTeX styles, this can be done using the `mciteplus` package and a suitable `.bst` file. `biblatex` has supported this using ‘reference sets’ for some time, but up to now this has required modification of the database entries. In v1.1, you can define a reference set in the preamble:
+I want to focus here on one new feature, as it's one I requested. In chemistry and physics we tend numerical reference styles and to have lots of references. Often, several of these will be related, and so can be 'compacted' into a single number. With traditional BibTeX styles, this can be done using the `mciteplus` package and a suitable `.bst` file. `biblatex` has supported this using 'reference sets' for some time, but up to now this has required modification of the database entries. In v1.1, you can define a reference set in the preamble:
 
 ```latex
 \defbibentryset{set1}{key1,key2,key3}

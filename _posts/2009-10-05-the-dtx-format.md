@@ -46,7 +46,7 @@ Code for both packages
 %&lt;/PackageA|PackageB&gt;
 ```
 
-What is happening here? Each guard line is a comment (so it will not appear in the production file), and is enclosed in angle brackets. The first line, `%&lt;*PackageA&gt;`, is a guard starting lines that will only appear when extracting `PackageA`. That continues until the matching closing guard, `%&lt;/PackageA&gt;`. There is then a section that applies only to `PackageB`, marked up in much the same way. The final set of guards use the `|` symbol to mean ‘or’: lines here will appear in both `PackageA` and `PackageB`. You can do more complex things (nest guards, use `&amp;` as a logical ‘and’, _etc_.), but the basic idea remains the same.
+What is happening here? Each guard line is a comment (so it will not appear in the production file), and is enclosed in angle brackets. The first line, `%&lt;*PackageA&gt;`, is a guard starting lines that will only appear when extracting `PackageA`. That continues until the matching closing guard, `%&lt;/PackageA&gt;`. There is then a section that applies only to `PackageB`, marked up in much the same way. The final set of guards use the `|` symbol to mean 'or': lines here will appear in both `PackageA` and `PackageB`. You can do more complex things (nest guards, use `&amp;` as a logical 'and', _etc_.), but the basic idea remains the same.
 
 I've said a couple of times that the code is extracted, and that this needs some instructions for DocStrip. Essentially, this means matching up the names of the guards with the files they relate to. In my simple example, a suitable DocStrip .ins file would be
 
@@ -95,7 +95,7 @@ In the documentation part, the usual LaTeX mark-up can be used, with a few addit
 
 - `\cs{_&lt;name&gt;_}` is used to print a function name, including the leading backslash, in a fixed-width font (and avoiding any category-code issues with the backslash).
 - `\meta{_&lt;argument&gt;_}` prints the name of an argument surrounded by angle brackets and printed in italic, so it stands out (as I've tried to do here using HTML!).
-- \marg{_&lt;argument&gt;_} and `\oarg{_&lt;argument&gt;_}` print mandatory and optional arguments as ‘{_&lt;argument&gt;_}’ and ‘[_&lt;argument&gt;_]’, respectively.
+- \marg{_&lt;argument&gt;_} and `\oarg{_&lt;argument&gt;_}` print mandatory and optional arguments as '{_&lt;argument&gt;_}' and '[_&lt;argument&gt;_]', respectively.
 - `\DescribeMacro _&lt;csname&gt;_` prints the argument name as a marginal note, and includes it for indexing and cross-referencing.
 
 In the code section, the code itself is marked off from the documentation both by comment characters (for DocStrip), and some macros for `ltxdoc`:

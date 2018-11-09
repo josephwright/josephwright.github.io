@@ -12,7 +12,7 @@ In my post box a few days ago was the proceedings of the EuroTeX 2009 conference
 
 - Siep Kroonenberg wrote about maintaining a (Windows) network installation of [TeX Live](https://tug.org/texlive/). While not a step by step guide, I found this a useful insight into getting started on providing multi-user access to TeX.
 - Péter Szabó looked at optimising PDF size, both using [pdfTeX](https://tug.org/applications/pdftex/) and with post-production tools. This has come up recently on the [TeX Live mailing list](https://tug.org/mailman/listinfo/tex-live), so it was interesting to see more detail about the concepts involved.
-- Taco Hoekwater explained how the development work on [LuaTeX](http://www.luatex.org/) has finally removed all of the Pascal code from the sources, and why this was a ‘Good Thing’. An interesting insight into work at the engine level.
-- In the ‘Abstracts Only’ section I was particularly interested in one about PPCHTeX by Hans Hagen. PPCHTeX is an approach to typesetting chemical structures in TeX, and is therefore of more than passing interest to me in my day job.
+- Taco Hoekwater explained how the development work on [LuaTeX](http://www.luatex.org/) has finally removed all of the Pascal code from the sources, and why this was a 'Good Thing'. An interesting insight into work at the engine level.
+- In the 'Abstracts Only' section I was particularly interested in one about PPCHTeX by Hans Hagen. PPCHTeX is an approach to typesetting chemical structures in TeX, and is therefore of more than passing interest to me in my day job.
 
 I note for my diary that [EuroTeX 2010](http://www.guit.sssup.it/eurotex2010/) is scheduled for the 25th to the 29th of August 2010 in Pisa. I'll see how my diary works out: perhaps I'll make this one!

@@ -7,7 +7,7 @@ categories:
 tags:
   - Programming LaTeX3
 ---
-In my [previous post](/2011/12/26/programming-latex3-token-list-variables/), I introduced the idea of a _token list variable_, the LaTeX3 term for a macro used to store ‘stuff’. Token list variables (tl vars) are the basis of many of the higher level data types in LaTeX3, and they also have arbitrary contents. As a result, there are a lot of generic functions to do things with tl vars.
+In my [previous post](/2011/12/26/programming-latex3-token-list-variables/), I introduced the idea of a _token list variable_, the LaTeX3 term for a macro used to store 'stuff'. Token list variables (tl vars) are the basis of many of the higher level data types in LaTeX3, and they also have arbitrary contents. As a result, there are a lot of generic functions to do things with tl vars.
 
 ## Adding content, changing content
 
@@ -21,7 +21,7 @@ A very common thing to do with stored material is either to add to it, which we 
 \tl_use:N \l_my_a_tl
 ```
 
-will print ‘My stuff here’. That's easy enough to do without LaTeX3 coding, but find-and-replace is a bit more involved. So the functions
+will print 'My stuff here'. That's easy enough to do without LaTeX3 coding, but find-and-replace is a bit more involved. So the functions
 
 `\tl_replace_once:Nnn` and `\tl_replace_all:Nnn` are working a little harder:
 
@@ -60,7 +60,7 @@ which results in `\l_my_a_tl` containing `stuff more stuff`. Now, the LaTeX3 ker
 \cs_generate_variant:Nn \tl_put_right:Nn { NV }
 ```
 
-This is a ‘soft’ process: if the variant requested already exists, nothing happens, but otherwise the variant is created. So provided the base function exists, you can always create any variants you need.
+This is a 'soft' process: if the variant requested already exists, nothing happens, but otherwise the variant is created. So provided the base function exists, you can always create any variants you need.
 
 ## Mappings
 

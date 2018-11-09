@@ -14,4 +14,4 @@ However, this is not so clear-cut for many of the options related to number-mani
 
 On the other hand, for a number you've typed in yourself I'd hope that you've done the thinking part when the number is typed, so rounding by the computer is not needed. That suggests to me that most of the time rounding should not be set as a global option.
 
-Of course, it will depend on the exact nature of the document in question. If all of the data in a document is in tables, all of which need rounding, then there is a performance gain from setting the rounding once globally. So the best I can say, guidance-wise, is ‘think about _your_ document’!
+Of course, it will depend on the exact nature of the document in question. If all of the data in a document is in tables, all of which need rounding, then there is a performance gain from setting the rounding once globally. So the best I can say, guidance-wise, is 'think about _your_ document'!

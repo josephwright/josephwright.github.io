@@ -14,4 +14,4 @@ As long as we are not able to provide a restricted `epstopdf` that
 only allows writing to subdirectories or similar we will
 unfortunately not have this feature …
 
-So for the moment you still need to turn on `\write18` explicitly if you need it (at least with TeX Live: I'd imagine that MiKTeX will be updated with the same change). I hope that a solution can be found to provide easy to use `\write18` for a subset of ‘safe’ programs, but for the moment we have to wait.
+So for the moment you still need to turn on `\write18` explicitly if you need it (at least with TeX Live: I'd imagine that MiKTeX will be updated with the same change). I hope that a solution can be found to provide easy to use `\write18` for a subset of 'safe' programs, but for the moment we have to wait.

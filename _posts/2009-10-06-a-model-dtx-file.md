@@ -17,7 +17,7 @@ The idea of constructing a dtx file in the way I'll describe is that it lets us 
 - Running `(pdf)tex _&lt;name&gt;_.dtx` extracts the code and associated files (ins, README, _etc_.).
 - Running `(pdf)latex _&lt;name&gt;_.dtx` does the extraction then typesets the documentation. This way, the documentation always has the latest code available, and users don't need to worry about which method they use to get stuff extracted.
 
-Most of the ideas here are not mine: Will Robertson came up with a lot of this. I'm just going to give some details of what is going on. I'm going to present the source in order, with a section of the source followed by some comments explaining what is going on. I'm going to call the demonstration package ‘demopkg’: something easy for search and replace. Where ever possible, `\jobname` is used in the source so that the file name changes automatically when moving from one package to another.
+Most of the ideas here are not mine: Will Robertson came up with a lot of this. I'm just going to give some details of what is going on. I'm going to present the source in order, with a section of the source followed by some comments explaining what is going on. I'm going to call the demonstration package 'demopkg': something easy for search and replace. Where ever possible, `\jobname` is used in the source so that the file name changes automatically when moving from one package to another.
 
 ```latex
 % \iffalse meta-comment
@@ -32,7 +32,7 @@ The file starts off with an `\iffalse` which will mean that ltxdoc will skip all
 %&lt;/internal&gt;
 ```
 
-There is then a guard called ‘internal’: this is never extracted out, but lets us have an uncommented `\iffalse` in the code. which will mean that the next section will be ignored by TeX initially. The idea here is that we are going to have some text (the README), that TeX would otherwise try to typeset. We don't want that, so need to skip it at the moment.
+There is then a guard called 'internal': this is never extracted out, but lets us have an uncommented `\iffalse` in the code. which will mean that the next section will be ignored by TeX initially. The idea here is that we are going to have some text (the README), that TeX would otherwise try to typeset. We don't want that, so need to skip it at the moment.
 
 ```latex
 %&lt;*readme&gt;
@@ -47,7 +47,7 @@ Some text about the package: probably the same as the abstract.
 %&lt;/readme&gt;
 ```
 
-This part is pretty obvious: the README file for the package, inside guards called ‘readme’. As you might expect, this will get extracted out later as the README file.  In the initial TeX run, this text will be skipped (because of the `\iffalse`), but when DocStrip runs it will show up (as DocStrip will ignore the `\iffalse`, which is in a different set of guards).
+This part is pretty obvious: the README file for the package, inside guards called 'readme'. As you might expect, this will get extracted out later as the README file.  In the initial TeX run, this text will be skipped (because of the `\iffalse`), but when DocStrip runs it will show up (as DocStrip will ignore the `\iffalse`, which is in a different set of guards).
 
 ```latex
 %&lt;*internal&gt;
@@ -59,7 +59,7 @@ This part is pretty obvious: the README file for the package, inside guards call
 %&lt;/internal&gt;
 ```
 
-Back with the special ‘internal’ guards, the `\iffalse` is ended and a check is made on the current format. For LaTeX, a group needs to be begun so that DocStrip can be loaded without later problems. For plain TeX, only the extraction is going to happen, so that is not an issue.
+Back with the special 'internal' guards, the `\iffalse` is ended and a check is made on the current format. For LaTeX, a group needs to be begun so that DocStrip can be loaded without later problems. For plain TeX, only the extraction is going to happen, so that is not an issue.
 
 ```latex
 %&lt;*install&gt;
@@ -68,7 +68,7 @@ Back with the special ‘internal’ guards, the `\iffalse` is ended and a check
 \askforoverwritefalse
 ```
 
-The next section, inside ‘install’ guards, is the instructions for extracting the code out of the dtx. Later, this will also turn into a stand-alone ins file. DocStrip gets loaded, then we tell it to do its job without asking for any conformation or printing too much stuff.
+The next section, inside 'install' guards, is the instructions for extracting the code out of the dtx. Later, this will also turn into a stand-alone ins file. DocStrip gets loaded, then we tell it to do its job without asking for any conformation or printing too much stuff.
 
 ```latex
 \preamble

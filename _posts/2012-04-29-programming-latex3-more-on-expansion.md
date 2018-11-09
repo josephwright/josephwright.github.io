@@ -11,7 +11,7 @@ In the [last post](/2012/04/21/programming-latex3-expandability/), I looked at t
 
 ## Full (or forced) expansion
 
-The `f`-type (‘full’ or ‘force’) expansion argument is in some ways similar to the `x`-type concept, as it's about trying to expand as much as possible. So
+The `f`-type ('full' or 'force') expansion argument is in some ways similar to the `x`-type concept, as it's about trying to expand as much as possible. So
 
 ```latex
 \tl_set:Nn \l_tmpa_tl { foo }
@@ -29,7 +29,7 @@ and
 \tl_show:N \l_tmpc_tl
 ```
 
-give the same result: everything is expanded, and `\l_tmpc_tl` contains `‘foo`’. There are two crucial differences, however. First, `x`-type variants are not expandable, even if their parent function was. On the other hand, `f`-type expansion is itself expandable. So something like
+give the same result: everything is expanded, and `\l_tmpc_tl` contains `'foo`'. There are two crucial differences, however. First, `x`-type variants are not expandable, even if their parent function was. On the other hand, `f`-type expansion is itself expandable. So something like
 
 ```latex
 \cs_new:Npn \my_function:n { \tl_length:n {#1} }
@@ -38,7 +38,7 @@ give the same result: everything is expanded, and `\l_tmpc_tl` contains `‘foo`
 
 will work as we'd want: `\l_tmpa_tl` will be expanded, then processed by `\my_function:n` and the result will be evaluated as an integer. Try that with `\exp_args:Nx` and it will fail.
 
-The second difference is what happens when we hit a non-expandable token. With `x`-type expansion, TeX will look at the next thing in the input, and so tries to expand _everything_ in the input (hence ‘exhaustive’). On the other hand, `f`-type expansion stops when the first non-expandable token is found. So
+The second difference is what happens when we hit a non-expandable token. With `x`-type expansion, TeX will look at the next thing in the input, and so tries to expand _everything_ in the input (hence 'exhaustive'). On the other hand, `f`-type expansion stops when the first non-expandable token is found. So
 
 ```latex
 \tl_set:Nn \l_tmpa_tl { foo }
@@ -61,13 +61,13 @@ As you might pick up, `f`-type expansion is somewhat specialised. It's useful wh
 
 ## Expanding just the once
 
-As TeX is a macro expansion language, there are some tasks that are best carried out, or even only doable, using an exact number of expansions. To allow a single expansion, the argument specification `o` (‘once’) is available. To use this, you need to know what will happen after exactly one expansion. Functions which may be useful in this way have information about their expansion behaviour included in the documentation, while token list variables also expand to their content after exactly one expansion. Examples using `o`-type expansion tend to be low-level: perhaps the best example is dropping the first token from some input, so
+As TeX is a macro expansion language, there are some tasks that are best carried out, or even only doable, using an exact number of expansions. To allow a single expansion, the argument specification `o` ('once') is available. To use this, you need to know what will happen after exactly one expansion. Functions which may be useful in this way have information about their expansion behaviour included in the documentation, while token list variables also expand to their content after exactly one expansion. Examples using `o`-type expansion tend to be low-level: perhaps the best example is dropping the first token from some input, so
 
 ```latex
 \tl_set:No \l_tmpa_tl { \use_none:n tokens }
 \tl_show:N \l_tmpa_tl
 ```
 
-will show ‘`okens`’.
+will show '`okens`'.
 
 As with `f`-type expansion, expanding just once is something of a specialist tool, but one that is needed. It also completes the types of argument specification we can use, so we're now in a position to do some more serious LaTeX3 programming.

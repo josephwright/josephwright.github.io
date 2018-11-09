@@ -22,7 +22,7 @@ Version 2 of `siunitx` renames most of the package options to make them more inf
 \usepackage[load-configurations = version-1]{siunitx}
 ```
 
-The new option names are intended to make it easier to continue to expand `siunitx` without having completely opaque option names. At the same time, the nature of some of the options has been changed. This means that there are no longer any ‘magic’ keywords, which have caused confusion in the past.
+The new option names are intended to make it easier to continue to expand `siunitx` without having completely opaque option names. At the same time, the nature of some of the options has been changed. This means that there are no longer any 'magic' keywords, which have caused confusion in the past.
 
 There will be no significant features added to `siunitx` version 2 between the beta version and the production release (probably in June). The aim is to get the inevitable bugs in the current code found and fixed, which is best done while not making other changes.
 

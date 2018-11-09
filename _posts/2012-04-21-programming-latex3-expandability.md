@@ -11,7 +11,7 @@ In the [last part](/2012/02/07/programming-latex3-integers-and-integer-expressio
 
 ## What is expandability?
 
-To understand expandability, we need to think about what TeX does when we use functions. TeX is a macro expansion language, and as I've already said that means that LaTeX3 is too. When we use a function in a place where TeX can execute all of the built-in commands (‘primitives’), we don't really need to worry about that too much. However, there are places where life is more complicated, as TeX will only execute some of the primitives. These places are ‘expansion contexts’. In these places, only some functions will work as expected, and so it's important to know what will and will not work.
+To understand expandability, we need to think about what TeX does when we use functions. TeX is a macro expansion language, and as I've already said that means that LaTeX3 is too. When we use a function in a place where TeX can execute all of the built-in commands ('primitives'), we don't really need to worry about that too much. However, there are places where life is more complicated, as TeX will only execute some of the primitives. These places are 'expansion contexts'. In these places, only some functions will work as expected, and so it's important to know what will and will not work.
 
 ## LaTeX3 and expandability
 
