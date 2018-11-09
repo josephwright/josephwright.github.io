@@ -6,7 +6,7 @@ categories:
   - biblatex
   - Packages
 tags:
-  - biber
+  - Biber
   - Perl
 ---
 I've just reinstalled my [Strawberry Perl](http://strawberryperl.com/) system on Windows, and so had the opportunity to try a clean build of [`biblatex-biber`](http://biblatex-biber.sourceforge.net/). I've [posted before](/2010/02/27/building-biblatex-biber-again/) about building this on various platforms, and it now is almost as straight-forward on Windows as on Linux.
