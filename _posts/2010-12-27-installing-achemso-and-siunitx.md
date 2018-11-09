@@ -26,14 +26,14 @@ One thing to do if you update your TeX system is to check any locally-installed 
 The method above is fine if you are happy installing an entirely new TeX system, but if all you need is access to one of my packages then it is probably over-kill. For these users, I provide ready-to-install zip files on CTAN. For `achemso`, you need [`achemso.tds.zip`](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=`achemso`.tds.zip&amp;Search=Search), while for `siunitx` users you probably need
 
 - [`siunitx.tds.zip`](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=`siunitx`.tds.zip&amp;Search=Search)
-- [`expl3.tds.zip`](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=expl3.tds.zip&amp;Search=Search)
-- [`xpackages.tds.zip`](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=xpackages.tds.zip&amp;Search=Search)
+- `expl3.tds.zip`
+- `xpackages.tds.zip`
 
 The idea with these files is that I have set them up with documentation, ready to use LaTeX styles and all of the support files. All that needs to happen with them is to unzip them inside your local TeX directory and tell TeX about them.
 
 Where the files should go depends a little on your operating system. The local directory (folder) is usually `~/texmf` on Linux, `~/Library/texmf` on a Mac and (probably) `%USERPROFILE%\texmf` on Windows. Here, `~` and `%USERPROFILE%` represent your home directory (folder). So on my Windows 7 PC, I have a folder
 
-```
+```bat
 C:\Users\joseph\texmf
 ```
 
