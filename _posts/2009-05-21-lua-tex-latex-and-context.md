@@ -25,13 +25,13 @@ In the ConTeXt case, the entire format is being re-written as 'Mark IV', which w
 
 In the LaTeX case, the format is written to work on plain TeX, no extensions at all. That is not about to change: essentially, LaTeX2e will _never_ be 'updated' in that sense. The current [LaTeX3](https://www.latex-project.org/latex3.html) plans don't envisage requiring LuaTeX, although I'd hope that some low-level support will be included if LaTeX3 ever becomes a reality. There will, though, be LaTeX packages that use Lua: I'm sure that at some point there will be a [`fontspec`](https://ctan.org/pkg/fontspec)-like package for LuaTeX, for example.
 
-## What is wrong with LaTeX2ε?
+## What is wrong with LaTeX2e?
 
-One issue that always comes up when future directions for TeX are discussed is whether LaTeX2ε needs to change, or whether it is okay as it is. Currently, if you know what you are doing then you can achieve a lot with LaTeX. There are a vast range of packages, and these cover very many of the things you could ever hope to do in TeX. So in a sense LaTeX works as it is. On the other hand, you have to know which packages to load, even to get some of the basics right (try making a new float type without loading any packages and using one of the base classes!). At the same time, things like UTF-8 text, system fonts and so on are not available using only the kernel.
+One issue that always comes up when future directions for TeX are discussed is whether LaTeX2e needs to change, or whether it is okay as it is. Currently, if you know what you are doing then you can achieve a lot with LaTeX. There are a vast range of packages, and these cover very many of the things you could ever hope to do in TeX. So in a sense LaTeX works as it is. On the other hand, you have to know which packages to load, even to get some of the basics right (try making a new float type without loading any packages and using one of the base classes!). At the same time, things like UTF-8 text, system fonts and so on are not available using only the kernel.
 
 A more fundamental issue is that LaTeX currently doesn't do enough to provide structured data, and is not a good choice for dealing with XML input. This makes it hard to get data in and out, and is closely related to the fact that there is not enough separation of appearance and structure in the kernel and in add-on packages.
 
-Neither of these points has escaped the notice of the LaTeX team. The question is whether a successor to LaTeX2ε will appear, and if it does whether it can succeed. There is a need to start from scratch with many things, meaning that a new LaTeX simply won't work with most packages currently available. So the team have to deliver something that really works.
+Neither of these points has escaped the notice of the LaTeX team. The question is whether a successor to LaTeX2e will appear, and if it does whether it can succeed. There is a need to start from scratch with many things, meaning that a new LaTeX simply won't work with most packages currently available. So the team have to deliver something that really works.
 
 ## How can (La)TeX  recruit new users?
 

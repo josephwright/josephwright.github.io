@@ -23,7 +23,7 @@ Hello World!
 \end{document}
 ```
 
-without using LaTeX2ε at all. I'd expect the user syntax to change a bit, but in essence the minimal LaTeX document is not going to change (at least, not if LaTeX3 is to succeed).
+without using LaTeX2e at all. I'd expect the user syntax to change a bit, but in essence the minimal LaTeX document is not going to change (at least, not if LaTeX3 is to succeed).
 
 The experts will know that there is quite a lot of work to get to the test file I've suggested, and so going from where LaTeX3 is now to a working microkernel is non-trivial. However, it would be a good opportunity to demonstrate that real (usable) progress is happening, and would also avoid the problems associated with trying to build everything from the bottom up with no top level in sight. A microkernel would show that delivery is possible, and I hope raise interest in LaTeX3 from the current _and potential_ development community.
 
