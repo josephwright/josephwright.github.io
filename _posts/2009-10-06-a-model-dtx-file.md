@@ -248,7 +248,7 @@ The lead off for the package code itself opens the guard for extracting the code
 ```
 <!-- {% endraw %} -->
 
-Here we have some code: separated out using the macrocode environment. As I described in the last post, the `\begin{macro}` … `\end{macro}` block indicates that this is where `\examplemacro` is defined: indexing needs to know this. The `\changes` given in the code block only get printed if the code is typeset. They are therefore best used for low-level information, rather than usage changes that users need to know about.
+Here we have some code: separated out using the macrocode environment. As I described in the last post, the `\begin{macro}` ... `\end{macro}` block indicates that this is where `\examplemacro` is defined: indexing needs to know this. The `\changes` given in the code block only get printed if the code is typeset. They are therefore best used for low-level information, rather than usage changes that users need to know about.
 
 ```latex
 %    \begin{macrocode}

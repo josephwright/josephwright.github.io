@@ -26,7 +26,7 @@ That loads the code, but does not get us into the programming environment. To do
 \ExplSyntaxOff
 ```
 
-In some ways, this is similar to the LaTeX2e `\makeatletter` … `\makeatother` idea, but as we'll see it's a bit more advanced.
+In some ways, this is similar to the LaTeX2e `\makeatletter` ... `\makeatother` idea, but as we'll see it's a bit more advanced.
 
 ## In a LaTeX2e package
 

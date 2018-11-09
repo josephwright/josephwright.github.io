@@ -28,7 +28,7 @@ or manipulated using `\stepcounter` and `\addtocounter`
 \addtocounter{mycounter}{3}  % Value is 5
 ```
 
-There are then some methods to get the counter value back out. LaTeX creates a `\the…` function for each counter, which will print the current value. In places where TeX expects a number, there is also the `\value` function:
+There are then some methods to get the counter value back out. LaTeX creates a `\the...` function for each counter, which will print the current value. In places where TeX expects a number, there is also the `\value` function:
 
 ```latex
 \themycounter % Prints the current value

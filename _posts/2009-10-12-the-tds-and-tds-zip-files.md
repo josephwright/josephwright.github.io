@@ -10,7 +10,7 @@ tags:
 ---
 In my post about [working with dtx files](/2009/10/11/working-with-dtx-files/), I made the somewhat throw-away statement
 
-> The idea of a TDS-ready zip is also popular …
+> The idea of a TDS-ready zip is also popular ...
 
 I've been pulled up on that by e-mail, so I  thought I'd consider this a bit more before looking at automating working with dtx sources.
 

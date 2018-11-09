@@ -19,7 +19,7 @@ With LuaTeX already at version 0.40, it is progressing and will deliver. So unle
 
 ## How does LuaTeX relate to ConTeXt and LaTeX?
 
-LuaTeX is an 'engine', like [pdfTeX](http://www.pdftex.org) or [XeTeX](https://tug.org/xetex/). So it provides certain functions, which might or might not get used. The end-user can use them directly, but this is really not helping most people as they don't want to do this type of low-level work. So in the main it is down to either the TeX format ([ConTeXt,](http://wiki.contextgarden.net/Main_Page) [LaTeX](https://www.latex-project.org/), …) or an add on (LaTeX package,  ConTeXt module, _etc_.) to take advantage of them.
+LuaTeX is an 'engine', like [pdfTeX](http://www.pdftex.org) or [XeTeX](https://tug.org/xetex/). So it provides certain functions, which might or might not get used. The end-user can use them directly, but this is really not helping most people as they don't want to do this type of low-level work. So in the main it is down to either the TeX format ([ConTeXt,](http://wiki.contextgarden.net/Main_Page) [LaTeX](https://www.latex-project.org/), ...) or an add on (LaTeX package,  ConTeXt module, _etc_.) to take advantage of them.
 
 In the ConTeXt case, the entire format is being re-written as 'Mark IV', which will use a lot of Lua. This of course means things fundamentally change compared to early versions of ConTeXt, and ties it to a single engine.
 

@@ -89,7 +89,7 @@ The `ltxdoc` class is the typesetting part of the dtx format. The idea is that t
 \end{document}
 ```
 
-Usually, the documentation and code then follows after `\end{document}`: with some correctly placed `%\iffalse` … `%\fi` constructions, the driver part is then skipped and the documentation and code is typeset.
+Usually, the documentation and code then follows after `\end{document}`: with some correctly placed `%\iffalse` ... `%\fi` constructions, the driver part is then skipped and the documentation and code is typeset.
 
 In the documentation part, the usual LaTeX mark-up can be used, with a few additional macros.
 
@@ -109,7 +109,7 @@ In the code section, the code itself is marked off from the documentation both b
 %\end{macro}
 ```
 
-The `\begin{macro}` …`\end{macro}` block is used so that cross-references between the code and index work correctly. They are used to show that this block defines `\MyMacro` (rather than just using it). On the other hand, `\begin{macrocode}` … `\end{macrocode}` tells `ltxdoc` where the code is, so that it prints correctly. For mainly historical reasons, there have to be exactly four spaces in `%    \end{macrocode}`!
+The `\begin{macro}` ...`\end{macro}` block is used so that cross-references between the code and index work correctly. They are used to show that this block defines `\MyMacro` (rather than just using it). On the other hand, `\begin{macrocode}` ... `\end{macrocode}` tells `ltxdoc` where the code is, so that it prints correctly. For mainly historical reasons, there have to be exactly four spaces in `%    \end{macrocode}`!
 
 There are, again, several extra ideas that can be used in the code parts of `ltxdoc`. However, to try to explain all of them would be to make this post completely impossible to read!
 
