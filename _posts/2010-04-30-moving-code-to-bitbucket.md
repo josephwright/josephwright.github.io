@@ -24,7 +24,7 @@ Over the last couple of days I've uploaded basically all of the current versions
 
 ## The `beamer` connection
 
-I should add that one of the reasons for looking at all of this was the recent news that the [`beamer`](https://ctan.org/pkg/beamer) package has a [new maintainer](http://permalink.gmane.org/gmane.comp.tex.latex.`beamer`.general/2286). I've taken a bit of interest in this, and as the [code](https://bitbucket.org/rivanvx/beamer/wiki/Home) has been moved to BitBucket, took a look at the facilities on offer there. As a result, I've been given access to the new repository. I have a few vague ideas about areas to look at, but at the moment nothing definite!
+I should add that one of the reasons for looking at all of this was the recent news that the [`beamer`](https://ctan.org/pkg/beamer) package has a new maintainer. I've taken a bit of interest in this, and as the [code](https://bitbucket.org/rivanvx/beamer/wiki/Home) has been moved to BitBucket, took a look at the facilities on offer there. As a result, I've been given access to the new repository. I have a few vague ideas about areas to look at, but at the moment nothing definite!
 
 ## Get involved
 

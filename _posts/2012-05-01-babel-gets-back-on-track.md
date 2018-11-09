@@ -7,7 +7,7 @@ categories:
 tags:
   - babel
 ---
-Posted today to the [LaTeX-L](http://news.gmane.org/group/gmane.comp.tex.latex.latex3) list by Javier Bezos
+Posted today to the [LaTeX-L](https://listserv.uni-heidelberg.de/cgi-bin/wa?A0=LATEX-L) list by Javier Bezos
 
 > Babel gets back on track and it is again actively maintained. The goals are mainly to fix bugs, to make it compatible with XeTeX and LuaTeX (as far as possible), and perhaps to add some minor new features (provided they are backward compatible).
 >
