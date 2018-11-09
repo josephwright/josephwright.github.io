@@ -26,7 +26,7 @@ As I said, a `tl` can contain anything: we are not limited to letters. So
 
 ```latex
 \tl_new:N \l_mypkg_other_tl
-\tl_set:Nn \l_mypkg_other_tl { \ERROR ^ _ # $ ! }
+\tl_set:Nn \l_mypkg_other_tl { \ERROR ^ _ # $ $ ! }
 ```
 
 is also perfectly-valid for the content of a token list variable (although whether we'll be able to use it safely is a different matter).
@@ -92,19 +92,19 @@ What might worry you slightly is that I said
 
 ```latex
 \tl_new:N \l_mypkg_other_tl
-\tl_set:Nn \l_mypkg_other_tl { \ERROR ^ _ # $ ! }
+\tl_set:Nn \l_mypkg_other_tl { \ERROR ^ _ # $ $ ! }
 ```
 
 will work. That won't work with `\def`, and you'd normally expect to need a token register (`toks`) for this. However, we don't use `toks` for LaTeX3 programming at all, and that's because we require e-TeX. So
 
 ```latex
-\tl_set:Nn \l_mypkg_other_tl { \ERROR ^ _ # $ ! }
+\tl_set:Nn \l_mypkg_other_tl { \ERROR ^ _ # $ $ ! }
 ```
 
 is actually the same as
 
 ```latex
-\edef \l_mypkg_other_tl { \unexpanded { \ERROR ^ _ # $ ! } }
+\edef \l_mypkg_other_tl { \unexpanded { \ERROR ^ _ # $ $ ! } }
 ```
 
 which will allow us to put _any_ tokens inside a macro.
