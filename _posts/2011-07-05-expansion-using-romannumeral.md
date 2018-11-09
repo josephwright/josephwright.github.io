@@ -16,7 +16,7 @@ The `\romannumeral` primitive was intended to turn integers into roman numerals.
 but becomes more powerful when used along with the `&#96;` syntax which TeX allows for including an integer
 
 ```latex
-\romannumber -`0
+\romannumber -&#96;0
 ```
 
 Here, the `&#96;0` is converted into a integer which TeX treats as complete: `&#96;0` is 48, but `&#96;01` is the (terminated) integer 48 followed by a separate 1 and _not_ the integer 481. The important thing for expansion, however, is that TeX always looks for an optional space to gobble after an integer, even in a case like `&#96;0` where the integer is automatically terminated.
@@ -26,7 +26,7 @@ How does this help with expansion? It's all to do with how TeX terminate numbers
 <!-- {% raw %} -->
 ```latex
 \def\demo#1{%
-  \detokenize\expandafter{\romannumeral-`0#1}%
+  \detokenize\expandafter{\romannumeral-&#96;0#1}%
 }
 ```
 <!-- {% endraw %} -->
