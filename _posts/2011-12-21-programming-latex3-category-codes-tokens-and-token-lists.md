@@ -53,8 +53,8 @@ Okay, what's going on here? Well, as we saw
 
 ```latex
 \foo_if_something:nT
-  \foo_if_something:nF
-  \foo_if_something:nTF
+\foo_if_something:nF
+\foo_if_something:nTF
 ```
 
 The test is always the same for the three related versions, with the
