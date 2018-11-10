@@ -9,7 +9,7 @@ tags:
   - protected
   - robust
 ---
-ε-TeX introduced the idea of 'protected' macros over ten years ago, but many experienced (La)TeX users struggle with the concept. The idea of the \protected primitive is that it will prevent a macro being expanded inside an `\edef` or `\write`, so that
+ε-TeX introduced the idea of 'protected' macros over ten years ago, but many experienced (La)TeX users struggle with the concept. The idea of the `\protected` primitive is that it will prevent a macro being expanded inside an `\edef` or `\write`, so that
 
 ```latex
 \protected\def\example{Hello}
