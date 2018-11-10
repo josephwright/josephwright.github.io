@@ -33,7 +33,7 @@ is also perfectly-valid for the content of a token list variable (although wheth
 
 ## Variable naming and TeX's grouping system
 
-From the [earlier discussion](/2011/12/14/programming-latex3-creating-functions/) of the way that functions are named in LaTeX3, it might be obvious that there is also a system to how variables are named. Skipping over the initial `\l_`, what we've got is a module name (`mypkg`), some further description of the nature of the variable (in this case `name`), and finally the variable type (`tl`), divided up by `_` in exactly the same way we did for functions. We'll see that other variables follow the same scheme.
+From the [earlier discussion](/2011/12/14/programming-latex3-creating-functions/) of the way that functions are named in LaTeX3, it might be obvious that there is also a system to how variables are named. Skipping over the initial `\l_`, what we've got is a module name (`mypkg`), some further description of the nature of the variable (in this case `name`), and finally the variable type (`tl`), divided up by `_` in exactly the same way we did for functions. We'll see that other variables follow the same scheme.
 
 So what's the leading `\l_` about? This tells us about the _scope_ that we should use when setting the variable. As TeX is a macro expansion language, variables are not local to functions. However, they can be local to TeX groups, which are created in LaTeX3 using
 

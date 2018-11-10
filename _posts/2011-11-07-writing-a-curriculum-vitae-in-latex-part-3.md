@@ -27,7 +27,7 @@ While usually my publication list is part of my CV, I sometimes need it as a sta
 Whether you use BibTeX or not, you'll need to do is set up a reverse-enumerated environment, so that the most recent publication has the highest number. I do that using the [`etaremune`](https://ctan.org/pkg/etaremune) package, which provides a suitable environment. The package needs to know how many items to enumerate, so either two LaTeX runs or a known starting value are needed. As I work by hand, I go with the latter approach
 
 ```latex
-\begin{etaremune}[start  = 45] % Update when you add a publication
+\begin{etaremune}[start  = 45] % Update when you add a publication
    ...
 \end{etaremune}
 ```

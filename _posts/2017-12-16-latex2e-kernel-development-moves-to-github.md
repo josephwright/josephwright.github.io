@@ -20,7 +20,7 @@ Frank Mittelbach (LaTeX team lead developer) has written a short article on the 
 
 Accompanying the move of LaTeX2e to GitHub, the LaTeX3 Subversion repository has also been retired: the master location for this is also now [on GitHub](https://github.com/latex3/latex3). So everything is in a sense 'sorted': all in one place.
 
-Of course, the team maintain only a very small amount of the LaTeX 'ecosystem': there are over 5000 packages on [CTAN](https://ctan.org). To help users know whether a bug should be reported to the team or not, we have created the [`latexbug` package](https://github.com/latex3/latexbug).  An example using it:
+Of course, the team maintain only a very small amount of the LaTeX 'ecosystem': there are over 5000 packages on [CTAN](https://ctan.org). To help users know whether a bug should be reported to the team or not, we have created the [`latexbug` package](https://github.com/latex3/latexbug).  An example using it:
 
 ```latex
 \RequirePackage{latexbug}

@@ -14,7 +14,7 @@ I make use of quite a few packages to get the appearance as I want. Rather than 
 
 ## Setting up the appearance
 
-Starting from the article class, the first thing to address is the overall appearance of the CV. The standard Computers Modern font is well designed, but I guess says 'LaTeX' in a may that many people don't want for a CV. With the availability of [XeTeX](https://tug.org/xetex) and [LuaTeX](http://www.luatex.org/), using system fonts is easy (using [`fontspec`](https://ctan.org/pkg/fontspec), of course), and that's particularly useful if like me you have some non-Latin characters that you'd like to include in the CV but keep visually 'matching' everything else.  For me, LuaTeX turns out to be a better choice than XeTeX (I want fully-functional microtypography as it helps with typesetting chemical names), so my CV starts off with
+Starting from the article class, the first thing to address is the overall appearance of the CV. The standard Computers Modern font is well designed, but I guess says 'LaTeX' in a may that many people don't want for a CV. With the availability of [XeTeX](https://tug.org/xetex) and [LuaTeX](http://www.luatex.org/), using system fonts is easy (using [`fontspec`](https://ctan.org/pkg/fontspec), of course), and that's particularly useful if like me you have some non-Latin characters that you'd like to include in the CV but keep visually 'matching' everything else.  For me, LuaTeX turns out to be a better choice than XeTeX (I want fully-functional microtypography as it helps with typesetting chemical names), so my CV starts off with
 ```latex
 % !TeX program = LuaLaTeX
 \documentclass[11pt,draft]{article}

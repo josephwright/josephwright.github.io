@@ -40,15 +40,15 @@ The last stage in the preamble is to create the subdivided compounds. Rather tha
 \declarecompound[\compound{imidazole}\compound{Mes}]
   {imidazole:Mes}
 \declarecompound[\compound{imidazole}\compound{iPr}]
-  {imidazole:iPr}
+  {imidazole:iPr}
 \declarecompound[\compound{pincer:salt}\compound{Mes}]
-  {pincer:salt:Mes}
+  {pincer:salt:Mes}
 \declarecompound[\compound{pincer:salt}\compound{iPr}]
-  {pincer:salt:iPr}
+  {pincer:salt:iPr}
 \declarecompound[\compound{pincer:carbene}\compound{Mes}]
-  {pincer:carbene:Mes}
+  {pincer:carbene:Mes}
 \declarecompound[\compound{pincer:carbene}\compound{iPr}]
-  {pincer:carbene:iPr}
+  {pincer:carbene:iPr}
 ```
 
 In the document body, things are now very easy. I just use the `\compound` macro. So for the general case I'll have

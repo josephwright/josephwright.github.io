@@ -15,7 +15,7 @@ When TeX reads input, it is not only the characters that are there that are impo
 
 ## Token lists
 
-The fact that TeX works with tokens means that most of the time we carry out operations on a token-by-token basis, rather than as strings. In LaTeX3  terminology, an arbitrary set of tokens is called a _token list_, and which of has both defined content and defined order. To get a better feel for how token lists work, we'll apply a few basic token list functions to some simple input:
+The fact that TeX works with tokens means that most of the time we carry out operations on a token-by-token basis, rather than as strings. In LaTeX3  terminology, an arbitrary set of tokens is called a _token list_, and which of has both defined content and defined order. To get a better feel for how token lists work, we'll apply a few basic token list functions to some simple input:
 
 ```latex
 \documentclass{article}

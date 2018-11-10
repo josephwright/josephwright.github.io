@@ -7,7 +7,7 @@ categories:
 tags:
   - Programming LaTeX3
 ---
-In the [previous post](/2011/12/07/programming-latex3-background/), I mentioned that programming LaTeX3 today really means programming using LaTeX3 ideas but on top of LaTeX2e. To do that, we are going to need to load the appropriate code, and then access the LaTeX3 programming environment. The exact detail depends on whether we are programming in the preamble of a LaTeX document or creating a package. I'll look at both of these before taking a closer look at the LaTeX3 programming environment in general.  What you should notice is that the use of a separate programming environment very much separates out the process of creating code from creating documents: that is quite deliberate and is something that we'll see again in the series.
+In the [previous post](/2011/12/07/programming-latex3-background/), I mentioned that programming LaTeX3 today really means programming using LaTeX3 ideas but on top of LaTeX2e. To do that, we are going to need to load the appropriate code, and then access the LaTeX3 programming environment. The exact detail depends on whether we are programming in the preamble of a LaTeX document or creating a package. I'll look at both of these before taking a closer look at the LaTeX3 programming environment in general.  What you should notice is that the use of a separate programming environment very much separates out the process of creating code from creating documents: that is quite deliberate and is something that we'll see again in the series.
 
 ## In the preamble of a document
 
@@ -26,7 +26,7 @@ That loads the code, but does not get us into the programming environment. To do
 \ExplSyntaxOff
 ```
 
-In some ways, this is similar to the LaTeX2e `\makeatletter` ... `\makeatother` idea, but as we'll see it's a bit more advanced.
+In some ways, this is similar to the LaTeX2e `\makeatletter` ... `\makeatother` idea, but as we'll see it's a bit more advanced.
 
 ## In a LaTeX2e package
 

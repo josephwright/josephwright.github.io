@@ -5,7 +5,7 @@ permalink: /2011/09/11/sorting-beamer-bugs/
 categories:
   - beamer
 ---
-The [`beamer`](https://ctan.org/pkg/beamer) class is rightly regarded as the leading way to produce presentations with LaTeX. A while ago now, there was a need to find a new maintainer, and [Vedran Miletić](https://bitbucket.org/rivanvx) volunteered to take over. At the same time, I'd said I would be willing to at least take on some formal connection, if only to get available patches integrated into the code.
+The [`beamer`](https://ctan.org/pkg/beamer) class is rightly regarded as the leading way to produce presentations with LaTeX. A while ago now, there was a need to find a new maintainer, and [Vedran Miletić](https://bitbucket.org/rivanvx) volunteered to take over. At the same time, I'd said I would be willing to at least take on some formal connection, if only to get available patches integrated into the code.
 
 Vedran has fixed a number of bugs in `beamer`, but the [list has been building up](https://bitbucket.org/rivanvx/beamer/issues?status=new&amp;status=open). I've spoken with Vedran about this, and as I suspected he's rather busy! There's also the fact that `beamer` works for most people most of the time. So for the moment I'm going to be dealing with keeping on top of the bug list.
 

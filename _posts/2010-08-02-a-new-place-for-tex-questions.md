@@ -5,7 +5,7 @@ permalink: /2010/08/02/a-new-place-for-tex-questions/
 categories:
   - General
 ---
-Some readers will have come across the popular [Stack Overflow](http://stackoverflow.com/), a site for asking programmers questions.  For those who haven't, it's based on the idea that users can give feedback on answers to questions, and that this leads to 'reputation' for contributors. So the idea is that good questions are easy to find, hopefully with reasons why they are good answers.
+Some readers will have come across the popular [Stack Overflow](http://stackoverflow.com/), a site for asking programmers questions.  For those who haven't, it's based on the idea that users can give feedback on answers to questions, and that this leads to 'reputation' for contributors. So the idea is that good questions are easy to find, hopefully with reasons why they are good answers.
 
 TeX and LaTeX questions pop up there from time to time, some of which are programming-related and others which don't fit quite so well. The Stack Overflow people are keen to expand, and so there has been a move to set up a TeX-related spin-off. This has been in 'private beta' for a week, which means that people who were interested have been setting up some questions and answers to get the site working. It's now moved to 'public beta', so anyone can register and ask (or answer) questions: [tex.stackexchange.com](https://tex.stackexchange.com/).
 

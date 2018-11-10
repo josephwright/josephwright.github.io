@@ -9,7 +9,7 @@ One of the questions that [comes up from time to time](/2011/09/01/latex3-more-u
 
 ## Short term
 
-The short term is about things which LaTeX3 does not critically depend on, and for which a lot of work is already done. This is very much an ongoing area:  small improvements spread across a range of topics. These items all fit into the concept of 'LaTeX3 in LaTeX2e', where this material can be loaded without affecting existing documents.
+The short term is about things which LaTeX3 does not critically depend on, and for which a lot of work is already done. This is very much an ongoing area:  small improvements spread across a range of topics. These items all fit into the concept of 'LaTeX3 in LaTeX2e', where this material can be loaded without affecting existing documents.
 
 ### Floating point expressions
 

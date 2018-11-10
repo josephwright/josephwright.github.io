@@ -12,7 +12,7 @@ For a while now we've been promising to update the floating point functions in L
 The new code lets you parse floating point expressions in the same way you can for integers. So you can write
 
 ```latex
-\fp_eval:n { 10 / 3  + 0.35 }
+\fp_eval:n { 10 / 3  + 0.35 }
 ```
 
 and get the output
