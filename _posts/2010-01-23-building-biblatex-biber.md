@@ -9,7 +9,7 @@ tags:
   - Biber
   - Perl
 ---
-The [`biblatex-biber`](http://biblatex-biber.sourceforge.net/) project provides probably the best way for [`biblatex`](https://ctan.org/pkg/biblatex) users to switch to pure UTF-8 bibliography information. However, getting it to build can cause problems: `biblatex-biber` is a [Perl](http://www.perl.org/) programme, and needs various downloads from [CPAN](http://www.cpan.org/). I thought it would therefore be useful to put some simple recipes here, explaining what I've done to get a working `biblatex-biber` on Windows, Ubuntu and Mac OS X. I'm assuming that the latest `biblatex-biber` release has been downloaded and unzipped somewhere, and that the Command Prompt/Terminal/Shell is open in that directory (folder).
+The [`biblatex-biber`](http://biblatex-biber.sourceforge.net/) project provides probably the best way for [`biblatex`](https://ctan.org/pkg/biblatex) users to switch to pure UTF-8 bibliography information. However, getting it to build can cause problems: `biblatex-biber` is a [Perl](http://www.perl.org/) program, and needs various downloads from [CPAN](http://www.cpan.org/). I thought it would therefore be useful to put some simple recipes here, explaining what I've done to get a working `biblatex-biber` on Windows, Ubuntu and Mac OS X. I'm assuming that the latest `biblatex-biber` release has been downloaded and unzipped somewhere, and that the Command Prompt/Terminal/Shell is open in that directory (folder).
 
 ## Mac OS X 10.6 (Snow Leopard)
 
