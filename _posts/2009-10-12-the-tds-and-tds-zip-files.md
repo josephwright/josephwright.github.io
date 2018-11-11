@@ -14,7 +14,7 @@ In my post about [working with dtx files](/2009/10/11/working-with-dtx-files/), 
 
 I've been pulled up on that by e-mail, so I  thought I'd consider this a bit more before looking at automating working with dtx sources.
 
-First, what does 'TDS' mean? The short answer is _TeX Directory Structure_, but that does not really help. The idea of the TDS is to have a standard layout for the location of TeX files, so for example LaTeX .sty files go inside `tex/latex/` (or more likely `tex/latex/_&lt;package&gt;_/`), while BibTeX style files (.bst) go inside `bibtex/bst`.
+First, what does 'TDS' mean? The short answer is _TeX Directory Structure_, but that does not really help. The idea of the TDS is to have a standard layout for the location of TeX files, so for example LaTeX `.sty` files go inside `tex/latex/` (or more likely `tex/latex/_&lt;package&gt;_/`), while BibTeX style files (`.bst`) go inside `bibtex/bst`.
 
 That's important as both [TeX Live](https://tug.org/texlive/) and [MiKTeX](https://www.miktex.org) use a database to locate files, and only scan the 'correct' parts of the TeX installation when building the database. So if you do a local file installation and put the file in the wrong place TeX won't find it. The result is that you need to lay things out properly if you're installing TeX files, which can be confusing if you're not familiar with the idea.
 

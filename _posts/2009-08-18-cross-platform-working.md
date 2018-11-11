@@ -42,9 +42,9 @@ Anyone at all familiar with batch files will see that this is a block of environ
 - `PACKAGE` Pretty obvious, the bundle name!
 - `PDF` The names of PDF files to add to the documentation part of a TDS zip. By having this as a setting, special effects (demo documents, for example) are possible.
 - `TDSROOT.` Almost always as given for a LaTeX package.
-- `TEX` A list of .tex files to copy into the TDS archive: to avoid any testing files, not all .tex files are copied.
+- `TEX` A list of `.tex` files to copy into the TDS archive: to avoid any testing files, not all `.tex` files are copied.
 - `TXT` The names of text files to copy to the documentation directory
-- `UNPACK` The file(s) to run to unpack the package. I use .dtx files that are self-extracting, but the traditional method is to have a separate .ins file.
+- `UNPACK` The file(s) to run to unpack the package. I use `.dtx` files that are self-extracting, but the traditional method is to have a separate `.ins` file.
 
 If the batch file proves useful to enough people, I might write some proper documentation and do a bit more generalisation.
 

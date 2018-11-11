@@ -25,7 +25,7 @@ install Config::AutoConf Capture::Tiny IPC::Run
 install A/AM/AMBS/Text/Text-BibTeX-0.40_3.tar.gz
 ```
 
-which all seemed to work. After downloading and unzipping the source for `biblatex-biber` (which is in .gz format, so use something like [7-Zip](http://www.7-zip.org/) to open it), still as Administrator at the Command Prompt I did
+which all seemed to work. After downloading and unzipping the source for `biblatex-biber` (which is in `.gz` format, so use something like [7-Zip](http://www.7-zip.org/) to open it), still as Administrator at the Command Prompt I did
 
 ```bash
 perl build.pl

@@ -28,7 +28,7 @@ The DocStrip TeX file provides a mechanism to do two related tasks:
 1. Remove the comment lines from a source file
 2. Produce several production files from one source
 
-To do this, the source file itself (normally a .dtx file) needs to be accompanied by a set of instructions on how to do the extraction (normally a .ins file). The two tasks are inter-related: DocStrip always has to generate a new file to remove the comment lines, even if the source is only for one file.
+To do this, the source file itself (normally a `.dtx` file) needs to be accompanied by a set of instructions on how to do the extraction (normally a `.ins` file). The two tasks are inter-related: DocStrip always has to generate a new file to remove the comment lines, even if the source is only for one file.
 
 Removing the comment lines is relatively easy to understand. Any line in the source starting with one `%` will not appear in the generated file(s). So code lines in the source are written as normal, and any comments that should appear in the generated files need to start with two (or more) `%` characters.
 
@@ -48,7 +48,7 @@ Code for both packages
 
 What is happening here? Each guard line is a comment (so it will not appear in the production file), and is enclosed in angle brackets. The first line, `%&lt;*PackageA&gt;`, is a guard starting lines that will only appear when extracting `PackageA`. That continues until the matching closing guard, `%&lt;/PackageA&gt;`. There is then a section that applies only to `PackageB`, marked up in much the same way. The final set of guards use the `|` symbol to mean 'or': lines here will appear in both `PackageA` and `PackageB`. You can do more complex things (nest guards, use `&amp;` as a logical 'and', _etc_.), but the basic idea remains the same.
 
-I've said a couple of times that the code is extracted, and that this needs some instructions for DocStrip. Essentially, this means matching up the names of the guards with the files they relate to. In my simple example, a suitable DocStrip .ins file would be
+I've said a couple of times that the code is extracted, and that this needs some instructions for DocStrip. Essentially, this means matching up the names of the guards with the files they relate to. In my simple example, a suitable DocStrip `.ins` file would be
 
 ```latex
 \input docstrip

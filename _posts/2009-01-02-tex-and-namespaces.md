@@ -43,7 +43,7 @@ I'd suggest a two-part solution to the issue, first at the LaTeX level and then 
 
 You'd do this at the start of the module, and a check could then be made with other modules that had already been loaded. In the event of a clash, LaTeX could then give a useful error message including the name of the clashing module, and hopefully contact details.
 
-The second part of the system would be to encourage people to submit this information to a central database, so that developers can check in advance of writing anything. I'd imagine you'd put the details above in a separate file, and upload only this data (lets call it a .mod file). It should then be relatively easy to parse the information out into a mySQL database, and hopefully some PHP would produce a simple interface for checking. Two methods would be available: check against the database (hopefully early on in the process of writing a module) and submitting to the database for inclusion. I'd hope most of this could be automated (he says with no experience at all!).
+The second part of the system would be to encourage people to submit this information to a central database, so that developers can check in advance of writing anything. I'd imagine you'd put the details above in a separate file, and upload only this data (lets call it a `.mod` file). It should then be relatively easy to parse the information out into a mySQL database, and hopefully some PHP would produce a simple interface for checking. Two methods would be available: check against the database (hopefully early on in the process of writing a module) and submitting to the database for inclusion. I'd hope most of this could be automated (he says with no experience at all!).
 
 ## Conclusion
 
