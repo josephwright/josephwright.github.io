@@ -14,4 +14,4 @@ I'm working on three different targets at once:
 2. Improving the efficiency of the current code. LaTeX3 has lots of good ideas about loops and expandable tests, and I'm using this to make the existing code more efficient. I've removed a lot of loops from the current number parsing system, which makes for a faster package. Once everything works properly, I'll try to get some testing done on this to see what difference it makes.
 3. Adding new features. This is the slowest job, unsurprisingly. There are various things I'm still working out how to do with numbers, before I even look at some of the unit-based problems.
 
-Each of the areas takes time, and have other things to do as well!  I'm still hoping to get something done in time for TeXlive 2009: it's always best to have some kind of target.
+Each of the areas takes time, and have other things to do as well!  I'm still hoping to get something done in time for TeX Live 2009: it's always best to have some kind of target.

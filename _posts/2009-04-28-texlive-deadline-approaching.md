@@ -1,5 +1,5 @@
 ---
-title: TeXLive deadline approaching
+title: TeX Live deadline approaching
 layout: post
 permalink: /2009/04/28/texlive-deadline-approaching/
 categories:

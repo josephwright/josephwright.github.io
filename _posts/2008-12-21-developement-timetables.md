@@ -17,4 +17,4 @@ The plan at the moment is something like:
 - March. Public beta one for testing. Continue to write documentation
 - June. Depending on feedback and success, release `siunitx` v2.
 
-As you can see, I'm hoping to get everything revised for [TeXLive](https://tug.org/texlive) 2009, having learnt from getting `siunitx` v1 out. Of course, this is subject to change (and other commitments), but I think it's pretty achievable.
+As you can see, I'm hoping to get everything revised for [TeX Live](https://tug.org/texlive) 2009, having learnt from getting `siunitx` v1 out. Of course, this is subject to change (and other commitments), but I think it's pretty achievable.
