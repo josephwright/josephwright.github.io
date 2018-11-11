@@ -1,5 +1,5 @@
 ---
-title: 'The Art of Computer Programming: ever heard of it?'
+title: The Art of Computer Programming: ever heard of it?
 layout: post
 permalink: /2010/10/15/the-art-of-computer-programming-ever-heard-of-it/
 categories:

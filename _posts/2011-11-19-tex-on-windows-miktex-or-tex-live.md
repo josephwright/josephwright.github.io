@@ -1,5 +1,5 @@
 ---
-title: 'TeX on Windows: MiKTeX or TeX Live'
+title: TeX on Windows: MiKTeX or TeX Live
 layout: post
 permalink: /2011/11/19/tex-on-windows-miktex-or-tex-live/
 categories:

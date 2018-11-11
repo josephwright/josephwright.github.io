@@ -1,5 +1,5 @@
 ---
-title: 'Programming LaTeX3: Creating functions'
+title: Programming LaTeX3: Creating functions
 layout: post
 permalink: /2011/12/14/programming-latex3-creating-functions/
 categories:

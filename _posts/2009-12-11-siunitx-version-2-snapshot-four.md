@@ -1,5 +1,5 @@
 ---
-title: 'siunitx version 2: snapshot four'
+title: siunitx version 2: snapshot four
 layout: post
 permalink: /2009/12/11/siunitx-version-2-snapshot-four/
 categories:

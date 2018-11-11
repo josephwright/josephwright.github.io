@@ -1,5 +1,5 @@
 ---
-title: 'Exploring ChemFig: Basics'
+title: Exploring ChemFig: Basics
 layout: post
 permalink: /2012/08/25/exploring-chemfig-basics/
 categories:

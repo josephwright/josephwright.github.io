@@ -1,5 +1,5 @@
 ---
-title: 'LuaTeX: new primitives, new names'
+title: LuaTeX: new primitives, new names
 layout: post
 permalink: /2009/03/05/luatex-new-primitives-new-names/
 categories:

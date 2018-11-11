@@ -1,5 +1,5 @@
 ---
-title: '{TeX} elections'
+title: {TeX} elections
 layout: post
 permalink: /2011/02/21/tex-elections/
 categories:

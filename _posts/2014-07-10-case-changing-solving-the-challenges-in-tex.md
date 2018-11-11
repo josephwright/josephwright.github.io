@@ -1,5 +1,5 @@
 ---
-title: 'Case changing: solving the challenges in TeX'
+title: Case changing: solving the challenges in TeX
 layout: post
 permalink: /2014/07/10/case-changing-solving-the-challenges-in-tex/
 categories:

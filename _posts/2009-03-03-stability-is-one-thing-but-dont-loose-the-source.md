@@ -1,5 +1,5 @@
 ---
-title: 'Stability is one thing, but don&#8217;t loose the source!'
+title: Stability is one thing, but don&#8217;t loose the source!
 layout: post
 permalink: /2009/03/03/stability-is-one-thing-but-dont-loose-the-source/
 categories:

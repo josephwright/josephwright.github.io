@@ -1,5 +1,5 @@
 ---
-title: 'arara: Making LaTeX files your way'
+title: arara: Making LaTeX files your way
 layout: post
 permalink: /2012/04/24/arara-making-latex-files-your-way/
 categories:

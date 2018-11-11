@@ -1,5 +1,5 @@
 ---
-title: 'biblatex v1.1: dynamic reference sets'
+title: biblatex v1.1: dynamic reference sets
 layout: post
 permalink: /2011/01/06/biblatex-v1-1-dynamic-reference-sets/
 categories:

@@ -1,5 +1,5 @@
 ---
-title: 'Chemistry journals: publishers support of LaTeX'
+title: Chemistry journals: publishers support of LaTeX
 layout: post
 permalink: /2010/01/05/chemistry-journals-publishers-support-of-latex/
 categories:

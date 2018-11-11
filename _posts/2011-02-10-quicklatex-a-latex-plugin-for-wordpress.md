@@ -1,5 +1,5 @@
 ---
-title: 'QuickLaTeX: A LaTeX plugin for WordPress'
+title: QuickLaTeX: A LaTeX plugin for WordPress
 layout: post
 permalink: /2011/02/10/quicklatex-a-latex-plugin-for-wordpress/
 categories:

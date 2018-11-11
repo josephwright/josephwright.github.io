@@ -1,5 +1,5 @@
 ---
-title: 'siunitx version two: Snapshot 2 (SVN 62)'
+title: siunitx version two: Snapshot 2 (SVN 62)
 layout: post
 permalink: /2009/03/29/siunitx-version-two-snapshot-2-svn-62/
 categories:

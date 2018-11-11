@@ -1,5 +1,5 @@
 ---
-title: 'Programming: Lua versus TeX'
+title: Programming: Lua versus TeX
 layout: post
 permalink: /2009/02/04/programming-lua-versus-tex/
 categories:

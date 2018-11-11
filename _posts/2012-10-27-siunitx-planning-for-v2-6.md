@@ -1,5 +1,5 @@
 ---
-title: 'siunitx: Planning for v2.6'
+title: siunitx: Planning for v2.6
 layout: post
 permalink: /2012/10/27/siunitx-planning-for-v2-6/
 categories:

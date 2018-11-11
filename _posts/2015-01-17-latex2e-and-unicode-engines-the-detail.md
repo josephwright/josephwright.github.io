@@ -1,5 +1,5 @@
 ---
-title: 'LaTeX2e and Unicode engines: the detail'
+title: LaTeX2e and Unicode engines: the detail
 layout: post
 permalink: /2015/01/17/latex2e-and-unicode-engines-the-detail/
 categories:

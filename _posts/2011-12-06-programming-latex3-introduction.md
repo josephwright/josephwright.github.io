@@ -1,5 +1,5 @@
 ---
-title: 'Programming LaTeX3: Introduction'
+title: Programming LaTeX3: Introduction
 layout: post
 permalink: /2011/12/06/programming-latex3-introduction/
 categories:

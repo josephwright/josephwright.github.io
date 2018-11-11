@@ -1,5 +1,5 @@
 ---
-title: 'The LPPL: &#8216;maintainer&#8217; or &#8216;author-maintained&#8217;'
+title: The LPPL: &#8216;maintainer&#8217; or &#8216;author-maintained&#8217;
 layout: post
 permalink: /2012/05/04/the-lppl-maintainer-or-author-maintained/
 categories:

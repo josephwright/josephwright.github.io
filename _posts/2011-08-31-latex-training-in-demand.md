@@ -1,5 +1,5 @@
 ---
-title: 'LaTeX training: in demand'
+title: LaTeX training: in demand
 layout: post
 permalink: /2011/08/31/latex-training-in-demand/
 categories:

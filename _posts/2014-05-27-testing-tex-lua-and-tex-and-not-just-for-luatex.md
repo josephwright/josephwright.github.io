@@ -1,5 +1,5 @@
 ---
-title: 'Testing TeX: Lua and TeX, and not just for LuaTeX'
+title: Testing TeX: Lua and TeX, and not just for LuaTeX
 layout: post
 permalink: /2014/05/27/testing-tex-lua-and-tex-and-not-just-for-luatex/
 categories:

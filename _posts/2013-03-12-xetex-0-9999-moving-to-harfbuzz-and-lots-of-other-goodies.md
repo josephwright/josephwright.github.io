@@ -1,5 +1,5 @@
 ---
-title: 'XeTeX 0.9999: Moving to HarfBuzz (and lots of other goodies)'
+title: XeTeX 0.9999: Moving to HarfBuzz (and lots of other goodies)
 layout: post
 permalink: /2013/03/12/xetex-0-9999-moving-to-harfbuzz-and-lots-of-other-goodies/
 categories:

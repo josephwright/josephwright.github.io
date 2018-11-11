@@ -1,5 +1,5 @@
 ---
-title: 'siunitx 2: release timetable'
+title: siunitx 2: release timetable
 layout: post
 permalink: /2010/04/05/siunitx-2-release-timetable/
 categories:

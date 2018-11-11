@@ -1,5 +1,5 @@
 ---
-title: 'TeXworks bugfixes in v0.2 &#8220;stable&#8221; branch'
+title: TeXworks bugfixes in v0.2 &#8220;stable&#8221; branch
 layout: post
 permalink: /2009/10/08/texworks-bugfixes-in-v0-2-stable-branch/
 categories:

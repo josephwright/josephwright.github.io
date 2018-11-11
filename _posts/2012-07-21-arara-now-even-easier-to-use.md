@@ -1,5 +1,5 @@
 ---
-title: 'Arara: now even easier to use'
+title: Arara: now even easier to use
 layout: post
 permalink: /2012/07/21/arara-now-even-easier-to-use/
 categories:

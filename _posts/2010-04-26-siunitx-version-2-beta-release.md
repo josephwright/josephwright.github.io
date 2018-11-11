@@ -1,5 +1,5 @@
 ---
-title: 'siunitx version 2: beta release'
+title: siunitx version 2: beta release
 layout: post
 permalink: /2010/04/26/siunitx-version-2-beta-release/
 categories:
