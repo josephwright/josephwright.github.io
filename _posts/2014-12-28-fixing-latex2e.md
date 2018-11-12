@@ -47,7 +47,7 @@ The Unicode engines XeTeX and LuaTeX have been with us for a few years now, and 
 
 The first area to tackle overlaps with the point above: LuaTeX extends the register allocation again beyond e-TeX, while XeTeX needs an allocator for `\XeTeXinterchartoks`. Both of these can readily be added to an updated allocation system.
 
-The bigger impact of Unicode engines is that they have a different requirement from 8-bit engines in setting up the codes TeX uses for case changing. The LaTeX2e kernel sets up the `\lccode` and `\uccode` for the 8-bit range and assumes `T1` encoding. With the newer engines, that's not really great as they use Unicode code points and (almost certainly) Unicode (EU1/2) encodings. The format builders alter these assumptions using something of a hack, so we are looking to add the appropriate conditionals to the format itself. For end users that won't really show, but it will mean that the format itself will be 'in control' here: something we are keen to work on.
+The bigger impact of Unicode engines is that they have a different requirement from 8-bit engines in setting up the codes TeX uses for case changing. The LaTeX2e kernel sets up the `\lccode` and `\uccode` for the 8-bit range and assumes `T1` encoding. With the newer engines, that's not really great as they use Unicode code points and (almost certainly) Unicode (`EU1`/`EU2`) encodings. The format builders alter these assumptions using something of a hack, so we are looking to add the appropriate conditionals to the format itself. For end users that won't really show, but it will mean that the format itself will be 'in control' here: something we are keen to work on.
 
 ## LuaTeX extras
 
