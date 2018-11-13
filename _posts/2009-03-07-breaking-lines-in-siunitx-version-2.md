@@ -13,7 +13,7 @@ The other place you could place breaks is between different units (assuming a sp
 <!-- {% raw %} -->
 ```latex
 \hbox{%
-  % Some font set up work for maths mode
+  % Some font set up work for math mode
   \ensuremath{%
     \mathrm{%
       unit \, unit \, unit
@@ -23,4 +23,4 @@ The other place you could place breaks is between different units (assuming a sp
 ```
 <!-- {% endraw %} -->
 
-when printing in maths mode (the default). The key point is that everything needs to be inside an `\hbox` so that the formatting of maths can be influenced correctly. So breaking units here is not possible. To get around this, I'd need to print each unit separately, with the spaces outside the box.  This looks slow and unreliable. All things considered, I'm minded to keep the current approach to units: the unit is a non-divisible block.
+when printing in math mode (the default). The key point is that everything needs to be inside an `\hbox` so that the formatting of maths can be influenced correctly. So breaking units here is not possible. To get around this, I'd need to print each unit separately, with the spaces outside the box.  This looks slow and unreliable. All things considered, I'm minded to keep the current approach to units: the unit is a non-divisible block.
