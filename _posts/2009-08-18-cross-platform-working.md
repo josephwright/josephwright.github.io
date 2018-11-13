@@ -18,7 +18,7 @@ That's all fine when it works, but I've recently had a bit of trouble making zip
 
 I did a bit of hunting around, and found [Info-ZIP](http://www.info-zip.org), where after a bit of hunting about you can find `zip` and `unzip` binaries for Windows. These give me Unix-like capabilities on Windows, so I can make the appropriate files, alter line endings on zipping/unzipping and check the results.
 
-That led me to take another look at the batch file I use  each time I release something to CTAN: doing it by hand is an unreliable business!  I've reworked it quite a bit, to generalise everything and also add a few tweaks. For anyone interested, the file is [available here](/wp-content/uploads/2009/08/make.bat). It's called make, so that you get Unix-like abilities on Windows. The file has to be customised for each package I write, but most of this version is generalised, and can be altered using a few settings.
+That led me to take another look at the batch file I use  each time I release something to CTAN: doing it by hand is an unreliable business!  I've reworked it quite a bit, to generalise everything and also add a few tweaks. For anyone interested, the file is available here. It's called make, so that you get Unix-like abilities on Windows. The file has to be customised for each package I write, but most of this version is generalised, and can be altered using a few settings.
 
 ```bat
 set AUXFILES=aux cmds dvi glo gls hd idx ilg ind ist log los out tmp toc
