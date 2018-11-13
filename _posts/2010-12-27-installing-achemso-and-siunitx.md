@@ -1,5 +1,5 @@
 ---
-title: Installing `achemso` and `siunitx`
+title: Installing achemso and siunitx
 layout: post
 permalink: /2010/12/27/installing-achemso-and-siunitx/
 categories:
