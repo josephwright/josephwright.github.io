@@ -11,10 +11,10 @@ The idea of using 'The Cloud' for working with documents is very much on the ris
 
 There are now several online services, all of which seem to offer a core set of idea (an editor, previewer and TeX system for compiling, and almost certainly version control). Keeping up with the different services is tricky: I've come across
 
-- [SpanDeX](http://spandex.io/)
+- SpanDeX
 - [ShareLaTeX](https://www.sharelatex.com/)
 - [writeLaTeX](https://www.writelatex.com/)
-- [ScribTeX](http://www.scribtex.com/) ([merging with ShareLaTeX](https://www.scribtex.com/account/new))
+- ScribTeX (merging with ShareLaTeX)
 
 All of them offer those core services, and some advertise other goodies such as DropBox integration (SpanDeX does).
 
