@@ -1,5 +1,5 @@
 ---
-title: &#8220;Programming in Lua&#8221;
+title: Programming in Lua
 layout: post
 permalink: /2009/03/23/programming-in-lua/
 categories:

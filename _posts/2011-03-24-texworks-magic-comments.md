@@ -1,5 +1,5 @@
 ---
-title: TeXworks &#8216;magic comments&#8217;
+title: TeXworks 'magic comments'
 layout: post
 permalink: /2011/03/24/texworks-magic-comments/
 categories:

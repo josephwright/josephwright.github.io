@@ -1,5 +1,5 @@
 ---
-title: Is creating a unit a &#8220;user&#8221; function?
+title: Is creating a unit a 'user' function?
 layout: post
 permalink: /2009/02/08/is-creating-a-unit-a-user-function/
 categories:
