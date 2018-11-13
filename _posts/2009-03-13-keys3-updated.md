@@ -9,7 +9,7 @@ As I said earlier in the week, I've been revising my `keys3` package, which is a
 
 I'll probably upload the package to [CTAN](https://www.ctan.org) over the weekend, but for the moment the interested can grab:
 
-- The documentation (`.pdf`)
+- The documentation (PDF)
 - The source file (`.dtx`)
 - DocStrip extraction file (`.ins`)
 - Demonstration/test file (`.tex`)
