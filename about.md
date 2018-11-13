@@ -1,6 +1,7 @@
 ---
 title: About
 layout: page
+permalink: /about/
 ---
 ## Who writes this stuff?
 

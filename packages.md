@@ -1,6 +1,7 @@
 ---
 title: Packages
 layout: page
+permalink: /packages/
 ---
 For the user I write quite a number of LaTeX packages, some focussed on chemistry, others more general. They are all available on [CTAN](https://www.ctan.org):
 
