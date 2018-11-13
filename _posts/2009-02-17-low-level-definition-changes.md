@@ -21,10 +21,10 @@ One area that is being improved is the 'module prefixes'. A lot of these are qui
 Globally setting is simply a case of replacing `set` by `gset`:
 
 - `\cs_gset_eq:NwN `(`\global\let`)
-- `\cs_gset:Npn` (`\global``\long\def`)
-- `\cs_gset:Npx` (`\global``\long\edef`)
-- `\cs_gset_protected:Npn` (`\global\long\protected``\def`)
-- `\cs_gset_nopar:Npn` (`\global``\def`)
+- `\cs_gset:Npn` (`\global\long\def`)
+- `\cs_gset:Npx` (`\global\long\edef`)
+- `\cs_gset_protected:Npn` (`\global\long\protected\def`)
+- `\cs_gset_nopar:Npn` (`\global\def`)
 
 For creating new functions (where a check is made first in the hash table), the `set` (or `gset`) term is replaced by `new` (or `gnew`), again following the pattern elsewhere in LaTeX3. The above is all illustrated with the basic argument specifiers `Npn` and `Npx`, but the full range of variants are of course still available. Notice how the shorter definition names are `\long`, and to get a restricted definition the `nopar` term is needed.
 
