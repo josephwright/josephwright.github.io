@@ -1,5 +1,5 @@
 ---
-title: Working with dtx files
+title: Working with .dtx files
 layout: post
 permalink: /2009/10/11/working-with-dtx-files/
 categories:
@@ -7,11 +7,11 @@ categories:
 tags:
   - DTX
 ---
-I've talked a bit about the [dtx file format](/2009/10/05/the-dtx-format/) and given [an example of a skeleton dtx file](/2009/10/06/a-model-dtx-file/). I thought I'd talk next about working with sources, which will be a bit of a scattered post but will hopefully be interesting!
+I've talked a bit about the [`.dtx` file format](/2009/10/05/the-dtx-format/) and given [an example of a skeleton `.dtx` file](/2009/10/06/a-model-dtx-file/). I thought I'd talk next about working with sources, which will be a bit of a scattered post but will hopefully be interesting!
 
-# Editing dtx files
+# Editing `.dtx` files
 
-As with any TeX source, you don't have to have a special editor to work with dtx files, but it can be helpful. Many people say that [Emacs](http://www.gnu.org/software/emacs/) (using [AUC-TeX](http://www.gnu.org/software/auctex/)) has the best dtx editing mode of all: I've only tried it briefly, but the AUC-TeX homepage has the details. On Windows, [WinEdt](http://www.winedt.com/) has a pretty strong [DTX Submode](http://www.winedt.org/Config/modes/DTX.php) which does similar things. As I mainly use [TeXworks](https://tug.org/texworks), I've made a few modifications to get something similar to those two 'leaders': at the moment I use the following settings for syntax highlighting:
+As with any TeX source, you don't have to have a special editor to work with `.dtx` files, but it can be helpful. Many people say that [Emacs](http://www.gnu.org/software/emacs/) (using [AUC-TeX](http://www.gnu.org/software/auctex/)) has the best `.dtx` editing mode of all: I've only tried it briefly, but the AUC-TeX homepage has the details. On Windows, [WinEdt](http://www.winedt.com/) has a pretty strong [`.dtx` Submode](http://www.winedt.org/Config/modes/DTX.php) which does similar things. As I mainly use [TeXworks](https://tug.org/texworks), I've made a few modifications to get something similar to those two 'leaders': at the moment I use the following settings for syntax highlighting:
 
 ```
 [LaTeX DTX]
@@ -131,7 +131,7 @@ This gets pasted in at the start of the document (after the driver): not great c
 ```
 
 and the demonstration will be both typeset as code and actually used. So the user can see the input and the result of whatever I've designed.
-Of course, if you are writing LaTeX classes or the like, then this won't work. For my [`achemso` ](https://ctan.org/pkg/achemso)class, I include a demo document in the dtx. This then gets extracted as a separate file (`achemso-demo.tex`), which includes lots of hints in the text and demonstrates as much as possible about the class. Again, the idea is to show how things are done by example: much better than trying to explain in the abstract.
+Of course, if you are writing LaTeX classes or the like, then this won't work. For my [`achemso` ](https://ctan.org/pkg/achemso)class, I include a demo document in the `.dtx`. This then gets extracted as a separate file (`achemso-demo.tex`), which includes lots of hints in the text and demonstrates as much as possible about the class. Again, the idea is to show how things are done by example: much better than trying to explain in the abstract.
 
 # Releasing stuff to CTAN
 
@@ -147,4 +147,4 @@ pdflatex "\AtBeginDocument{\OnlyDescription} \input demopkg.dtx"
 
 The idea of all this is to only typeset what is needed (hence the `-draftmode` in the first line), to miss out the code (`\OnlyDescription`), and to index both the changes and the user functions (the two `makeindex` lines). This recipe will turn up in the next post as the basis for doing things without needing to remember everything yourself!
 
-CTAN like to have a zip file containing the source, documentation and ins file. They also prefer Unix line endings, so those of us working on Windows have to use something like [Info-ZIP](http://www.info-zip.org/) or the [Swiss File Knife](http://stahlforce.com/dev/index.php?tool=sfk) to alter the line endings. The idea of a TDS-ready zip is also popular, so there are normally two files to get ready. All of that is a bit awkward, especially if like me you keep having to do bug fix releases. So I always do this using an automated tool. I'll talk about this in the next post.
+CTAN like to have a `.zip` file containing the source, documentation and `.ins` file. They also prefer Unix line endings, so those of us working on Windows have to use something like [Info-ZIP](http://www.info-zip.org/) or the [Swiss File Knife](http://stahlforce.com/dev/index.php?tool=sfk) to alter the line endings. The idea of a TDS-ready `.zip` is also popular, so there are normally two files to get ready. All of that is a bit awkward, especially if like me you keep having to do bug fix releases. So I always do this using an automated tool. I'll talk about this in the next post.

@@ -1,5 +1,5 @@
 ---
-title: A model dtx file
+title: A model .dtx file
 layout: post
 permalink: /2009/10/06/a-model-dtx-file/
 categories:
@@ -7,14 +7,14 @@ categories:
 tags:
   - DTX
 ---
-In my previous post, I've tried to give a very general overview of how the dtx file format comes about, from a combination of the syntax of DocStrip and `ltxdoc`. The problem with the bald details is that there are still lots of way to actually use the ideas to construct a dtx. So here I'm going to detail a model dtx, which is ready to be filled in with real code and documentation. The entire file is [available here as demopkg.dtx](/uploads/2009/10/demopkg.dtx): get it now if you are impatient!
+In my previous post, I've tried to give a very general overview of how the `.dtx` file format comes about, from a combination of the syntax of DocStrip and `ltxdoc`. The problem with the bald details is that there are still lots of way to actually use the ideas to construct a `.dtx`. So here I'm going to detail a model `.dtx`, which is ready to be filled in with real code and documentation. The entire file is [available here as demopkg.dtx](/uploads/2009/10/demopkg.dtx): get it now if you are impatient!
 
-The idea of constructing a dtx file in the way I'll describe is that it lets us achieve several things in one go:
+The idea of constructing a `.dtx` file in the way I'll describe is that it lets us achieve several things in one go:
 
 - All of the files for a package can be derived from a single source (unless you need a binary, of course).
-- The README is included in the dtx, with this useful information at the start.
-- The ins file is included in the dtx, so the file is self-extracting.
-- Running `(pdf)tex _&lt;name&gt;_.dtx` extracts the code and associated files (ins, README, _etc_.).
+- The README is included in the `.dtx`, with this useful information at the start.
+- The `.ins` file is included in the `.dtx`, so the file is self-extracting.
+- Running `(pdf)tex _&lt;name&gt;_.dtx` extracts the code and associated files (`.ins`, README, _etc_.).
 - Running `(pdf)latex _&lt;name&gt;_.dtx` does the extraction then typesets the documentation. This way, the documentation always has the latest code available, and users don't need to worry about which method they use to get stuff extracted.
 
 Most of the ideas here are not mine: Will Robertson came up with a lot of this. I'm just going to give some details of what is going on. I'm going to present the source in order, with a section of the source followed by some comments explaining what is going on. I'm going to call the demonstration package 'demopkg': something easy for search and replace. Where ever possible, `\jobname` is used in the source so that the file name changes automatically when moving from one package to another.
@@ -68,7 +68,7 @@ Back with the special 'internal' guards, the `\iffalse` is ended and a check is 
 \askforoverwritefalse
 ```
 
-The next section, inside 'install' guards, is the instructions for extracting the code out of the dtx. Later, this will also turn into a stand-alone ins file. DocStrip gets loaded, then we tell it to do its job without asking for any conformation or printing too much stuff.
+The next section, inside 'install' guards, is the instructions for extracting the code out of the `.dtx`. Later, this will also turn into a stand-alone `.ins` file. DocStrip gets loaded, then we tell it to do its job without asking for any conformation or printing too much stuff.
 
 ```latex
 \preamble
@@ -111,14 +111,14 @@ Some simple boiler-plate text, that DocStrip will add to the start and end of ea
 }
 ```
 
-This section is the instruction to actually extract the LaTeX package file from the dtx. Each file to be extracted needs a line saying how to create it, so if there is a class to extract there would be a line for that, and so on. The `\usedir` instruction can be used to tell DocStrip how to lay files out: it is best to include it as some people use this. Normally, it will just specify `tex/latex/_&lt;package&gt;_`, but might change if there are lots of files to lay out in a structured way. For example, cfg files are often put in `tex/latex/_&lt;package&gt;_/config`.
+This section is the instruction to actually extract the LaTeX package file from the `.dtx`. Each file to be extracted needs a line saying how to create it, so if there is a class to extract there would be a line for that, and so on. The `\usedir` instruction can be used to tell DocStrip how to lay files out: it is best to include it as some people use this. Normally, it will just specify `tex/latex/_&lt;package&gt;_`, but might change if there are lots of files to lay out in a structured way. For example, cfg files are often put in `tex/latex/_&lt;package&gt;_/config`.
 
 ```latex
 %&lt;/install&gt;
 %&lt;install&gt;\endbatchfile
 ```
 
-That ends what will get extracted into the ins file, so the install guard is closed. The second line is needed as the ins file needs to include `\endbatchfile` (for DocStrip), but we don't want the same effect when the dtx is doing the extracting.
+That ends what will get extracted into the `.ins` file, so the install guard is closed. The second line is needed as the `.ins` file needs to include `\endbatchfile` (for DocStrip), but we don't want the same effect when the `.dtx` is doing the extracting.
 
 ```latex
 %&lt;*internal&gt;
@@ -139,7 +139,7 @@ That ends what will get extracted into the ins file, so the install guard is clo
 %&lt;/internal&gt;
 ```
 
-When extracting the dtx (with TeX or LaTeX), we need to generate the ins file and the README, which is done here. The ins file is quite simple: the the same process as the sty file. However, there are a couple of points about the README. First, we don't want DocStrip to add any extra text, hence `\nopreamble` and `\nopostamble`. Second, DocStrip can only make files with extensions, so the file has to be called README.txt. (It can be renamed later: hopefully there is no loss of clarity.) If plain TeX is in use, that is the end of the processing, whereas for LaTeX the group containing DocStrip can be closed.
+When extracting the `.dtx` (with TeX or LaTeX), we need to generate the `.ins` file and the README, which is done here. The `.ins` file is quite simple: the the same process as the `.sty` file. However, there are a couple of points about the README. First, we don't want DocStrip to add any extra text, hence `\nopreamble` and `\nopostamble`. Second, DocStrip can only make files with extensions, so the file has to be called README.txt. (It can be renamed later: hopefully there is no loss of clarity.) If plain TeX is in use, that is the end of the processing, whereas for LaTeX the group containing DocStrip can be closed.
 
 ```latex
 %&lt;*package&gt;
@@ -192,7 +192,7 @@ This matches the `\iffalse` in the very first line of the file: it marks the beg
 %
 ```
 
-Here, the title is set up and printed. A few things to notice here. By using `\GetFileInfo`, the version and date information are picked up from the package itself: no repetition of the information is needed in the dtx. Also, we can't use `%` as a comment character, and so `ltxdoc` sets up `^^A` to do the job instead.
+Here, the title is set up and printed. A few things to notice here. By using `\GetFileInfo`, the version and date information are picked up from the package itself: no repetition of the information is needed in the `.dtx`. Also, we can't use `%` as a comment character, and so `ltxdoc` sets up `^^A` to do the job instead.
 
 ```latex
 %\changes{v1.0}{2009/10/06}{First public release}
@@ -221,7 +221,7 @@ arguments as reminders of the syntax.
 ```
 
 This macro marks the end of the user part of the documentation. The two functions in the argument
-will be used either here (if the code is not typeset) or after the code (if it is typeset). As the dtx file is now,
+will be used either here (if the code is not typeset) or after the code (if it is typeset). As the `.dtx` file is now,
 the code will print. However, in the next blog post I'll talk about printing only the documentation and
 missing the code out.
 

@@ -21,9 +21,9 @@ For Linux users, it's worth noting that popular Linux distributions tend to incl
 
 One thing to do if you update your TeX system is to check any locally-installed files you might have (see the next section for more about local installation). These will be in `~/texmf` on Linux, `~/Library/texmf` on a Mac and (probably) `%USERPROFILE%\texmf` on Windows. One problem I see from time to time is that users of `achemso` have installed some of the BibTeX styles locally, then update the main package and all sorts of things go wrong. So do check carefully on any local files: they might be outdated by a new TeX system.
 
-## Installing using the TDS zip files
+## Installing using the TDS `.zip` files
 
-The method above is fine if you are happy installing an entirely new TeX system, but if all you need is access to one of my packages then it is probably over-kill. For these users, I provide ready-to-install zip files on CTAN. For `achemso`, you need [`achemso.tds.zip`](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=`achemso`.tds.zip&amp;Search=Search), while for `siunitx` users you probably need
+The method above is fine if you are happy installing an entirely new TeX system, but if all you need is access to one of my packages then it is probably over-kill. For these users, I provide ready-to-install `.zip` files on CTAN. For `achemso`, you need [`achemso.tds.zip`](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=`achemso`.tds.zip&amp;Search=Search), while for `siunitx` users you probably need
 
 - [`siunitx.tds.zip`](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=`siunitx`.tds.zip&amp;Search=Search)
 - `expl3.tds.zip`
@@ -43,7 +43,7 @@ while on my Mac there is one at
 /Users/joseph/Library/texmf
 ```
 
-Whichever system you use, copy the appropriate zip files there and unzip. The result should be a structure which looks like
+Whichever system you use, copy the appropriate `.zip` files there and unzip. The result should be a structure which looks like
 
 ```bash
 texmf/tex/latex/achemso/achemso.sty
@@ -61,6 +61,6 @@ texhash
 
 [For users with recent versions of TeX Live (2009 and 2010, I think), running `texhash` is actually not needed. However, it will not do any harm so you may as well run it.)
 
-## Installing from the dtx file
+## Installing from the `.dtx` file
 
-The traditional method to install a package is to unpack it from the dtx source. I've got to say that I only recommend this for experienced LaTeX users. While both `achemso` and `siunitx` are designed to be easy to unpack, life is more complex for `expl3` and `xpackages`. So I'd strongly recommed using the TDS zip files unless you know a bit more about LaTeX!
+The traditional method to install a package is to unpack it from the `.dtx` source. I've got to say that I only recommend this for experienced LaTeX users. While both `achemso` and `siunitx` are designed to be easy to unpack, life is more complex for `expl3` and `xpackages`. So I'd strongly recommed using the TDS `.zip` files unless you know a bit more about LaTeX!

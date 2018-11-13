@@ -12,7 +12,7 @@ tags:
   - Unix
   - Windows
 ---
-As many people will know, the [CTAN](https://www.ctan.org) team have come up with the idea of having TDS-ready zip files for packages. The idea is that you can just download the zip into your local TeX directory, unzip it and run `texhash`, with no TeX-based unpacking or document compilation.
+As many people will know, the [CTAN](https://www.ctan.org) team have come up with the idea of having TDS-ready `.zip` files for packages. The idea is that you can just download the `.zip` into your local TeX directory, unzip it and run `texhash`, with no TeX-based unpacking or document compilation.
 
 That's all fine when it works, but I've recently had a bit of trouble making zips at my end. My favoured tool for doing that has tended to be [7-Zip](http://www.7-zip.org). However, it was pointed out to me last week that the resulting zip files are not quite right. On Unix systems, the command `unzip -xa` will convert line endings to the system convention (LF only), even if they come from Windows (LF-CR endings). However, this requires that the zip identifies text files, and 7-Zip marks everything as binary!
 
@@ -40,7 +40,7 @@ Anyone at all familiar with batch files will see that this is a block of environ
 - `DOCEXTRA` Inserted when creating documentation, can be anything. I don't typeset the code for my packages in the release documents, hence the `\OnlyDescription` setting.
 - `INDEXFILE` This is always `gglo` for documents using the `ltxdoc` class, but is `l3doc` if using the LaTeX3 class `l3doc`.
 - `PACKAGE` Pretty obvious, the bundle name!
-- `PDF` The names of PDF files to add to the documentation part of a TDS zip. By having this as a setting, special effects (demo documents, for example) are possible.
+- `PDF` The names of PDF files to add to the documentation part of a TDS `.zip`. By having this as a setting, special effects (demo documents, for example) are possible.
 - `TDSROOT.` Almost always as given for a LaTeX package.
 - `TEX` A list of `.tex` files to copy into the TDS archive: to avoid any testing files, not all `.tex` files are copied.
 - `TXT` The names of text files to copy to the documentation directory

@@ -1,5 +1,5 @@
 ---
-title: The dtx format
+title: The .dtx format
 layout: post
 permalink: /2009/10/05/the-dtx-format/
 categories:
@@ -9,17 +9,17 @@ tags:
 ---
 A few comments and e-mails have prodded me to put down some thoughts on sorting out LaTeX packages. My original thought was to do one post, but I think a few are needed. So this is the first of a related series: probably three or four posts. I'm going to start with an overview of the DTX format, used for the source of a lot of LaTeX packages.
 
-# Why dtx at all?
+# Why `.dtx` at all?
 
-The first question to consider is why people bother with the dtx format. Not everyone does, and there are good arguments for and against each different approach. I could easily write an entire post just discussing the various alternatives, but that's not what I want to do here!
+The first question to consider is why people bother with the `.dtx` format. Not everyone does, and there are good arguments for and against each different approach. I could easily write an entire post just discussing the various alternatives, but that's not what I want to do here!
 
-The dtx format is favoured by the LaTeX team, and so is something of a standard for LaTeX package authors. The idea of the dtx format is that it allows the package author to put the user documentation, code documentation and code itself in one place.  The user documentation can be typeset on its own, or the user and code documentation can be typeset together (_literate programming_). The code can also be extracted from the source for use: this means that more than one file can be included in the same source. This last point is perhaps the biggest selling point of the dtx format: you can include LaTeX package, class and some configuration files in one source. There is also a speed gain from removing redundant (comment) lines from a package: on a modern PC, this is pretty tiny, but was a bigger point in the past.
+The `.dtx` format is favoured by the LaTeX team, and so is something of a standard for LaTeX package authors. The idea of the `.dtx` format is that it allows the package author to put the user documentation, code documentation and code itself in one place.  The user documentation can be typeset on its own, or the user and code documentation can be typeset together (_literate programming_). The code can also be extracted from the source for use: this means that more than one file can be included in the same source. This last point is perhaps the biggest selling point of the `.dtx` format: you can include LaTeX package, class and some configuration files in one source. There is also a speed gain from removing redundant (comment) lines from a package: on a modern PC, this is pretty tiny, but was a bigger point in the past.
 
 # How the format comes about
 
-The dtx format is really defined by two mechanisms, provided by two separate (La)TeX packages. The ability to take one source file and generate several production files, with the comments removed, is provided by the DocStrip package (which is written in plain TeX). Documenting the code, and providing user details, is supported by a dedicated LaTeX class: `ltxdoc`. (This is itself based on the doc class, but I'm going to focus on `ltxdoc`.) The combination of the syntax for the two parts of the mechanism leads to the dtx file format.
+The `.dtx` format is really defined by two mechanisms, provided by two separate (La)TeX packages. The ability to take one source file and generate several production files, with the comments removed, is provided by the DocStrip package (which is written in plain TeX). Documenting the code, and providing user details, is supported by a dedicated LaTeX class: `ltxdoc`. (This is itself based on the doc class, but I'm going to focus on `ltxdoc`.) The combination of the syntax for the two parts of the mechanism leads to the `.dtx` file format.
 
-It is quite possible to use dtx files as the source for things other than (La)TeX files. Indeed, in my second post I'm going to use the dtx format to also include a plain text file in the source. However, I'm not going to talk about making changes to include other types of code: this is doable, but a bit advanced to go into here!
+It is quite possible to use `.dtx` files as the source for things other than (La)TeX files. Indeed, in my second post I'm going to use the `.dtx` format to also include a plain text file in the source. However, I'm not going to talk about making changes to include other types of code: this is doable, but a bit advanced to go into here!
 
 ## DocStrip: guards and extracting
 
@@ -59,7 +59,7 @@ I've said a couple of times that the code is extracted, and that this needs some
 }
 ```
 
-Here, I've assumed the dtx file is called example.dtx. I'm only using one dtx file, and one guard for each output file. As with many other parts of DocStrip, there is more you can do.
+Here, I've assumed the `.dtx` file is called `example.dtx`. I'm only using one `.dtx` file, and one guard for each output file. As with many other parts of DocStrip, there is more you can do.
 
 Multiple guards can be used for each package, so if we had lots of packages with some common code, we might well have:
 
@@ -79,7 +79,7 @@ So DocStrip lets us extract code out, have common sections, remove comments and 
 
 ## `ltxdoc`: documenting the source
 
-The `ltxdoc` class is the typesetting part of the dtx format. The idea is that the dtx is read in by a driver file, which actually does the typesetting. When the dtx is read in this way, the comment characters are ignored, meaning that what DocStrip sees as comments are the source for typesetting the dtx. In practice, most dtx files are written so that the driver is part of the dtx itself. The driver part of a dtx is normally very simple
+The `ltxdoc` class is the typesetting part of the `.dtx` format. The idea is that the `.dtx` is read in by a driver file, which actually does the typesetting. When the `.dtx` is read in this way, the comment characters are ignored, meaning that what DocStrip sees as comments are the source for typesetting the `.dtx`. In practice, most `.dtx` files are written so that the driver is part of the `.dtx` itself. The driver part of a `.dtx` is normally very simple
 
 ```latex
 \documentclass{ltxdoc}
@@ -115,4 +115,4 @@ There are, again, several extra ideas that can be used in the code parts of `ltx
 
 # Putting everything together
 
-There is a lot to take in in the dtx format, and a quick survey of [CTAN](https://www.ctan.org) will show that there are lots of ways of using it (before you even look at other approaches). In the next post on this subject, I'm going to present the approach I've developed to producing dtx files (with a lot of ideas taken from others, in particular Will Robertson). The aim is to have a single source for the README, ins file, documentation and LaTeX code. We'll see how it's possible to do that, and to have the code extract by running `tex my.dtx` and to typeset the package using `latex my.dtx`.
+There is a lot to take in in the `.dtx` format, and a quick survey of [CTAN](https://www.ctan.org) will show that there are lots of ways of using it (before you even look at other approaches). In the next post on this subject, I'm going to present the approach I've developed to producing `.dtx` files (with a lot of ideas taken from others, in particular Will Robertson). The aim is to have a single source for the README, `.ins` file, documentation and LaTeX code. We'll see how it's possible to do that, and to have the code extract by running `tex my.dtx` and to typeset the package using `latex my.dtx`.

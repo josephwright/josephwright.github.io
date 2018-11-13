@@ -18,7 +18,7 @@ There are some notes and outstanding questions with the current snapshot: it is 
 
 For those who want to test things out, you can get:
 
-- The source (dtx file)
-- [The documentation (pdf file)](/uploads/2009/11/siunitx.pdf)
-- The extracted package (sty file)
-- [A ready-to-install (tds) zip file](/uploads/2009/11/siunitx.tds_.zip)
+- The source (`.dtx` file)
+- [The documentation (PDF file)](/uploads/2009/11/siunitx.pdf)
+- The extracted package (`.sty` file)
+- [A ready-to-install (TDS) `.zip` file](/uploads/2009/11/siunitx.tds_.zip)

@@ -10,7 +10,7 @@ Over the past few months I've been working a new version of [`siunitx`](https://
 
 - [A ready to install `.zip` file](/uploads/2010/04/siunitx.tds.zip)
 - [The documentation](/uploads/2010/04/siunitx.pdf)
-- The source (dtx) file
+- The source (`.dtx`) file
 
 ## Release notes
 
