@@ -7,8 +7,6 @@ categories:
 ---
 I've quickly put together a LaTeX3 module demonstrating how a clash-detection system might work. This is _very_ experimental! Download:
 
-
 - The source (DTX)
 - The documentation (PDF)
 - The complete bundle, including a demo file (ZIP)
-
