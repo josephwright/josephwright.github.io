@@ -1,5 +1,5 @@
 ---
-title: The TeX Frequently Asked Question List: New hosting
+title: The TeX Frequently Asked Question List&#58; New hosting
 layout: post
 permalink: /2018/06/03/the-tex-frequently-asked-question-list-new-hosting/
 categories:

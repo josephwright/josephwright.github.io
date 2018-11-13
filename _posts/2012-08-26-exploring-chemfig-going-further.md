@@ -1,5 +1,5 @@
 ---
-title: Exploring ChemFig: Going further
+title: Exploring ChemFig&#58; Going further
 layout: post
 permalink: /2012/08/26/exploring-chemfig-going-further/
 categories:

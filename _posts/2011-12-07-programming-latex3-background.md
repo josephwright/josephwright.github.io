@@ -1,5 +1,5 @@
 ---
-title: Programming LaTeX3: Background
+title: Programming LaTeX3&#58; Background
 layout: post
 permalink: /2011/12/07/programming-latex3-background/
 categories:

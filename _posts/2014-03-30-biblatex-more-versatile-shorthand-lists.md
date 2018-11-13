@@ -1,5 +1,5 @@
 ---
-title: Biblatex: more versatile shorthand lists
+title: Biblatex&#58; more versatile shorthand lists
 layout: post
 permalink: /2014/03/30/biblatex-more-versatile-shorthand-lists/
 categories:

@@ -1,5 +1,5 @@
 ---
-title: LuaTeX: Manipulating UTF-8 text using Lua
+title: LuaTeX&#58; Manipulating UTF-8 text using Lua
 layout: post
 permalink: /2014/07/08/luatex-manipulating-utf-8-text-using-lua/
 categories:

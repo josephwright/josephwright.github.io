@@ -1,5 +1,5 @@
 ---
-title: siunitx: Revising the units
+title: siunitx&#58; Revising the units
 layout: post
 permalink: /2009/11/26/siunitx-revising-the-units/
 categories:

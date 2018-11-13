@@ -1,5 +1,5 @@
 ---
-title: Exploring ChemFig: Customising appearance
+title: Exploring ChemFig&#58; Customising appearance
 layout: post
 permalink: /2012/08/25/exploring-chemfig-customising-appearance/
 categories:

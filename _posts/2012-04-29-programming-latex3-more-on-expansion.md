@@ -1,5 +1,5 @@
 ---
-title: Programming LaTeX3: More on expansion
+title: Programming LaTeX3&#58; More on expansion
 layout: post
 permalink: /2012/04/29/programming-latex3-more-on-expansion/
 categories:

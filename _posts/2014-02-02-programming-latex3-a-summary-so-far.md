@@ -1,5 +1,5 @@
 ---
-title: Programming LaTeX3: A summary so far
+title: Programming LaTeX3&#58; A summary so far
 layout: post
 permalink: /2014/02/02/programming-latex3-a-summary-so-far/
 categories:

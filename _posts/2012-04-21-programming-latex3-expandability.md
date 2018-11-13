@@ -1,5 +1,5 @@
 ---
-title: Programming LaTeX3: Expandability
+title: Programming LaTeX3&#58; Expandability
 layout: post
 permalink: /2012/04/21/programming-latex3-expandability/
 categories:

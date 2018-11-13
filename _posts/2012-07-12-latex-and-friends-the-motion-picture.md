@@ -1,5 +1,5 @@
 ---
-title: LaTeX and Friends: The Motion Picture
+title: LaTeX and Friends&#58; The Motion Picture
 layout: post
 permalink: /2012/07/12/latex-and-friends-the-motion-picture/
 categories:

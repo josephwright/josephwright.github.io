@@ -1,5 +1,5 @@
 ---
-title: TeXworks: building on a Mac
+title: TeXworks&#58; building on a Mac
 layout: post
 permalink: /2011/02/06/texworks-building-on-a-mac/
 categories:

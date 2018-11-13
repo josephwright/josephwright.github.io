@@ -1,5 +1,5 @@
 ---
-title: Programming LaTeX3: The programming environment
+title: Programming LaTeX3&#58; The programming environment
 layout: post
 permalink: /2011/12/11/programming-latex3-the-programming-environment/
 categories:

@@ -1,5 +1,5 @@
 ---
-title: LaTeX3: xparse
+title: LaTeX3&#58; xparse
 layout: post
 permalink: /2009/06/16/latex3-xparse/
 categories:

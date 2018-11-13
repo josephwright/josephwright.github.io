@@ -1,5 +1,5 @@
 ---
-title: LaTeX3: Key points
+title: LaTeX3&#58; Key points
 layout: post
 permalink: /2009/01/19/latex3-key-points/
 categories:

@@ -1,5 +1,5 @@
 ---
-title: LaTeX3: More use, more work
+title: LaTeX3&#58; More use, more work
 layout: post
 permalink: /2011/09/01/latex3-more-use-more-work/
 categories:

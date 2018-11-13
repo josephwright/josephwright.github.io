@@ -1,5 +1,5 @@
 ---
-title: Beyond BibTeX: the first bBber beta release
+title: Beyond BibTeX&#58; the first bBber beta release
 layout: post
 permalink: /2009/04/01/beyond-bibtex-the-first-biber-beta-release/
 categories:

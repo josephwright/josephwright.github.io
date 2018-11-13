@@ -1,5 +1,5 @@
 ---
-title: TUG 2010: Videos appearing online
+title: TUG 2010&#58; Videos appearing online
 layout: post
 permalink: /2010/07/07/tug-2010-videos-appearing-online/
 categories:

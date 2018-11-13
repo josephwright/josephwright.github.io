@@ -1,5 +1,5 @@
 ---
-title: Date for the diary: TUG 2012
+title: Date for the diary&#58; TUG 2012
 layout: post
 permalink: /2011/11/07/date-for-the-diary-tug2012/
 categories:

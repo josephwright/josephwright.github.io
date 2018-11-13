@@ -1,5 +1,5 @@
 ---
-title: siunitx version 2.0: alpha 1
+title: siunitx version 2.0&#58; alpha 1
 layout: post
 permalink: /2010/01/31/siunitx-version-2-0-alpha-1/
 categories:

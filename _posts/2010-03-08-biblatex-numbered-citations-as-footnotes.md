@@ -1,5 +1,5 @@
 ---
-title: biblatex: numbered citations as footnotes
+title: biblatex&#58; numbered citations as footnotes
 layout: post
 permalink: /2010/03/08/biblatex-numbered-citations-as-footnotes/
 categories:

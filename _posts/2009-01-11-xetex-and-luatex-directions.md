@@ -1,5 +1,5 @@
 ---
-title: XeTeX and LuaTeX: Directions
+title: XeTeX and LuaTeX&#58; Directions
 layout: post
 permalink: /2009/01/11/xetex-and-luatex-directions/
 categories:

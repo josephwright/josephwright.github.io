@@ -1,5 +1,5 @@
 ---
-title: siunitx: Getting the micro symbol right
+title: siunitx&#58; Getting the micro symbol right
 layout: post
 permalink: /2009/12/22/siunitx-getting-the-micro-symbol-right/
 categories:

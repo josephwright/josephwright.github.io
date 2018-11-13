@@ -1,5 +1,5 @@
 ---
-title: siunitx: Default mode for printing
+title: siunitx&#58; Default mode for printing
 layout: post
 permalink: /2009/11/18/siunitx-default-mode-for-printing/
 categories:

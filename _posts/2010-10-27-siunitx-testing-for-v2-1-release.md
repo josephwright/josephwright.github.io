@@ -1,5 +1,5 @@
 ---
-title: siunitx: testing for v2.1 release
+title: siunitx&#58; testing for v2.1 release
 layout: post
 permalink: /2010/10/27/siunitx-testing-for-v2-1-release/
 categories:
