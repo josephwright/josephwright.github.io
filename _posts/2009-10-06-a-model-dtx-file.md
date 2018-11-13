@@ -139,7 +139,7 @@ That ends what will get extracted into the `.ins` file, so the install guard is 
 %&lt;/internal&gt;
 ```
 
-When extracting the `.dtx` (with TeX or LaTeX), we need to generate the `.ins` file and the README, which is done here. The `.ins` file is quite simple: the the same process as the `.sty` file. However, there are a couple of points about the README. First, we don't want DocStrip to add any extra text, hence `\nopreamble` and `\nopostamble`. Second, DocStrip can only make files with extensions, so the file has to be called README.txt. (It can be renamed later: hopefully there is no loss of clarity.) If plain TeX is in use, that is the end of the processing, whereas for LaTeX the group containing DocStrip can be closed.
+When extracting the `.dtx` (with TeX or LaTeX), we need to generate the `.ins` file and the README, which is done here. The `.ins` file is quite simple: the same process as the `.sty` file. However, there are a couple of points about the README. First, we don't want DocStrip to add any extra text, hence `\nopreamble` and `\nopostamble`. Second, DocStrip can only make files with extensions, so the file has to be called README.txt. (It can be renamed later: hopefully there is no loss of clarity.) If plain TeX is in use, that is the end of the processing, whereas for LaTeX the group containing DocStrip can be closed.
 
 ```latex
 %&lt;*package&gt;

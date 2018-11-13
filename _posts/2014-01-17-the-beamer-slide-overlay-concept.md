@@ -53,7 +53,7 @@ The syntax is quite powerful, but there are at least a couple of issues. First, 
 
 ## Auto-incrementing the overlay
 
-The first tool `beamer` offers is the the special symbol `+` in overlay specifications. This is used as a place holder for the 'current overlay', ans is automatically incremented by the class. To see it in action, I'll rewrite the first overlay example without any fixed numbers.
+The first tool `beamer` offers is the special symbol `+` in overlay specifications. This is used as a place holder for the 'current overlay', ans is automatically incremented by the class. To see it in action, I'll rewrite the first overlay example without any fixed numbers.
 
 ```latex
 \begin{frame}

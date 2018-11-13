@@ -63,4 +63,4 @@ texhash
 
 ## Installing from the `.dtx` file
 
-The traditional method to install a package is to unpack it from the `.dtx` source. I've got to say that I only recommend this for experienced LaTeX users. While both `achemso` and `siunitx` are designed to be easy to unpack, life is more complex for `expl3` and `xpackages`. So I'd strongly recommed using the TDS `.zip` files unless you know a bit more about LaTeX!
+The traditional method to install a package is to unpack it from the `.dtx` source. I've got to say that I only recommend this for experienced LaTeX users. While both `achemso` and `siunitx` are designed to be easy to unpack, life is more complex for `expl3` and `xpackages`. So I'd strongly recommend using the TDS `.zip` files unless you know a bit more about LaTeX!
