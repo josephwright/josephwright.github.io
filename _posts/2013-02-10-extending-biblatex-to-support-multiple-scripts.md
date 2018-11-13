@@ -32,4 +32,4 @@ However, that presents a big issue: how to do that without breaking every existi
 
 Reading (two) optional arguments and working through keyval options expandably is tricky, which is where I come in. The natural way for me to solve the first problem is to use LaTeX3, and the [`xparse`](https://ctan.org/pkg/xparse) package. However, that's a big change for `biblatex`, so before I (and the rest of the `biblatex` team) go for this I though it would be worth raising the issue and looking for opinions. The alternative is to write the code into `biblatex` directly, but it's complicated and as I've already done the job once I'm reluctant to do this!
 
-So, what I want to know is 'What do users think?' Is it reasonable to require `xparse` as part of `biblate
+So, what I want to know is 'What do users think?' Is it reasonable to require `xparse` as part of `biblatex`?
