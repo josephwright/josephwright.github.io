@@ -9,7 +9,7 @@ Having [posted](/2009/10/06/what-does-write18-mean/) about restricted `\write18`
 
 > ... we pulled the plug and try to fix it. The problem is that
 allowing `epstopdf` we in fact obliterate `openout_any` becasue
-epstopdf can write everywhere.
+`epstopdf` can write everywhere.
 As long as we are not able to provide a restricted `epstopdf` that
 only allows writing to subdirectories or similar we will
 unfortunately not have this feature ...
