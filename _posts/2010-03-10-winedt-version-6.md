@@ -9,7 +9,7 @@ tags:
   - Windows
   - WinEdt
 ---
-[WinEdt ](http://www.winedt.com/)is a popular (La)TeX editor on Windows. A new major release, version 6, has just appeared on the WinEdt homepage.  The interface has received a lot of attention, with new icons and menu arrangements. One thing that a lot of people have been hoping for is UTF-8 support, but the release notes say
+[WinEdt](http://www.winedt.com/) is a popular (La)TeX editor on Windows. A new major release, version 6, has just appeared on the WinEdt homepage.  The interface has received a lot of attention, with new icons and menu arrangements. One thing that a lot of people have been hoping for is UTF-8 support, but the release notes say
 
 > Avoid sending major feature requests: they will have to wait for version 6.1 (unicode, folding and all)!
 
