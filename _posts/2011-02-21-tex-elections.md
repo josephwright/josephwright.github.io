@@ -1,5 +1,5 @@
 ---
-title: &#123;TeX&#125; elections
+title: TeX StackExchange elections
 layout: post
 permalink: /2011/02/21/tex-elections/
 categories:

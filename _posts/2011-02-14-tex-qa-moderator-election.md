@@ -1,5 +1,5 @@
 ---
-title: &#123;TeX&#125; Q&#038;A Moderator election
+title: TeX StackExchange Moderator election
 layout: post
 permalink: /2011/02/14/tex-qa-moderator-election/
 categories:

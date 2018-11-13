@@ -1,5 +1,5 @@
 ---
-title: &#123;TeX&#125; Q&#038;A site now has a Twitter feed
+title: TeX Q and A site now has a Twitter feed
 layout: post
 permalink: /2011/01/15/tex-qa-site-now-has-a-twitter-feed/
 categories:
