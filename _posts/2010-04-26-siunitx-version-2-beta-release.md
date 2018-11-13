@@ -10,7 +10,7 @@ Over the past few months I've been working a new version of [`siunitx`](https://
 
 - [A ready to install `.zip` file](/wp-content/uploads/2010/04/siunitx.tds.zip)
 - [The documentation](/wp-content/uploads/2010/04/siunitx.pdf)
-- [The source (dtx) file](/wp-content/uploads/2010/04/siunitx.dtx)
+- The source (dtx) file
 
 ## Release notes
 

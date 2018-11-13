@@ -15,7 +15,7 @@ At this stage, there are likely to be some bugs and other annoyances in the code
 
 - [The ready to install TDS-style zip file](/wp-content/uploads/2010/01/siunitx.tds_1.zip)
 - [The package documentation](/wp-content/uploads/2010/01/siunitx.pdf)
-- [The source file (dtx)](/wp-content/uploads/2010/01/siunitx.dtx)
+- The source file (dtx)
 
 You'll need to have up to date installations of both [`expl3`](https://ctan.org/pkg/expl3) and the [`xpackages`](https://ctan.org/pkg/xpackages) to try out  the code, as internally the new code uses the [LaTeX3](https://www.latex-project.org/latex3.html) internal syntax. The biggest change that users should see from version 1 is that I've re-thought the option names. They are mainly longer, but more informative, in the new code. Improvements to the names I've picked are of course welcome.
 
