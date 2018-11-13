@@ -1,3 +1,5 @@
 url: https://www.texdev.net
 name: Some TeX Developments
 description: Coding in the TeX world
+
+theme: jekyll-theme-slate
