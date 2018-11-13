@@ -1,7 +1,7 @@
 ---
 title: Choice options
 layout: post
-permalink: /2008/12/28/47/
+permalink: /2008/12/28/choice-options/
 categories:
   - Packages
   - siunitx

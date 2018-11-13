@@ -1,7 +1,7 @@
 ---
-title: Developement Timetables
+title: Development Timetables
 layout: post
-permalink: /2008/12/21/developement-timetables/
+permalink: /2008/12/21/development-timetables/
 categories:
   - LaTeX3
   - Packages
