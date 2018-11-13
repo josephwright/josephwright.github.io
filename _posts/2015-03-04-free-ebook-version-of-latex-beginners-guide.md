@@ -1,5 +1,5 @@
 ---
-title: Free eBook version of  'LaTeX Beginners Guide'
+title: Free eBook version of 'LaTeX Beginners Guide'
 layout: post
 permalink: /2015/03/04/free-ebook-version-of-latex-beginners-guide/
 categories:
