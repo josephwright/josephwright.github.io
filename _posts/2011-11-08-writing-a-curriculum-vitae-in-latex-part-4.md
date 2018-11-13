@@ -8,7 +8,7 @@ tags:
   - curriculum vitae
   - résumé
 ---
-I've looked over the last few days at some issues centring on writing a CV in LaTeX, first [looking at the wider picture](/2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/), then at [creating a CV using custom macros](/2011/11/06/writing-a-curriculum-vitae-in-latex-part-2/) and most recently at [including a list of publications](/2011/11/07/writing-a-curriculum-vitae-in-latex-part-3/). To round things off, I'm going to create a [short example](/wp-content/uploads/2011/11/cv.tex): the source of [my own CV](/wp-content/uploads/2011/11/cv.pdf) cut down to a blog post. Before I do that, I'd point out that everyone's CV is different, and while my approach makes sense for me it should be seen very much as something to pick up ideas from more than any form of template.
+I've looked over the last few days at some issues centring on writing a CV in LaTeX, first [looking at the wider picture](/2011/11/05/writing-a-curriculum-vitae-in-latex-part-1/), then at [creating a CV using custom macros](/2011/11/06/writing-a-curriculum-vitae-in-latex-part-2/) and most recently at [including a list of publications](/2011/11/07/writing-a-curriculum-vitae-in-latex-part-3/). To round things off, I'm going to create a [short example](/uploads/2011/11/cv.tex): the source of [my own CV](/uploads/2011/11/cv.pdf) cut down to a blog post. Before I do that, I'd point out that everyone's CV is different, and while my approach makes sense for me it should be seen very much as something to pick up ideas from more than any form of template.
 
 ## Package loading
 

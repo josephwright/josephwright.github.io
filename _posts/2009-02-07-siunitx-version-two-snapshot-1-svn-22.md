@@ -9,7 +9,7 @@ categories:
 As promised a while ago, I've been working to get a snapshot of my work on `siunitx` version 2 ready. I've now got something that works 'as far as it goes', so I'm making a first snapshot available.  This is version control (SVN) repository revision 22, which you can see on BerliOS. As this is a very earlier version of what I'm looking at, I'm just posting three files here:
 
 - The source (`.dtx`)
-- [The user manual (`.pdf`)](/wp-content/uploads/2009/02/siunitx.pdf)
+- [The user manual (`.pdf`)](/uploads/2009/02/siunitx.pdf)
 - The style file (`.sty`)
 
 Currently, only the `\num` macro works at all, and even then only for single numbers. However, there are several points to note for testers  and interested users:

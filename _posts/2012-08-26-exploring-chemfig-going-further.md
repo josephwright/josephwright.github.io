@@ -15,7 +15,7 @@ In the first two parts of this short series, I've looked at some [ChemFig basics
 
 Chemists don't only use simple line bonds: we use bold, dashed and wavy lines a lot. ChemDraw has all of these set up 'out of the box':
 
-![](/wp-content/uploads/2012/08/ChemDraw2.png)
+![](/uploads/2012/08/ChemDraw2.png)
 
 ChemFig does not have a simple input syntax for them, unlike `=` for a double bond or `~` for a triple bond. However, it does let us customise bond appearance: the basic syntax we need is to put `[,,,,&lt;settings&gt;]` after the bond to be customised (there are four commas here as ChemFig has other settings to alter bonding). The settings are Ti<i>k</i>Z commands, and it's possible to set up these customisations as styles, which is better than doing everything by hand.
 
@@ -76,7 +76,7 @@ Okay, so how does this all look? The document input is not so bad
 
 and gives result
 
-![](/wp-content/uploads/2012/08/ChemFig10.png)
+![](/uploads/2012/08/ChemFig10.png)
 
 If you look really carefully, you'll see that this highlights an issue. The bond junctions are just flat 'ends', which does not show very much for the single bonds but does where the bold bond meets the ring. If you compare with ChemDraw, you'll see that it does not make the same error: the bonds 'run in' to each other. I've not found a way to solve that, unfortunately.
 
@@ -84,7 +84,7 @@ If you look really carefully, you'll see that this highlights an issue. The bond
 
 Chemical structures exist in three dimensions, and it's very common to show this using wedged bonds, invented by Cram.
 
-![](/wp-content/uploads/2012/08/ChemDraw3.png)
+![](/uploads/2012/08/ChemDraw3.png)
 
 ChemFig let's us use `&lt;` in place of `-` for a filled wedged bond, with `&lt;|` for a hollow one and `&lt;:` for a dashed (backward) one. So the input we want here is
 
@@ -104,7 +104,7 @@ If you try that with no setting changes, the bonds are too wide at the ends. Tha
 
 and got
 
-![](/wp-content/uploads/2012/08/ChemFig12.png)
+![](/uploads/2012/08/ChemFig12.png)
 
 Here, it's clear that the issue with bond joins shows up a lot more than the earlier cases: it's still reasonably subtle, but definitely shows up more strongly.
 

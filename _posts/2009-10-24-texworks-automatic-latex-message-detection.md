@@ -8,7 +8,7 @@ tags:
   - LaTeX
   - scripting
 ---
-![TeXworks: Experimental LaTeX-errors interface](/wp-content/uploads/2009/10/LaTeX-errors-300x187.png)
+![TeXworks: Experimental LaTeX-errors interface](/uploads/2009/10/LaTeX-errors-300x187.png)
 
 The [latest builds](http://code.google.com/p/texworks/downloads/list) of [TeXworks](https://tug.org/texworks) include support for scripting. There are not a lot of scripts just yet, but one that already looks good is LaTeX error message highlighting.
 

@@ -17,7 +17,7 @@ On the other hand, you always need to be ready to try new approaches, so I've be
 
 As a first target, I decided to try to reproduce a structure I'm going to need to draw for some practical hand-outs. My favoured settings for ChemDraw are those used by the [Royal Society of Chemistry](http://pubs.rsc.org/en/journals), which are set up for 7 pt text to match 9 pt body text in two-column journals. I'll be coming back to these settings a bit more in the second part of this mini-series, but for the moment let's see what the result looks like:
 
-![](/wp-content/uploads/2012/08/ChemDraw-300x181.png)
+![](/uploads/2012/08/ChemDraw-300x181.png)
 
 The aim is to get this 'right', working out first how to get the structure correct using ChemFig, then get the finer points of the appearance right. In this post, I'll tackle the basic connectivity, and in the next one how to match the appearance.
 
@@ -43,13 +43,13 @@ The basic command we are going to need is `\chemfig`, which takes a single argum
 
 which comes out as
 
-![](/wp-content/uploads/2012/08/ChemFig1-260x300.png)
+![](/uploads/2012/08/ChemFig1-260x300.png)
 
 The syntax here is reasonably clear: `*` makes a ring, `6` means it's a six-membered ring and `-=-=-=` is the bonding pattern in the ring.
 
 If we just wanted a linear structure, we could omit the ring part with `\chemfig{-=-=-=}` giving
 
-![](/wp-content/uploads/2012/08/ChemFig2-300x3.png)
+![](/uploads/2012/08/ChemFig2-300x3.png)
 
 ## Decorating the ring
 
@@ -61,7 +61,7 @@ Adding substituents is not too hard once you work out that the first position on
 
 and gives
 
-![](/wp-content/uploads/2012/08/ChemFig3-260x300.png)
+![](/uploads/2012/08/ChemFig3-260x300.png)
 
 Hopefully the pattern is reasonably clear: you need to have a `-` inside the parentheses to have the bond coming off the ring, and can use `^` for superscripts in the usual TeX way.
 
@@ -79,7 +79,7 @@ The same scheme applies to constructing the rest of the molecule: you can put on
 
 is not quite right:
 
-![](/wp-content/uploads/2012/08/ChemFig4-300x211.png)
+![](/uploads/2012/08/ChemFig4-300x211.png)
 
 As you can see, the bond angle in the chain part is wrong: ChemFig does not 'auto-stagger' things. Of course, this is a pretty basic requirement, so there is a syntax to set the angle of a join: `[::-60]` will set the relative angle to 60 degrees clockwise, and all will then be well.
 
@@ -91,6 +91,6 @@ As you can see, the bond angle in the chain part is wrong: ChemFig does not 'aut
 }
 ```
 
-![](/wp-content/uploads/2012/08/ChemFig5-300x175.png)
+![](/uploads/2012/08/ChemFig5-300x175.png)
 
 That completes the connectivity we want, and as you can see the input is starting to look a bit frightening (see my comment at the start of the post). It's also not great looking compared with the ChemDraw reference version: in the next post, I'll see how that can be addressed.

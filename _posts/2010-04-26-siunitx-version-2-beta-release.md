@@ -8,8 +8,8 @@ categories:
 ---
 Over the past few months I've been working a new version of [`siunitx`](https://ctan.org/pkg/siunitx) with completely re-written internals. This is now at the point where I hope that it is usable for most people, but before replaced version 1 some testing is needed. This is what this beta (testing) release is for. There are some important notes for people testing, which I'll run through below. For the impatient, you can get:
 
-- [A ready to install `.zip` file](/wp-content/uploads/2010/04/siunitx.tds.zip)
-- [The documentation](/wp-content/uploads/2010/04/siunitx.pdf)
+- [A ready to install `.zip` file](/uploads/2010/04/siunitx.tds.zip)
+- [The documentation](/uploads/2010/04/siunitx.pdf)
 - The source (dtx) file
 
 ## Release notes
