@@ -1,7 +1,7 @@
 ---
 title: Website down tomorrow
 layout: post
-permalink: /2009/02/25/webiste-down-tomorrow/
+permalink: /2009/02/25/website-down-tomorrow/
 categories:
   - texdev.net
 ---
