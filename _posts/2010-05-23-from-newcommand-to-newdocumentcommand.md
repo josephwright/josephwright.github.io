@@ -9,7 +9,7 @@ tags:
 ---
 Following on from my [last post](/2010/05/22/promoting-xparse/), I thought it might be useful to give some simple example of how the [`xparse`](https://ctan.org/pkg/xparse) package works and why it's useful. I want to do this to show end users of LaTeX how it can replace `\newcommand`, so the example will not involve anything too complex, code-wise.
 
-First, why would you want to use xparse's `\NewDocumentCommand` in place of `\newcommand`? First, `\NewDocumentCommand` can make macros that take a mixture of arguments that `\newcommand` cannot. With `\newcommand`, you can make a macro that takes a number of mandatory arguments, or ones where the first argument is option and in square brackets, but that is it. Anything else then needs the use of TeX programming or internal LaTeX macros: not really helpful for end users. The second thing is that `\newcommand` macros are not 'robust'. This shows up where you need to `\protect` things, which can be very confusing. Macros created with `\NewDocumentCommand` are robust, and this means that they work more reliably.
+First, why would you want to use `xparse`'s `\NewDocumentCommand` in place of `\newcommand`? First, `\NewDocumentCommand` can make macros that take a mixture of arguments that `\newcommand` cannot. With `\newcommand`, you can make a macro that takes a number of mandatory arguments, or ones where the first argument is option and in square brackets, but that is it. Anything else then needs the use of TeX programming or internal LaTeX macros: not really helpful for end users. The second thing is that `\newcommand` macros are not 'robust'. This shows up where you need to `\protect` things, which can be very confusing. Macros created with `\NewDocumentCommand` are robust, and this means that they work more reliably.
 
 I'm going to illustrate moving from `\newcommand` to `\NewDocumentCommand` with a series of simple examples. For all of them, you need to load the `xparse` package:
 
@@ -42,7 +42,7 @@ The most common type of argument for a macro is a mandatory one. With `\newcomma
 \newcommand\TwoArgs[2]{Text using #1 and #2}
 ```
 
-\NewDocumentCommand is a bit different. Since it can work with different types of argument, each one is give separately as a letter. A mandatory argument is '`m`', so we'd need
+`NewDocumentCommand` is a bit different. Since it can work with different types of argument, each one is give separately as a letter. A mandatory argument is '`m`', so we'd need
 
 ```latex
 \NewDocumentCommand\OneArg{m}{Text using #1}

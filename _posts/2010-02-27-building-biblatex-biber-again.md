@@ -35,4 +35,4 @@ build test
 build install
 ```
 
-and everything worked. So I've finally got it working across all platforms. Hopefully the Text::BibTeX install will become easier when it moves from beta status.
+and everything worked. So I've finally got it working across all platforms. Hopefully the `Text::BibTeX` install will become easier when it moves from beta status.
