@@ -96,7 +96,6 @@ The same idea applies to each optional argument: whatever is in the braces after
 
 You might be wondering why we need the '`{}`c after '`O`' when there is no default value: why not just '`o`'? Well, there is '`o`' as well. Unlike `\newcommand`, `\NewDocumentCommand` can tell the difference between an option argument that is not given and one that is empty. To do that, it provides a test to see if the argument is empty:
 
-
 <!-- {% raw %} -->
 ```latex
 \NewDocumentCommand\OneOptOfTwoWithTest{om}{%
