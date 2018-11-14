@@ -1,0 +1,17 @@
+      <nav>
+        <label for="show-menu" class="show-menu">Show Menu</label>
+        <input type="checkbox" id="show-menu" >
+        <ul>
+          {% if page.url == '/' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{ "/" }}">Home</a></li>
+          {% if page.url contains '/about/' %}<li class="active">
+            {% else %}<li>{% endif %}
+            <a href="{{ "/about/" }}">About</a></li>
+          {% if page.url == '/archive/' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{ "/archive/" }}">Archive</a></li>
+          {% if page.url contains '/Contact/' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{ "/contact/" }}">Contact</a></li>
+          {% if page.url == '/packages/' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{ "/packages/" }}">Packages</a></li>
+        </ul>
+      </nav>
