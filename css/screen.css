@@ -133,19 +133,6 @@
 }
 
 
-/* Fonts
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
-@font-face {
-  font-family: 'roboto_light';
-  src: url('../fonts/roboto_light.woff')            format('woff');}
-@font-face {
-  font-family: 'roboto_regular';
-  src: url('../fonts/roboto_regular.woff')          format('woff');}
-@font-face {
-  font-family: 'roboto_medium';
-  src: url('../fonts/roboto_medium.woff')            format('woff');}
-
-
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 html, header { 
