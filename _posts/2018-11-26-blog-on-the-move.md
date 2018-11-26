@@ -44,7 +44,7 @@ because of flaws in my original text, not the exporter!
 
 ## What's missing?
 
-Exporting the content doesn't deal wit the website style, nor does it include
+Exporting the content doesn't deal with the website style, nor does it include
 comments. The latter don't work in Jekyll directly, though one can use
 [Disqus](https://disqus.com/). I decided against that for the present: I don't
 really need a discussion system for my blog.
