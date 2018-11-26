@@ -5,7 +5,6 @@ permalink: /2018/11/26/blog-on-the-move/
 categories:
   - texdev.net
 ---
-## A little history
 
 I've been writing _Some TeX Developments_ for ten years now, [starting off](/2008/12/17/some-tex-developments) on
 [WordPress.com](http://wordpress.com) before moving to a self-hosted WordPress
