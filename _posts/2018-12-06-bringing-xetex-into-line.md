@@ -62,6 +62,11 @@ code performance](https://www.latex-project.org/news/2018/10/28/benchmarking/)
 and checking the details of files: all stuff that is in `expl3` and will now
 work with XeTeX.
 
+I should add that although I did the grind of working out how to integrate
+the pdfTeX code into XeTeX, Akira Kakuto sorted out the areas that needed
+knowledge of C, in particular where XeTeX's Unicode internals don't match
+up with pdfTeX's 8-bit ones.
+
 ## One more thing
 
 As well as the above, I made one other minor adjustment to XeTeX: altering
