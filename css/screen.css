@@ -300,7 +300,7 @@ header span { position: absolute !important; top: -9999em !important; left: -999
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav { position: relative; }
-nav ul { background: #005DB7; list-style: none; margin: 0; text-align: center; width: 100%; }
+nav ul { background: rgba(0, 93, 183,.85); list-style: none; margin: 0; text-align: center; width: 100%; }
 nav ul li { display: inline-block; margin: -1px 0 0 0; }
 nav ul li a,
 nav ul li a:visited,
@@ -338,7 +338,7 @@ nav input[type=checkbox]:checked ~ ul { display: block; }
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer {
-  background: #005DB7;
+  background: rgba(0, 93, 183,.85);
   color: #BBB;
   font-size: 0.9em;
   margin: 0 -2.2em -3em;
