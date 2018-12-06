@@ -46,7 +46,7 @@ the tests in the same way Travis-CI does.
 With that handy set up available, I sat down (on behalf of the team) and did
 the hard work: a bit of copy-pasting! As well as pdfTeX, I worked out how to
 add `\expanded` to [XeTeX](http://xetex.sourceforge.net/) and the Japanese
-TeX engines p-TeX and up-TeX. After a bit of discussion, this code has been
+TeX engines pTeX and upTeX. After a bit of discussion, this code has been
 accepted by [TeX Live](https://tug.org/texlive/), and will be there in
 the 2019 release.
 
