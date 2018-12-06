@@ -9,7 +9,7 @@ tags:
 ---
 
 In parallel with work on the
-[`\expanded`primitive](/2018/12/06/a-new-primitive-expanded), I've been working
+[`\expanded` primitive](/2018/12/06/a-new-primitive-expanded), I've been working
 recently on bringing the 'utility' primitives in
 [XeTeX](https://sourceforge.net/projects/xetex/) into line with those in
 pdfTeX, pTeX and upTeX.
