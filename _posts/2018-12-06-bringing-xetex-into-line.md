@@ -1,7 +1,7 @@
 ---
 title: Bringing XeTeX into line
 layout: post
-permalink: /2018/12/06/brining-xetex-into-line
+permalink: /2018/12/06/bringing-xetex-into-line
 categories:
   - General
 tags:
