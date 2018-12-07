@@ -9,7 +9,7 @@ tags:
   - Biber
   - Ubuntu
 ---
-As I've [just installed](/2010/05/06/tex-live-2009-on-ubuntu-10-04-lucid-lynx/) Ubuntu 10.04 ('Lucid Lynx') on my test system, I thought I should check that I can get [Biber](http://biblatex-biber.sourceforge.net/) working. As in my [earlier posts](/index.php?s=biber), this is not too hard, but it's nice to have some instructions. As usual, first you need to download Biber from the homepage and unpack the files. Using the Terminal, move the directory where the source is and do
+As I've [just installed](/2010/05/06/tex-live-2009-on-ubuntu-10-04-lucid-lynx/) Ubuntu 10.04 ('Lucid Lynx') on my test system, I thought I should check that I can get [Biber](http://biblatex-biber.sourceforge.net/) working. As in my earlier posts, this is not too hard, but it's nice to have some instructions. As usual, first you need to download Biber from the homepage and unpack the files. Using the Terminal, move the directory where the source is and do
 
 ```bash
 sudo cpan Config::AutoConf

@@ -9,4 +9,4 @@ tags:
   - programming
   - reference
 ---
-Martin Scharrer has put together a hand reference list of [macros for programming LaTeX2e](http://www.scharrer-online.de/wiki/LaTeX/Docs/macros2e). This covers stuff in the LaTeX kernel itself, rather than add-ons such as [`etoolbox`](https://ctan.org/pkg/etoolbox). This should be a real benefit to newer LaTeX programmers, as finding all of this information has in the past been quite awkward.
+Martin Scharrer has put together a hand reference list of macros for programming LaTeX2e. This covers stuff in the LaTeX kernel itself, rather than add-ons such as [`etoolbox`](https://ctan.org/pkg/etoolbox). This should be a real benefit to newer LaTeX programmers, as finding all of this information has in the past been quite awkward.
