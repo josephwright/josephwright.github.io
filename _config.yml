@@ -3,3 +3,6 @@ name: Some TeX Developments
 description: Coding in the TeX world
 
 theme: jekyll-theme-slate
+
+plugins:
+- jekyll-feed
