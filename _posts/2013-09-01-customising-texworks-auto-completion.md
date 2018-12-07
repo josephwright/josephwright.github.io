@@ -23,7 +23,7 @@ and if I press Tab again,
 \documentclass[]{}
 ```
 
-That's very useful, but some of the auto-complete options are not ones I use a lot. There are also a few inconsistencies in how the results are formatted: while TeXworks inherited a basic set from [TeXShop](http://pages.uoregon.edu/koch/texshop/‎), it also comes with some additions and they don't always quite agree on how things should work! So I've been looking a bit at sorting out my own custom set, adding things I use, removing ones I don't and so on.
+That's very useful, but some of the auto-complete options are not ones I use a lot. There are also a few inconsistencies in how the results are formatted: while TeXworks inherited a basic set from [TeXShop](https://pages.uoregon.edu/koch/texshop/‎), it also comes with some additions and they don't always quite agree on how things should work! So I've been looking a bit at sorting out my own custom set, adding things I use, removing ones I don't and so on.
 
 The basic format for the auto-complete files is to have a first line for the encoding
 

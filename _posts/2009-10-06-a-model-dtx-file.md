@@ -24,7 +24,7 @@ Most of the ideas here are not mine: Will Robertson came up with a lot of this. 
 % !TEX program  = pdfLaTeX
 ```
 
-The file starts off with an `\iffalse` which will mean that ltxdoc will skip all of this code when typesetting the document. I use [TeXworks](https://tug.org/texworks) as my editor, so I include the special `!TEX program` comment so that it defaults to pdfLaTeX with all of my files: this does no harm so may as well be there. The same comment is also recognised by [TeXShop](http://www.uoregon.edu/~koch/texshop/).
+The file starts off with an `\iffalse` which will mean that ltxdoc will skip all of this code when typesetting the document. I use [TeXworks](https://tug.org/texworks) as my editor, so I include the special `!TEX program` comment so that it defaults to pdfLaTeX with all of my files: this does no harm so may as well be there. The same comment is also recognised by [TeXShop](https://pages.uoregon.edu/koch/texshop/).
 
 ```latex
 %&lt;*internal&gt;
