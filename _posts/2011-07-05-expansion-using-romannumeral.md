@@ -31,7 +31,7 @@ How does this help with expansion? It's all to do with how TeX terminate numbers
 ```
 <!-- {% endraw %} -->
 
-the `\romannumeral` will produce no output (as the number it finds is -48). However, it will expand `#1` until it finds an unexpandable token. That means that something like
+the `\romannumeral` will produce no output (as the number it finds is &minus;48). However, it will expand `#1` until it finds an unexpandable token. That means that something like
 
 ```latex
 \def\testa{\testb}
