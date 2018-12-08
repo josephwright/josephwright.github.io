@@ -40,8 +40,8 @@ and so maps the function `\@makeother` to all of the 'special' characters. Using
     \@stdverb
 }
 \newcommand*\@stdverb[1]{%
-  \catcode&#96;#1=\active
-  \lccode&#96;\~=&#96;#1%
+  \catcode`#1=\active
+  \lccode`\~=`#1%
   \lowercase{\let~}\endgroup
   \ttfamily
 }
@@ -53,7 +53,7 @@ In most cases, this works fine. However, if someone makes another character 'spe
 
 <!-- {% raw %} -->
 ```latex
-\catcode&#96;\+=\active
+\catcode`\+=\active
 \newcommand+{oops}
 \stdverb=#{+=
 ```
@@ -80,7 +80,7 @@ This is where category code table come in. These are pre-set lists of category c
 
 <!-- {% raw %} -->
 ```latex
-\catcode&#96;\+=\active
+\catcode`\+=\active
 \newcommand+{oops}
 \luaverb=#{+=
 ```
