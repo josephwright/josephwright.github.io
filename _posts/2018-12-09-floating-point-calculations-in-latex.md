@@ -50,7 +50,7 @@ is allowed in such places.
 
 One other thing to consider is handling of TeX registers as numbers. Converting
 for example a length into something that can be used in a floating point
-calculation is handy, and it matches what e-TeX does in for example `\intexpr`.
+calculation is handy, and it matches what e-TeX does in for example `\numexpr`.
 But in macro code it has to be programmed in.
 
 ## Functionality
