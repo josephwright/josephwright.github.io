@@ -109,11 +109,11 @@ match behaviour specified in the [IEEE
 a set of tests to try to make sure things work as expected.
 
 There's one other option that one must consider: Lua. If you address
-only using LuaTeX, you can happily break out into Lua and use it's ability
+only using LuaTeX, you can happily break out into Lua and use its ability
 to use the 'real' floating point capabilities of a modern PC. The one
 wrinkle is that without a bit of work, the Lua code _doesn't_ know about
 TeX material: registers and so on need to be pre-processed. It also goes
-without saying that using Lua means being tided to LuaTeX!
+without saying that using Lua means being tied to LuaTeX!
 
 ## Recommendation
 
