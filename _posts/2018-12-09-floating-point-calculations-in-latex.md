@@ -104,7 +104,7 @@ approach, the LaTeX3 FPU is expandable. Like `pgf`, using the FPU means
 we can use expressions, and we also get [reasonable
 performance](https://tex.stackexchange.com/q/463554) (Bruno Le Floch worked
 hard on this aspect). The other thing to note is that the FPU is intended to
-match behaviour specified in the [IEEE
+match behaviour specified in the [decimal IEEE
 754](https://en.wikipedia.org/wiki/IEEE_754) standard, and that the team have
 a set of tests to try to make sure things work as expected.
 
