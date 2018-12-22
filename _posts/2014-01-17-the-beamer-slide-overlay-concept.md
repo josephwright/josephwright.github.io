@@ -133,7 +133,7 @@ For this case, `beamer` offers another special symbol: `.`.
 
 What happens here is that `.` can be read as 'repeat the overlay number of the last `+`'. So the two `+` overlay specifications create two slides, while the two lines using `.` in the specification 'pick up' the overlay number of the preceding `+`. (The `beamer` manual describes the way this is actually done, but I suspect that's less clear than thinking of this as a repetition!)
 
-Depending on the exact use case, you might want to combine this with the 'reducing repeated code' optional argument, with `&lt;.-&gt;` as an override.
+Depending on the exact use case, you might want to combine this with the 'reducing repeated code' optional argument, with `<.->` as an override.
 
 ```latex
 \begin{frame}
@@ -161,7 +161,7 @@ A combination of `+` and `.` use can be used to convert many 'hard-coded' overla
 \end{frame}
 ```
 
-Notice that in this adjustment only applies to the substitution, so both the second and third lines above end up as `&lt;3-&gt;` after the automatic replacement. If you try the demo, you'll also notice that none of the items appear on the first slide!
+Notice that in this adjustment only applies to the substitution, so both the second and third lines above end up as `<3->` after the automatic replacement. If you try the demo, you'll also notice that none of the items appear on the first slide!
 
 Perhaps a more realistic example for where an offset is useful is the case of revealing items 'out of order', where the full list makes sense in some other way. With hard-coded numbers this might read
 
@@ -207,7 +207,7 @@ or the equivalent
 
 As shown, we can use both positive and negative offsets, and these work equally well for `+` and `.` auto-generated values. You have to be slightly careful with negative offsets, as while `beamer` will add additional slides for positive offsets, if you offset below a final value of `0` then errors will crop up. With this rather advanced set up, which version is easiest for you to follow will be down to personal preference.
 
-Notice that positive offsets _do not_ include a `+` sign: remember what I said earlier about _all_ `+` symbols being replaced. If you try something like `&lt;+(+1)&gt;`, your presentation will compile but you'll have a _lot_ of slides!
+Notice that positive offsets _do not_ include a `+` sign: remember what I said earlier about _all_ `+` symbols being replaced. If you try something like `<+(+1)>`, your presentation will compile but you'll have a _lot_ of slides!
 
 ## Summary
 
