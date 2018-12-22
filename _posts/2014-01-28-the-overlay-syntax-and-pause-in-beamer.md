@@ -35,7 +35,7 @@ As I discussed in the earlier post, this is a very powerful way to create overla
 \end{frame}
 ```
 
-Why? If you read the `beamer` manual, it's all about the value of `\beamerpauses`, but if we skip to the key point, you _should not_ use `\pause` on the same slide as `&lt;+-&gt;` (or similar).
+Why? If you read the `beamer` manual, it's all about the value of `\beamerpauses`, but if we skip to the key point, you _should not_ use `\pause` on the same slide as `<+->` (or similar).
 
 ## Beyond the power of `\pause`: `\onslide`
 
