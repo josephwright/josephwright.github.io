@@ -68,7 +68,7 @@ The first tool `beamer` offers is the special symbol `+` in overlay specificatio
 
 What's happening here? Each time `beamer` finds an overlay specification, it automatically replaces all of the `+` symbols with the current overlay number. It then advances the overlay number by 1. So in the above example, the first `+` is replaced by a `1`, the second by a `2` and the third by a `3`. So we get the same behaviour as in the hard-coded case, but this time if I add another item at the start of the list I don't have to renumber everything.
 
-There are of course a few things to notice. The first overlay in a frame is number 1, and that's what `beamer` sets the counter to at the start of each frame. To get the second item in the list to appear on slide 2, we still require an overlay specification for the first item: although I used one, I could have skipped the `&lt;1-&gt;` in the hard-coded example and nothing would have changed. The second point is that _every_ `+` in an overlay specification gets replaced by the same value. We'll see later there are places you might accidentally add a `+` to mean 'advance by 1': don't do that!
+There are of course a few things to notice. The first overlay in a frame is number 1, and that's what `beamer` sets the counter to at the start of each frame. To get the second item in the list to appear on slide 2, we still require an overlay specification for the first item: although I used one, I could have skipped the `<1->` in the hard-coded example and nothing would have changed. The second point is that _every_ `+` in an overlay specification gets replaced by the same value. We'll see later there are places you might accidentally add a `+` to mean 'advance by 1': don't do that!
 
 ## Reducing redundancy
 
