@@ -81,7 +81,7 @@ I'll simply note here that the following are available:
 
 Some of these have variable or arbitrary precision, others work to a
 pre-determined level, and they also vary in terms of functions covered,
-expandablity and so on.
+expandability and so on.
 
 I want to focus in on three possible 'contenders':
 [`fp`](https://ctan.org/pkg/fp), [`pgf`](https://ctan.org/pkg/pgf)
