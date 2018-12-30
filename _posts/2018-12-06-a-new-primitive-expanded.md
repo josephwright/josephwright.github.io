@@ -10,7 +10,7 @@ In recent years, development of pdfTeX has been very limited, with the v1.40
 branch now being around for over 10 years. However, in the past there were
 plans for a v1.50 branch, and some code was actually written. One primitive
 that was fully coded-up at that time was `\expanded`. The idea of this is
-pretty simple: it carries out full expansion like `\message` (and _almost_)
+pretty simple: it carries out full expansion like `\message` (and _almost_
 like `\edef`), but it is still expandable. For example, try
 
 ```latex
