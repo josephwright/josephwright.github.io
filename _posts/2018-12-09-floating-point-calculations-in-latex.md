@@ -44,7 +44,7 @@ Although it's not an absolute requirement, e-TeX does make doing things a bit
 easier: rather than having to shuffle everything a piece at a time, it is
 possible to use inline expressions for quite a lot of the work.
 
-Another key technical aspect is expandablity. This is useful for some aspects
+Another key technical aspect is expandability. This is useful for some aspects
 of TeX work, particularly anywhere that it 'expects a number': only expansion
 is allowed in such places.
 
