@@ -33,11 +33,11 @@ arithmetic and convert 'at the last minute'.
 ## Technical considerations
 
 There are two basic approaches to setting up floating point systems in TeX:
-either use dimensions or doing everything in integer arthimetic.
+either use dimensions or doing everything in integer arithmetic.
 
 Using dimensions, the input range is limited and the output has restricted
 accuracy. But on the other hand, many calculations are quite short and they
-are fast. On the other hand, if everything is coded in integer arthimetic,
+are fast. On the other hand, if everything is coded in integer arithmetic,
 the programmer can control the accuracy completely, at the cost of speed.
 
 Although it's not an absolute requirement, e-TeX does make doing things a bit
