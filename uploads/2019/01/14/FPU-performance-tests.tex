@@ -1,0 +1,597 @@
+% !TeX program = LuaLaTeX
+
+\documentclass{article}
+
+% Test set up
+\usepackage{xparse}
+\usepackage{expl3}
+\usepackage{l3benchmark}
+\usepackage{siunitx}
+
+% Create this without worrying about space catcode
+\directlua{
+  function math.round(num,places)
+    local mult = 10^(places or 0)
+    return math.floor(num * mult + 0.5) / mult
+  end
+}
+
+\ExplSyntaxOn
+
+\tl_map_function:nN { \a \b \c \d \theta \phi \psi } \cs_undefine:N
+
+\tl_const:Nn \a { 1.2345432123454321 }
+\tl_const:Nn \b { 6.7890987678909876 }
+\tl_const:Nn \c { 0.1234567890 }
+\tl_const:Nn \d { 124.499999995 }
+\tl_const:Nn \theta { 1.2345432123454321 }
+\tl_const:Nn \phi { 56.123456 }
+\tl_const:Nn \psi { 8958937768937 }
+
+\clist_const:Nn \c_FPU_packages_clist
+  {
+    apnum , calculator , fltpoint , fp , minifp ,
+    pgf , pgf/fpu , pst-fp , xfp , xint , Lua
+  }
+\clist_const:Nn \c_FPU_truncate_clist
+  { apnum }
+\clist_const:Nn \c_FPU_operations_clist
+  {
+    add , sub , mul , div ,
+    sin , asin , sind , asind , tan ,
+    sqrt , exp , ln , powa , powb , round , rand
+  }
+\prop_const_from_keyval:Nn \c_FPU_headers_prop
+  {
+    add   = a + b ,
+    sub   = a - b ,
+    mul   = a \times b ,
+    div   = a / b ,
+    sin   = \sin \theta ,
+    asin  = \sin^{-1} c ,
+    sind  = \operatorname{sind} \phi ,
+    asind = \operatorname{sind}^{-1} c ,
+    tan   = \tan \psi ,
+    sqrt  = \sqrt{a} ,
+    exp   = \exp a ,
+    ln    = \ln a ,
+    powa  = a^{5} ,
+    powb  = a^{b} ,
+    round = { \operatorname{round}(d,2) } ,
+    rand  = \operatorname{rand}
+  }
+\prop_const_from_keyval:Nn \c_FPU_reference_prop
+  {
+    add   =   8.0236419802364197 ,
+    sub   =  -5.5545555555455555 ,
+    mul   =   8.38143580184255494205616761774196 ,
+    div   =   0.181841987361297309007277751651119441362366771947008279478 ,
+    sin   =   0.943997582841473325230217993439332358634752044389734927907 ,
+    asin  =   0.123772572426717079312129718729268279656734582533203860935 ,
+    sind  =   0.830240547698943669835498033889854701569671992071032447789 ,
+    asind =   7.091646019528194193384848541076562988562309332737335350248 ,
+    tan   =  -2.201981210563777574952429166191305059092422296794494e-14 ,
+    sqrt  =   1.111100001055454999048697122213623776817146192059345187231 ,
+    exp   =   3.436808270507890764525378584162657688867138285048568523860 ,
+    ln    =   0.210701033115489931548610648387037177434168235177595191659 ,
+    powa  =   2.867685233739578582525836800461711238862147540675384343050 ,
+    powb  =   4.180664161883741673431741106834848819770645628851729772885 ,
+    round = 124.50
+  }
+
+% apnum
+\prop_const_from_keyval:Nn \c_FPU_ops_apnum_prop
+  {
+    add   = \a + \b,
+    sub   = \a - \b,
+    mul   = \a * \b,
+    div   = \a / \b,
+    sin   = \SIN{\theta},
+    asin  = \ASIN{\c},
+    tan   = \TAN{\psi},
+    sqrt  = \SQRT{\a},
+    exp   = \EXP{\a},
+    ln    = \LN{\a},
+    powa  = \a^{5}
+  }
+\cs_new_protected:Npn \FPU_op_apnum:n #1 { \evaldef \result {#1} }
+\cs_new_protected:Npn \FPU_op_apnum_round:
+  {
+    \tl_set_eq:NN \result \d
+    \apROUND \result {2}
+  }
+\cs_new_protected:Npn \FPU_setup_apnum:
+  { \input { apnum } }
+
+% calculator
+\prop_const_from_keyval:Nn \c_FPU_ops_calculator_prop
+  {
+    add   = \ADD\a\b,
+    sub   = \SUBTRACT\a\b,
+    mul   = \MULTIPLY\a\b,
+    div   = \DIVIDE\a\b,
+    sin   = \SIN\theta,
+    asin  = \ARCSIN\c,
+    sind  = \DEGREESSIN\phi, 
+    sqrt  = \SQUAREROOT\a,
+    exp   = \EXP\a,
+    ln    = \LOG\a,
+    powa  = \POWER\a{5},
+    powb  = \EXP[\a]\b,
+    round = \ROUND[2]\d
+  }
+\cs_new_protected:Npn \FPU_op_calculator:n #1 { #1 \result }
+
+% fltpoint
+\prop_const_from_keyval:Nn \c_FPU_ops_fltpoint_prop
+  {
+    add   = \fpAdd{\a\b},
+    sub   = \fpSub{\a\b},
+    mul   = \fpMul{\a\b},
+    div   = \fpDiv{\a\b},
+    round = \fpRound{\d{2}}
+  }
+\cs_new_protected:Npn \FPU_op_fltpoint:n #1
+  { \FPU_op_fltpoint_aux:nn #1 }
+\cs_new_protected:Npn \FPU_op_fltpoint_aux:nn #1#2
+  { #1 \result #2 }
+
+% fp
+\prop_const_from_keyval:Nn \c_FPU_ops_fp_prop
+  {
+    add   = \FPadd{\a\b},
+    sub   = \FPsub{\a\b},
+    mul   = \FPmul{\a\b},
+    div   = \FPdiv{\a\b},
+    sin   = \FPsin{\theta},
+    asin  = \FParcsin{\c},
+    tan   = \FPtan{\psi},
+    sqrt  = \FProot{\a{2}},
+    exp   = \FPexp{\a},
+    ln    = \FPln{\a},
+    powa  = \FPpow{\a{5}},
+    powb  = \FPpow{\a\b},
+    rand  = \FPrandom{}
+  }
+\cs_new_protected:Npn \FPU_op_fp:n #1
+  { \FPU_op_fp_aux:nn #1 }
+\cs_new_protected:Npn \FPU_op_fp_aux:nn #1#2
+  { #1 \result #2 }
+
+% minifp
+\prop_const_from_keyval:Nn \c_FPU_ops_minifp_prop
+  {
+    add   = \MFPadd{\a}{\b},
+    sub   = \MFPsub{\a}{\b},
+    mul   = \MFPmul{\a}{\b},
+    div   = \MFPdiv{\a}{\b},
+    sind  = \MFPsin{\theta},
+    sqrt  = \MFPsqrt{\a},
+    exp   = \MFPexp{\a},
+    ln    = \MFPln{\a},
+    powa  = \MFPpow{\a}{5},
+    round = \MFPround{2}{\d},
+    rand  = \MFPrand{1}
+  }
+\cs_new_protected:Npn \FPU_op_minifp:n #1
+  { #1 \result }
+
+% pgf
+\prop_const_from_keyval:Nn \c_FPU_ops_pgf_prop
+  {
+    add   = \pgfmathadd{\a}{\b},
+    sub   = \pgfmathsubtract{\a}{\b},
+    mul   = \pgfmathmultiply{\a}{\b},
+    div   = \pgfmathdivide{\a}{\b},
+    sin   = \pgfmathsin{\theta},
+    asin  = \pgfmathasin{\c},
+    sind  = \pgfmathsin{\phi},
+    asind = \pgfmathasin{\c},
+    sqrt  = \pgfmathsqrt{\a},
+    exp   = \pgfmathexp{\a},
+    ln    = \pgfmathln{\a},
+    powa  = \pgfmathpow{\a}{5},
+    powb  = \pgfmathpow{\a}{\b},
+    rand  = \pgfmathrnd
+  }
+\cs_new_protected:Npn \FPU_op_pgf:n #1
+  {
+    #1
+    \tl_set_eq:NN \result \pgfmathresult
+  }
+\cs_new_protected:Npn \FPU_setup_pgf_sin:
+  { \pgfkeys { /pgf/trig~format=rad } }
+\cs_new_protected:Npn \FPU_setup_pgf_asin:
+  { \pgfkeys { /pgf/trig~format=rad } }
+
+% pgf/fpu
+\prop_const_from_keyval:cn { c_FPU_ops_pgf/fpu_prop }
+  {
+    add   = \a + \b,
+    sub   = \a - \b,
+    mul   = \a * \b,
+    div   = \a / \b,
+    sin   = sin(\theta),
+    asin  = asin(\c),
+    sind  = sin(\phi),
+    asind = asin(\c),
+    sqrt  = sqrt(\a),
+    exp   = exp(\a),
+    ln    = ln(\a),
+    powa  = {pow(\a,5)},
+    powb  = {pow(\a,\b)},
+    rand  = rnd
+  }
+\cs_new_protected:cpn { FPU_op_pgf/fpu:n } #1
+  {
+    \pgfmathparse {#1}
+    \tl_set_eq:NN \result \pgfmathresult
+  }
+\cs_new_protected:cpn { FPU_setup_pgf/fpu: }
+  { \pgfkeys { /pgf/fpu = true , /pgf/fpu/output~format = fixed } }
+\cs_new_protected:cpn { FPU_setup_pgf/fpu_sin: }
+  { \pgfkeys { /pgf/trig~format=rad } }
+\cs_new_protected:cpn { FPU_setup_pgf/fpu_asin: }
+  { \pgfkeys { /pgf/trig~format=rad } }
+
+% pst-fp
+\prop_const_from_keyval:cn { c_FPU_ops_pst-fp_prop }
+  {
+    add   = \pstFPadd{\a\b},
+    sub   = \pstFPsub{\a\b},
+    mul   = \pstFPmul{\a\b},
+    div   = \pstFPdiv{\a\b}
+  }
+\cs_new_protected:cpn { FPU_op_pst-fp:n } #1
+  { \use:c { FPU_op_pst-fp_aux:nn } #1 }
+\cs_new_protected:cpn { FPU_op_pst-fp_aux:nn } #1#2
+  { #1 \result #2 }
+
+% xfp
+\prop_const_from_keyval:Nn \c_FPU_ops_xfp_prop
+  {
+    add   = \a + \b,
+    sub   = \a - \b,
+    mul   = \a * \b,
+    div   = \a / \b,
+    sin   = sin(\theta),
+    asin  = asin(\c),
+    sind  = sind(\phi),
+    asind = asind(\c),
+    tan   = tan(\psi),
+    sqrt  = sqrt(\a),
+    exp   = exp(\a),
+    ln    = ln(\a),
+    powa  = \a^{5},
+    powb  = \a^\b,
+    round = {round(\d,2)},
+    rand  = rand()
+  }
+\cs_new_protected:Npn \FPU_op_xfp:n #1
+  { \tl_set:Nx \result { \fpeval {#1} } }
+
+% xint
+\prop_const_from_keyval:Nn \c_FPU_ops_xint_prop
+  {
+    add   = \xintFloatAdd{\a}{\b},
+    sub   = \xintFloatSub{\a}{\b},
+    mul   = \xintFloatMul{\a}{\b},
+    div   = \xintFloatDiv{\a}{\b},
+    sqrt  = \xintFloatSqrt{\a},
+    powa  = \xintFloatPower{\a}{5},
+    round = \thexintfloatexpr[4] \d\relax,
+    rand  = \thexintfloatexpr random()\relax
+  }
+\cs_new_protected:Npn \FPU_op_xint:n #1
+  { \tl_set:Nx \result {#1} }
+
+% Lua
+\prop_const_from_keyval:Nn \c_FPU_ops_Lua_prop
+  {
+    add   = \a + \b,
+    sub   = \a - \b,
+    mul   = \a * \b,
+    div   = \a / \b,
+    sin   = math.sin(\theta),
+    asin  = math.asin(\c),
+    sind  = math.sind(\phi),
+    asind = math.deg(math.asin(\c)),
+    tan   = math.tan(\psi),
+    sqrt  = math.sqrt(\a),
+    exp   = math.exp(\a),
+    ln    = math.log(\a),
+    powa  = \a^5,
+    powb  = \a^\b,
+    round = {math.round(\d,2)},
+    rand  = math.random()
+  }
+\cs_new_protected:Npn \FPU_op_Lua:n #1
+  { \tl_set:Nx \result { \directlua{ tex.print(#1) } } }
+
+\clist_map_inline:Nn \c_FPU_packages_clist
+  {
+    \prop_new:c { g_FPU_ \tl_to_str:n {#1} _time_prop }
+    \prop_new:c { g_FPU_ \tl_to_str:n {#1} _result_prop }
+  }
+
+\clist_new:N \l_FPU_packages_clist
+\clist_set_eq:NN \l_FPU_packages_clist \c_FPU_packages_clist
+\clist_remove_all:Nn \l_FPU_packages_clist { apnum }
+\clist_remove_all:Nn \l_FPU_packages_clist { pgf/fpu }
+
+\tl_new:N \l_FPU_tmp_tl
+
+\cs_new_protected:Npn \FPUtest #1
+  {
+    \group_begin:
+      \cs_if_exist_use:c { FPU_setup_ #1 : }
+      \clist_map_inline:Nn \c_FPU_operations_clist
+        {
+          \prop_get:cnNT { c_FPU_ops_ #1 _prop } {##1} \l_FPU_tmp_tl
+            {
+              \FPU_benchmark:nncV {#1} {##1} { FPU_op_ #1 :n }
+                \l_FPU_tmp_tl
+            }
+            {
+              \cs_if_exist:cT { FPU_op_ #1 _ ##1 : }
+                { \FPU_benchmark:nncn {#1} {##1} { FPU_op_ #1 _##1 : } { } }
+            }
+        }
+    \group_end:
+  }
+\cs_new_protected:Npn \FPU_benchmark:nnNn #1#2#3#4
+  {
+    \iow_term:n {#1 : ~ #2}
+    \group_begin:
+      \cs_if_exist_use:c { FPU_setup_ #1 _ #2 : }
+      \benchmark:n { #3 {#4} }
+      \prop_gput:cnx { g_FPU_ #1 _time_prop } {#2}
+        { \fp_use:N \g__benchmark_time_fp }
+      #3 {#4}
+      \prop_gput:cnV { g_FPU_ #1 _result_prop } {#2}
+        \result
+     \group_end:
+  }
+\cs_generate_variant:Nn \FPU_benchmark:nnNn { nncV , nncn }
+\ExplSyntaxOff
+
+%\input{apnum} % Has to be done in test set-up: name clashes with calculator
+\usepackage{calculator}
+\usepackage{fltpoint}
+\fpDecimalSign{.}
+\usepackage{fp}
+\FPmessagesfalse
+\usepackage{xfp}
+\usepackage[extra]{minifp}
+\usepackage{pgf}
+\usepgflibrary{fpu}
+\usepgflibrary{luamath}
+\usepackage{xintexpr}
+\makeatletter
+\let\ifpst@psfonts\iftrue
+\makeatother
+\input{pst-fp}
+
+\ExplSyntaxOn
+\use:n
+  {
+    \ExplSyntaxOff
+    \clist_map_function:NN \c_FPU_packages_clist \FPUtest
+  }
+
+\ExplSyntaxOn
+
+\iow_new:N \g_FPU_iow
+\iow_open:Nn \g_FPU_iow { FPU.dat }
+
+\cs_new_protected:Npn \FPU_write:n #1
+  { \iow_now:Nx \g_FPU_iow {#1} }
+
+\cs_new_protected:Npn \FPU_save:nnn #1#2#3
+  {
+    \FPU_save:nnnnn {#1} {#2} {#3} { 3.2 } { time }
+    \FPU_save:nnnnn {#1} {#2} {#3} { 2 } { result }
+  }
+\cs_new_protected:Npn \FPU_save:nnnnn #1#2#3#4#5
+  {
+    \FPU_write:n { \token_to_str:N \begin {#3} }
+    \cs_set_protected:Npn \FPU_write:n ##1
+      { \iow_now:Nx \g_FPU_iow { \c_space_tl \c_space_tl ##1 } }    
+    \FPU_write:n
+      { \token_to_str:N \caption { \exp_not:n {#1} } }
+    \FPU_write:n { \token_to_str:N \sisetup { table-format ~=~ #4 } }
+    \FPU_write:n
+      {
+        \token_to_str:N \begin {tabular}
+          {
+            @ { }
+            l
+            * { \clist_count:n {#2} } { S }
+            @ { }
+          }
+      }
+    \cs_set_protected:Npn \FPU_write:n ##1
+      {
+        \iow_now:Nx \g_FPU_iow
+          { \c_space_tl \c_space_tl \c_space_tl \c_space_tl ##1 }
+      }
+    \FPU_write:n { \token_to_str:N \toprule }
+    \cs_set:Npn \FPU_tmp:n ##1
+      { 
+        \c_space_tl \exp_not:N & ~ 
+        { $ \prop_item:Nn \c_FPU_headers_prop {##1} $ }
+      }
+    \FPU_write:n
+      {
+        \clist_map_function:nN {#2} \FPU_tmp:n
+        \c_space_tl \exp_not:N \\
+      }
+    \FPU_write:n { \token_to_str:N \midrule }
+    \clist_map_inline:Nn \c_FPU_packages_clist
+      { \FPU_write_line:nnn {#5} {##1} {#2} }
+    \FPU_write:n { \token_to_str:N \bottomrule }
+    \FPU_write:n { \token_to_str:N \end {tabular} }
+    \cs_set_protected:Npn \FPU_write:n ##1
+      { \iow_now:Nx \g_FPU_iow { ##1 } }   
+    \FPU_write:n { \token_to_str:N \end {#3} }
+    \FPU_write:n { }
+  }
+\tl_new:N \l_FPU_data_tl
+\cs_new_protected:Npn \FPU_write_line:nnn #1#2#3
+  {
+    \tl_set:Nx \l_FPU_data_tl { \token_to_str:N \pkg {#2} ~ }
+    \clist_map_inline:nn {#3}
+      {
+        \tl_put_right:Nn \l_FPU_data_tl { & ~ } 
+        \prop_get:cnNTF { g_FPU_ \tl_to_str:n {#2} _ #1 _prop } {##1}
+          \l_FPU_tmp_tl
+          {
+            \use:c { FPU_write_format_ #1 :n } {##1}
+            \tl_put_right:Nx \l_FPU_data_tl
+              { \l_FPU_tmp_tl \c_space_tl }
+          }
+          { \tl_put_right:Nn \l_FPU_data_tl { { --- } ~ } }
+      }
+    \FPU_write:n
+      {
+        \tl_use:N \l_FPU_data_tl
+        \token_to_str:N \\ 
+      }
+  }
+\cs_new_protected:Npn \FPU_write_format_time:n #1
+  {
+    \tl_set:Nx \l_FPU_tmp_tl
+      { \FPU_to_tl:n { \l_FPU_tmp_tl / 1e-4 } }
+  }
+% See l3benchmark's \__benchmark_fp_to_tl:N
+\cs_new:Npn \FPU_to_tl:n #1
+  { \exp_args:Nf \FPU_to_tl_aux:n { \fp_eval:n {#1} } }
+\cs_new:Npn \FPU_to_tl_aux:n #1
+  {
+    \fp_compare:nTF { abs(#1) < 1000 }
+      { \fp_to_tl:n { round(#1, 2 - logb(#1)) } }
+      {
+        \exp_args:Nf \FPU_to_tl_aux:nn
+          { \fp_to_int:n { logb(#1) } } #1
+      }
+  }
+\cs_new:Npn \FPU_to_tl_aux:nn #1#2
+  { \fp_to_tl:n { round(#2 * 1e-#1, 2) } e#1 }
+\cs_new_protected:Npn \FPU_write_format_result:n #1
+  { \exp_args:NV \FPU_write_format_result:nn \l_FPU_tmp_tl {#1} }
+\cs_new_protected:Npn \FPU_write_format_result:nn #1#2
+  {
+    \prop_get:NnNTF \c_FPU_reference_prop
+      {#2} \l_FPU_tmp_tl
+      { \exp_args:NV \FPU_write_format_result_auxi:nn \l_FPU_tmp_tl {#1} }
+      { \tl_set:Nn \l_FPU_tmp_tl { { --- } ~ } }
+  }
+\cs_new_protected:Npn \FPU_write_format_result_auxi:nn #1#2
+  { \FPU_write_format_results_auxii:w #1 \q_mark #2 \q_stop }
+\cs_new_protected:Npn \FPU_write_format_results_auxii:w #1#2 \q_mark #3#4 \q_stop
+  {
+    \str_if_eq:nnTF {#1} { - }
+      {
+        \str_if_eq:nnTF {#3} { - }
+          {
+            \exp_args:Nff \FPU_write_format_result_auxiii:nn
+              { \FPU_exp_to_digits:n {#2} }
+              { \FPU_exp_to_digits:n {#4} }
+          }
+          { \FPU_write_format_result_failed: }
+      }
+      {
+        \str_if_eq:nnTF {#3} { - }
+          { \FPU_write_format_result_failed: }
+          {
+            \exp_args:Nff \FPU_write_format_result_auxiii:nn
+              { \FPU_exp_to_digits:n {#1#2} }
+              { \FPU_exp_to_digits:n {#3#4} }
+          }
+      }   
+  }
+\cs_new:Npn \FPU_exp_to_digits:n #1
+  { \FPU_exp_to_digits_auxi:w #1 . 0 . \q_stop }
+\cs_new:Npn \FPU_exp_to_digits_auxi:w #1 . #2 . #3 \q_stop
+  { \FPU_exp_to_digits_auxii:w #1 . #2 e 0 e \q_stop }
+\cs_new:Npn \FPU_exp_to_digits_auxii:w #1 . #2 e #3 e #4 \q_stop
+  {
+    \int_compare:nNnTF {#3} = { 0 }
+      {
+        \tl_if_blank:nTF {#1}
+          { { 0 } } 
+          { {#1} }
+        {#2}
+      }
+      {
+        \int_compare:nNnTF {#3} > { 0 }
+          { \ERROR }
+          {
+            \exp_args:Nf \FPU_exp_to_digits_auxiii:nn
+              { \prg_replicate:nn { -#3 - 1 } { 0 } #1#2 } { 0 }
+          }
+      }
+  }
+\cs_new:Npn \FPU_exp_to_digits_auxiii:nn #1#2 { {#2} {#1} }
+\cs_new_protected:Npn \FPU_write_format_result_auxiii:nn #1#2
+  { \FPU_write_format_result_auxiv:nnnn #1 #2 }
+\cs_new_protected:Npn \FPU_write_format_result_auxiv:nnnn #1#2 #3#4
+  {
+    \str_if_eq:nnTF {#1} {#3}
+      {
+        \FPU_write_format_result_auxvi:nNw
+          { 0 } #4 \q_nil \q_mark #2 \q_nil \q_stop
+      }
+      { \FPU_write_format_result_failed: }
+  }
+\cs_new_protected:Npn \FPU_write_format_result_auxvi:nNw
+  #1 #2#3 \q_mark #4#5 \q_stop
+  {
+    \bool_lazy_or:nnTF
+      { \quark_if_nil_p:N #2 }
+      { \quark_if_nil_p:N #4 }
+      { \tl_set:Nn \l_FPU_tmp_tl { { ALL } } }
+      {
+        \int_compare:nNnTF {#2} = {#4}
+          {
+            \exp_args:Nf \FPU_write_format_result_auxvi:nNw
+              { \int_eval:n { #1 + 1 } }
+              #3 \q_mark #5 \q_stop
+          }
+          { \FPU_write_format_result_auxvii:nNNw {#1} #2#4 #5 \q_stop }
+      }
+  }
+\cs_new_protected:Npn \FPU_write_format_result_auxvii:nNNw
+  #1 #2#3 #4#5 \q_stop
+  {
+    \tl_set:Nn \l_FPU_tmp_tl { #1 }
+    \quark_if_nil:NF #4
+      {
+        \int_compare:nNnT #4 > 4
+          {
+            \int_compare:nNnT { #3 + 1 } = #2
+              { \tl_set:Nn \l_FPU_tmp_tl { { ALL } } }
+          }
+      }
+  }
+\cs_new_protected:Npn \FPU_write_format_result_failed:
+  { \tl_set:Nn \l_FPU_tmp_tl { 0 } }
+\cs_new_protected:Npn \FPU_write_format_result_success:
+  { \tl_set:Nn \l_FPU_tmp_tl { { ACCURATE } } }
+
+\FPU_save:nnn
+  { Basic~operations }
+  { add , sub , mul , div }
+  { table }
+
+\FPU_save:nnn
+  { Trigonometry }
+  { sin , asin , sind , asind , tan }
+  { table* }
+
+\FPU_save:nnn
+  { Extended~operations }
+  { sqrt , exp , ln , powa , powb , round , rand }
+  { table* }
+
+\stop
