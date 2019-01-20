@@ -39,4 +39,4 @@ will give a warning if there is any code that isn't covered by the team (and so 
 
 ---
 
-I handled most of the conversion from Subversion to Git, and I'd like to acknowledge [SubGit](https://subgit.com/) from TMate Software for making the process (largely) painless. As LaTeX is an open source project, we were able to use this tool for free. We used SubGit for the 'live' mirroring of LaTeX3 to GitHub for several years, and it worked flawlessly. The same was true for the trickier task of moving LaTeX2e: the repo history had a few wrinkles that we slightly more difficult to map to Git, but we got there.
+I handled most of the conversion from Subversion to Git, and I'd like to acknowledge [SubGit](https://subgit.com/) from TMate Software for making the process (largely) painless. As LaTeX is an open source project, we were able to use this tool for free. We used SubGit for the 'live' mirroring of LaTeX3 to GitHub for several years, and it worked flawlessly. The same was true for the trickier task of moving LaTeX2e: the repo history had a few wrinkles that were slightly more difficult to map to Git, but we got there.
