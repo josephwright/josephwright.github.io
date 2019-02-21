@@ -32,7 +32,7 @@ There are then some methods to get the counter value back out. LaTeX creates a `
 
 ```latex
 \themycounter % Prints the current value
-\ifnum\value{mycounter} &gt; \value{myothercounter}%
+\ifnum\value{mycounter} > \value{myothercounter}%
   % Do stuff!
 \fi
 ```
@@ -65,7 +65,7 @@ The value of a count register can be recovered using `\the` or `\number`, and th
 ```latex
 \the\mycount   % Prints the current value
 \number\mycount % The same result
-\ifnum\mycount &gt; \myothercount
+\ifnum\mycount > \myothercount
   % Do stuff!
 \fi
 ```
