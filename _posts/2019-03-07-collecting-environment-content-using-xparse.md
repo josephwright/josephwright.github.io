@@ -17,7 +17,7 @@ measurement of the width of `align` environments. Not surprisingly, this idea
 turns out to be more widely useful. It appears in a generic form in the
 [`environ`](https://ctan.org/pkg/environ) package, which allows us
 to do
-```LaTeX
+```latex
 \documentclass{article}
 \usepackage{environ}
 \begin{document}
@@ -34,7 +34,7 @@ There have been long-standing requests to add a similar ability to
 After some consideration, the LaTeX team have now added this ability as a
 new type of argument: `b`-type. Rather than requiring a separate command, this
 integrates directly into the existing approach in `xparse`:
-```LaTeX
+```latex
 \documentclass{article}
 \usepackage{xparse}
 \begin{document}
@@ -49,7 +49,7 @@ Probably most notable here is the fact that the environment content is
 available simply as `#1`, rather than requiring a special macro name. It also means
 that there are no new mechanisms to learn: we can add optional and mandatory
 arguments to the environment before collecting the body.
-```LaTeX
+```latex
 \documentclass{article}
 \usepackage{xparse}
 \begin{document}
