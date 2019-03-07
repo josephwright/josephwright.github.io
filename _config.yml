@@ -5,3 +5,5 @@ description: Coding in the TeX world
 plugins:
 - jekyll-feed
 - jekyll-sitemap
+
+highlighter: rouge
