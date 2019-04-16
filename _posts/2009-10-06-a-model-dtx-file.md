@@ -14,8 +14,8 @@ The idea of constructing a `.dtx` file in the way I'll describe is that it lets 
 - All of the files for a package can be derived from a single source (unless you need a binary, of course).
 - The README is included in the `.dtx`, with this useful information at the start.
 - The `.ins` file is included in the `.dtx`, so the file is self-extracting.
-- Running `(pdf)tex _&lt;name&gt;_.dtx` extracts the code and associated files (`.ins`, README, _etc_.).
-- Running `(pdf)latex _&lt;name&gt;_.dtx` does the extraction then typesets the documentation. This way, the documentation always has the latest code available, and users don't need to worry about which method they use to get stuff extracted.
+- Running `(pdf)tex <_name_>.dtx` extracts the code and associated files (`.ins`, README, _etc_.).
+- Running `(pdf)latex <_name_>.dtx` does the extraction then typesets the documentation. This way, the documentation always has the latest code available, and users don't need to worry about which method they use to get stuff extracted.
 
 Most of the ideas here are not mine: Will Robertson came up with a lot of this. I'm just going to give some details of what is going on. I'm going to present the source in order, with a section of the source followed by some comments explaining what is going on. I'm going to call the demonstration package 'demopkg': something easy for search and replace. Where ever possible, `\jobname` is used in the source so that the file name changes automatically when moving from one package to another.
 
@@ -27,15 +27,15 @@ Most of the ideas here are not mine: Will Robertson came up with a lot of this. 
 The file starts off with an `\iffalse` which will mean that ltxdoc will skip all of this code when typesetting the document. I use [TeXworks](https://tug.org/texworks) as my editor, so I include the special `!TEX program` comment so that it defaults to pdfLaTeX with all of my files: this does no harm so may as well be there. The same comment is also recognised by [TeXShop](https://pages.uoregon.edu/koch/texshop/).
 
 ```latex
-%&lt;*internal&gt;
+%<*internal>
 \iffalse
-%&lt;/internal&gt;
+%</internal>
 ```
 
 There is then a guard called 'internal': this is never extracted out, but lets us have an uncommented `\iffalse` in the code. which will mean that the next section will be ignored by TeX initially. The idea here is that we are going to have some text (the README), that TeX would otherwise try to typeset. We don't want that, so need to skip it at the moment.
 
 ```latex
-%&lt;*readme&gt;
+%<*readme>
 ----------------------------------------------------------------
 demopkg --- description text
 E-mail: you@your.domain
@@ -44,25 +44,25 @@ See https://www.latex-project.org/lppl.txt
 ----------------------------------------------------------------
 
 Some text about the package: probably the same as the abstract.
-%&lt;/readme&gt;
+%</readme>
 ```
 
 This part is pretty obvious: the README file for the package, inside guards called 'readme'. As you might expect, this will get extracted out later as the README file.  In the initial TeX run, this text will be skipped (because of the `\iffalse`), but when DocStrip runs it will show up (as DocStrip will ignore the `\iffalse`, which is in a different set of guards).
 
 ```latex
-%&lt;*internal&gt;
+%<*internal>
 \fi
 \def\nameofplainTeX{plain}
 \ifx\fmtname\nameofplainTeX\else
   \expandafter\begingroup
 \fi
-%&lt;/internal&gt;
+%</internal>
 ```
 
 Back with the special 'internal' guards, the `\iffalse` is ended and a check is made on the current format. For LaTeX, a group needs to be begun so that DocStrip can be loaded without later problems. For plain TeX, only the extraction is going to happen, so that is not an issue.
 
 ```latex
-%&lt;*install&gt;
+%<*install>
 \input docstrip.tex
 \keepsilent
 \askforoverwritefalse
@@ -82,7 +82,7 @@ See https://www.latex-project.org/lppl.txt
 \endpreamble
 \postamble
 
-Copyright (C) 2009 by You &lt;you@your.domain&gt;
+Copyright (C) 2009 by You <you@your.domain>
 
 This work may be distributed and/or modified under the
 conditions of the LaTeX Project Public License (LPPL), either
@@ -111,17 +111,17 @@ Some simple boiler-plate text, that DocStrip will add to the start and end of ea
 }
 ```
 
-This section is the instruction to actually extract the LaTeX package file from the `.dtx`. Each file to be extracted needs a line saying how to create it, so if there is a class to extract there would be a line for that, and so on. The `\usedir` instruction can be used to tell DocStrip how to lay files out: it is best to include it as some people use this. Normally, it will just specify `tex/latex/_&lt;package&gt;_`, but might change if there are lots of files to lay out in a structured way. For example, cfg files are often put in `tex/latex/_&lt;package&gt;_/config`.
+This section is the instruction to actually extract the LaTeX package file from the `.dtx`. Each file to be extracted needs a line saying how to create it, so if there is a class to extract there would be a line for that, and so on. The `\usedir` instruction can be used to tell DocStrip how to lay files out: it is best to include it as some people use this. Normally, it will just specify `tex/latex/_<package>_`, but might change if there are lots of files to lay out in a structured way. For example, cfg files are often put in `tex/latex/_<package>_/config`.
 
 ```latex
-%&lt;/install&gt;
-%&lt;install&gt;\endbatchfile
+%</install>
+%<install>\endbatchfile
 ```
 
 That ends what will get extracted into the `.ins` file, so the install guard is closed. The second line is needed as the `.ins` file needs to include `\endbatchfile` (for DocStrip), but we don't want the same effect when the `.dtx` is doing the extracting.
 
 ```latex
-%&lt;*internal&gt;
+%<*internal>
 \usedir{source/latex/demopkg}
 \generate{
   \file{\jobname.ins}{\from{\jobname.dtx}{install}}
@@ -136,22 +136,22 @@ That ends what will get extracted into the `.ins` file, so the install guard is 
 \else
   \expandafter\endgroup
 \fi
-%&lt;/internal&gt;
+%</internal>
 ```
 
 When extracting the `.dtx` (with TeX or LaTeX), we need to generate the `.ins` file and the README, which is done here. The `.ins` file is quite simple: the same process as the `.sty` file. However, there are a couple of points about the README. First, we don't want DocStrip to add any extra text, hence `\nopreamble` and `\nopostamble`. Second, DocStrip can only make files with extensions, so the file has to be called README.txt. (It can be renamed later: hopefully there is no loss of clarity.) If plain TeX is in use, that is the end of the processing, whereas for LaTeX the group containing DocStrip can be closed.
 
 ```latex
-%&lt;*package&gt;
+%<*package>
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{demopkg}[2009/10/06 v1.0 description text]
-%&lt;/package&gt;
+%</package>
 ```
 
 Next, the fact that DocStrip can process blocks in different places can be used for the same file. This part of the package does not really need to be printed later on, and done this way the version number is included near the top of the source. Things don't have to be done this way: this section can always be left out if you like.
 
 ```latex
-%&lt;*driver&gt;
+%<*driver>
 \documentclass{ltxdoc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -163,7 +163,7 @@ Next, the fact that DocStrip can process blocks in different places can be used 
 \begin{document}
   \DocInput{\jobname.dtx}
 \end{document}
-%&lt;/driver&gt;
+%</driver>
 ```
 
 The next block is the driver: this is the information used to typeset the code and documentation. I normally load the package I'm talking about so that I can use it in the documentation, and load a few refinements (modern fonts, `hyperdoc` to get hyperlinks, and so on). There are a few `ltxdoc`-specific instructions here: they mean that we get a proper index and information linking macro use information to the code.
@@ -227,7 +227,7 @@ missing the code out.
 
 ```latex
 %    \begin{macrocode}
-%&lt;*package&gt;
+%<*package>
 %    \end{macrocode}
 ```
 
@@ -252,7 +252,7 @@ Here we have some code: separated out using the macrocode environment. As I desc
 
 ```latex
 %    \begin{macrocode}
-%&lt;/package&gt;
+%</package>
 %    \end{macrocode}
 %\Finale
 ```
