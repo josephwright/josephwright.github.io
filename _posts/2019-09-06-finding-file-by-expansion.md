@@ -31,7 +31,7 @@ That's done by using the `\openin` primitive to open the file, then using an
 `\ifeof` test to see if we have reached the end of the file. That works because
 a non-existent file gives an immediate end-of-file for a read (`\openin`), but
 does not lead to an errors (in contrast to `\input`). The downside to this
-approach is it performs an assignment, so is no usable in an expansion context.
+approach is it performs an assignment, so is not usable in an expansion context.
 
 Some years ago, pdfTeX introduced a number of 'file information' primitives,
 including `\pdffilesize`. This takes a file name, and expands to the size of
