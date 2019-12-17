@@ -110,10 +110,10 @@ Don't worry if you forget to do the test: the special marker that is used here w
 
 ## Two types of optional argument
 
-Sometimes you might want two different optional arguments, and be able to tell which is which. This can be done by using something other than square brackets, often using angle brackets ('&lt;' and '&gt;'). We can do that using the letter '`d`' (or '`D`' if we give a default).
+Sometimes you might want two different optional arguments, and be able to tell which is which. This can be done by using something other than square brackets, often using angle brackets ('<' and '>'). We can do that using the letter '`d`' (or '`D`' if we give a default).
 
 ```latex
-\NewDocumentCommand\TwoTypesOfOpt{D&lt;&gt;{}O{}m}%
+\NewDocumentCommand\TwoTypesOfOpt{D<>{}O{}m}%
   {Text using #1, #2 and #3}
 ```
 
@@ -122,11 +122,11 @@ What input syntax does this make? Let's look at some examples
 ```latex
 \TwoTypesOfOpt{text}             % One mandatory
 \TwoTypesOfOpt[text]{text}       % A normal optional
-\TwoTypesOfOpt&lt;text&gt;{text}       % A special optional
-\TwoTypesOfOpt&lt;text&gt;[text]{text} % Both optionals
+\TwoTypesOfOpt<text>{text}       % A special optional
+\TwoTypesOfOpt<text>[text]{text} % Both optionals
 ```
 
-How did that work? The first two characters after the '`D`' are used to find the optional argument, so in this case '`&lt;`' and '`&gt;`'.
+How did that work? The first two characters after the '`D`' are used to find the optional argument, so in this case '`<`' and '`>`'.
 
 ## Finding stars or other special markers
 
