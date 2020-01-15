@@ -102,7 +102,7 @@ for correct case changing with no user intervention required.
 ```LaTeX
 \exp_args:Ne \tl_show:n
   {
-    \text_uppercase:n { \aa{}ngst\o{}m  ~ caf\'{e} }
+    \text_uppercase:n { \aa{}ngstr\"{o}m  ~ caf\'{e} }
   }
 ```
 
