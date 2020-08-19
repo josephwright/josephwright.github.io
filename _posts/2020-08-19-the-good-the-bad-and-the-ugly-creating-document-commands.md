@@ -45,7 +45,7 @@ in `xparse` terms
 - Picture co-ordinates (`r()`), which are split into _x_ and _y_, so in
   `xparse` terms subject to `\SplitArgument`
 
-Mot of the time, the LaTeX kernel makes arguments _long_, which is shown as
+Most of the time, the LaTeX kernel makes arguments _long_, which is shown as
 `+` in `xparse` syntax.
 
 A star is _always_ used as the first argument after a command, so in some ways
