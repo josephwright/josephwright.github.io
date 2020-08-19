@@ -1,5 +1,5 @@
 ---
-title: The good, the bad and the ugly: creating document commands
+title: The good, the bad and the ugly&#58; creating document commands
 layout: post
 permalink: /2020/08/19/the-good-the-bad-and-the-ugly-creating-document-commands
 categories:
@@ -120,4 +120,4 @@ interface and implementation. As such, the fact that it's go more going on
 'beneath the hood' is worth it: it's a lot easier to track what's happening.
 The move into the kernel will make using `xparse` descriptions even easier to
 exploit, so it's important users give a little thought to the syntax they
-choose. 
+choose.
