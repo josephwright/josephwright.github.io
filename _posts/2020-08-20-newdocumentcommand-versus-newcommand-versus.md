@@ -57,18 +57,22 @@ and similar do not do that.
 The kernel's `\newcommand` can, as I've said, create commands with multiple
 mandatory arguments but only with one optional one. As a simple example, we
 might have
+<!-- {% raw %} -->
 ```latex
 \newcommand\foo[3][default]{%
     Code perhaps using #1 and definitely using #2 and #3%
 }
 ```
+<!-- {% endraw %} -->
 
 We can of course do the same using `\NewDocoumentCommand`
+<!-- {% raw %} -->
 ```latex
 \NewDocoumentCommand\foo{+O{default} +m +m}{%
     Code perhaps using #1 and definitely using #2 and #3%
 }
 ```
+<!-- {% endraw %} -->
 You'll notice that I've use `+m` for the mandatory arguments, as that matches
 `\newcommand`: the arguments can accept paragraphs. With `\newcommand`, all
 arguments either accept `\par` or do not: with `\NewDocumentCommand` we can
@@ -91,6 +95,7 @@ create the syntax for `\section`: a star, and optional argument and a mandatory
 one. I'll assume we are have `@` as a letter here. I'm also going to pass the
 presence of a star as the text `true` or `false`, as it makes things clearer.
 
+<!-- {% raw %} -->
 ```latex
 \newcommand\section{%
     \@ifstar
@@ -109,6 +114,7 @@ presence of a star as the text `true` or `false`, as it makes things clearer.
     % #3 is the mandatory argument
 }
 ```
+<!-- {% endraw %} -->
 
 As you'll see, this is a bit tricky already, and it doesn't cover the case where
 we want to have the optional argument default to the mandatory one, when it's
@@ -117,6 +123,7 @@ engine-robust. We might of course use more complex paths for the star: we could
 have independent routes.
 
 Using `\NewDocumentCommand`, things are a lot easier
+<!-- {% raw %} -->
 ```latex
 \NewDocoumentCommand\section{s +O{#3} +m}{%
   % Here:
@@ -125,6 +132,7 @@ Using `\NewDocumentCommand`, things are a lot easier
   % #3 is the mandatory argument
 }
 ```
+<!-- {% endraw %} -->
 The minor difference now is that `#1` is a special token that we can test for
 truth using `IFBooleanTF`. I've also allowed for the optional argument picking
 up the mandatory one, when it's not given.
@@ -146,21 +154,25 @@ point-of-view, there's nothing new here.
 The [`twoopt`](https://ctan.org/pkg/twoopt) package allows a syntax similar to
 `\newcommand` but for creating two optional arguments. We'll take an example
 from it's documentation:
+<!-- {% raw %} -->
 ```latex
 \newcommandtwoopt\bsp[3][AA][BB]{%
     \typeout{\string\bsp: #1,#2,#3}%
 }
 ```
+<!-- {% endraw %} -->
 This is reasonably clear: we have an optional argument `#1`, and optional
 argument `#2` and a mandatory argument `#3`. The two optional arguments each here
 have a default.
 
 How does that look with `\NewDocumentCommand`?
+<!-- {% raw %} -->
 ```latex
 \NewDocumentCommand\bsp{+O{AA} +O{BB} +m}
     \typeout{\string\bsp: #1,#2,#3}%
 }
 ```
+<!-- {% endraw %} -->
 You'll see that we stay consistent here: the same syntax is used to create one,
 two or even more optional arguments. I wouldn't recommend using multiple
 optional arguments in most case, but when we do, it's a lot easier using
@@ -182,6 +194,7 @@ StackExchange](https://tex.stackexchange.com/a/4388/73), we start with
 \WithSuffix\newcommand\foo*{blahblah}
 ```
 which translates to
+<!-- {% raw %} -->
 ```latex
 \NewDocumentCommand\foo{s}{%
    \IFBooleanTF{#1}
@@ -189,6 +202,7 @@ which translates to
      {blahblah}
 }
 ```
+<!-- {% endraw %} -->
 
 This means we only need one line for the interface set up, and don't need for
 example to split up grabbing optional arguments into two different places
@@ -208,11 +222,13 @@ documentation
 would create a command with two optional arguments, `#2` and `#3`, leaving `#1`
 mandatory. Translating into `\NewDocumentCommand` syntax might make that
 clearer!
+<!-- {% raw %} -->
 ```latex
 \NewDocumentCommand\coord{m O{1} O{n}}{%
     (#2_{#1},\ldots,#2_{#3})%
 }
 ```
+<!-- {% endraw %} -->
 
 `xargs` has the idea of `usedefault`, which allows `[]` to be the same as
 `[default]`. That's not something `xparse` does, as it is pretty confusing: what
@@ -245,22 +261,26 @@ and `\newenvironment`. What people sometimes want to do is grab an entire
 document environment body and use it like a command argument. Classically,
 one does that using the [`environ`](https://ctan.org/pkg/environ)
 package. Again, taking an example from the documentation
+<!-- {% raw %} -->
 ```latex
 \NewEnviron{test}{%
   \fbox{\parbox{1.5cm}{\BODY}}\color{red}
   \fbox{\parbox{1.5cm}{\BODY}}%
 }
 ```
+<!-- {% endraw %} -->
 would grab all of the body of the environment `test` and set it twice: the
 body is saved a `\BODY`.
 
 Using `\NewDocumentEnvironment`, we have a syntax similar to `\newenvironment`
+<!-- {% raw %} -->
 ```latex
 \NewDocumentEnvironment{test}{+b}{%
   \fbox{\parbox{1.5cm}{#1}}\color{red}
   \fbox{\parbox{1.5cm}{#1}}%
 }{}
 ```
+<!-- {% endraw %} -->
 with the argument grabbed in the normal way as (here) `#1`. We can therefore
 have 'real' arguments first, then grab the body.
 
