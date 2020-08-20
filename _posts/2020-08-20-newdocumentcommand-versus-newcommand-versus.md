@@ -78,7 +78,7 @@ You'll notice that I've use `+m` for the mandatory arguments, as that matches
 arguments either accept `\par` or do not: with `\NewDocumentCommand` we can
 select on a per-argument level what happens.
 
-Th optional argument with a default works using `O{default}`, and the result
+The optional argument with a default works using `O{default}`, and the result
 will be the same functionality. We gain the idea that nested optional arguments
 are parsed properly, some better error messages if we use `\foo` incorrectly,
 and an engine-robust definition of `\foo`.
@@ -270,7 +270,7 @@ package. Again, taking an example from the documentation
 ```
 <!-- {% endraw %} -->
 would grab all of the body of the environment `test` and set it twice: the
-body is saved a `\BODY`.
+body is saved as `\BODY`.
 
 Using `\NewDocumentEnvironment`, we have a syntax similar to `\newenvironment`
 <!-- {% raw %} -->
