@@ -65,10 +65,10 @@ might have
 ```
 <!-- {% endraw %} -->
 
-We can of course do the same using `\NewDocoumentCommand`
+We can of course do the same using `\NewDocumentCommand`
 <!-- {% raw %} -->
 ```latex
-\NewDocoumentCommand\foo{+O{default} +m +m}{%
+\NewDocumentCommand\foo{+O{default} +m +m}{%
     Code perhaps using #1 and definitely using #2 and #3%
 }
 ```
@@ -125,7 +125,7 @@ have independent routes.
 Using `\NewDocumentCommand`, things are a lot easier
 <!-- {% raw %} -->
 ```latex
-\NewDocoumentCommand\section{s +O{#3} +m}{%
+\NewDocumentCommand\section{s +O{#3} +m}{%
   % Here:
   % #1 is "true"/"false" for a star
   % #2 is the optional argument
