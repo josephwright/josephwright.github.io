@@ -12,7 +12,7 @@ tags:
 Creating new document commands in LaTeX has traditionally been the job of
 `\newcommand`. This lets you create command with mandatory arguments, and can
 also add a first optional argument. However, it can't create more complex
-commands: LaTeX uses for examples stars, multiple optional arguments, _etc._ To
+commands: LaTeX uses for example stars, multiple optional arguments, _etc._ To
 create these, the kernel itself uses lower-level TeX programming. But this is
 opaque to many users, and a variety of packages have been created to ease the
 burden.
@@ -23,7 +23,7 @@ way to unify many ideas and provide a single consistent way to create document
 commands. Most of that code will soon be moving to the LaTeX kernel itself, and
 I've [provided some
 ideas](2020-08-19-the-good-the-bad-and-the-ugly-creating-document-commands)
-about how best to exploit that in a recent post..
+about how best to exploit that in a recent post.
 
 Here, I want to look at a related issue: why use the `xparse` approach, and how
 it compares to existing solutions, both in the LaTeX kernel and the wider
@@ -175,7 +175,7 @@ How does that look with `\NewDocumentCommand`?
 <!-- {% endraw %} -->
 You'll see that we stay consistent here: the same syntax is used to create one,
 two or even more optional arguments. I wouldn't recommend using multiple
-optional arguments in most case, but when we do, it's a lot easier using
+optional arguments in most cases, but when we do, it's a lot easier using
 `\NewDocumentCommand`.
 
 What `twoopt` _cannot_ do, but `\NewDocumentCommand` can, is create optional
