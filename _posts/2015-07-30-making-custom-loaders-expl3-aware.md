@@ -38,7 +38,7 @@ For packages which also work with formats other than LaTeX, the push and pop ste
 <!-- {% raw %} -->
 ```latex
 \def\myloader#1{%
-  \csname @pushfilename\endcsname
+  \csname @pushfilename\expandafter\endcsname
   \expandafter\xdef\csname @currname\endcsname{#1}%
   % Main loader, including \input or similar
   \csname @popfilename\endcsname
