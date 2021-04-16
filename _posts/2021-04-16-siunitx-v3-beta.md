@@ -20,8 +20,8 @@ There are also some big changes which do show to users. The major changes
 are
 
 - The name for commands for units and quantities have changed:
-  `\unit` and `\qty`. The old names are still about, but I'd encourage
-  people to move to the new ones.
+  `\unit` and `\qty`. The old names (`\si` and `\SI`) are still about, but I'd
+  encourage people to move to the new ones.
 - Font set up is entirely revised, which means that there are new settings
   to use if you want to adjust the output. The new approach should be faster
   and cleaner than the old one, but you might have to pick new options.
