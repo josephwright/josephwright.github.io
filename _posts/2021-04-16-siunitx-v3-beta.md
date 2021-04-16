@@ -12,7 +12,7 @@ I've been talking about a new version of
 my back into it and got to a feature-complete version: I'm calling this
 v3.0.0-beta. As this is a beta release, it's not ready for production just
 yet, but it is ready for proper testing. I've made the TDS-style zip file
-[available here](/uploads/2021/04/17/siunitx-v3.0.0-beta.tds.zip); if you
+[available here](/uploads/2021/04/16/siunitx-v3.0.0-beta.tds.zip); if you
 know how to use this kind of file, please download and test!
 
 As I've said before, there are a lot of internal improvements in the code.
