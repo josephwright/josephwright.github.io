@@ -8,7 +8,7 @@ categories:
 
 I've been talking about a new version of
 [`siunitx`](https://ctan.org/pkg/siunitx) for
-[ages](/2019/11/02/siunitx-v3-alpha-2/). Progress has been slot but I've now put
+[ages](/2019/11/02/siunitx-v3-alpha-2). Progress has been slot but I've now put
 my back into it and got to a feature-complete version: I'm calling this
 v3.0.0-beta. As this is a beta release, it's not ready for production just
 yet, but it is ready for proper testing. I've made the TDS-style zip file
