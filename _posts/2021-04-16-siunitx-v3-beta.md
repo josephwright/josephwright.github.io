@@ -30,6 +30,8 @@ are
 - Complex numbers also have decided interfaces: `\complexnum` and `\complexqty`:
   this makes parsing a _lot_ easier
 - A small number of ideas have been removed: most notably parsing quotients
+- I've updated the units provided to match the 9th SI Brochure: that means
+  a few units are removed (for example ängström and bar)
 
 To support users and to avoid breaking any documents, the new code is
 accompanied by a (likely) final version 2 file. That can be loaded using
