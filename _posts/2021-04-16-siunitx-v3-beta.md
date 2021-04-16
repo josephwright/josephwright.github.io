@@ -1,7 +1,7 @@
 ---
 title: siunitx v3 beta
 layout: post
-permalink: /2021/04/16R/siunitx-v3-beta
+permalink: /2021/04/16/siunitx-v3-beta
 categories:
   - siunitx
 ---
