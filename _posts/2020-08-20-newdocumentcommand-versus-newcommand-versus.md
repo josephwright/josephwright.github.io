@@ -102,7 +102,7 @@ presence of a star as the text `true` or `false`, as it makes things clearer.
       {\section@auxi{true}}
       {\section@auxi{false}}%
 }
-\def\section@starred#1{%
+\def\section@auxi#1{%
     \@ifnextchar[%]
       {\section@auxii{#1}}
       {\section@auxii{#1}[]}%
