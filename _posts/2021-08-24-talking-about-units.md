@@ -1,5 +1,5 @@
 ---
-title: Taling about units
+title: Talking about units
 layout: post
 permalink: /2021/08/24/talking-about-units
 categories:
