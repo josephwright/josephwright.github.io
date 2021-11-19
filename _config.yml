@@ -13,3 +13,14 @@ plugins:
 highlighter: rouge
 
 remote_theme: ngzhio/jekyll-theme-hamilton
+
+# For the SEO plugin
+twitter:
+  username: texdevnet
+  card: summary
+social:
+  name: Joseph Wright
+  links:
+    - https://twitter.com/texdevnet
+    - https://github.com/josephwright
+lang: en_GB
