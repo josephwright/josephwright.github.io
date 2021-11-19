@@ -1,5 +1,5 @@
 ---
-title: "biblatex: A new syntax for \DeclareNameFormat"
+title: "biblatex: A new syntax for \\DeclareNameFormat"
 layout: post
 permalink: /2016/03/13/biblatex-a-new-syntax-for-declarenameformat/
 categories:
