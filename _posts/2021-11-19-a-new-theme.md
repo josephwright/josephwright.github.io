@@ -1,7 +1,7 @@
 ---
 title: A new theme
 layout: post
-permalink: /2021/11/11/a-new-theme
+permalink: /2021/11/19/a-new-theme
 categories:
   - texdev.net
 ---
