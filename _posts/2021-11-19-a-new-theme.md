@@ -11,7 +11,7 @@ I've been meaning for a little while to look properly at my
 basic. Prompted in part by [Will Robertson](http://wspr.io/), I decided that now
 is the moment.
 
-I consulted with my favourite ---duck--- internet buddy, [Paulo
+I consulted with my favourite <del>duck</del> internet buddy, [Paulo
 Cereda](https://twitter.com/paulocereda), and he pointed my to the rather
 flexible [Hamilton theme](https://zivong.blog/jekyll-theme-hamilton/). You'll
 see I'm tweaking it a bit, so there will be minor changes over time, but I think
