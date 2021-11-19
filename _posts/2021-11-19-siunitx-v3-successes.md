@@ -36,4 +36,4 @@ issues](https://github.com/josephwright/siunitx/issues?q=is%3Aissue+milestone%3A
 to consider that I'd like to take for that release, plus I could pick off some
 others. I might of course not tackle all of these: I'm thinking starting over
 the Christmas period and looking to release in March/April 2022. By then of
-course we might be at v3.0.50, so it will also help to 'reset' the path level!
+course we might be at v3.0.50, so it will also help to 'reset' the patch level!
