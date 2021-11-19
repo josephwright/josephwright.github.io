@@ -1,12 +1,14 @@
 - title: About
   url: /about/
 - title: Archive
-  url: /archive/
-- title: Categories
-  url: /categories/
+  sublinks:
+    - title: Year
+       url: /archive/
+    - title: Category
+      url: /categories/
+    - title: Tag
+      url: /tags/
 - title: Contact
   url: /contact/
 - title: Packages
   url: /packages/
-- title: Tags
-  url: /tags/
