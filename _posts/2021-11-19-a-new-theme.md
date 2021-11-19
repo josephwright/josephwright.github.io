@@ -1,4 +1,4 @@
-with---
+---
 title: A new theme
 layout: post
 permalink: /2021/11/11/a-new-theme
