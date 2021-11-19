@@ -1,5 +1,5 @@
 ---
-title: siunitx 2&#58; more numbers, more tables, SVN?
+title: "siunitx 2: more numbers, more tables, SVN?"
 layout: post
 permalink: /2009/01/10/siunitx-2-more-numbers-more-tables-svn/
 categories:

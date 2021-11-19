@@ -1,5 +1,5 @@
 ---
-title: xparse&#58; optional arguments (at the end)
+title: "xparse: optional arguments (at the end)"
 layout: post
 permalink: /2018/04/21/xparse-optional-arguments-at-the-end/
 categories:

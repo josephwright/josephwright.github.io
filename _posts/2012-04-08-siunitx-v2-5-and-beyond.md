@@ -1,5 +1,5 @@
 ---
-title: siunitx&#58; v2.5 and beyond
+title: "siunitx: v2.5 and beyond"
 layout: post
 permalink: /2012/04/08/siunitx-v2-5-and-beyond/
 categories:

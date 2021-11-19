@@ -1,5 +1,5 @@
 ---
-title: Writing a curriculum vitae in LaTeX&#58; Part 2
+title: "Writing a curriculum vitae in LaTeX: Part 2"
 layout: post
 permalink: /2011/11/06/writing-a-curriculum-vitae-in-latex-part-2/
 categories:

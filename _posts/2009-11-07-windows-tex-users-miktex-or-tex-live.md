@@ -1,5 +1,5 @@
 ---
-title: Windows TeX Users&#58; MiKTeX or TeX Live
+title: "Windows TeX Users: MiKTeX or TeX Live"
 layout: post
 permalink: /2009/11/07/windows-tex-users-miktex-or-tex-live/
 categories:

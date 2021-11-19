@@ -1,5 +1,5 @@
 ---
-title: achemso and rsc&#58; empty first entry in bibliography
+title: "achemso and rsc: empty first entry in bibliography"
 layout: post
 permalink: /2009/10/31/achemso-and-rsc-empty-first-entry-in-bibliography/
 categories:

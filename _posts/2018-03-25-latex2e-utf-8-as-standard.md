@@ -1,5 +1,5 @@
 ---
-title: LaTeX2e&#58; UTF-8 as standard
+title: "LaTeX2e: UTF-8 as standard"
 layout: post
 permalink: /2018/03/25/latex2e-utf-8-as-standard/
 categories:

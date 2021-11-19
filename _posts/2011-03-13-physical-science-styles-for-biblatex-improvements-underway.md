@@ -1,5 +1,5 @@
 ---
-title: Physical science styles for biblatex&#58; improvements underway
+title: "Physical science styles for biblatex: improvements underway"
 layout: post
 permalink: /2011/03/13/physical-science-styles-for-biblatex-improvements-underway/
 categories:

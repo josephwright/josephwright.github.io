@@ -1,5 +1,5 @@
 ---
-title: TeX on Windows&#58; TeX Live versus MiKTeX revisited
+title: "TeX on Windows: TeX Live versus MiKTeX revisited"
 layout: post
 permalink: /2016/12/18/tex-on-windows-tex-live-versus-miktex-revisited/
 categories:

@@ -1,5 +1,5 @@
 ---
-title: TeXworks&#58; Automatic LaTeX message detection
+title: "TeXworks: Automatic LaTeX message detection"
 layout: post
 permalink: /2009/10/24/texworks-automatic-latex-message-detection/
 categories:

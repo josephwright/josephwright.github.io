@@ -1,5 +1,5 @@
 ---
-title: siunitx v2.3&#58; consolidation
+title: "siunitx v2.3: consolidation"
 layout: post
 permalink: /2011/05/30/siunitx-v2-3-consolidation/
 categories:

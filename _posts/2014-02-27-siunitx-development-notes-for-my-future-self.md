@@ -1,5 +1,5 @@
 ---
-title: siunitx development&#58; Notes for my future self
+title: "siunitx development: Notes for my future self"
 layout: post
 permalink: /2014/02/27/siunitx-development-notes-for-my-future-self/
 categories:

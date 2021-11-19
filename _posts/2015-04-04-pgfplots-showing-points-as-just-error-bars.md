@@ -1,5 +1,5 @@
 ---
-title: pgfplots&#58; Showing points as just error bars
+title: "pgfplots: Showing points as just error bars"
 layout: post
 permalink: /2015/04/04/pgfplots-showing-points-as-just-error-bars/
 categories:

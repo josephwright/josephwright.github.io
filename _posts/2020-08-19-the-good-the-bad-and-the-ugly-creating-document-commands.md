@@ -1,5 +1,5 @@
 ---
-title: The good, the bad and the ugly&#58; creating document commands
+title: "The good, the bad and the ugly: creating document commands"
 layout: post
 permalink: /2020/08/19/the-good-the-bad-and-the-ugly-creating-document-commands
 categories:

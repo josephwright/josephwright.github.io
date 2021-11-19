@@ -1,5 +1,5 @@
 ---
-title: Programming LaTeX3&#58; More on token list variables
+title: "Programming LaTeX3: More on token list variables"
 layout: post
 permalink: /2012/01/22/programming-latex3-more-on-token-list-variables/
 categories:

@@ -1,5 +1,5 @@
 ---
-title: Programming LaTeX3&#58; Category codes, tokens and token lists
+title: "Programming LaTeX3: Category codes, tokens and token lists"
 layout: post
 permalink: /2011/12/21/programming-latex3-category-codes-tokens-and-token-lists/
 categories:

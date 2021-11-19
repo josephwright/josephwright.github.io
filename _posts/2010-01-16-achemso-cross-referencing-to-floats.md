@@ -1,5 +1,5 @@
 ---
-title: achemso&#58; Cross-referencing to floats
+title: "achemso: Cross-referencing to floats"
 layout: post
 permalink: /2010/01/16/achemso-cross-referencing-to-floats/
 categories:

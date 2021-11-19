@@ -1,5 +1,5 @@
 ---
-title: PCTeX&#58; Helpful people
+title: "PCTeX: Helpful people"
 layout: post
 permalink: /2009/10/24/pctex-helpful-people/
 categories:

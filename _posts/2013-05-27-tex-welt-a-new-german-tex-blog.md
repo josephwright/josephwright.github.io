@@ -1,5 +1,5 @@
 ---
-title: TeX Welt&#58; A new (German) TeX blog
+title: "TeX Welt: A new (German) TeX blog"
 layout: post
 permalink: /2013/05/27/tex-welt-a-new-german-tex-blog/
 categories:

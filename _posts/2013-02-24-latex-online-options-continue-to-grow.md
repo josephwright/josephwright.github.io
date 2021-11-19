@@ -1,5 +1,5 @@
 ---
-title: LaTeX Online&#58; Options continue to grow
+title: "LaTeX Online: Options continue to grow"
 layout: post
 permalink: /2013/02/24/latex-online-options-continue-to-grow/
 categories:

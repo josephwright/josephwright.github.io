@@ -1,5 +1,5 @@
 ---
-title: TUGBoat  Vol 32, No. 2&#58; Highlights
+title: "TUGBoat  Vol 32, No. 2: Highlights"
 layout: post
 permalink: /2011/10/08/tugboat-vol-32-no-2-highlights/
 categories:

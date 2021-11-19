@@ -1,5 +1,5 @@
 ---
-title: TUG 2011&#58; 19th&ndash;21st October, Kerala, India
+title: "TUG 2011: 19th&ndash;21st October, Kerala, India"
 layout: post
 permalink: /2011/02/23/tug-2011-19th-21st-october-kerala-india/
 categories:

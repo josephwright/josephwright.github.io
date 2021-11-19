@@ -1,5 +1,5 @@
 ---
-title: biblatex&#58; A team to continue the work
+title: "biblatex: A team to continue the work"
 layout: post
 permalink: /2012/04/23/biblatex-a-team-to-continue-the-work/
 categories:
