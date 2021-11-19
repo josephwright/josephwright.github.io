@@ -7,3 +7,5 @@ plugins:
 - jekyll-sitemap
 
 highlighter: rouge
+
+remote_theme: ngzhio/jekyll-theme-hamilton
