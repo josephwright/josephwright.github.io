@@ -1,5 +1,5 @@
 ---
-title: siunitx v3.1: complex values
+title: "siunitx v3.1: complex values"
 layout: post
 permalink: /2022/03/22/siunitx-v3-1-complex-values
 categories:
