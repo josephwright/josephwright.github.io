@@ -37,7 +37,7 @@ ASCII range into separate bytes: not good. Luckily, the nature of codepoints is
 predictable: all that is needed is to examine the first byte and collect the
 right number of further bytes to re-combine into a valid codepoint.
 
-This work isn't something the average end user wants to do. Lcukily, they don't
+This work isn't something the average end user wants to do. Luckily, they don't
 have to as the LaTeX team have looked at this and created a suitable set of
 `expl3` functions to do it: `\text_map_function:nN` and `\text_map_inline:nn`.
 So for example we can do
