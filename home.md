@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /home/
 ---
 
 <div class="home">
