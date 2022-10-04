@@ -32,7 +32,7 @@ to examine the input using these rules, and to divide it up so that 'characters'
 stay together.
 
 For pdfTeX, there's an additional wrinkle: it uses bytes, not codepoints, and so
-if we use a naïve TeX mapping, we would divide up any codepoing outside the
+if we use a naïve TeX mapping, we would divide up any codepoint outside the
 ASCII range into separate bytes: not good. Luckily, the nature of codepoints is
 predictable: all that is needed is to examine the first byte and collect the
 right number of further bytes to re-combine into a valid codepoint.
