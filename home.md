@@ -5,10 +5,16 @@ permalink: /home/
 
 <div class="home">
 
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
   {%- if posts.size > 0 -%}
     <ul class="post-list">
       {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
+      {%- for post in posts limit:10 -%}
       <li>
         <h2>
           <a href="{{ post.url | relative_url }}">
