@@ -72,9 +72,11 @@ contrast, `\text_map_inline:nn` divides up the characters correctly.
 \ExplSyntaxOff
 \end{document}
 ```
+which gives
+![Example output](/uploads/2022/10/04/Bangla-mapping.png)
 (You'll need [Noto Sans
 Bengali](https://fonts.google.com/noto/specimen/Noto+Sans+Bengali) available to
-make this work.)
+make this work locally.)
 
 So, as you can see, mapping to 'real' text is easy with `expl3`:  you just need
 to know that the tools are there.
