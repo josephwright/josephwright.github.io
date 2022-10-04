@@ -1,7 +1,7 @@
 ---
 title: Mapping to characters
 layout: post
-permalink: /2022/10/05/mapping-to-characters
+permalink: /2022/10/04/mapping-to-characters
 categories:
   - General
 ---
