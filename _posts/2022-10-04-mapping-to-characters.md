@@ -21,7 +21,7 @@ we take the input `café`, it is made up of four codepoints:
 So we could in XeTeX/LuaTeX use a simple mapping to grab one character at a time
 and do stuff with it. However, that's not always the case. Take for example
 `Spın̈al Tap`. The dotless-i is a single codepoint, but there is not a codepoint
-for an umluated-n. Instead, that is represented by two codepoints: a normal n
+for an umlauted-n. Instead, that is represented by two codepoints: a normal n
 and a combining umlaut. As a user, it's clear that we'd want to get a single
 'character' here. So there's clearly more work to do.
 
