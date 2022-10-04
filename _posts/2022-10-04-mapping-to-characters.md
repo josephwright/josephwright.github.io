@@ -51,3 +51,30 @@ and get
 (S)(p)(ı)(n̈)(a)(l)( )(T)(a)(p)
 ```
 in any TeX engine (assuming we are set up to _print_ the characters, of course).
+
+Taking a more 'serious' example (And one that is going to use LuaTeX for font
+reasons), we might want to map over Bangla text. It's easy to do that with the
+`expl3` function `\tl_map_inline:nn`, but it gives very odd results. In
+contrast, `\text_map_inline:nn` divides up the characters correctly.
+```latex
+\documentclass{article}
+\usepackage{fontspec}
+\newfontface\harfbengali
+  {NotoSansBengali-VariableFont_wdth,wght.ttf}[Renderer=HarfBuzz,Script=Bengali]
+\begin{document}
+\harfbengali
+\ExplSyntaxOn
+ন্দ্রকিন্দ্র
+\par
+\text_map_inline:nn{ন্দ্রকিন্দ্র}{(#1)}
+\par
+\tl_map_inline:nn{ন্দ্রকিন্দ্র}{(#1)}
+\ExplSyntaxOff
+\end{document}
+```
+(You'll need [Noto Sans
+Bengali](https://fonts.google.com/noto/specimen/Noto+Sans+Bengali) available to
+make this work.)
+
+So, as you can see, mapping to 'real' text is easy with `expl3`:  you just need
+to know that the tools are there.
