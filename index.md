@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<div class="home">
+
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
@@ -34,6 +36,10 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
+
+  {%- endif -%}
+  
+</div>
 
 ---
 
