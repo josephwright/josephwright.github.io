@@ -1,5 +1,5 @@
 ---
-title: "A 'new' primitive: \expanded"
+title: "A 'new' primitive: \\expanded"
 layout: post
 permalink: /2018/12/06/a-new-primitive-expanded
 categories:
