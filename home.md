@@ -8,7 +8,7 @@ permalink: /home/
   {%- if posts.size > 0 -%}
     <ul class="post-list">
       {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts limie: 10 -%}
+      {%- for post in posts limit: 10 -%}
       <li>
         <h2>
           <a href="{{ post.url | relative_url }}">
