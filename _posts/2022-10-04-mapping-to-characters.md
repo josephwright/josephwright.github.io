@@ -8,10 +8,10 @@ categories:
 
 It is quite natural to think that separating a word up into individual
 characters is quite easy. It turns out that for the computer this isn't really
-the case. If we look at a system understaning Unicode (like XeTeX or LuaTeX),
-most of the time one 'character' is stored as one codepoint. A codepoint is a
-single character entity for a Unicode programme. For example, if we take the
-input `café`, it is made up of four codepoints:
+the case. If we look at a system that understands Unicode (like XeTeX or
+LuaTeX), most of the time one 'character' is stored as one codepoint. A
+codepoint is a single character entity for a Unicode programme. For example, if
+we take the input `café`, it is made up of four codepoints:
 
 1. U+0063 (LATIN SMALL LETTER C)
 2. U+0061 (LATIN SMALL LETTER A)
