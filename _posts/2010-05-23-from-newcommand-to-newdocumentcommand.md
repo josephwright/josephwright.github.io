@@ -65,7 +65,7 @@ If I want anything else, I'm on my own (so no more `\newcommand` examples!). Fir
 ```latex
 \NewDocumentCommand\OneOptOfTwo{O{}m}%
   {Text with #2 and perhaps #1}
-\NewDocumentCommand\OneOptOfTwo{O{}mm}%
+\NewDocumentCommand\OneOptOfThree{O{}mm}%
 {Text with #2, #3 and perhaps #1}
 ```
 
@@ -79,14 +79,14 @@ How about two optional arguments? It's pretty obvious:
 What if we want something as a default value for the optional argument? With `\newcommand`, that would be
 
 ```latex
-\newcommand\OneOptWithDefault[2][default]%
+\newcommand\OneOptWithDefaultOfTwo[2][default]%
   {Text using #1 (could be the default) and #2}
 ```
 
 which would become
 
 ```latex
-\NewDocumentCommand\OneOptWithDefault{O{default}m}%
+\NewDocumentCommand\OneOptWithDefaultOfTwo{O{default}m}%
   {Text using #1 (could be the default) and #2}
 ```
 
@@ -94,7 +94,7 @@ The same idea applies to each optional argument: whatever is in the braces after
 
 ## More complex optional arguments
 
-You might be wondering why we need the '`{}`c after '`O`' when there is no default value: why not just '`o`'? Well, there is '`o`' as well. Unlike `\newcommand`, `\NewDocumentCommand` can tell the difference between an option argument that is not given and one that is empty. To do that, it provides a test to see if the argument is empty:
+You might be wondering why we need the '`{}` after '`O`' when there is no default value: why not just '`o`'? Well, there is '`o`' as well. Unlike `\newcommand`, `\NewDocumentCommand` can tell the difference between an option argument that is not given and one that is empty. To do that, it provides a test to see if the argument is empty:
 
 <!-- {% raw %} -->
 ```latex
@@ -113,17 +113,17 @@ Don't worry if you forget to do the test: the special marker that is used here w
 Sometimes you might want two different optional arguments, and be able to tell which is which. This can be done by using something other than square brackets, often using angle brackets ('<' and '>'). We can do that using the letter '`d`' (or '`D`' if we give a default).
 
 ```latex
-\NewDocumentCommand\TwoTypesOfOpt{D<>{}O{}m}%
+\NewDocumentCommand\TwoTypesOfOptOfThree{D<>{}O{}m}%
   {Text using #1, #2 and #3}
 ```
 
 What input syntax does this make? Let's look at some examples
 
 ```latex
-\TwoTypesOfOpt{text}             % One mandatory
-\TwoTypesOfOpt[text]{text}       % A normal optional
-\TwoTypesOfOpt<text>{text}       % A special optional
-\TwoTypesOfOpt<text>[text]{text} % Both optionals
+\TwoTypesOfOptOfThree{text}             % One mandatory
+\TwoTypesOfOptOfThree[text]{text}       % A normal optional
+\TwoTypesOfOptOfThree<text>{text}       % A special optional
+\TwoTypesOfOptOfThree<text>[text]{text} % Both optionals
 ```
 
 How did that work? The first two characters after the '`D`' are used to find the optional argument, so in this case '`<`' and '`>`'.
