@@ -39,7 +39,7 @@ you likely want to say why. So in v3.1, you can say `1.23(4)(5)` or `1.23 ± 0.0
 fingers-crossed that means it all works 100%!
 
 Now, for v3.3, I've looked at another long-standing request: asymmetric
-uncertainties. For this release, I've kept this are simple, as it's one I know
+uncertainties. For this release, I've kept this area simple, as it's one I know
 less about. There's just a 'compact' input form, and one (compact) output form.
 So we can input `1.23(4:5)` and get in TeX terms `$1.23^{+0.04}_{-0.05}$`
 typeset. Asymmetric and symmetric uncertainties can be intermixed, and you can
