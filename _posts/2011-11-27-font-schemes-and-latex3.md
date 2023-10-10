@@ -3,7 +3,7 @@ title: Font schemes and LaTeX3
 layout: post
 permalink: /2011/11/27/font-schemes-and-latex3/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - fonts
   - NFSS

@@ -3,7 +3,7 @@ title: LaTeX3 gets a new FPU
 layout: post
 permalink: /2012/05/15/latex3-gets-a-new-fpu/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - floating point
 ---

@@ -3,7 +3,7 @@ title: LaTeX3 and document environments
 layout: post
 permalink: /2011/01/09/latex3-and-document-environments/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - environments
   - xparse

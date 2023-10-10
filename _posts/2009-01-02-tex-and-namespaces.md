@@ -3,7 +3,7 @@ title: TeX and namespaces
 layout: post
 permalink: /2009/01/02/tex-and-namespaces/
 categories:
-  - LaTeX3
+  - expl3
 ---
 A question on the [LaTeX3 mailing list](https://www.latex-project.org/latex3.html) has got me thinking abut namespaces. Plain TeX users tend to have their own set of macros, plus those from the plain format, and so are pretty much in control of everything. On the other hand, [ConTeXt](http://www.pragma-ade.com/) users can rely on the small focussed development team to keep naming sensible. That leaves LaTeX, where things are complicated.
 

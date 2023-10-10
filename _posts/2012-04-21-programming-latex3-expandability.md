@@ -3,7 +3,7 @@ title: "Programming LaTeX3: Expandability"
 layout: post
 permalink: /2012/04/21/programming-latex3-expandability/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - Programming LaTeX3
 ---

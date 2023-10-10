@@ -3,7 +3,7 @@ title: LaTeX3 snapshot release
 layout: post
 permalink: /2009/06/09/latex3-snapshot-release/
 categories:
-  - LaTeX3
+  - expl3
 ---
 The [LaTeX3 Project](https://www.latex-project.org/latex3.html) (of which I'm a member) have made a snapshot release of the current [LaTeX3 code](https://www.latex-project.org/code.html) to [CTAN](https://www.ctan.org) today. This is in two parts:
 

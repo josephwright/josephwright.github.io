@@ -3,7 +3,7 @@ title: \NewDocumentCommand versus \newcommand versus ...
 layout: post
 permalink: /2020/08/20/newdocumentcommand-versus-newcommand-versus
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - xparse
   - document-commands

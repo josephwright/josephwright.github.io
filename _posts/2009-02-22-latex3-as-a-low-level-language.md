@@ -3,7 +3,7 @@ title: LaTeX3 as a low-level language
 layout: post
 permalink: /2009/02/22/latex3-as-a-low-level-language/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - LuaTeX
   - microkernel

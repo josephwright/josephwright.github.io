@@ -3,7 +3,7 @@ title: "Programming LaTeX3: The programming environment"
 layout: post
 permalink: /2011/12/11/programming-latex3-the-programming-environment/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - Programming LaTeX3
 ---

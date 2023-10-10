@@ -3,7 +3,7 @@ title: "Programming LaTeX3: Background"
 layout: post
 permalink: /2011/12/07/programming-latex3-background/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - Programming LaTeX3
 ---

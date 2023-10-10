@@ -3,7 +3,7 @@ title: A LaTeX format beyond LaTeX2e
 layout: post
 permalink: /2012/02/21/a-latex-format-beyond-latex2e/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - LuaTeX
 ---

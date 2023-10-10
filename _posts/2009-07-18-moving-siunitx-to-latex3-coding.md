@@ -3,7 +3,7 @@ title: Moving siunitx to LaTeX3 coding
 layout: post
 permalink: /2009/07/18/moving-siunitx-to-latex3-coding/
 categories:
-  - LaTeX3
+  - expl3
   - Packages
   - siunitx
 ---

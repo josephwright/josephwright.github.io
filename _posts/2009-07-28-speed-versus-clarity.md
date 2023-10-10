@@ -3,7 +3,7 @@ title: Speed versus clarity
 layout: post
 permalink: /2009/07/28/speed-versus-clarity/
 categories:
-  - LaTeX3
+  - expl3
   - Packages
   - siunitx
 ---

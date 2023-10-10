@@ -3,7 +3,7 @@ title: V is for variable
 layout: post
 permalink: /2009/02/17/v-is-for-variable/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - argument specifiers
 ---

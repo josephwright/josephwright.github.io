@@ -3,7 +3,7 @@ title: "Programming LaTeX3: Category codes, tokens and token lists"
 layout: post
 permalink: /2011/12/21/programming-latex3-category-codes-tokens-and-token-lists/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - Programming LaTeX3
 ---

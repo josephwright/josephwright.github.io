@@ -3,7 +3,7 @@ title: "LaTeX3: Key points"
 layout: post
 permalink: /2009/01/19/latex3-key-points/
 categories:
-  - LaTeX3
+  - expl3
 ---
 A [comment](/2009/01/11/xetex-and-luatex-directions/#comment-41) on one of my other posts raises the important issue of what the key targets are for [LaTeX3](https://www.latex-project.org/latex3.html). Only the team can answer this, but reading the project [webpage](https://www.latex-project.org/latex3.html), the [mailing list](https://listserv.uni-heidelberg.de/cgi-bin/wa?A0=LATEX-) and the [code](https://www.latex-project.org/svnroot/experimental/trunk/), you can get some ideas.
 

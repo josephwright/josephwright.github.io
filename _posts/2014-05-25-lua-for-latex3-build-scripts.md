@@ -3,9 +3,8 @@ title: Lua for LaTeX3 build scripts
 layout: post
 permalink: /2014/05/25/lua-for-latex3-build-scripts/
 categories:
-  - LaTeX3
-tags:
   - expl3
+tags:
   - Lua
   - scripts
 ---

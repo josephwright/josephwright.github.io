@@ -3,7 +3,7 @@ title: Updating LaTeX3 support in MiKTeX
 layout: post
 permalink: /2011/07/12/updating-latex3-support-in-miktex/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - MiKTeX
 ---

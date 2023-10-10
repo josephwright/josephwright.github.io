@@ -3,7 +3,7 @@ title: Promoting xparse
 layout: post
 permalink: /2010/05/22/promoting-xparse/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - xparse
 ---

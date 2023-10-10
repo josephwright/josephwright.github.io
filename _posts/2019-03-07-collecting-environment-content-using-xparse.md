@@ -3,7 +3,7 @@ title: Collecting environment content using xparse
 layout: post
 permalink: /2019/03/07/collecting-environment-content-using-xparse
 categories:
-  - LaTeX3
+  - expl3
 ---
 
 LaTeX environments are almost always used for cases where the content does

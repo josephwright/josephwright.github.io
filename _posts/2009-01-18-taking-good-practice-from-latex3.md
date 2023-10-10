@@ -3,7 +3,7 @@ title: Taking good practice from LaTeX3
 layout: post
 permalink: /2009/01/18/taking-good-practice-from-latex3/
 categories:
-  - LaTeX3
+  - expl3
 ---
 [LaTeX3](https://www.latex-project.org/latex3.html) provides a well thought out low level programming environment. There is a lot the (La)TeX programmer can learn about good coding practice from the current experimental code, and I'm trying to use this in [`siunitx` version 2](https://github.com/josephwright/siunitx). There are lots of little points that I could highlight, but I'll pick a few out:
 

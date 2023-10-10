@@ -3,7 +3,7 @@ title: "LaTeX3: An outsiders overview'"
 layout: post
 permalink: /2009/01/21/latex3-an-outsiders-overview/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - TUGboat
 ---

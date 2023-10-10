@@ -3,7 +3,7 @@ title: A XeTeX snag
 layout: post
 permalink: /2009/05/11/a-xetex-snag/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - XeTeX
 ---

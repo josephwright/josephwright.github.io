@@ -3,7 +3,7 @@ title: Low-level definition changes
 layout: post
 permalink: /2009/02/17/low-level-definition-changes/
 categories:
-  - LaTeX3
+  - expl3
 ---
 The current [LaTeX3](https://www.latex-project.org/latex3.html) refactor is examining a number of different parts of the LaTeX3 code base. Although the code ideas work well, in general, they've built up over some time and this means that not everything is consistent. At the same time, issues that have happened with LaTeX2e are helping to inform ideas about what is needed for LaTeX as a programming language.
 

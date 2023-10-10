@@ -3,7 +3,7 @@ title: Finding files by expansion
 layout: post
 permalink: /2019/09/06/finding-files-by-expansion
 categories:
-  - LaTeX3
+  - expl3
 ---
 
 ## The TeX core situation

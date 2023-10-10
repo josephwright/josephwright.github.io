@@ -3,7 +3,7 @@ title: Keyval methods in LaTeX3
 layout: post
 permalink: /2009/07/13/keyval-methods-in-latex3/
 categories:
-  - LaTeX3
+  - expl3
 ---
 I've been working for a while on a method to provide a reasonably powerful method for creating keyval input for [LaTeX3](https://www.latex-project.org/latex3.html). This has been going under the working title '`keys3`', but yesterday I took the plunge and added the code to the LaTeX3 [development repository](https://www.latex-project.org/code.html). For the moment, this can only be accessed _via_ SVN, but if the rest of the team are happy with the idea, it will appear in the next snap shot that is sent to [CTAN](https://www.ctan.org).
 

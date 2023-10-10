@@ -3,7 +3,7 @@ title: "Programming LaTeX3: Integers and integer expressions"
 layout: post
 permalink: /2012/02/07/programming-latex3-integers-and-integer-expressions/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - Programming LaTeX3
 ---

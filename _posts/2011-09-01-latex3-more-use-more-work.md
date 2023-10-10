@@ -3,7 +3,7 @@ title: "LaTeX3: More use, more work"
 layout: post
 permalink: /2011/09/01/latex3-more-use-more-work/
 categories:
-  - LaTeX3
+  - expl3
 ---
 In the latest [LaTeX3 News](https://www.latex-project.org/site-news.html#2011-08-09), the [Project](https://www.latex-project.org/) announced that a [mirror of the development code](https://github.com/latex3/svn-mirror) is available on [GitHub](https://github.com/). Since then, there has been a definite increase in using expl3 (the LaTeX3 programming language), and we've had a number of very good questions on the LaTeX3 mailing list.
 

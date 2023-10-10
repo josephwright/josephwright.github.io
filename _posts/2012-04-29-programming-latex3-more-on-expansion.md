@@ -3,7 +3,7 @@ title: "Programming LaTeX3: More on expansion"
 layout: post
 permalink: /2012/04/29/programming-latex3-more-on-expansion/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - Programming LaTeX3
 ---

@@ -3,11 +3,10 @@ title: Reworking and exposing siunitx internals
 layout: post
 permalink: /2014/09/18/reworking-and-exposing-siunitx-internals/
 categories:
-  - LaTeX3
+  - expl3
   - Packages
   - siunitx
 tags:
-  - expl3
   - testing
 ---
 I've been [talking for a while](/2014/03/13/work-on-siunitx-v3/) about working on a new major version of [`siunitx`](https://ctan.org/pkg/siunitx). I've got plans to add some new features which are difficult or impossible to deliver using the v2 set up, but here I want to look at perhaps what's more important: the back end, programming set up and related matters.

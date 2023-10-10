@@ -3,7 +3,7 @@ title: From \newcommand to \NewDocumentCommand
 layout: post
 permalink: /2010/05/23/from-newcommand-to-newdocumentcommand/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - xparse
 ---

@@ -3,7 +3,7 @@ title: Too much information!
 layout: post
 permalink: /2009/02/26/too-much-information/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - log messages
 ---

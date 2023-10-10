@@ -3,7 +3,7 @@ title: EPS graphics with PDF(La)TeX
 layout: post
 permalink: /2009/09/28/eps-graphics-with-pdflatex/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - EPS
   - MiKTeX

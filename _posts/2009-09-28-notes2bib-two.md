@@ -3,7 +3,7 @@ title: notes2bib two
 layout: post
 permalink: /2009/09/28/notes2bib-two/
 categories:
-  - LaTeX3
+  - expl3
   - Packages
 tags:
   - notes2bib

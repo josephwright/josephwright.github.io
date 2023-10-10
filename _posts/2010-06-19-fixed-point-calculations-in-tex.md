@@ -3,7 +3,7 @@ title: Fixed point calculations in TeX
 layout: post
 permalink: /2010/06/19/fixed-point-calculations-in-tex/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - fixed point
   - floating point

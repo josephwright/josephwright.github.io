@@ -3,7 +3,7 @@ title: "Testing TeX: Lua and TeX, and not just for LuaTeX"
 layout: post
 permalink: /2014/05/27/testing-tex-lua-and-tex-and-not-just-for-luatex/
 categories:
-  - LaTeX3
+  - expl3
 ---
 I [wrote recently](/2014/05/25/lua-for-latex3-build-scripts/) about the LaTeX3 build scripts, and that we are moving them to Lua for cross-platform work. One particular area the team are interested in is 'unit testing', something that's common in 'real' programming but not so widespread for (La)TeX. The main reason for that is obvious: most people programming TeX aren't professionals but instead do it as an add-on to their 'real' jobs (in my case, chemistry).
 

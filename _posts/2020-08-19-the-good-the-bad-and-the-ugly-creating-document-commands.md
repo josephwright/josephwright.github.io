@@ -3,7 +3,7 @@ title: "The good, the bad and the ugly: creating document commands"
 layout: post
 permalink: /2020/08/19/the-good-the-bad-and-the-ugly-creating-document-commands
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - xparse
   - document-commands

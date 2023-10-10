@@ -5,7 +5,7 @@ permalink: /2018/04/21/xparse-optional-arguments-at-the-end/
 categories:
   - General
 tags:
-  - LaTeX3
+  - expl3
   - xparse
 ---
 For many years, the LaTeX team have been wondering about a subtle question: how do we deal with spaces before optional arguments. It's easy enough if we know there are more mandatory arguments to look for:

@@ -3,7 +3,7 @@ title: l3build development picks up the pace
 layout: post
 permalink: /2017/07/01/l3build-development-picks-up-the-pace/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - l3build
 ---

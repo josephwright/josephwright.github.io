@@ -3,7 +3,7 @@ title: Making custom loaders expl3-aware
 layout: post
 permalink: /2015/07/30/making-custom-loaders-expl3-aware/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - expl3
 ---

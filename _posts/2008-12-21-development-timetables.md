@@ -3,7 +3,7 @@ title: Development Timetables
 layout: post
 permalink: /2008/12/21/development-timetables/
 categories:
-  - LaTeX3
+  - expl3
   - Packages
   - siunitx
 ---

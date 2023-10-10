@@ -3,7 +3,7 @@ title: "Programming LaTeX3: More on token list variables"
 layout: post
 permalink: /2012/01/22/programming-latex3-more-on-token-list-variables/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - Programming LaTeX3
 ---

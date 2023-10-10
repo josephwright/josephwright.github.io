@@ -3,7 +3,7 @@ title: Improving LaTeX for the user
 layout: post
 permalink: /2009/01/27/improving-latex-for-the-user/
 categories:
-  - LaTeX3
+  - expl3
   - Packages
   - siunitx
 tags:

@@ -3,7 +3,7 @@ title: LaTeX3 argument specifiers improvements
 layout: post
 permalink: /2009/02/13/latex3-argument-specifiers-improvements/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - argument specifiers
 ---

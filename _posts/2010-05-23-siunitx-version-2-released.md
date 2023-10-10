@@ -3,7 +3,7 @@ title: siunitx version 2 released
 layout: post
 permalink: /2010/05/23/siunitx-version-2-released/
 categories:
-  - LaTeX3
+  - expl3
   - Packages
   - siunitx
 ---

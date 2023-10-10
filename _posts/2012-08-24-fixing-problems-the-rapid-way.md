@@ -3,7 +3,7 @@ title: Fixing problems the rapid way
 layout: post
 permalink: /2012/08/24/fixing-problems-the-rapid-way/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - l3kernel
   - LuaTeX

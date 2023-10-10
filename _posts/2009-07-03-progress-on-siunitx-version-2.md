@@ -3,7 +3,7 @@ title: Progress on siunitx version 2
 layout: post
 permalink: /2009/07/03/progress-on-siunitx-version-2/
 categories:
-  - LaTeX3
+  - expl3
   - Packages
   - siunitx
 ---

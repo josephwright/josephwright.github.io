@@ -3,7 +3,7 @@ title: "LaTeX3: xparse"
 layout: post
 permalink: /2009/06/16/latex3-xparse/
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - xparse
 ---

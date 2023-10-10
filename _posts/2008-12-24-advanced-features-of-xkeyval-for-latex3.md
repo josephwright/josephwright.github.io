@@ -3,7 +3,7 @@ title: Advanced features of xkeyval for LaTeX3
 layout: post
 permalink: /2008/12/24/advanced-features-of-xkeyval-for-latex3/
 categories:
-  - LaTeX3
+  - expl3
 ---
 Currently, [LaTeX3](https://www.latex-project.org/latex3.html) only provides parsing of key–value input into separated keys and values. I've written the `keys3` package as a possible implementation of keyval for LaTeX3: this is based on `pgfkeys` from the [`pgf`](https://ctan.org/pkg/pgf) system. However, there are some features of the [`xkeyval`](https://ctan.org/pkg/xkeyval) package that I've not yet covered. In particular, I'm wondering about the 'preset' keys system (`\presetkeys` and relatives) and the 'pointer' system (`\savekeys` and so on). I've not really used these, so I'm not sure what might be needed for LaTeX3.
 

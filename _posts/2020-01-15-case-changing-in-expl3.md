@@ -3,7 +3,7 @@ title: Case changing in expl3
 layout: post
 permalink: /2020/01/15/case-changing-in-expl3
 categories:
-  - LaTeX3
+  - expl3
 tags:
   - Unicode
   - UTF-8
