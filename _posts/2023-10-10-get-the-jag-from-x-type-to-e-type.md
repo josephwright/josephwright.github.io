@@ -6,8 +6,6 @@ categories:
   - expl3
 ---
 
-## Variants
-
 Controlling expansion has been a key part of `expl3` from day one. A basic
 `expl3` function name such as `\foo:nn` shows how many unmodified braced
 arguments it takes: so called `n`-type arguments. We can then create _variants_,
