@@ -23,8 +23,8 @@ III) code plus add-ons for maths, tables and titles: that is all a bit more
 experimental but is worth exploring.
 
 We are building up an idea of which packages and classes work out-of-the-box
-with the latest code: you can the current list at
-https://latex3.github.io/tagging-project/tagging-status/. It's amazing how many
+with the latest code: you can [view the current list online](
+https://latex3.github.io/tagging-project/tagging-status/). It's amazing how many
 packages already work, but of course there is work to do. I've got some
 adjustments to make for [`siunitx`](https://ctan.org/pkg/siunitx), but as the
 tagging structures are still not finalised, I'm waiting a bit. We also need to
