@@ -30,4 +30,4 @@ A small number of features from version 1 of `siunitx` are not present in versio
 
 I have had a large number of feature requests for `siunitx`, and only some of these have been added to version 2 at present. This is partly as I have a limited amount of time, and need to get `siunitx` 2 to release within a reasonable time. At the same time, some of the feature requests are very specialist and I need to consider which of these fall within the scope of the package. That said, I intend to work on adding more features to `siunitx` after the full release of version 2.0. More details on this will be posted here in the future.
 
-Feedback on any aspect of `siunitx` version 2 is very welcome: [joseph.wright@morningstar2.co.uk](mailto:joseph.wright@morningstar2.co.uk).
+Feedback on any aspect of `siunitx` version 2 is very welcome: [joseph@texdev.net](mailto:joseph@texdev.net).

@@ -13,4 +13,4 @@ As a first stage, I'm going through the list, removing anything that is not real
 
 I'd expect to update [CTAN](https://www.ctan.org) once I've had a look through all of the bugs. Probably by the end of this week this first phase should be done, so I'd expect there to be a run of new `beamer` versions over the coming weeks.
 
-I can't promise to sort out all of the bugs, but I'd like to at least try to get the list down. If anyone wants to help out (or indeed to take over!) then they are, as usual, welcome to [make contact.](mailto:joseph.wright@morningstar2.co.uk)
+I can't promise to sort out all of the bugs, but I'd like to at least try to get the list down. If anyone wants to help out (or indeed to take over!) then they are, as usual, welcome to [make contact.](mailto:joseph@texdev.net)

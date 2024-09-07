@@ -19,4 +19,4 @@ If you want to try things out, as before you can grab things here:
 
 What is on the list next is tackling the tables issues. That is going to be hard work, as there are some complicated things to sort out. So I will probably add a few bits and pieces to the rest of the code at the same time.
 
-As always, feedback by [e-mail](mailto:joseph.wright@morningstar2.co.uk) or to the BerliOS site is very welcome.
+As always, feedback by [e-mail](mailto:joseph@texdev.net) or to the BerliOS site is very welcome.

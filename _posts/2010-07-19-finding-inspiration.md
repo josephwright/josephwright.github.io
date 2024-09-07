@@ -13,4 +13,4 @@ Reading the latest issue of [The PracTeX Journal](https://tug.org/pracjourn/) I 
 
 However, it looks like inspiration is not the issue, as we are also assured that there will be continued TeX-related writings available from [http://www.walden-family.com/public/texland/]. I do hope that new insights continue to appear there.
 
-Speaking of inspiration, if there is anything you think I should talk about here I'm always happy to get [feedback](mailto:joseph.wright@morningstar2.co.uk). I do look round for potentially-interesting things to include, but the odd one does slip past.
+Speaking of inspiration, if there is anything you think I should talk about here I'm always happy to get [feedback](mailto:joseph@texdev.net). I do look round for potentially-interesting things to include, but the odd one does slip past.

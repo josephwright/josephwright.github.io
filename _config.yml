@@ -4,7 +4,7 @@ tagline: Coding in the TeX world
 url: https://www.texdev.net
 
 author: Joseph Wright
-email: joseph.wright@morningstar2.co.uk
+email: joseph@texdev.net
 
 plugins:
    - jekyll-feed

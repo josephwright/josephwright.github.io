@@ -28,4 +28,4 @@ I should add that one of the reasons for looking at all of this was the recent n
 
 ## Get involved
 
-Anyone interested is of course free to contribute. Adding any bugs,  enhancements or ideas to the databases is one of the easiest way to do  that. If anyone wants access to edit the wikis or add code, [drop me a line](mailto:joseph.wright@morningstar2.co.uk).
+Anyone interested is of course free to contribute. Adding any bugs,  enhancements or ideas to the databases is one of the easiest way to do  that. If anyone wants access to edit the wikis or add code, [drop me a line](mailto:joseph@texdev.net).
