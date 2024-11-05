@@ -56,7 +56,7 @@ we cannot do quite the same job as with LuaTeX.
 For new documents, moving to LuaTeX is the recommended approach: it will
 continue to offer the most complete tagging support. For existing documents,
 tagging is available and we hope to improve it further: this may eventually use
-a LuaTeX-baaed approach emulating 8-bit approaches. At present, however,
+a LuaTeX-based approach emulating 8-bit approaches. At present, however,
 tagging in pdfTeX is more limited than in LuaTeX.
 
 ## Other engines
