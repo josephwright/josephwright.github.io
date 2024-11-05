@@ -63,9 +63,9 @@ tagging in pdfTeX is more limited than in LuaTeX.
 
 There are other engines, most notable (u)pTeX. Like XeTeX, these do not
 generate PDF directly, so may well be more limited in tagging support. Unlike
-XeTeX, other engines do have (small) support teams and so are may see
-developments that help with tagging. However, the LaTeX Project team do not
-test these engines, and so where possible a move to LuaTeX is suggested.
+XeTeX, other engines do have (small) support teams and so may see developments
+that help with tagging. However, the LaTeX Project team do not test these
+engines, and so where possible a move to LuaTeX is suggested.
  
 ## Conclusions
 
