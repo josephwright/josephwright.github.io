@@ -49,7 +49,7 @@ suitable for other East Asian languages.
 
 pdfTeX is widely used as it is superbly stable and fast, at least if you are
 dealing with languages where an 8-bit approach works. There are as a result a
-vast body of exiting LaTeX documents which rely on pdfTeX. As such, the LaTeX
+vast body of existing LaTeX documents which rely on pdfTeX. As such, the LaTeX
 Project are working to produce fully tagged PDFs from these sources, although
 we cannot do quite the same job as with LuaTeX.
 
