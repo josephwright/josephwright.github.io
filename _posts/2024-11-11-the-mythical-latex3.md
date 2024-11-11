@@ -35,7 +35,7 @@ about but with no likelihood of (visible) delivery.
 ## Development into the 2010s
 
 Development of 'LaTeX3' ideas never stopped, of course: it was just that they
-moved from being primarily targeting a new kernel to building on top pf
+moved from being primarily targeting a new kernel to building on top of
 LaTeX2e. That results in a bundle called `l3in2e` and one called `xpackages` on
 CTAN, although both were marked as experimental.
 
@@ -74,14 +74,14 @@ parts that worked from those that do turn out to have been purely experiments.
 With this functionality available, new ideas such as hook management and
 re-implementation of older ones such as lists is possible: some of that is
 currently only activated if you use `\DocumentMetadata` as a 'marker'. For
-updated documents, that means many of the LaTeX3 ideas are being ued: the
+updated documents, that means many of the LaTeX3 ideas are being used: the
 programming layer, a way of making document commands (`\NewDocumentCommand`
 originally from `xparse`) and templates (originally from `xtemplate` and used
 to update list code, etc.).
 
 There are also more subtle changes across the kernel, for example updating
 commands to use UTF-8 everywhere, make more functions engine-robust, etc. Put
-together, the 2024 LaTeX1e is quite different from the 1994 one: but you can
+together, the 2024 LaTeX2e is quite different from the 1994 one: but you can
 still rely on the long-term stability that's always been there.
 
 ## Conclusions
@@ -90,5 +90,5 @@ Whilst there will never be a stand-alone 'LaTeX3' format, the ideas that were
 first explored by the LaTeX Project team in the early 1990s are now available
 to users in the LaTeX kernel. They are being used to deliver an updated LaTeX
 capable of producing accessible documents, and more widely to bring
-customisation to the kernel. So whilst 'LaTeX3' might not eb something you'll
-every say you use, if you use LaTeX, you are getting those features today.
+customisation to the kernel. So whilst 'LaTeX3' might not be something you'll
+ever say you use, if you use LaTeX, you are getting those features today.
