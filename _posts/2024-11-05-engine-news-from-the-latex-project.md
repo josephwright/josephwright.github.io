@@ -16,7 +16,7 @@ for existing and for new documents.
 
 LuaTeX offers the widest range of features, including the ability to access the
 node list as it's constructed. We can use that to generate MathML automatically
-for math mode fragments. If also allows us to do tagging in fewer passes than
+for math mode fragments. It also allows us to do tagging in fewer passes than
 in other engines and offers support for larger documents (due to dynamic memory
 allocation). As such, LuaTeX is _the_ recommended engine for all new documents.
 
