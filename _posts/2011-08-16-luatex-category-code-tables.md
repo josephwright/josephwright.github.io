@@ -11,7 +11,7 @@ tags:
 There are lots of very clever ideas in [LuaTeX](http://www.luatex.org/), and it's easy to miss some of the good stuff there is. One that many people might miss is category code tables. As any TeX programmer rapidly becomes aware, category codes are central to TeX, and the construction
 
 ```latex
-\catcode`\&lt;char&gt; = &lt;number&gt;\relax
+\catcode`\<char> = <number>\relax
 ```
 is one you soon get used to. The problem comes when several people start altering the codes: there is no easy way to get back to a known position.
 

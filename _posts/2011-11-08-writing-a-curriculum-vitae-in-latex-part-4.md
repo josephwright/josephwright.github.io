@@ -132,7 +132,7 @@ Finally for the preamble, the macros which actually go into the body of the CV
 \newenvironment{CVtable}
   {%
     \begin{tabular}
-      {@{}&gt;{\bfseries}p{\sidewidth}@{}&gt;{\RaggedRight}p{\mainwidth}@{}}%
+      {@{}>{\bfseries}p{\sidewidth}@{}>{\RaggedRight}p{\mainwidth}@{}}%
   }
   {\end{tabular}}
 ```

@@ -21,7 +21,7 @@ will give
 
 ```latex
 \test=macro:
--&gt;\example .
+->\example .
 ```
 
 Why would you want to do this? Well, there are some things that do not work properly inside an `\edef`. The classic one is an assignment: the following does not work

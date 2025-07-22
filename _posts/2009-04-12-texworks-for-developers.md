@@ -19,9 +19,9 @@ red		Y	\^\^A.*
 darkred		N	[$#^_{}&amp;]
 
 # Guards
-gold		N	%&lt;(?:[A-Za-z0-9!\|]+|.)&gt;
-limegreen	N	%&lt;\*(?:[A-Za-z0-9!\|]+|.)&gt;
-crimson		N	%&lt;/(?:[A-Za-z0-9!\|]+|.)&gt;
+gold		N	%<(?:[A-Za-z0-9!\|]+|.)>
+limegreen	N	%<\*(?:[A-Za-z0-9!\|]+|.)>
+crimson		N	%</(?:[A-Za-z0-9!\|]+|.)>
 
 # Macrocode
 green		N	^%[\s]{4}\\(?:begin|end)\{macrocode\}

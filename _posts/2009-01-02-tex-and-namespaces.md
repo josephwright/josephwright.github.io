@@ -28,16 +28,16 @@ I'd suggest a two-part solution to the issue, first at the LaTeX level and then 
 
 ```latex
 \module_details:n { % Note _ and : are "letters"
-  prefix     = &lt;prefix&gt;,
-  full~name  = &lt;Long macro name&gt;, % ~ is a space
-  version    = &lt;version&gt;,
-  date       = &lt;date&gt;,
-  maintainer = &lt;Whoever&gt;,
-  e-mail     = &lt;contact e-mail&gt;, % and so on
+  prefix     = <prefix>,
+  full~name  = <Long macro name>, % ~ is a space
+  version    = <version>,
+  date       = <date>,
+  maintainer = <Whoever>,
+  e-mail     = <contact e-mail>, % and so on
 }
 \module_reserve_names:n  {
-  &lt;function-name-1&gt;,
-  &lt;function-name-2&gt;, % etc.
+  <function-name-1>,
+  <function-name-2>, % etc.
 }
 ```
 

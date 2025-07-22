@@ -20,9 +20,9 @@ As with any TeX source, you don't have to have a special editor to work with `.d
 red        Y    \^\^A.*
 
 # Guards
-orange        N    %&lt;(?:[A-Za-z0-9!\|]+|.)&gt;
-limegreen    N    %&lt;\*(?:[A-Za-z0-9!\|]+|.)&gt;
-crimson        N    %&lt;/(?:[A-Za-z0-9!\|]+|.)&gt;
+orange        N    %<(?:[A-Za-z0-9!\|]+|.)>
+limegreen    N    %<\*(?:[A-Za-z0-9!\|]+|.)>
+crimson        N    %</(?:[A-Za-z0-9!\|]+|.)>
 
 # special characters
 darkred        N    \^\^\^\^\^[0-9a-z]{5}
@@ -100,7 +100,7 @@ Getting documentation right is not easy. My general approach is to try to includ
 %    \lst@EndWriteFile
 %  \egroup
 %  \begin{center}
-%    \ifdim\wd\LaTeXdemo@box&gt;0.48\linewidth\relax
+%    \ifdim\wd\LaTeXdemo@box>0.48\linewidth\relax
 %      \hbox to\linewidth{\box\LaTeXdemo@box\hss}^^A
 %        \begin{minipage}{\linewidth}
 %          \LaTeXdemo@input

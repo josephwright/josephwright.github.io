@@ -146,7 +146,7 @@ I then need the tables themselves. As they are all the same, it makes sense to s
 \newenvironment{CVtable}
   {%
     \begin{tabular}
-      {@{}&gt;{\bfseries}p{\sidewidth}@{}&gt;{\RaggedRight}p{\mainwidth}@{}}%
+      {@{}>{\bfseries}p{\sidewidth}@{}>{\RaggedRight}p{\mainwidth}@{}}%
   }
   {\end{tabular}}
 ```

@@ -17,7 +17,7 @@ Chemists don't only use simple line bonds: we use bold, dashed and wavy lines a 
 
 ![](/uploads/2012/08/ChemDraw2.png)
 
-ChemFig does not have a simple input syntax for them, unlike `=` for a double bond or `~` for a triple bond. However, it does let us customise bond appearance: the basic syntax we need is to put `[,,,,&lt;settings&gt;]` after the bond to be customised (there are four commas here as ChemFig has other settings to alter bonding). The settings are Ti<i>k</i>Z commands, and it's possible to set up these customisations as styles, which is better than doing everything by hand.
+ChemFig does not have a simple input syntax for them, unlike `=` for a double bond or `~` for a triple bond. However, it does let us customise bond appearance: the basic syntax we need is to put `[,,,,<settings>]` after the bond to be customised (there are four commas here as ChemFig has other settings to alter bonding). The settings are Ti<i>k</i>Z commands, and it's possible to set up these customisations as styles, which is better than doing everything by hand.
 
 First, we need two settings from ChemDraw: the thickness to use for a bold bond and the spacing in a hashes. I'll want to use these a few times, so save them with readable names
 
@@ -86,11 +86,11 @@ Chemical structures exist in three dimensions, and it's very common to show this
 
 ![](/uploads/2012/08/ChemDraw3.png)
 
-ChemFig let's us use `&lt;` in place of `-` for a filled wedged bond, with `&lt;|` for a hollow one and `&lt;:` for a dashed (backward) one. So the input we want here is
+ChemFig let's us use `<` in place of `-` for a filled wedged bond, with `<|` for a hollow one and `<:` for a dashed (backward) one. So the input we want here is
 
 ```latex
 \chemfig{
-  *6((&lt;)-(&lt;:)-(&lt;|)-(&gt;)-(&gt;:)-(&gt;|)-)
+  *6((<)-(<:)-(<|)-(>)-(>:)-(>|)-)
 }
 ```
 

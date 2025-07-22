@@ -35,7 +35,7 @@ will raise an error. The behaviour with MiKTeX was to allow both (and also absol
 Reading the MiKTeX lists, the new behaviour is causing issues because LaTeX's `\include` relies on `\openout`. Quite a lot of MiKTeX users have been doing things like:
 
 ```latex
-\include{C:/Users/&lt;user&gt;/My Documents/Chapters/chapter1.tex}
+\include{C:/Users/<user>/My Documents/Chapters/chapter1.tex}
 ```
 
 or
