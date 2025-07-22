@@ -29,7 +29,7 @@ darkred        N    \^\^\^\^\^[0-9a-z]{5}
 darkred        N    \^\^\^\^[0-9a-z]{4}
 darkred        N    \^\^\^[0-9a-z]{3}
 darkred        N    \^\^[0-9a-z]{2}
-darkred        N    [$#^_{}&amp;]
+darkred        N    [$#^_{}&]
 gray        N    ^%%.*
 gray        N    ^%
 

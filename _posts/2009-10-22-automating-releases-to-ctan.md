@@ -432,12 +432,12 @@ CLEAN = \
 %.pdf: %.dtx
 	NAME=`basename $< .dtx` ; \
 	echo "Typesetting $$NAME" ; \
-	pdflatex -draftmode -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input $<" &amp;> /dev/null ; \
+	pdflatex -draftmode -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input $<" &> /dev/null ; \
 	if [ $$? = 0 ] ; then  \
-	  makeindex -s gglo.ist -o $$NAME.gls $$NAME.glo &amp;> /dev/null ; \
-	  makeindex -s gind.ist -o $$NAME.ind $$NAME.idx &amp;> /dev/null ; \
-	  pdflatex -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input $<" &amp;> /dev/null ; \
-	  pdflatex -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input $<" &amp;> /dev/null ; \
+	  makeindex -s gglo.ist -o $$NAME.gls $$NAME.glo &> /dev/null ; \
+	  makeindex -s gind.ist -o $$NAME.ind $$NAME.idx &> /dev/null ; \
+	  pdflatex -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input $<" &> /dev/null ; \
+	  pdflatex -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input $<" &> /dev/null ; \
 	else \
 	  echo "  Complilation failed" ; \
 	fi ; \
@@ -493,7 +493,7 @@ localinstall: unpack
 	TEXMFHOME=`kpsewhich --var-value=TEXMFHOME` ; \
 	rm -rf $$TEXMFHOME/tex/$(PACKAGEROOT)/*.* ; \
 	cp *.sty $$TEXMFHOME/tex/$(PACKAGEROOT)/ ; \
-	texhash &amp;> /dev/null
+	texhash &> /dev/null
 
 tds: doc
 	echo "Creating TDS archive"
@@ -523,7 +523,7 @@ tds: doc
 unpack:
 	echo "Unpacking files"
 	for I in $(UNPACK) ; do \
-	  tex $$I &amp;> /dev/null ; \
+	  tex $$I &> /dev/null ; \
 	done
 ```
 

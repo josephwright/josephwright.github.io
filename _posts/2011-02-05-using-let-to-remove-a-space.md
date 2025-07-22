@@ -5,7 +5,7 @@ permalink: /2011/02/05/using-let-to-remove-a-space/
 categories:
   - General
 ---
-On the [{TeX} Q&amp;A site](https://tex.stackexchange.com/), there was a question recently about [splitting the first token off a list](https://tex.stackexchange.com/questions/10210/), with the requirement that spaces are not skipped. In my answer, I've used \let to remove one space. The question is how to do this. Normally, if you want to use `\let` you do
+On the [{TeX} Q&A site](https://tex.stackexchange.com/), there was a question recently about [splitting the first token off a list](https://tex.stackexchange.com/questions/10210/), with the requirement that spaces are not skipped. In my answer, I've used \let to remove one space. The question is how to do this. Normally, if you want to use `\let` you do
 
 ```latex
 \let\TokenA\TokenB

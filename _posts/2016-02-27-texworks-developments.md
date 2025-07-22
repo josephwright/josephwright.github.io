@@ -5,7 +5,7 @@ permalink: /2016/02/27/texworks-developments/
 categories:
   - TeXworks
 ---
-Over recent weeks, Stefan Löffler has provided [new builds](https://drive.google.com/folderview?id=0B5iVT8Q7W44pNDlQVm9uRGpEWHc&amp;tid=0B5iVT8Q7W44pMkNLblFjUzdQUVE) for [TeXworks](https://tug.org/texworks/)
+Over recent weeks, Stefan Löffler has provided [new builds](https://drive.google.com/folderview?id=0B5iVT8Q7W44pNDlQVm9uRGpEWHc&tid=0B5iVT8Q7W44pMkNLblFjUzdQUVE) for [TeXworks](https://tug.org/texworks/)
 featuring a re-implementation of the PDF view. This offers
 new modes for previewing the output, most notably continuous scrolling.
 It's also intended to be much faster than the older viewer.

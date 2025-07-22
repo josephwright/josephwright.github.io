@@ -162,7 +162,7 @@ The new environment is then used for each (sub)section, and contains the body of
 \subsection{Current position}
 
 \begin{CVtable}
-  2008-- &amp;
+  2008-- &
     \headline{PDRA -- University of East Anglia} \par
     Supervisor Prof.~C.~J.~Pickett \par
     Studies on [Fe]- and [FeFe]-hydrogenase active sites mimics \par
@@ -174,7 +174,7 @@ The new environment is then used for each (sub)section, and contains the body of
 \subsection{Previous positions}
 
 \begin{CVtable}
-  2007--2008 &amp;
+  2007--2008 &
     \headline{Senior Demonstrator -- University of East Anglia} \par
     Teaching degree level chemistry:
     tutorials and laboratory classes \par
@@ -182,14 +182,14 @@ The new environment is then used for each (sub)section, and contains the body of
     organic chemistry
   \\
 
-  2005--2008 &amp;
+  2005--2008 &
     \headline{PDRA -- University of East Anglia} \par
     Supervisor Prof.~M.~Bochmann \par
     Use of zirconium phosphonates as heterogeneous catalyst supports \par
     Synthesis of novel ligand systems for early transition metals
   \\
 
-  2003--2004 &amp;
+  2003--2004 &
     \headline{PDRA -- University of Southampton} \par
     Supervisor Dr A.\,A.~Danopoulos \par
     Synthesis of novel N-heterocyclic carbene complexes \par

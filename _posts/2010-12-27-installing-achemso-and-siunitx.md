@@ -23,9 +23,9 @@ One thing to do if you update your TeX system is to check any locally-installed 
 
 ## Installing using the TDS `.zip` files
 
-The method above is fine if you are happy installing an entirely new TeX system, but if all you need is access to one of my packages then it is probably over-kill. For these users, I provide ready-to-install `.zip` files on CTAN. For `achemso`, you need [`achemso.tds.zip`](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=`achemso`.tds.zip&amp;Search=Search), while for `siunitx` users you probably need
+The method above is fine if you are happy installing an entirely new TeX system, but if all you need is access to one of my packages then it is probably over-kill. For these users, I provide ready-to-install `.zip` files on CTAN. For `achemso`, you need [`achemso.tds.zip`](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=`achemso`.tds.zip&Search=Search), while for `siunitx` users you probably need
 
-- [`siunitx.tds.zip`](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=`siunitx`.tds.zip&amp;Search=Search)
+- [`siunitx.tds.zip`](http://www.ctan.org/cgi-bin/filenameSearch.py?filename=`siunitx`.tds.zip&Search=Search)
 - `expl3.tds.zip`
 - `xpackages.tds.zip`
 

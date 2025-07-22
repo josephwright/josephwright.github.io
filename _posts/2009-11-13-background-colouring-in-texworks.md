@@ -10,7 +10,7 @@ The current experimental builds of [TeXworks](https://tug.org/texworks) now incl
 ```
 [LaTeX]
 # special characters
-darkred		N	[$#^_{}&amp;]
+darkred		N	[$#^_{}&]
 
 # LaTeX environments
 darkgreen	N	\\(?:begin|end)\s*\{[^}]*\}

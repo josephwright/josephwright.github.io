@@ -25,7 +25,7 @@ A good illustration of this is verbatim material. The way that something like La
 where both `\@makeother` and `\dospecials` are provided by the LaTeX kernel. That works because `\dospecials` is defined as
 
 ```latex
-\do \ \do \\\do \{\do \}\do \$\do \&amp;\do \#\do \^\do \_\do \%\do \~
+\do \ \do \\\do \{\do \}\do \$\do \&\do \#\do \^\do \_\do \%\do \~
 ```
 
 and so maps the function `\@makeother` to all of the 'special' characters. Using that, a (simplified) verbatim command looks like

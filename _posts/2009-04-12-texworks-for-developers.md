@@ -16,7 +16,7 @@ There are still a few things I'd like to have in TeXworks that are currently lac
 red		Y	\^\^A.*
 
 # special characters
-darkred		N	[$#^_{}&amp;]
+darkred		N	[$#^_{}&]
 
 # Guards
 gold		N	%<(?:[A-Za-z0-9!\|]+|.)>

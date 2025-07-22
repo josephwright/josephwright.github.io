@@ -46,7 +46,7 @@ Code for both packages
 %</PackageA|PackageB>
 ```
 
-What is happening here? Each guard line is a comment (so it will not appear in the production file), and is enclosed in angle brackets. The first line, `%<*PackageA>`, is a guard starting lines that will only appear when extracting `PackageA`. That continues until the matching closing guard, `%</PackageA>`. There is then a section that applies only to `PackageB`, marked up in much the same way. The final set of guards use the `|` symbol to mean 'or': lines here will appear in both `PackageA` and `PackageB`. You can do more complex things (nest guards, use `&amp;` as a logical 'and', _etc_.), but the basic idea remains the same.
+What is happening here? Each guard line is a comment (so it will not appear in the production file), and is enclosed in angle brackets. The first line, `%<*PackageA>`, is a guard starting lines that will only appear when extracting `PackageA`. That continues until the matching closing guard, `%</PackageA>`. There is then a section that applies only to `PackageB`, marked up in much the same way. The final set of guards use the `|` symbol to mean 'or': lines here will appear in both `PackageA` and `PackageB`. You can do more complex things (nest guards, use `&` as a logical 'and', _etc_.), but the basic idea remains the same.
 
 I've said a couple of times that the code is extracted, and that this needs some instructions for DocStrip. Essentially, this means matching up the names of the guards with the files they relate to. In my simple example, a suitable DocStrip `.ins` file would be
 
