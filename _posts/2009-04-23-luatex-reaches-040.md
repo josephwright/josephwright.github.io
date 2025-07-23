@@ -1,7 +1,7 @@
 ---
-title: LuaTeX reachs 0.40
+title: LuaTeX reaches 0.40
 layout: post
-permalink: /2009/04/23/luatex-reachs-040/
+permalink: /2009/04/23/luatex-reaches-040/
 categories:
   - General
 tags:

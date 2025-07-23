@@ -38,7 +38,7 @@ commands. It uses a very small number of argument types, which I'll describe
 in `xparse` terms
 
 - Mandatory (`m`) arguments in braces
-- Optional (`o`/`O{<defaut>}`) arguments in `[]`, which may have a default; in
+- Optional (`o`/`O{<default>}`) arguments in `[]`, which may have a default; in
   `xparse` terms we can tell the difference between a missing optional argument
   and one given with an empty `[]` pair
 - A star (`s`)
