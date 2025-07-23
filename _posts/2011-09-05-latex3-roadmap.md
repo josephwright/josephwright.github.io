@@ -30,7 +30,7 @@ The current [l3keys](https://github.com/latex3/svn-mirror/blob/master/l3kernel/l
 
 ### LaTeX3 niggles
 
-There are a [number of issues](https://github.com/latex3/svn-mirror/issues?sort=created&amp;direction=desc&amp;state=open) that have come up as LaTeX3 has seen more use. Fixing these is an ongoing problem, and we should probably look to deal with a few over the coming weeks. The supply is not going to run out!
+There are a [number of issues](https://github.com/latex3/svn-mirror/issues?sort=created&direction=desc&state=open) that have come up as LaTeX3 has seen more use. Fixing these is an ongoing problem, and we should probably look to deal with a few over the coming weeks. The supply is not going to run out!
 
 ### Documentation improvements
 

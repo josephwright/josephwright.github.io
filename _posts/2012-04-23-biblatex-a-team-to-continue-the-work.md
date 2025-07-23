@@ -14,7 +14,7 @@ Philipp Lehman had discussed a number of plans with the lead developer of [Biber
 - [Audrey Boruvka](https://tex.stackexchange.com/users/4483/audrey)
 - Me
 
-We've got two separate tasks. First, we want to deal with issues with the current release of `biblatex` (v1.7). These are [tracked on the SourceForge site](http://sourceforge.net/tracker/?group_id=244752&amp;atid=1126005), and there are a few outstanding which are being looked at. Second, we want to continue the work that Philipp Lehman had planned. That work is taking place on [GitHub](https://github.com/plk/biblatex/), and there are some big issues to tackle.
+We've got two separate tasks. First, we want to deal with issues with the current release of `biblatex` (v1.7). These are [tracked on the SourceForge site](http://sourceforge.net/tracker/?group_id=244752&atid=1126005), and there are a few outstanding which are being looked at. Second, we want to continue the work that Philipp Lehman had planned. That work is taking place on [GitHub](https://github.com/plk/biblatex/), and there are some big issues to tackle.
 
 Perhaps the biggest single item on the horizon for `biblatex` 2.0 is dropping BibTeX support, and going Biber-only. That's something that Philipp Lehman has been planning for some time: the reality is that supporting BibTeX is increasingly awkward, and it's making adding new features increasingly complex (and bug-prone). Of course, dropping BibTeX support will be a significant change, but it's been on the horizon for some time, and will open the way to further extending the data model `biblatex` (and Biber) user.
 

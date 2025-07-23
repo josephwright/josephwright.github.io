@@ -10,7 +10,7 @@ As I mentioned in my [last post](/2014/12/28/fixing-latex2e/), the LaTeX team ar
 To date, the 'vanilla' LaTeX format (`latex.ltx` and associated files) has been pretty much engine-neutral with no attempt to differentiate anything other than to deal with differences between TeX2 (7-bit, released 1982) and TeX3 (8-bit, released 1990). However, the LaTeX formats that almost all users actually load are not just made by running
 
 ```bash
-&lt;engine&gt; -ini latex.ltx
+<engine> -ini latex.ltx
 ```
 
 (or similar). The 'format builders' [principally the [TeX Live](https://tug.org/texlive) team and Christian Schenk ([MiKTeX](http://miktex.org)] use a series of `.ini` files for building formats. For example, `pdflatex.ini`currently says
@@ -44,7 +44,7 @@ and later
 \begingroup
 \catcode`\@=11 \count@=128 % reset chars "80-"FF to category "other", no case mapp
 ing
-\loop \ifnum\count@&lt;256
+\loop \ifnum\count@<256
   \global\uccode\count@=0 \global\lccode\count@=0
   \global\catcode\count@=12 \global\sfcode\count@=1000
   \advance\count@ by 1 \repeat
@@ -79,7 +79,7 @@ As well as this important area, there are some things that are 'tacked on' to th
  \global#3#5\allocationnumber
  \wlog{\string#5=\string#2\the\allocationnumber}}
 \def\xe@ch@ck#1#2#3{%
- \ifnum#1&lt;#2\else
+ \ifnum#1<#2\else
   \errmessage{No room for a new #3}%
  \fi}
 \def\newXeTeXintercharclass{%

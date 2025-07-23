@@ -136,20 +136,20 @@ One problem is that there is no command line tool for creating `.zip` files inst
   echo Creating archive
 
   for %%I in (%SOURCES%) do (
-    xcopy /q /y %%I "%CTANDIR%\" &gt; nul
+    xcopy /q /y %%I "%CTANDIR%\" > nul
   )
   for %%I in (%CTANFILES%) do (
-    xcopy /q /y *.%%I "%CTANDIR%\" &gt; nul
+    xcopy /q /y *.%%I "%CTANDIR%\" > nul
   )
   for %%I in (%INLCUDETXT%) do (
-    xcopy /q /y %%I.txt "%CTANDIR%\" &gt; nul
+    xcopy /q /y %%I.txt "%CTANDIR%\" > nul
     ren "%CTANDIR%\%%I.txt" %%I
   )
 
   pushd "%CTANROOT%"
   %ZIPEXE% %ZIPFLAG% %PACKAGE%.zip .
   popd
-  copy /y "%CTANROOT%\%PACKAGE%.zip" &gt; nul
+  copy /y "%CTANROOT%\%PACKAGE%.zip" > nul
 
   rmdir /s /q %CTANROOT%
 
@@ -202,7 +202,7 @@ One problem is that there is no command line tool for creating `.zip` files inst
   call :file2tdsdir %1
 
   if defined TDSDIR (
-    xcopy /q /y %1 "%TEXMFHOME%\%TDSDIR%\" &gt; nul
+    xcopy /q /y %1 "%TEXMFHOME%\%TDSDIR%\" > nul
   ) else (
     echo Unknown file type "%~x1"
   )
@@ -233,7 +233,7 @@ One problem is that there is no command line tool for creating `.zip` files inst
   pushd "%TDSROOT%"
   %ZIPEXE% %ZIPFLAG% %PACKAGE%.tds.zip .
   popd
-  copy /y "%TDSROOT%\%PACKAGE%.tds.zip" &gt; nul
+  copy /y "%TDSROOT%\%PACKAGE%.tds.zip" > nul
 
   rmdir /s /q "%TDSROOT%"
 
@@ -244,7 +244,7 @@ One problem is that there is no command line tool for creating `.zip` files inst
   call :file2tdsdir %1
 
   if defined TDSDIR (
-    xcopy /q /y %1 "%TDSROOT%\%TDSDIR%\" &gt; nul
+    xcopy /q /y %1 "%TDSROOT%\%TDSDIR%\" > nul
   ) else (
     echo Unknown file type "%~x1"
   )
@@ -256,7 +256,7 @@ One problem is that there is no command line tool for creating `.zip` files inst
   call :file2tdsdir %1.txt
 
   if defined TDSDIR (
-    xcopy /q /y %1.txt "%TDSROOT%\%TDSDIR%\" &gt; nul
+    xcopy /q /y %1.txt "%TDSROOT%\%TDSDIR%\" > nul
     ren "%TDSROOT%\%TDSDIR%\%1.txt" %1
   ) else (
     echo Unknown file type "%~x1"
@@ -268,15 +268,15 @@ One problem is that there is no command line tool for creating `.zip` files inst
 
   echo Typesetting %1
 
-  pdflatex -interaction=nonstopmode -draftmode "\AtBeginDocument{\OnlyDescription}\input %1" &gt; nul
+  pdflatex -interaction=nonstopmode -draftmode "\AtBeginDocument{\OnlyDescription}\input %1" > nul
   if ERRORLEVEL 1 (
     echo ! Compilation failed
   )
 
-  makeindex -q -s gglo.ist -o %~n1.gls %~n1.glo &gt; nul
-  makeindex -q -s gind.ist -o %~n1.ind %~n1.idx &gt; nul
-  pdflatex -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input %1" &gt; nul
-  pdflatex -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input %1" &gt; nul
+  makeindex -q -s gglo.ist -o %~n1.gls %~n1.glo > nul
+  makeindex -q -s gind.ist -o %~n1.ind %~n1.idx > nul
+  pdflatex -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input %1" > nul
+  pdflatex -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input %1" > nul
 
   goto :EOF
 
@@ -286,12 +286,12 @@ One problem is that there is no command line tool for creating `.zip` files inst
 
   set SOURCES=%SOURCES% %1
 
-  pdflatex -interaction=nonstopmode -draftmode %1 &gt; nul
+  pdflatex -interaction=nonstopmode -draftmode %1 > nul
   if ERRORLEVEL 1 (
     echo ! Compilation failed
   )
-  pdflatex -interaction=nonstopmode %1 &gt; nul
-  pdflatex -interaction=nonstopmode %1 &gt; nul
+  pdflatex -interaction=nonstopmode %1 > nul
+  pdflatex -interaction=nonstopmode %1 > nul
 
   goto :EOF
 
@@ -301,7 +301,7 @@ One problem is that there is no command line tool for creating `.zip` files inst
   echo Unpacking files
 
   for %%I in (%UNPACK%) do (
-    tex %%I &gt; nul
+    tex %%I > nul
   )
 
   goto :end
@@ -430,14 +430,14 @@ CLEAN = \
 ################################################################
 
 %.pdf: %.dtx
-	NAME=`basename $&lt; .dtx` ; \
+	NAME=`basename $< .dtx` ; \
 	echo "Typesetting $$NAME" ; \
-	pdflatex -draftmode -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input $&lt;" &amp;&gt; /dev/null ; \
+	pdflatex -draftmode -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input $<" &> /dev/null ; \
 	if [ $$? = 0 ] ; then  \
-	  makeindex -s gglo.ist -o $$NAME.gls $$NAME.glo &amp;&gt; /dev/null ; \
-	  makeindex -s gind.ist -o $$NAME.ind $$NAME.idx &amp;&gt; /dev/null ; \
-	  pdflatex -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input $&lt;" &amp;&gt; /dev/null ; \
-	  pdflatex -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input $&lt;" &amp;&gt; /dev/null ; \
+	  makeindex -s gglo.ist -o $$NAME.gls $$NAME.glo &> /dev/null ; \
+	  makeindex -s gind.ist -o $$NAME.ind $$NAME.idx &> /dev/null ; \
+	  pdflatex -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input $<" &> /dev/null ; \
+	  pdflatex -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input $<" &> /dev/null ; \
 	else \
 	  echo "  Complilation failed" ; \
 	fi ; \
@@ -493,7 +493,7 @@ localinstall: unpack
 	TEXMFHOME=`kpsewhich --var-value=TEXMFHOME` ; \
 	rm -rf $$TEXMFHOME/tex/$(PACKAGEROOT)/*.* ; \
 	cp *.sty $$TEXMFHOME/tex/$(PACKAGEROOT)/ ; \
-	texhash &amp;&gt; /dev/null
+	texhash &> /dev/null
 
 tds: doc
 	echo "Creating TDS archive"
@@ -523,7 +523,7 @@ tds: doc
 unpack:
 	echo "Unpacking files"
 	for I in $(UNPACK) ; do \
-	  tex $$I &amp;&gt; /dev/null ; \
+	  tex $$I &> /dev/null ; \
 	done
 ```
 

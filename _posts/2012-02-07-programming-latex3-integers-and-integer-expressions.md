@@ -16,7 +16,7 @@ Based on what we have already seen with token lists, it should be no surprise th
 ```latex
 \int_new:N \l_my_a_int
 \int_set:Nn \l_my_a_int { 1 + 1 }
-\int_show:N \l_my_a_int % =&gt; '2'
+\int_show:N \l_my_a_int % => '2'
 ```
 
 Creating and setting the variable should seem easy enough here, but you might wonder about the result of showing the content here: it's not what we put in. That's because LaTeX3 treats the second argument of `\int_set:Nn` as an _integer expression_: something to be evaluated to give an integer.
@@ -28,7 +28,7 @@ All LaTeX3 functions which work with integers are set up to evaluate integer exp
 More significantly, we can include other functions which themselves yield integers. For example, we've seen that it's possible to work out the length of a token list, which is an integer:
 
 ```latex
-\int_set:Nn \l_my_a_int { \tl_length:n { Hello } * 2 } % =&gt; 10
+\int_set:Nn \l_my_a_int { \tl_length:n { Hello } * 2 } % => 10
 ```
 
 We can't use any function here: there are some restrictions. Clearly we need to get an integer out, but the functions also need to be _expandable_: that will be the topic of the next post!
@@ -54,7 +54,7 @@ Closely related to conditionals are loops, and again these come pre-defined.
 
 ```latex
 \int_zero:N \l_my_a_int % Hopefully obvious!
-\int_while_do:nn { \l_my_a_int &lt; 10 }
+\int_while_do:nn { \l_my_a_int < 10 }
   {
     \int_use:N \l_my_a_int \\
     \int_incr:N \l_my_a_int

@@ -132,7 +132,7 @@ Finally for the preamble, the macros which actually go into the body of the CV
 \newenvironment{CVtable}
   {%
     \begin{tabular}
-      {@{}&gt;{\bfseries}p{\sidewidth}@{}&gt;{\RaggedRight}p{\mainwidth}@{}}%
+      {@{}>{\bfseries}p{\sidewidth}@{}>{\RaggedRight}p{\mainwidth}@{}}%
   }
   {\end{tabular}}
 ```
@@ -171,7 +171,7 @@ The first of several sections. Here, I've taken one which also has subsections, 
 \subsection{Current position}
 
 \begin{CVtable}
-  2008-- &amp;
+  2008-- &
     \headline{PDRA -- University of East Anglia} \par
     Supervisor Prof.~C.~J.~Pickett \par
     Studies on [Fe]- and [FeFe]-hydrogenase active sites mimics \par
@@ -183,7 +183,7 @@ The first of several sections. Here, I've taken one which also has subsections, 
 \subsection{Previous positions}
 
 \begin{CVtable}
-  2007--2008 &amp;
+  2007--2008 &
     \headline{Senior Demonstrator -- University of East Anglia} \par
     Teaching degree level chemistry:
     tutorials and laboratory classes \par

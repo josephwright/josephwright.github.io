@@ -13,8 +13,8 @@ Spaces in file names are a constant issue for LaTeX users. As many people will k
 ```latex
 \edef\example{\jobname}
 \show\example
-&gt; \example=macro:
--&gt;test*file.
+> \example=macro:
+->test*file.
 l.2 \show\example
 ```
 

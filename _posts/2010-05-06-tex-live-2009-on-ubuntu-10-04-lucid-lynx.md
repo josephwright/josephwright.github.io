@@ -22,4 +22,4 @@ This grabs a subset of the complete TeX Live 2009, but seems to include quite a 
 sudo apt-get install texworks
 ```
 
-and be ready to go. Of course, you might still need to grab a few more bits of TeX Live (for example, [XeTeX](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=xetex) is not included in the standard selection). However, it's definitely an improvement of the earlier situation.
+and be ready to go. Of course, you might still need to grab a few more bits of TeX Live (for example, [XeTeX](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=xetex) is not included in the standard selection). However, it's definitely an improvement of the earlier situation.

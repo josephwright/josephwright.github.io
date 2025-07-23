@@ -16,7 +16,7 @@ To detect what system is being used, for things like shell escape tricks, there 
 ```latex
 \edef\ip@sig{write18-test-\the\year\the\month\the\day\the\time}
 \edef\ip@win{'\ip@sig'}
-\immediate\write18{echo \ip@win &gt;"\ip@file"}
+\immediate\write18{echo \ip@win >"\ip@file"}
 ```
 
 The idea is that the text written to the temporary file will be different on Windows to on a Unix-like system. MiKTeX will retain the single quotes around the test data:
@@ -34,7 +34,7 @@ write18-test-20098231074
 But try using `ifplatform` with TeX Live on Windows and the test fails. First, no test file gets written at all: a bit of hacking leads to the change of the write line to
 
 ```latex
-\immediate\write18{echo \ip@win &gt; \ip@file}
+\immediate\write18{echo \ip@win > \ip@file}
 ```
 
 and then at least the first step works. However, the test file now looks like a Unix one (with no quote marks), and `ifplatform` gets things wrong. So for the moment the only thing to do is create a stub package file and use it, something like:

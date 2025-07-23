@@ -27,7 +27,7 @@ For questions posted in public, it's always best to drop me a line so I spot it:
 
 > Hello,
 >
-> I posted a question about your &lt;whatever&gt; package:
+> I posted a question about your <whatever> package:
 >
 > http://some-url-here/
 >

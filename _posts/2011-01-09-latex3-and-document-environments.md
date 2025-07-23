@@ -8,7 +8,7 @@ tags:
   - environments
   - xparse
 ---
-There was a [question](https://tex.stackexchange.com/questions/8528/) on the [{TeX} Q&amp;A site](https://tex.stackexchange.com/) recently about compiling a document reading
+There was a [question](https://tex.stackexchange.com/questions/8528/) on the [{TeX} Q&A site](https://tex.stackexchange.com/) recently about compiling a document reading
 
 ```latex
 \documentclass{minimal}

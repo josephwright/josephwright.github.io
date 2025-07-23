@@ -8,7 +8,7 @@ tags:
   - LuaTeX
   - XeTeX
 ---
-There has been quite a bit of discussion recently on the [LuaTeX mailing list](https://tug.org/pipermail/luatex/) about primitive names.  The basic set of primitive names provided by TeX has already been extended by e-TeX, [pdfTeX](https://tug.org/applications/pdftex/) and [XeTeX](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=xetex). While e-TeX primitives have names which express only the function (such as `\detokenize`), both pdfTeX and XeTeX have tended to add the engine name to all new primitives. So for example pdfTeX provides the `\pdfprimitive` function, which always carries out the original function of a name, even if it has later been redefined:
+There has been quite a bit of discussion recently on the [LuaTeX mailing list](https://tug.org/pipermail/luatex/) about primitive names.  The basic set of primitive names provided by TeX has already been extended by e-TeX, [pdfTeX](https://tug.org/applications/pdftex/) and [XeTeX](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=xetex). While e-TeX primitives have names which express only the function (such as `\detokenize`), both pdfTeX and XeTeX have tended to add the engine name to all new primitives. So for example pdfTeX provides the `\pdfprimitive` function, which always carries out the original function of a name, even if it has later been redefined:
 
 ```latex
 \let\everypar\undefined
