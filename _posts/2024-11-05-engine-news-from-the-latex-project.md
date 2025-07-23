@@ -40,7 +40,7 @@ essentially rules out full tagging support (see below).
 All of this means it is time to move away from XeTeX: certainly for new
 documents, and even for existing ones. Users should look at alternative
 approaches here, even if it means some source changes. This is most obvious for
-users of [`xeCJK`](https://ctan.org/pkg/xecjk), who will need to look a the
+users of [`xeCJK`](https://ctan.org/pkg/xecjk), who will need to look at the
 methods offered by [`luatexja`](https://ctan.org/pkg/luatexja) instead: whilst
 the latter is described as for Japanese, the underlying mechanisms should be
 suitable for other East Asian languages.
