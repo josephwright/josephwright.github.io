@@ -20,7 +20,7 @@ In a [recent post](/2014/01/17/the-beamer-slide-overlay-concept/) I looked at ho
 \end{frame}
 ```
 
-As I discussed in the earlier post, this is a very powerful way to create overlays (dynamic slides from the same frame source). However, a classic problem people have is combining this with the `\pause` command. For example, the following creates _four_ slides:
+As I discussed in the earlier post, this is a very powerful way to create overlays (dynamic slides from the same frame source). However, a classic problem people have is combining this with the `\pause` command. For example, the following creates _five_ slides:
 
 ```latex
 \begin{frame}
@@ -66,6 +66,6 @@ Unlike `\pause`, which only knows some basic stuff about slide numbers, `\onslid
 \end{frame}
 ```
 
-As we are then using the special `+` syntax for all of the overlays, everything is properly tied together and will give the (probably) expected result: three slides.
+As we are then using the special `+` syntax for all of the overlays, everything is properly tied together and will give the (probably) expected result: four slides.
 
 The `beamer` manual covers other more complex effects using `\only`, `\uncover`, `\alt` and so on, but using `\onslide` you can do everything you _think_ you can do with `\pause` but actually have it work when using the `+` syntax on the slide too!
