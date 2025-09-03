@@ -49,7 +49,7 @@ The reason people get into trouble is I think because they imagine `\pause` as t
 \end{frame}
 ```
 
-The moment you introduce other dynamic behaviour, you need more control than `\pause` offers. Indeed, this is pretty clear in the `beamer` manual: what people are actually looking for is `\onlside`.
+The moment you introduce other dynamic behaviour, you need more control than `\pause` offers. Indeed, this is pretty clear in the `beamer` manual: what people are actually looking for is `\onslide`.
 
 Unlike `\pause`, which only knows some basic stuff about slide numbers, `\onslide` works with the full power of the flexible overlay specification (indeed, an overlay specification is required). So to get text after a list, what is needed is
 
