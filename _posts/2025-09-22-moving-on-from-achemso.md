@@ -1,7 +1,7 @@
 ---
 title: "Moving on from achemso"
 layout: post
-permalink: /2025/09/12/moving-on-from-achemso
+permalink: /2025/09/22/moving-on-from-achemso
 categories:
   - general
 ---
