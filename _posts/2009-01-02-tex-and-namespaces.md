@@ -7,7 +7,7 @@ categories:
 ---
 A question on the [LaTeX3 mailing list](https://www.latex-project.org/latex3.html) has got me thinking abut namespaces. Plain TeX users tend to have their own set of macros, plus those from the plain format, and so are pretty much in control of everything. On the other hand, [ConTeXt](http://www.pragma-ade.com/) users can rely on the small focussed development team to keep naming sensible. That leaves LaTeX, where things are complicated.
 
-The current LaTeX situation is rather a hodge-podge of approaches. Internal macros follow the plain TeX conventions, and include one or more `@` symbols. However, this is all rather a mess, as there is no real system: `\@tf@r`, from the kernel, for example. What is it for (no peeking)? User macros are little better, with some including package names, some with captials, others defined only in certain places, etc. This means developing a new package is something of a risk: it is very easy to end up getting e-mails saying
+The current LaTeX situation is rather a hodge-podge of approaches. Internal macros follow the plain TeX conventions, and include one or more `@` symbols. However, this is all rather a mess, as there is no real system: `\@tf@r`, from the kernel, for example. What is it for (no peeking)? User macros are little better, with some including package names, some with capitals, others defined only in certain places, etc. This means developing a new package is something of a risk: it is very easy to end up getting e-mails saying
 
 > Your package XXX clashes with package YYY because both define \SomeObsureMacroName. Sort it out!
 

@@ -42,8 +42,7 @@ and later
 % Because latex.ltx sets up character code tables for T1 encoding by default,
 % we need to reset values from unicode-letters that may have been overridden
 \begingroup
-\catcode`\@=11 \count@=128 % reset chars "80-"FF to category "other", no case mapp
-ing
+\catcode`\@=11 \count@=128 % reset chars "80-"FF to category "other", no case mapping
 \loop \ifnum\count@<256
   \global\uccode\count@=0 \global\lccode\count@=0
   \global\catcode\count@=12 \global\sfcode\count@=1000
@@ -95,7 +94,7 @@ For LuaTeX, there are a couple of things in `lualatex.ini` that should be in the
 \catcode`\}=2
 \directlua{
   % etex and pdftex primitives are enabled without prefixing
-  % as well as extented Unicode math primitives (see below)
+  % as well as extended Unicode math primitives (see below)
   tex.enableprimitives('',
     tex.extraprimitives('etex', 'pdftex', 'umath'))
   % other primitives are prefixed with luatex (see below)

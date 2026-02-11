@@ -78,7 +78,7 @@ One problem is that there is no command line tool for creating `.zip` files inst
 
   rem The file types for inclusion in the archive files: note that a CTAN
   rem archive should not contain "unpacked" files. Typeset files and their
-  rem sources are not inlcuded here: they are dealt with separately
+  rem sources are not included here: they are dealt with separately
 
   set CTANFILES=dtx ins pdf
   set TDSFILES=%CTANFILES% sty
@@ -345,7 +345,7 @@ To use the file, just alter the settings at the beginning. The pattern should be
 
 ## Unix make files
 
-Unix make files work somewhat differently to shell scripts. Each entry is a 'target', which is a file to create. I'm not going to explain in detail how they work, but in essense there are a series of fake 'files' which are the names of the settings you send to make (for example, `make ctan` needs a target called `ctan`). As with the batch file, there are a series of blanks to fill in here to customise things. I'm also sticking with the idea that things are pretty basic: a `.dtx` file, a `.sty` file and some documentation, plus perhaps one or more example tex files. Hopefully the idea is pretty clear. By keeping as much as possible in variables, the idea is to avoid needing to change the bulk of the file to move from one package to another. As with the batch file, the entire thing is available here. to download.
+Unix make files work somewhat differently to shell scripts. Each entry is a 'target', which is a file to create. I'm not going to explain in detail how they work, but in essence there are a series of fake 'files' which are the names of the settings you send to make (for example, `make ctan` needs a target called `ctan`). As with the batch file, there are a series of blanks to fill in here to customise things. I'm also sticking with the idea that things are pretty basic: a `.dtx` file, a `.sty` file and some documentation, plus perhaps one or more example tex files. Hopefully the idea is pretty clear. By keeping as much as possible in variables, the idea is to avoid needing to change the bulk of the file to move from one package to another. As with the batch file, the entire thing is available here. to download.
 
 ```make
 ################################################################
@@ -414,7 +414,7 @@ AUXFILES = \
 	log  \
 	out  \
 	tmp  \
-	toc  
+	toc
 
 CLEAN = \
 	gz  \
@@ -426,7 +426,7 @@ CLEAN = \
 	zip
 
 ################################################################
-# File buiding: default actions                                #
+# File building: default actions                               #
 ################################################################
 
 %.pdf: %.dtx
@@ -439,7 +439,7 @@ CLEAN = \
 	  pdflatex -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input $<" &> /dev/null ; \
 	  pdflatex -interaction=nonstopmode "\AtBeginDocument{\OnlyDescription} \input $<" &> /dev/null ; \
 	else \
-	  echo "  Complilation failed" ; \
+	  echo "  Compilation failed" ; \
 	fi ; \
 	for I in $(AUXFILES) ; do \
 	  rm -f $$NAME.$$I ; \
