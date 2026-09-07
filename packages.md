@@ -15,6 +15,7 @@ For the user I write quite a number of LaTeX packages, some focussed on chemistr
 - [`chemstyle`](https://ctan.org/pkg/chemstyle): Schemes and style for chemistry
 - [`etoolbox`](https://ctan.org/pkg/etoolbox): e-TeX tools for LaTeX
 - [`notes2bib`](https://ctan.org/pkg/notes2bib): Integrating notes into the bibliography
+- [`ltx-talk`](https://ctan.org/pkg/ltx-talk): A LaTeX class for producing (accessible) presentations
 - [`pgfopts`](https://ctan.org/pkg/pgfopts): LaTeX package options with pgfkeys
 - [`rsc`](https://ctan.org/pkg/rsc): BibTeX styles for Royal Society of Chemistry and Wiley journals
 - [`siunitx`](https://ctan.org/pkg/siunitx): A comprehensive (SI) units package
