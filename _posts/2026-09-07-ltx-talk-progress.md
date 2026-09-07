@@ -7,7 +7,7 @@ categories:
 ---
  
 The [`ltx-talk`](https://ctan.org/pkg/ltx-talk) class has now reached v0.6, and
-we recently ran a [workhop at
+we recently ran a [workshop at
 DocEng'26](https://www.latex-project.org/news/2026/09/07/DocEng26/) focussing on
 accessible presentations using `ltx-talk`.
 
