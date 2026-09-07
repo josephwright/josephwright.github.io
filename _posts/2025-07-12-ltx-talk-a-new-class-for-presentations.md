@@ -3,7 +3,7 @@ title: "ltx-talk: A new class for presentations"
 layout: post
 permalink: /2025/07/12/ltx-talk-a-new-class-for-presentations
 categories:
-  - general
+  - tagging
 ---
 
 I've just sent the first (v0.1.0) release of
